@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  a.link {
+    @apply no-underline font-normal transition-colors-slow-interactive text-brand-600 dark:text-brand-500;
+  }
+  a.link:visited {
+    @apply text-brand-800 dark:text-brand-400;
+  }
+  a.link:hover,
+  a.link:visited:hover {
+    @apply underline;
+  }
+  a.link:active,
+  a.link:visited:active {
+    @apply text-brand-400 dark:text-cool-400;
+  }
+
+  .box {
+    @apply rounded shadow bg-white dark:bg-cool-800;
+  }
+
+  .box-link {
+    @apply transition-colors-slow-interactive hover:bg-gray-100 active:bg-gray-200 dark:hover:bg-cool-900/50 dark:active:bg-cool-900/75;
+  }
+
+  .box-link-inline {
+    @apply transition-opacity-slow-interactive hover:opacity-75 active:opacity-50;
+  }
+
+  .input {
+    @apply rounded border-0 text-gray-700 placeholder-gray-500 bg-gray-200 dark:text-cool-200 dark:placeholder-cool-400 dark:bg-cool-600 focus:outline-none focus:ring-0;
+  }
+
+  select {
+    @apply bg-select dark:bg-select-dark;
+  }
+
+  .nuxt-progress {
+    @apply !bg-brand-400 dark:!bg-brand-500;
+  }
+}
+
+@layer utilities {
+  .transition-colors-slow {
+    @apply transition-colors duration-300;
+  }
+
+  .transition-colors-slow-interactive {
+    @apply hover:transition-colors-slow active:transition-colors-slow focus:transition-colors-slow;
+  }
+
+  .transition-opacity-slow {
+    @apply transition-opacity duration-300;
+  }
+
+  .transition-opacity-slow-interactive {
+    @apply hover:transition-opacity-slow active:transition-opacity-slow focus:transition-opacity-slow;
+  }
+
+  .transition-transform-slow {
+    @apply transition-transform duration-300;
+  }
+
+  .tap-highlight-none {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .hide-scrollbars {
+    scrollbar-width: none;
+  }
+  .hide-scrollbars::-webkit-scrollbar {
+    width: 0px;
+  }
+}
