@@ -3,7 +3,7 @@
     <AppTopBar
       :heading="ridingAction.name"
       showBack
-      backFallback="/catavan-stands/"
+      backFallback="/riding-actions/"
     />
 
     <AppFloatingButton

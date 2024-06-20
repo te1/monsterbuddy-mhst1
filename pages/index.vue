@@ -62,6 +62,7 @@
                 with search, sorting and filtering
               </li>
 
+              <!--
               <li>
                 <NuxtLink class="link" to="/catavan-stands/"
                   >Catavan stands</NuxtLink
@@ -80,6 +81,7 @@
                 <NuxtLink class="link" to="/coop/">Co-Op quest list</NuxtLink>
                 to see which eggs will be available in the different dens
               </li>
+              -->
 
               <li>
                 <NuxtLink class="link" to="/riding-actions/"
