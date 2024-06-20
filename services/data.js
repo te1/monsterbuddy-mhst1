@@ -18,7 +18,6 @@ _.forEach(monsters, (monster) => {
     monster.monstie.stats.bestAttack = getMonstieBestAttack(monster);
     monster.monstie.stats.bestDefense = getMonstieBestDefense(monster);
     monster.monstie.stats.worstDefense = getMonstieWorstDefense(monster);
-    monster.monstie.stats.otherDefense = getMonstieOtherDefense(monster);
   }
 });
 deepFreeze(monsters);
@@ -340,15 +339,4 @@ function getMonstieWorstDefense(monster) {
 
 function getMonstieBestDefense(monster) {
   return _.maxBy(getMonstieDefenseStats(monster), 'value');
-}
-
-function getMonstieOtherDefense(monster) {
-  let defense = getMonstieDefenseStats(monster);
-
-  return _.find(defense, (item) => {
-    return (
-      item.value !== monster?.monstie?.stats?.bestDefense?.value &&
-      item.value !== monster?.monstie?.stats?.worstDefense?.value
-    );
-  });
 }

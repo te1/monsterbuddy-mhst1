@@ -139,14 +139,7 @@ export function formatAttackType(attackTypeOrMonster) {
   }
 }
 
-export const allElements = [
-  'none',
-  'fire',
-  'water',
-  'thunder',
-  'ice',
-  'dragon',
-];
+export const allElements = ['fire', 'water', 'thunder', 'ice', 'dragon'];
 
 export function formatElement(element) {
   switch (element) {

@@ -72,13 +72,7 @@
         Defense
         <span
           class="font-bold"
-          :class="
-            getStatClass(
-              'bestDefense.value',
-              'otherDefense.value',
-              'worstDefense.value'
-            )
-          "
+          :class="getStatClass('bestDefense.value', 'worstDefense.value')"
           v-text="defense"
         />
       </div>
@@ -157,10 +151,6 @@ export default {
 
       if (this.monster?.monstie?.stats?.bestDefense) {
         result.push(this.monster.monstie.stats.bestDefense.value);
-      }
-
-      if (this.monster?.monstie?.stats?.otherDefense) {
-        result.push(this.monster.monstie.stats.otherDefense.value);
       }
 
       if (this.monster?.monstie?.stats?.worstDefense) {

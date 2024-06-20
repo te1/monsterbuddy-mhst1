@@ -5,7 +5,7 @@
     </slot>
 
     <span class="flex-1 flex gap-0.5">
-      <div v-for="n in 10" :key="n" class="flex-1 h-4" :class="getColor(n)" />
+      <div v-for="n in 5" :key="n" class="flex-1 h-4" :class="getColor(n)" />
     </span>
 
     <span class="w-4 text-right font-semibold" v-text="value" />

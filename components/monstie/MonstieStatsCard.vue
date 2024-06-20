@@ -7,10 +7,10 @@
         <div>Growth: {{ growth }}</div>
 
         <div class="-mr-10 space-y-1 text-right">
-          <div>Max HP</div>
-          <div>Speed</div>
-          <div>Recovery</div>
-          <div>Crit Rate</div>
+          <div>HP</div>
+          <div>Atk</div>
+          <div>Def</div>
+          <div>Agi</div>
         </div>
       </div>
 
@@ -18,10 +18,10 @@
         <h4 class="text-right pr-4 font-semibold">Basic Stats</h4>
 
         <div class="space-y-1">
-          <StatsBar :value="monster.monstie.stats.base.maxHp" />
-          <StatsBar :value="monster.monstie.stats.base.speed" />
-          <StatsBar :value="monster.monstie.stats.base.recovery" />
-          <StatsBar :value="monster.monstie.stats.base.critRate" />
+          <StatsBar :value="monster.monstie.stats.base.hp" />
+          <StatsBar :value="monster.monstie.stats.base.atk" />
+          <StatsBar :value="monster.monstie.stats.base.def" />
+          <StatsBar :value="monster.monstie.stats.base.agi" />
         </div>
       </div>
     </div>
@@ -93,18 +93,6 @@
         </div>
 
         <div
-          v-if="monster.monstie.stats.otherDefense"
-          class="flex items-center gap-2"
-        >
-          <span class="w-5" />
-          <span class="flex-1">Other</span>
-          <span
-            class="font-semibold"
-            v-text="monster.monstie.stats.otherDefense.value"
-          />
-        </div>
-
-        <div
           v-if="monster.monstie.stats.worstDefense"
           class="flex items-center gap-2"
         >
@@ -144,7 +132,7 @@ export default {
 
   computed: {
     hasStats() {
-      return this.monster?.monstie?.stats?.base?.maxHp != null;
+      return this.monster?.monstie?.stats?.base?.hp != null;
     },
 
     growth() {
