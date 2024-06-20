@@ -2,42 +2,27 @@
   <section>
     <div class="flex items-start justify-between overflow-hidden">
       <div>
-        <div
-          class="-mb-1 text-gray-500 dark:text-cool-400"
-          v-text="info"
-        />
+        <div class="-mb-1 text-gray-500 dark:text-cool-400" v-text="info" />
 
-        <h2
-          class="text-2xl font-semibold mb-1"
-          v-text="monster.name"
-        />
+        <h2 class="text-2xl font-semibold mb-1" v-text="monster.name" />
 
         <div class="flex items-center gap-1">
           <span class="text-gray-600 dark:text-cool-400">
-            <FaIcon
-              :icon="['fas', 'dna']"
-              title="Genus"
-            />
+            <FaIcon :icon="['fas', 'dna']" title="Genus" />
           </span>
           <span v-text="monster.genus" />
         </div>
 
         <div class="flex items-center gap-1">
           <span class="text-gray-600 dark:text-cool-400">
-            <FaIcon
-              :icon="['fas', 'map-marker-alt']"
-              title="Habitat"
-            />
+            <FaIcon :icon="['fas', 'map-marker-alt']" title="Habitat" />
           </span>
           <span v-text="monster.habitat" />
         </div>
 
-        <div class="flex items-center gap-1">
+        <div v-if="monster.rarity" class="flex items-center gap-1">
           <span class="text-gray-600 dark:text-cool-400">
-            <FaIcon
-              :icon="['fas', 'star']"
-              title="Rarity"
-            />
+            <FaIcon :icon="['fas', 'star']" title="Rarity" />
           </span>
           <span v-text="monster.rarity" />
         </div>
@@ -54,14 +39,12 @@
           width="20"
           height="20"
           class="w-8 h-8"
-        >
+        />
       </div>
     </div>
 
     <div v-if="hasLocations">
-      <h3 class="mt-2 text-lg font-semibold">
-        Locations
-      </h3>
+      <h3 class="mt-2 text-lg font-semibold">Locations</h3>
 
       <MonsterLocation
         v-for="location in monster.locations"
@@ -73,26 +56,26 @@
 </template>
 
 <script>
-  import { formatMonsterInfo } from '~/services/utils';
+import { formatMonsterInfo } from '~/services/utils';
 
-  export default {
-    name: 'MonsterInfoCard',
+export default {
+  name: 'MonsterInfoCard',
 
-    props: {
-      monster: {
-        type: Object,
-        required: true,
-      },
+  props: {
+    monster: {
+      type: Object,
+      required: true,
+    },
+  },
+
+  computed: {
+    info() {
+      return formatMonsterInfo(this.monster);
     },
 
-    computed: {
-      info() {
-        return formatMonsterInfo(this.monster);
-      },
-
-      hasLocations() {
-        return !!this.monster.locations.length;
-      },
+    hasLocations() {
+      return !!this.monster.locations?.length;
     },
-  };
+  },
+};
 </script>

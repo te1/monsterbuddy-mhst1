@@ -32,7 +32,7 @@
                 <span class="w-48 inline-block">
                   {{ quest.name }}
                 </span>
-                <span> ★{{ quest.rarity }} </span>
+                <span>★{{ quest.rarity }}</span>
               </NuxtLink>
             </div>
           </div>
