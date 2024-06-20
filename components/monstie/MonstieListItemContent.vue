@@ -9,7 +9,7 @@
 
       <div v-if="showLocation && location" v-text="location" />
 
-      <div v-if="showRarity">
+      <div v-if="showRarity && monster.rarity">
         Rarity <span class="font-bold" v-text="monster.rarity" />
       </div>
     </template>
@@ -29,7 +29,7 @@
     <!-- eslint-disable vue/no-v-html -->
     <div v-if="showRetreat" class="whitespace-normal" v-html="retreat" />
 
-    <div v-if="showRidingActions" class="whitespace-normal">
+    <div v-if="showRidingActions && monster.monstie" class="whitespace-normal">
       <span
         v-for="(action, index) in monster.monstie.ridingActions"
         :key="action"
@@ -59,7 +59,7 @@
         />
       </div>
 
-      <div v-if="monster.monstie.stats.bestAttack">
+      <div v-if="monster.monstie && monster.monstie.stats.bestAttack">
         Attack
         <span
           class="font-bold"
@@ -177,7 +177,9 @@ export default {
     },
 
     showRetreat() {
-      return _.includes(['retreat'], this.mode);
+      return (
+        _.includes(['retreat'], this.mode) && !!this.monster?.monstie?.retreat
+      );
     },
 
     showRarity() {

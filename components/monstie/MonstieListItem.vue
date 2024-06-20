@@ -8,7 +8,11 @@
       <div class="flex gap-1 items-center">
         <AttackTypeIcon class="w-8 h-8" :monster="monster" />
 
-        <ElementIcon class="w-8 h-8" :element="monster.monstie.attackElement" />
+        <ElementIcon
+          v-if="monster.monstie"
+          class="w-8 h-8"
+          :element="monster.monstie.attackElement"
+        />
       </div>
     </div>
 
