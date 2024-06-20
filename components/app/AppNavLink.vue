@@ -12,68 +12,68 @@
 </template>
 
 <script>
-  export default {
-    name: 'AppNavLink',
+export default {
+  name: 'AppNavLink',
 
-    props: {
-      to: {
-        type: String,
-        required: true,
-      },
-
-      text: {
-        type: String,
-        required: true,
-      },
-
-      exact: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
-
-      more: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
+  props: {
+    to: {
+      type: String,
+      required: true,
     },
 
-    computed: {
-      classes() {
-        if (this.more) {
-          return 'justify-start pl-6 pr-8 py-1.5';
-        }
-        return 'justify-center';
-      },
-
-      baseActiveClasses() {
-        return 'text-brand-500 hover:text-brand-500 active:text-brand-500 dark:text-brand-400 dark:hover:text-brand-400 dark:active:text-brand-400';
-      },
-
-      activeClasses() {
-        if (this.exact) {
-          return null;
-        }
-        return this.baseActiveClasses;
-      },
-
-      exactActiveClasses() {
-        if (!this.exact) {
-          return null;
-        }
-        return this.baseActiveClasses;
-      },
+    text: {
+      type: String,
+      required: true,
     },
 
-    methods: {
-      handleClick() {
-        let route = this.$router.match(this.to);
-
-        if (route && this.$route && route.path === this.$route.path) {
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-      },
+    exact: {
+      type: Boolean,
+      required: false,
+      default: false,
     },
-  };
+
+    more: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+  },
+
+  computed: {
+    classes() {
+      if (this.more) {
+        return 'justify-start pl-6 pr-8 py-1.5';
+      }
+      return 'justify-center';
+    },
+
+    baseActiveClasses() {
+      return 'text-brand-500 hover:text-brand-500 active:text-brand-500 dark:text-brand-400 dark:hover:text-brand-400 dark:active:text-brand-400';
+    },
+
+    activeClasses() {
+      if (this.exact) {
+        return null;
+      }
+      return this.baseActiveClasses;
+    },
+
+    exactActiveClasses() {
+      if (!this.exact) {
+        return null;
+      }
+      return this.baseActiveClasses;
+    },
+  },
+
+  methods: {
+    handleClick() {
+      let route = this.$router.match(this.to);
+
+      if (route && this.$route && route.path === this.$route.path) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    },
+  },
+};
 </script>

@@ -12,8 +12,20 @@
       "ridingActions": ["Plant Search"],
       "stats": {
         "base": { "hp": 2, "atk": 1, "def": 2, "agi": 1 },
-        "attack": { "fire": 3, "water": 3, "thunder": 3, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 1, "water": 1, "thunder": 1, "ice": 1, "dragon": 5 }
+        "attack": {
+          "fire": 3,
+          "water": 3,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 1,
+          "water": 1,
+          "thunder": 1,
+          "ice": 1,
+          "dragon": 5
+        }
       }
     }
   },
@@ -65,8 +77,20 @@
       "ridingActions": ["Jump"],
       "stats": {
         "base": { "hp": 1, "atk": 1, "def": 1, "agi": 4 },
-        "attack": { "fire": 3, "water": 3, "thunder": 3, "ice": 3, "dragon": 4 },
-        "defense": { "fire": 3, "water": 3, "thunder": 3, "ice": 1, "dragon": 5 }
+        "attack": {
+          "fire": 3,
+          "water": 3,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 4
+        },
+        "defense": {
+          "fire": 3,
+          "water": 3,
+          "thunder": 3,
+          "ice": 1,
+          "dragon": 5
+        }
       }
     }
   },
@@ -83,8 +107,20 @@
       "ridingActions": ["Rock Smash", "Honey Search"],
       "stats": {
         "base": { "hp": 2, "atk": 1, "def": 4, "agi": 2 },
-        "attack": { "fire": 3, "water": 4, "thunder": 3, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 1, "water": 5, "thunder": 2, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 3,
+          "water": 4,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 1,
+          "water": 5,
+          "thunder": 2,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -101,8 +137,20 @@
       "ridingActions": ["Rock Smash", "Monster Search"],
       "stats": {
         "base": { "hp": 2, "atk": 1, "def": 3, "agi": 4 },
-        "attack": { "fire": 4, "water": 3, "thunder": 3, "ice": 2, "dragon": 3 },
-        "defense": { "fire": 5, "water": 3, "thunder": 3, "ice": 1, "dragon": 3 }
+        "attack": {
+          "fire": 4,
+          "water": 3,
+          "thunder": 3,
+          "ice": 2,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 3,
+          "ice": 1,
+          "dragon": 3
+        }
       }
     }
   },
@@ -119,8 +167,20 @@
       "ridingActions": ["Rock Smash", "Monster Search"],
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 3, "agi": 4 },
-        "attack": { "fire": 5, "water": 2, "thunder": 3, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 5, "water": 2, "thunder": 3, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 5,
+          "water": 2,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 5,
+          "water": 2,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -137,8 +197,20 @@
       "ridingActions": ["Plant Search"],
       "stats": {
         "base": { "hp": 4, "atk": 1, "def": 2, "agi": 1 },
-        "attack": { "fire": 2, "water": 3, "thunder": 3, "ice": 5, "dragon": 3 },
-        "defense": { "fire": 1, "water": 3, "thunder": 2, "ice": 5, "dragon": 3 }
+        "attack": {
+          "fire": 2,
+          "water": 3,
+          "thunder": 3,
+          "ice": 5,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 1,
+          "water": 3,
+          "thunder": 2,
+          "ice": 5,
+          "dragon": 3
+        }
       }
     }
   },
@@ -184,8 +256,20 @@
       "ridingActions": ["Rush"],
       "stats": {
         "base": { "hp": 3, "atk": 5, "def": 1, "agi": 3 },
-        "attack": { "fire": 3, "water": 3, "thunder": 2, "ice": 4, "dragon": 3 },
-        "defense": { "fire": 2, "water": 3, "thunder": 1, "ice": 4, "dragon": 3 }
+        "attack": {
+          "fire": 3,
+          "water": 3,
+          "thunder": 2,
+          "ice": 4,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 2,
+          "water": 3,
+          "thunder": 1,
+          "ice": 4,
+          "dragon": 3
+        }
       }
     }
   },
@@ -202,8 +286,20 @@
       "ridingActions": ["Swim", "Monster Search"],
       "stats": {
         "base": { "hp": 4, "atk": 2, "def": 4, "agi": 3 },
-        "attack": { "fire": 2, "water": 5, "thunder": 1, "ice": 5, "dragon": 3 },
-        "defense": { "fire": 1, "water": 5, "thunder": 1, "ice": 5, "dragon": 3 }
+        "attack": {
+          "fire": 2,
+          "water": 5,
+          "thunder": 1,
+          "ice": 5,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 1,
+          "water": 5,
+          "thunder": 1,
+          "ice": 5,
+          "dragon": 3
+        }
       }
     }
   },
@@ -220,8 +316,20 @@
       "ridingActions": ["Roar"],
       "stats": {
         "base": { "hp": 4, "atk": 2, "def": 4, "agi": 2 },
-        "attack": { "fire": 1, "water": 3, "thunder": 5, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 1, "water": 3, "thunder": 5, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 1,
+          "water": 3,
+          "thunder": 5,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 1,
+          "water": 3,
+          "thunder": 5,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -238,8 +346,20 @@
       "ridingActions": ["Roar"],
       "stats": {
         "base": { "hp": 3, "atk": 4, "def": 4, "agi": 2 },
-        "attack": { "fire": 3, "water": 1, "thunder": 5, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 3, "water": 1, "thunder": 5, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 3,
+          "water": 1,
+          "thunder": 5,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 3,
+          "water": 1,
+          "thunder": 5,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -263,8 +383,20 @@
       "ridingActions": ["Plant Search"],
       "stats": {
         "base": { "hp": 1, "atk": 1, "def": 4, "agi": 2 },
-        "attack": { "fire": 3, "water": 4, "thunder": 3, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 2, "water": 5, "thunder": 1, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 3,
+          "water": 4,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 2,
+          "water": 5,
+          "thunder": 1,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -330,8 +462,20 @@
       "ridingActions": ["Jump"],
       "stats": {
         "base": { "hp": 1, "atk": 1, "def": 1, "agi": 4 },
-        "attack": { "fire": 3, "water": 3, "thunder": 3, "ice": 2, "dragon": 4 },
-        "defense": { "fire": 3, "water": 3, "thunder": 3, "ice": 1, "dragon": 5 }
+        "attack": {
+          "fire": 3,
+          "water": 3,
+          "thunder": 3,
+          "ice": 2,
+          "dragon": 4
+        },
+        "defense": {
+          "fire": 3,
+          "water": 3,
+          "thunder": 3,
+          "ice": 1,
+          "dragon": 5
+        }
       }
     }
   },
@@ -348,8 +492,20 @@
       "ridingActions": ["Swim", "Fish Search"],
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 2, "agi": 3 },
-        "attack": { "fire": 1, "water": 5, "thunder": 3, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 1, "water": 5, "thunder": 3, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 1,
+          "water": 5,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 1,
+          "water": 5,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -366,8 +522,20 @@
       "ridingActions": ["Charge"],
       "stats": {
         "base": { "hp": 2, "atk": 1, "def": 4, "agi": 3 },
-        "attack": { "fire": 2, "water": 3, "thunder": 5, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 1, "water": 3, "thunder": 5, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 2,
+          "water": 3,
+          "thunder": 5,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 1,
+          "water": 3,
+          "thunder": 5,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -384,8 +552,20 @@
       "ridingActions": ["Climb", "Monster Search"],
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 4, "agi": 3 },
-        "attack": { "fire": 3, "water": 5, "thunder": 3, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 1, "water": 5, "thunder": 2, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 3,
+          "water": 5,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 1,
+          "water": 5,
+          "thunder": 2,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -402,8 +582,20 @@
       "ridingActions": ["Climb", "Monster Search"],
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 4, "agi": 3 },
-        "attack": { "fire": 3, "water": 5, "thunder": 3, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 2, "water": 5, "thunder": 3, "ice": 1, "dragon": 3 }
+        "attack": {
+          "fire": 3,
+          "water": 5,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 2,
+          "water": 5,
+          "thunder": 3,
+          "ice": 1,
+          "dragon": 3
+        }
       }
     }
   },
@@ -420,8 +612,20 @@
       "ridingActions": ["Summon"],
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 3, "agi": 4 },
-        "attack": { "fire": 5, "water": 3, "thunder": 3, "ice": 2, "dragon": 3 },
-        "defense": { "fire": 5, "water": 3, "thunder": 3, "ice": 1, "dragon": 3 }
+        "attack": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 3,
+          "ice": 2,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 3,
+          "ice": 1,
+          "dragon": 3
+        }
       }
     }
   },
@@ -438,8 +642,20 @@
       "ridingActions": ["Den Search"],
       "stats": {
         "base": { "hp": 5, "atk": 2, "def": 4, "agi": 3 },
-        "attack": { "fire": 5, "water": 3, "thunder": 2, "ice": 3, "dragon": 2 },
-        "defense": { "fire": 5, "water": 3, "thunder": 2, "ice": 3, "dragon": 1 }
+        "attack": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 2,
+          "ice": 3,
+          "dragon": 2
+        },
+        "defense": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 2,
+          "ice": 3,
+          "dragon": 1
+        }
       }
     }
   },
@@ -456,8 +672,20 @@
       "ridingActions": ["Den Search"],
       "stats": {
         "base": { "hp": 4, "atk": 4, "def": 3, "agi": 3 },
-        "attack": { "fire": 5, "water": 3, "thunder": 2, "ice": 3, "dragon": 2 },
-        "defense": { "fire": 5, "water": 3, "thunder": 2, "ice": 3, "dragon": 2 }
+        "attack": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 2,
+          "ice": 3,
+          "dragon": 2
+        },
+        "defense": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 2,
+          "ice": 3,
+          "dragon": 2
+        }
       }
     }
   },
@@ -488,8 +716,20 @@
       "ridingActions": ["Dig", "Insect Search"],
       "stats": {
         "base": { "hp": 5, "atk": 1, "def": 5, "agi": 3 },
-        "attack": { "fire": 1, "water": 5, "thunder": 4, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 2, "water": 5, "thunder": 4, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 1,
+          "water": 5,
+          "thunder": 4,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 2,
+          "water": 5,
+          "thunder": 4,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -506,8 +746,20 @@
       "ridingActions": ["Dig", "Monster Search"],
       "stats": {
         "base": { "hp": 2, "atk": 1, "def": 3, "agi": 3 },
-        "attack": { "fire": 4, "water": 4, "thunder": 3, "ice": 1, "dragon": 3 },
-        "defense": { "fire": 4, "water": 4, "thunder": 3, "ice": 1, "dragon": 3 }
+        "attack": {
+          "fire": 4,
+          "water": 4,
+          "thunder": 3,
+          "ice": 1,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 4,
+          "water": 4,
+          "thunder": 3,
+          "ice": 1,
+          "dragon": 3
+        }
       }
     }
   },
@@ -524,8 +776,20 @@
       "ridingActions": ["Roar", "Dig"],
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 5, "agi": 3 },
-        "attack": { "fire": 5, "water": 3, "thunder": 3, "ice": 2, "dragon": 3 },
-        "defense": { "fire": 5, "water": 3, "thunder": 3, "ice": 1, "dragon": 3 }
+        "attack": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 3,
+          "ice": 2,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 3,
+          "ice": 1,
+          "dragon": 3
+        }
       }
     }
   },
@@ -542,8 +806,20 @@
       "ridingActions": ["Roar", "Dig"],
       "stats": {
         "base": { "hp": 4, "atk": 5, "def": 4, "agi": 3 },
-        "attack": { "fire": 4, "water": 3, "thunder": 3, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 5, "water": 3, "thunder": 3, "ice": 1, "dragon": 3 }
+        "attack": {
+          "fire": 4,
+          "water": 3,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 3,
+          "ice": 1,
+          "dragon": 3
+        }
       }
     }
   },
@@ -560,8 +836,20 @@
       "ridingActions": ["Climb", "Charge"],
       "stats": {
         "base": { "hp": 2, "atk": 5, "def": 3, "agi": 3 },
-        "attack": { "fire": 5, "water": 3, "thunder": 2, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 5, "water": 3, "thunder": 1, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 2,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 1,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -620,8 +908,20 @@
       "ridingActions": ["Jump"],
       "stats": {
         "base": { "hp": 1, "atk": 1, "def": 2, "agi": 4 },
-        "attack": { "fire": 3, "water": 2, "thunder": 2, "ice": 4, "dragon": 4 },
-        "defense": { "fire": 3, "water": 1, "thunder": 1, "ice": 5, "dragon": 5 }
+        "attack": {
+          "fire": 3,
+          "water": 2,
+          "thunder": 2,
+          "ice": 4,
+          "dragon": 4
+        },
+        "defense": {
+          "fire": 3,
+          "water": 1,
+          "thunder": 1,
+          "ice": 5,
+          "dragon": 5
+        }
       }
     }
   },
@@ -638,8 +938,20 @@
       "ridingActions": ["Dig", "Ore & Bone Search"],
       "stats": {
         "base": { "hp": 3, "atk": 1, "def": 5, "agi": 1 },
-        "attack": { "fire": 4, "water": 3, "thunder": 4, "ice": 4, "dragon": 1 },
-        "defense": { "fire": 3, "water": 3, "thunder": 5, "ice": 5, "dragon": 1 }
+        "attack": {
+          "fire": 4,
+          "water": 3,
+          "thunder": 4,
+          "ice": 4,
+          "dragon": 1
+        },
+        "defense": {
+          "fire": 3,
+          "water": 3,
+          "thunder": 5,
+          "ice": 5,
+          "dragon": 1
+        }
       }
     }
   },
@@ -656,8 +968,20 @@
       "ridingActions": ["Lava Walk", "Roar"],
       "stats": {
         "base": { "hp": 5, "atk": 3, "def": 5, "agi": 2 },
-        "attack": { "fire": 5, "water": 3, "thunder": 3, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 5, "water": 1, "thunder": 3, "ice": 3, "dragon": 1 }
+        "attack": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 5,
+          "water": 1,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 1
+        }
       }
     }
   },
@@ -674,8 +998,20 @@
       "ridingActions": ["Lava Walk", "Ore & Bone Search"],
       "stats": {
         "base": { "hp": 5, "atk": 2, "def": 5, "agi": 1 },
-        "attack": { "fire": 5, "water": 1, "thunder": 3, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 5, "water": 1, "thunder": 3, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 5,
+          "water": 1,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 5,
+          "water": 1,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -692,8 +1028,20 @@
       "ridingActions": ["Climb", "Charge"],
       "stats": {
         "base": { "hp": 2, "atk": 5, "def": 3, "agi": 3 },
-        "attack": { "fire": 5, "water": 2, "thunder": 3, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 5, "water": 1, "thunder": 3, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 5,
+          "water": 2,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 5,
+          "water": 1,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -801,8 +1149,20 @@
       "ridingActions": ["Den Search"],
       "stats": {
         "base": { "hp": 1, "atk": 1, "def": 2, "agi": 4 },
-        "attack": { "fire": 2, "water": 3, "thunder": 3, "ice": 3, "dragon": 5 },
-        "defense": { "fire": 1, "water": 3, "thunder": 3, "ice": 3, "dragon": 5 }
+        "attack": {
+          "fire": 2,
+          "water": 3,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 5
+        },
+        "defense": {
+          "fire": 1,
+          "water": 3,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 5
+        }
       }
     }
   },
@@ -819,8 +1179,20 @@
       "ridingActions": ["Climb", "Insect Search"],
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 2, "agi": 3 },
-        "attack": { "fire": 1, "water": 5, "thunder": 3, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 1, "water": 5, "thunder": 3, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 1,
+          "water": 5,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 1,
+          "water": 5,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -837,8 +1209,20 @@
       "ridingActions": ["Swim", "Fish Search"],
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 3, "agi": 3 },
-        "attack": { "fire": 2, "water": 5, "thunder": 3, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 1, "water": 5, "thunder": 3, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 2,
+          "water": 5,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 1,
+          "water": 5,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -855,8 +1239,20 @@
       "ridingActions": ["Fly"],
       "stats": {
         "base": { "hp": 2, "atk": 4, "def": 3, "agi": 4 },
-        "attack": { "fire": 5, "water": 1, "thunder": 3, "ice": 3, "dragon": 5 },
-        "defense": { "fire": 5, "water": 1, "thunder": 3, "ice": 3, "dragon": 5 }
+        "attack": {
+          "fire": 5,
+          "water": 1,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 5
+        },
+        "defense": {
+          "fire": 5,
+          "water": 1,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 5
+        }
       }
     }
   },
@@ -873,8 +1269,20 @@
       "ridingActions": ["Climb", "Mushroom Search"],
       "stats": {
         "base": { "hp": 3, "atk": 2, "def": 4, "agi": 3 },
-        "attack": { "fire": 3, "water": 4, "thunder": 4, "ice": 4, "dragon": 3 },
-        "defense": { "fire": 1, "water": 3, "thunder": 3, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 3,
+          "water": 4,
+          "thunder": 4,
+          "ice": 4,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 1,
+          "water": 3,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -891,8 +1299,20 @@
       "ridingActions": ["Climb", "Mushroom Search"],
       "stats": {
         "base": { "hp": 3, "atk": 3, "def": 3, "agi": 3 },
-        "attack": { "fire": 4, "water": 4, "thunder": 4, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 3, "water": 3, "thunder": 3, "ice": 1, "dragon": 3 }
+        "attack": {
+          "fire": 4,
+          "water": 4,
+          "thunder": 4,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 3,
+          "water": 3,
+          "thunder": 3,
+          "ice": 1,
+          "dragon": 3
+        }
       }
     }
   },
@@ -909,8 +1329,20 @@
       "ridingActions": ["Summon"],
       "stats": {
         "base": { "hp": 2, "atk": 3, "def": 3, "agi": 4 },
-        "attack": { "fire": 3, "water": 3, "thunder": 5, "ice": 2, "dragon": 3 },
-        "defense": { "fire": 3, "water": 3, "thunder": 5, "ice": 1, "dragon": 3 }
+        "attack": {
+          "fire": 3,
+          "water": 3,
+          "thunder": 5,
+          "ice": 2,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 3,
+          "water": 3,
+          "thunder": 5,
+          "ice": 1,
+          "dragon": 3
+        }
       }
     }
   },
@@ -927,8 +1359,20 @@
       "ridingActions": ["Lava Walk", "Roar"],
       "stats": {
         "base": { "hp": 4, "atk": 2, "def": 5, "agi": 2 },
-        "attack": { "fire": 5, "water": 1, "thunder": 2, "ice": 2, "dragon": 2 },
-        "defense": { "fire": 5, "water": 1, "thunder": 5, "ice": 5, "dragon": 5 }
+        "attack": {
+          "fire": 5,
+          "water": 1,
+          "thunder": 2,
+          "ice": 2,
+          "dragon": 2
+        },
+        "defense": {
+          "fire": 5,
+          "water": 1,
+          "thunder": 5,
+          "ice": 5,
+          "dragon": 5
+        }
       }
     }
   },
@@ -945,8 +1389,20 @@
       "ridingActions": ["Jump"],
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 5, "agi": 3 },
-        "attack": { "fire": 3, "water": 3, "thunder": 5, "ice": 2, "dragon": 3 },
-        "defense": { "fire": 3, "water": 3, "thunder": 5, "ice": 1, "dragon": 3 }
+        "attack": {
+          "fire": 3,
+          "water": 3,
+          "thunder": 5,
+          "ice": 2,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 3,
+          "water": 3,
+          "thunder": 5,
+          "ice": 1,
+          "dragon": 3
+        }
       }
     }
   },
@@ -963,8 +1419,20 @@
       "ridingActions": ["Dig", "Bone & Ore Search"],
       "stats": {
         "base": { "hp": 3, "atk": 2, "def": 5, "agi": 1 },
-        "attack": { "fire": 5, "water": 3, "thunder": 3, "ice": 2, "dragon": 2 },
-        "defense": { "fire": 4, "water": 3, "thunder": 3, "ice": 1, "dragon": 3 }
+        "attack": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 3,
+          "ice": 2,
+          "dragon": 2
+        },
+        "defense": {
+          "fire": 4,
+          "water": 3,
+          "thunder": 3,
+          "ice": 1,
+          "dragon": 3
+        }
       }
     }
   },
@@ -981,8 +1449,20 @@
       "ridingActions": ["Invisibility"],
       "stats": {
         "base": { "hp": 2, "atk": 4, "def": 3, "agi": 5 },
-        "attack": { "fire": 3, "water": 4, "thunder": 2, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 3, "water": 5, "thunder": 1, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 3,
+          "water": 4,
+          "thunder": 2,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 3,
+          "water": 5,
+          "thunder": 1,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -999,8 +1479,20 @@
       "ridingActions": ["Invisibility"],
       "stats": {
         "base": { "hp": 2, "atk": 5, "def": 3, "agi": 5 },
-        "attack": { "fire": 3, "water": 4, "thunder": 2, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 3, "water": 5, "thunder": 1, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 3,
+          "water": 4,
+          "thunder": 2,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 3,
+          "water": 5,
+          "thunder": 1,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -1017,8 +1509,20 @@
       "ridingActions": ["Fly"],
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 3, "agi": 3 },
-        "attack": { "fire": 5, "water": 3, "thunder": 2, "ice": 3, "dragon": 2 },
-        "defense": { "fire": 5, "water": 3, "thunder": 2, "ice": 3, "dragon": 1 }
+        "attack": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 2,
+          "ice": 3,
+          "dragon": 2
+        },
+        "defense": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 2,
+          "ice": 3,
+          "dragon": 1
+        }
       }
     }
   },
@@ -1035,8 +1539,20 @@
       "ridingActions": ["Fly"],
       "stats": {
         "base": { "hp": 4, "atk": 5, "def": 3, "agi": 3 },
-        "attack": { "fire": 5, "water": 3, "thunder": 3, "ice": 2, "dragon": 2 },
-        "defense": { "fire": 5, "water": 3, "thunder": 3, "ice": 2, "dragon": 2 }
+        "attack": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 3,
+          "ice": 2,
+          "dragon": 2
+        },
+        "defense": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 3,
+          "ice": 2,
+          "dragon": 2
+        }
       }
     }
   },
@@ -1060,8 +1576,20 @@
       "ridingActions": ["Charge"],
       "stats": {
         "base": { "hp": 2, "atk": 3, "def": 4, "agi": 3 },
-        "attack": { "fire": 2, "water": 3, "thunder": 5, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 1, "water": 3, "thunder": 5, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 2,
+          "water": 3,
+          "thunder": 5,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 1,
+          "water": 3,
+          "thunder": 5,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -1078,8 +1606,20 @@
       "ridingActions": ["Climb", "Insect Search"],
       "stats": {
         "base": { "hp": 2, "atk": 3, "def": 2, "agi": 3 },
-        "attack": { "fire": 5, "water": 1, "thunder": 3, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 5, "water": 1, "thunder": 3, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 5,
+          "water": 1,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 5,
+          "water": 1,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -1096,8 +1636,20 @@
       "ridingActions": ["Swim", "Roar"],
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 5, "agi": 3 },
-        "attack": { "fire": 1, "water": 4, "thunder": 5, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 1, "water": 4, "thunder": 5, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 1,
+          "water": 4,
+          "thunder": 5,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 1,
+          "water": 4,
+          "thunder": 5,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -1114,8 +1666,20 @@
       "ridingActions": ["Swim", "Roar"],
       "stats": {
         "base": { "hp": 4, "atk": 5, "def": 4, "agi": 3 },
-        "attack": { "fire": 2, "water": 5, "thunder": 5, "ice": 3, "dragon": 2 },
-        "defense": { "fire": 1, "water": 5, "thunder": 5, "ice": 3, "dragon": 2 }
+        "attack": {
+          "fire": 2,
+          "water": 5,
+          "thunder": 5,
+          "ice": 3,
+          "dragon": 2
+        },
+        "defense": {
+          "fire": 1,
+          "water": 5,
+          "thunder": 5,
+          "ice": 3,
+          "dragon": 2
+        }
       }
     }
   },
@@ -1132,8 +1696,20 @@
       "ridingActions": ["Mega Rock Smash", "Monster Search"],
       "stats": {
         "base": { "hp": 5, "atk": 5, "def": 3, "agi": 2 },
-        "attack": { "fire": 3, "water": 3, "thunder": 3, "ice": 3, "dragon": 5 },
-        "defense": { "fire": 3, "water": 3, "thunder": 1, "ice": 5, "dragon": 1 }
+        "attack": {
+          "fire": 3,
+          "water": 3,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 5
+        },
+        "defense": {
+          "fire": 3,
+          "water": 3,
+          "thunder": 1,
+          "ice": 5,
+          "dragon": 1
+        }
       }
     }
   },
@@ -1171,8 +1747,20 @@
       "ridingActions": ["Den Search"],
       "stats": {
         "base": { "hp": 1, "atk": 1, "def": 1, "agi": 4 },
-        "attack": { "fire": 2, "water": 3, "thunder": 2, "ice": 5, "dragon": 5 },
-        "defense": { "fire": 1, "water": 2, "thunder": 2, "ice": 5, "dragon": 5 }
+        "attack": {
+          "fire": 2,
+          "water": 3,
+          "thunder": 2,
+          "ice": 5,
+          "dragon": 5
+        },
+        "defense": {
+          "fire": 1,
+          "water": 2,
+          "thunder": 2,
+          "ice": 5,
+          "dragon": 5
+        }
       }
     }
   },
@@ -1189,8 +1777,20 @@
       "ridingActions": ["Dig", "Insect Search"],
       "stats": {
         "base": { "hp": 5, "atk": 1, "def": 4, "agi": 3 },
-        "attack": { "fire": 1, "water": 4, "thunder": 3, "ice": 5, "dragon": 3 },
-        "defense": { "fire": 1, "water": 5, "thunder": 3, "ice": 5, "dragon": 3 }
+        "attack": {
+          "fire": 1,
+          "water": 4,
+          "thunder": 3,
+          "ice": 5,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 1,
+          "water": 5,
+          "thunder": 3,
+          "ice": 5,
+          "dragon": 3
+        }
       }
     }
   },
@@ -1207,8 +1807,20 @@
       "ridingActions": ["Fly", "Rock Smash"],
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 4, "agi": 3 },
-        "attack": { "fire": 1, "water": 3, "thunder": 3, "ice": 5, "dragon": 3 },
-        "defense": { "fire": 1, "water": 3, "thunder": 3, "ice": 5, "dragon": 3 }
+        "attack": {
+          "fire": 1,
+          "water": 3,
+          "thunder": 3,
+          "ice": 5,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 1,
+          "water": 3,
+          "thunder": 3,
+          "ice": 5,
+          "dragon": 3
+        }
       }
     }
   },
@@ -1225,8 +1837,20 @@
       "ridingActions": ["Fly", "Rock Smash"],
       "stats": {
         "base": { "hp": 5, "atk": 3, "def": 4, "agi": 3 },
-        "attack": { "fire": 5, "water": 3, "thunder": 3, "ice": 2, "dragon": 3 },
-        "defense": { "fire": 5, "water": 3, "thunder": 3, "ice": 1, "dragon": 3 }
+        "attack": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 3,
+          "ice": 2,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 3,
+          "ice": 1,
+          "dragon": 3
+        }
       }
     }
   },
@@ -1250,8 +1874,20 @@
       "ridingActions": ["Jump"],
       "stats": {
         "base": { "hp": 5, "atk": 5, "def": 4, "agi": 3 },
-        "attack": { "fire": 3, "water": 3, "thunder": 2, "ice": 3, "dragon": 5 },
-        "defense": { "fire": 3, "water": 3, "thunder": 1, "ice": 3, "dragon": 5 }
+        "attack": {
+          "fire": 3,
+          "water": 3,
+          "thunder": 2,
+          "ice": 3,
+          "dragon": 5
+        },
+        "defense": {
+          "fire": 3,
+          "water": 3,
+          "thunder": 1,
+          "ice": 3,
+          "dragon": 5
+        }
       }
     }
   },
@@ -1268,8 +1904,20 @@
       "ridingActions": ["Roar", "Mega Rock Smash"],
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 4, "agi": 3 },
-        "attack": { "fire": 5, "water": 3, "thunder": 3, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 5, "water": 1, "thunder": 3, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 5,
+          "water": 1,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -1286,8 +1934,20 @@
       "ridingActions": [""],
       "stats": {
         "base": { "hp": "", "atk": "", "def": "", "agi": "" },
-        "attack": { "fire": "", "water": "", "thunder": "", "ice": "", "dragon": "" },
-        "defense": { "fire": "", "water": "", "thunder": "", "ice": "", "dragon": "" }
+        "attack": {
+          "fire": "",
+          "water": "",
+          "thunder": "",
+          "ice": "",
+          "dragon": ""
+        },
+        "defense": {
+          "fire": "",
+          "water": "",
+          "thunder": "",
+          "ice": "",
+          "dragon": ""
+        }
       }
     }
   },
@@ -1304,8 +1964,20 @@
       "ridingActions": ["Jump"],
       "stats": {
         "base": { "hp": 1, "atk": 4, "def": 4, "agi": 5 },
-        "attack": { "fire": 2, "water": 3, "thunder": 5, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 1, "water": 1, "thunder": 5, "ice": 5, "dragon": 5 }
+        "attack": {
+          "fire": 2,
+          "water": 3,
+          "thunder": 5,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 1,
+          "water": 1,
+          "thunder": 5,
+          "ice": 5,
+          "dragon": 5
+        }
       }
     }
   },
@@ -1336,8 +2008,20 @@
       "ridingActions": ["Roar", "Dig"],
       "stats": {
         "base": { "hp": 4, "atk": 4, "def": 5, "agi": 3 },
-        "attack": { "fire": 3, "water": 5, "thunder": 2, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 3, "water": 5, "thunder": 1, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 3,
+          "water": 5,
+          "thunder": 2,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 3,
+          "water": 5,
+          "thunder": 1,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -1354,8 +2038,20 @@
       "ridingActions": ["Fly"],
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 4, "agi": 4 },
-        "attack": { "fire": 5, "water": 3, "thunder": 3, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 5, "water": 3, "thunder": 1, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 5,
+          "water": 3,
+          "thunder": 1,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -1372,8 +2068,20 @@
       "ridingActions": ["Den Search"],
       "stats": {
         "base": { "hp": 5, "atk": 5, "def": 4, "agi": 3 },
-        "attack": { "fire": 5, "water": 2, "thunder": 1, "ice": 3, "dragon": 5 },
-        "defense": { "fire": 5, "water": 2, "thunder": 1, "ice": 3, "dragon": 5 }
+        "attack": {
+          "fire": 5,
+          "water": 2,
+          "thunder": 1,
+          "ice": 3,
+          "dragon": 5
+        },
+        "defense": {
+          "fire": 5,
+          "water": 2,
+          "thunder": 1,
+          "ice": 3,
+          "dragon": 5
+        }
       }
     }
   },
@@ -1390,8 +2098,20 @@
       "ridingActions": ["Fly"],
       "stats": {
         "base": { "hp": 5, "atk": 5, "def": 4, "agi": 3 },
-        "attack": { "fire": 5, "water": 1, "thunder": 2, "ice": 3, "dragon": 5 },
-        "defense": { "fire": 5, "water": 1, "thunder": 2, "ice": 3, "dragon": 5 }
+        "attack": {
+          "fire": 5,
+          "water": 1,
+          "thunder": 2,
+          "ice": 3,
+          "dragon": 5
+        },
+        "defense": {
+          "fire": 5,
+          "water": 1,
+          "thunder": 2,
+          "ice": 3,
+          "dragon": 5
+        }
       }
     }
   },
@@ -1431,8 +2151,20 @@
       "ridingActions": ["Charge", "Dig"],
       "stats": {
         "base": { "hp": 3, "atk": 5, "def": 2, "agi": 2 },
-        "attack": { "fire": 3, "water": 3, "thunder": 3, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 3, "water": 3, "thunder": 3, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 3,
+          "water": 3,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 3,
+          "water": 3,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -1449,8 +2181,20 @@
       "ridingActions": ["Roar", "Dig"],
       "stats": {
         "base": { "hp": 3, "atk": 5, "def": 4, "agi": 3 },
-        "attack": { "fire": 3, "water": 5, "thunder": 3, "ice": 1, "dragon": 3 },
-        "defense": { "fire": 3, "water": 5, "thunder": 3, "ice": 1, "dragon": 3 }
+        "attack": {
+          "fire": 3,
+          "water": 5,
+          "thunder": 3,
+          "ice": 1,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 3,
+          "water": 5,
+          "thunder": 3,
+          "ice": 1,
+          "dragon": 3
+        }
       }
     }
   },
@@ -1467,8 +2211,20 @@
       "ridingActions": ["Climb", "Charge"],
       "stats": {
         "base": { "hp": 3, "atk": 5, "def": 4, "agi": 3 },
-        "attack": { "fire": 5, "water": 2, "thunder": 4, "ice": 4, "dragon": 4 },
-        "defense": { "fire": 5, "water": 1, "thunder": 3, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 5,
+          "water": 2,
+          "thunder": 4,
+          "ice": 4,
+          "dragon": 4
+        },
+        "defense": {
+          "fire": 5,
+          "water": 1,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -1485,8 +2241,20 @@
       "ridingActions": ["Jump"],
       "stats": {
         "base": { "hp": 1, "atk": 4, "def": 4, "agi": 5 },
-        "attack": { "fire": 2, "water": 3, "thunder": 3, "ice": 5, "dragon": 3 },
-        "defense": { "fire": 1, "water": 1, "thunder": 5, "ice": 5, "dragon": 5 }
+        "attack": {
+          "fire": 2,
+          "water": 3,
+          "thunder": 3,
+          "ice": 5,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 1,
+          "water": 1,
+          "thunder": 5,
+          "ice": 5,
+          "dragon": 5
+        }
       }
     }
   },
@@ -1503,8 +2271,20 @@
       "ridingActions": ["Mega Rock Smash", "Monster Search"],
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 4, "agi": 4 },
-        "attack": { "fire": 5, "water": 1, "thunder": 3, "ice": 3, "dragon": 3 },
-        "defense": { "fire": 5, "water": 1, "thunder": 3, "ice": 3, "dragon": 3 }
+        "attack": {
+          "fire": 5,
+          "water": 1,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 5,
+          "water": 1,
+          "thunder": 3,
+          "ice": 3,
+          "dragon": 3
+        }
       }
     }
   },
@@ -1529,8 +2309,20 @@
       "ridingActions": ["Jump"],
       "stats": {
         "base": { "hp": 5, "atk": 3, "def": 3, "agi": 3 },
-        "attack": { "fire": 5, "water": 2, "thunder": 4, "ice": 2, "dragon": 3 },
-        "defense": { "fire": 5, "water": 2, "thunder": 4, "ice": 2, "dragon": 3 }
+        "attack": {
+          "fire": 5,
+          "water": 2,
+          "thunder": 4,
+          "ice": 2,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 5,
+          "water": 2,
+          "thunder": 4,
+          "ice": 2,
+          "dragon": 3
+        }
       }
     }
   }

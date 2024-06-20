@@ -1,6 +1,8 @@
 <template>
   <div class="relative flex-1">
-    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+    <div
+      class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"
+    >
       <FaIcon
         :icon="['fas', 'search']"
         class="text-gray-500 dark:text-cool-400"
@@ -31,28 +33,28 @@
 </template>
 
 <script>
-  export default {
-    name: 'AppSearchBox',
+export default {
+  name: 'AppSearchBox',
 
-    props: {
-      value: {
-        type: String,
-        required: false,
-        default: null,
-      },
+  props: {
+    value: {
+      type: String,
+      required: false,
+      default: null,
     },
+  },
 
-    methods: {
-      clear() {
-        this.$emit('input', null);
+  methods: {
+    clear() {
+      this.$emit('input', null);
 
-        let input = this.$refs.input;
-        if (input) {
-          this.$nextTick(() => {
-            input.focus();
-          });
-        }
-      },
+      let input = this.$refs.input;
+      if (input) {
+        this.$nextTick(() => {
+          input.focus();
+        });
+      }
     },
-  };
+  },
+};
 </script>

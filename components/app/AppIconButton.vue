@@ -12,32 +12,32 @@
 </template>
 
 <script>
-  export default {
-    name: 'AppIconButton',
+export default {
+  name: 'AppIconButton',
 
-    props: {
-      icon: {
-        type: Array,
-        required: false,
-        default: null,
-      },
-
-      title: {
-        type: String,
-        required: false,
-        default: null,
-      },
+  props: {
+    icon: {
+      type: Array,
+      required: false,
+      default: null,
     },
 
-    methods: {
-      onClick() {
-        this.$emit('click');
-
-        if (document.activeElement) {
-          // blur to disable active/focus styles
-          document.activeElement.blur();
-        }
-      },
+    title: {
+      type: String,
+      required: false,
+      default: null,
     },
-  };
+  },
+
+  methods: {
+    onClick() {
+      this.$emit('click');
+
+      if (document.activeElement) {
+        // blur to disable active/focus styles
+        document.activeElement.blur();
+      }
+    },
+  },
+};
 </script>

@@ -3,10 +3,7 @@
     <section class="box px-4 py-3 flex flex-col space-y-3">
       <div class="flex items-center">
         <h3 class="flex-1 text-lg font-semibold">
-          <label
-            class="block w-full cursor-pointer"
-            for="MonsterFilter_Mode"
-          >
+          <label class="block w-full cursor-pointer" for="MonsterFilter_Mode">
             Quick Info
           </label>
         </h3>
@@ -16,27 +13,17 @@
           v-model="store.mode"
           class="input w-[180px] px-2 py-1"
         >
-          <option
-            v-for="mode in modes"
-            :key="mode.value"
-            :value="mode.value"
-          >
+          <option v-for="mode in modes" :key="mode.value" :value="mode.value">
             {{ mode.caption }}
           </option>
         </select>
       </div>
     </section>
 
-    <section
-      v-if="!hideSort"
-      class="box px-4 py-3 flex flex-col space-y-3"
-    >
+    <section v-if="!hideSort" class="box px-4 py-3 flex flex-col space-y-3">
       <div class="flex items-center">
         <h3 class="flex-1 text-lg font-semibold">
-          <label
-            class="block w-full cursor-pointer"
-            for="MonsterFilter_SortBy"
-          >
+          <label class="block w-full cursor-pointer" for="MonsterFilter_SortBy">
             Sort By
           </label>
         </h3>
@@ -61,14 +48,9 @@
         class="flex items-center cursor-pointer select-none"
         @click="toggleSortOrder"
       >
-        <label class="flex-1 cursor-pointer">
-          Order
-        </label>
+        <label class="flex-1 cursor-pointer">Order</label>
 
-        <AppSortOrderToggle
-          v-model="store.sortOrder"
-          class="w-[180px]"
-        />
+        <AppSortOrderToggle v-model="store.sortOrder" class="w-[180px]" />
       </div>
     </section>
 
@@ -103,18 +85,12 @@
             type="text"
             class="input w-full px-2 py-1"
             placeholder="Search"
-          >
+          />
         </div>
       </div>
 
-      <div
-        v-if="showEggColorFilter"
-        class="flex items-center"
-      >
-        <label
-          class="flex-1 cursor-pointer"
-          for="MonsterFilter_EggColorFilter"
-        >
+      <div v-if="showEggColorFilter" class="flex items-center">
+        <label class="flex-1 cursor-pointer" for="MonsterFilter_EggColorFilter">
           Egg Color
         </label>
 
@@ -136,10 +112,7 @@
       </div>
 
       <div class="flex items-center">
-        <label
-          class="flex-1 cursor-pointer"
-          for="MonsterFilter_GenusFilter"
-        >
+        <label class="flex-1 cursor-pointer" for="MonsterFilter_GenusFilter">
           Genus
         </label>
 
@@ -151,24 +124,14 @@
         >
           <option :value="null">All</option>
 
-          <option
-            v-for="genus in store.allGenera"
-            :key="genus"
-            :value="genus"
-          >
+          <option v-for="genus in store.allGenera" :key="genus" :value="genus">
             {{ genus }}
           </option>
         </select>
       </div>
 
-      <div
-        v-if="showHabitatFilter"
-        class="flex items-center"
-      >
-        <label
-          class="flex-1 cursor-pointer"
-          for="MonsterFilter_HabitatFilter"
-        >
+      <div v-if="showHabitatFilter" class="flex items-center">
+        <label class="flex-1 cursor-pointer" for="MonsterFilter_HabitatFilter">
           Habitat
         </label>
 
@@ -190,10 +153,7 @@
         </select>
       </div>
 
-      <div
-        v-if="showCoopQuestFilter"
-        class="flex items-center"
-      >
+      <div v-if="showCoopQuestFilter" class="flex items-center">
         <label
           class="flex-1 cursor-pointer"
           for="MonsterFilter_CoopQuestFilter"
@@ -219,14 +179,8 @@
         </select>
       </div>
 
-      <div
-        v-if="showCatavanFilter"
-        class="flex items-center"
-      >
-        <label
-          class="flex-1 cursor-pointer"
-          for="MonsterFilter_CatavanFilter"
-        >
+      <div v-if="showCatavanFilter" class="flex items-center">
+        <label class="flex-1 cursor-pointer" for="MonsterFilter_CatavanFilter">
           Catavan Stand
         </label>
 
@@ -248,10 +202,7 @@
         </select>
       </div>
 
-      <div
-        v-if="showEldersLairFilter"
-        class="flex items-center"
-      >
+      <div v-if="showEldersLairFilter" class="flex items-center">
         <label
           class="flex-1 cursor-pointer"
           for="MonsterFilter_EldersLairFilter"
@@ -277,10 +228,7 @@
         </select>
       </div>
 
-      <div
-        v-if="showAttackTypeFilter"
-        class="flex items-center"
-      >
+      <div v-if="showAttackTypeFilter" class="flex items-center">
         <label
           class="flex-1 cursor-pointer"
           for="MonsterFilter_AttackTypeFilter"
@@ -304,10 +252,7 @@
         </select>
       </div>
 
-      <div
-        v-if="showAttackElementFilter"
-        class="flex items-center"
-      >
+      <div v-if="showAttackElementFilter" class="flex items-center">
         <label
           class="flex-1 cursor-pointer"
           for="MonsterFilter_AttackElementFilter"
@@ -331,10 +276,7 @@
         </select>
       </div>
 
-      <div
-        v-if="showRidingActionFilter"
-        class="flex items-center"
-      >
+      <div v-if="showRidingActionFilter" class="flex items-center">
         <label
           class="flex-1 cursor-pointer"
           for="MonsterFilter_RidingActionFilter"
@@ -365,9 +307,7 @@
         class="py-1 flex items-center select-none"
         @click="toggleFilterValue('hatchableFilter')"
       >
-        <label class="flex-1 cursor-pointer">
-          Hatchable
-        </label>
+        <label class="flex-1 cursor-pointer">Hatchable</label>
 
         <AppFilterToggle
           v-model="store.hatchableFilter"
@@ -381,9 +321,7 @@
         class="py-1 flex items-center select-none"
         @click="toggleFilterValue('deviantsFilter')"
       >
-        <label class="flex-1 cursor-pointer">
-          Deviants
-        </label>
+        <label class="flex-1 cursor-pointer">Deviants</label>
 
         <AppFilterToggle
           v-model="store.deviantsFilter"
@@ -394,324 +332,312 @@
     </section>
 
     <section class="box px-4 py-2 flex items-center">
-      <h3 class="flex-1 text-lg font-semibold">
-        Results
-      </h3>
+      <h3 class="flex-1 text-lg font-semibold">Results</h3>
 
-      <span
-        class="w-[180px]"
-        v-text="store.resultCount"
-      />
+      <span class="w-[180px]" v-text="store.resultCount" />
     </section>
 
     <section class="flex gap-2 justify-center">
-      <NuxtLink
-        v-if="backTarget"
-        :to="backTarget"
-      >
-        <AppTextButton>
-          Apply
-        </AppTextButton>
+      <NuxtLink v-if="backTarget" :to="backTarget">
+        <AppTextButton>Apply</AppTextButton>
       </NuxtLink>
 
-      <AppTextButton @click="store.resetFilterAndSort">
-        Reset
-      </AppTextButton>
+      <AppTextButton @click="store.resetFilterAndSort">Reset</AppTextButton>
     </section>
   </div>
 </template>
 
 <script>
-  import _ from 'lodash';
-  import { formatAttackType, formatElement, allElements } from '~/services/utils';
+import _ from 'lodash';
+import { formatAttackType, formatElement, allElements } from '~/services/utils';
 
-  export default {
-    name: 'MonsterFilter',
+export default {
+  name: 'MonsterFilter',
 
-    inject: ['useFilterStore'],
+  inject: ['useFilterStore'],
 
-    props: {
-      backTarget: {
-        type: String,
-        required: false,
-        default: null,
-      },
+  props: {
+    backTarget: {
+      type: String,
+      required: false,
+      default: null,
+    },
 
-      modes: {
-        type: Array,
-        required: false,
-        default() {
-          return [];
-        },
-      },
-
-      hideSort: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
-
-      showSortByStats: {
-        type: Boolean,
-        require: false,
-        default: false,
-      },
-
-      showEggColorFilter: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
-
-      showHabitatFilter: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
-
-      showCoopQuestFilter: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
-
-      showCatavanFilter: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
-
-      showEldersLairFilter: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
-
-      showAttackTypeFilter: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
-
-      showAttackElementFilter: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
-
-      showRidingActionFilter: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
-
-      showHatchableFilter: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
-
-      showDeviantsFilter: {
-        type: Boolean,
-        required: false,
-        default: false,
+    modes: {
+      type: Array,
+      required: false,
+      default() {
+        return [];
       },
     },
 
-    data() {
-      return {
-        allElements,
-      };
+    hideSort: {
+      type: Boolean,
+      required: false,
+      default: false,
     },
 
-    computed: {
-      store() {
-        return this.useFilterStore();
-      },
-
-      sortConfig() {
-        let result = [
-          { value: 'no', caption: 'Number' },
-          { value: 'name', caption: 'Name' },
-          { value: 'rarity', caption: 'Rarity', default: 'desc', mode: 'rarity' },
-          { value: 'genus', caption: 'Genus', mode: 'location' },
-          { value: 'habitat', caption: 'Habitat', mode: 'location' },
-        ];
-
-        if (this.showSortByStats) {
-          result.push(
-            {
-              value: 'monstie.stats.base.maxHp',
-              caption: 'Max HP',
-              default: 'desc',
-              mode: 'stats',
-            },
-            {
-              value: 'monstie.stats.base.speed',
-              caption: 'Speed',
-              default: 'desc',
-              mode: 'stats',
-            },
-            {
-              value: 'monstie.stats.base.critRate',
-              caption: 'Crit Rate',
-              default: 'desc',
-              mode: 'stats',
-            },
-            {
-              value: 'monstie.stats.bestAttack.value',
-              caption: 'Best Attack',
-              default: 'desc',
-              mode: 'stats',
-            },
-            {
-              value: 'monstie.stats.bestDefense.value',
-              caption: 'Best Defense',
-              default: 'desc',
-              mode: 'stats',
-            },
-            {
-              value: 'monstie.stats.worstDefense.value',
-              caption: 'Worst Defense',
-              default: 'desc',
-              mode: 'stats',
-            }
-          );
-        }
-
-        return result;
-      },
-
-      eggColors() {
-        return [
-          { caption: 'Black', colors: ['black'] },
-          { caption: 'White / Gray', colors: ['white', 'gray'] },
-          { caption: 'Red', colors: ['red'] },
-          { caption: 'Orange / Brown', colors: ['orange', 'brown'] },
-          { caption: 'Yellow', colors: ['yellow'] },
-          { caption: 'Green', colors: ['green'] },
-          { caption: 'Blue', colors: ['blue'] },
-          { caption: 'Purple / Pink', colors: ['purple', 'pink'] },
-        ];
-      },
+    showSortByStats: {
+      type: Boolean,
+      require: false,
+      default: false,
     },
 
-    methods: {
-      formatAttackType,
-      formatElement,
+    showEggColorFilter: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
 
-      getSortConfigItem(value) {
-        return _.find(this.sortConfig, { value });
-      },
+    showHabitatFilter: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
 
-      onSortKeyChanged(e) {
-        let oldValue = this.store.sortKey;
-        let newValue = e?.target?.value;
+    showCoopQuestFilter: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
 
-        if (newValue != null && newValue !== oldValue) {
-          this.store.sortKey = newValue;
+    showCatavanFilter: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
 
-          let config = this.getSortConfigItem(newValue);
+    showEldersLairFilter: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
 
-          if (config && config.default) {
-            this.store.sortOrder = config.default;
-          } else {
-            this.store.sortOrder = 'asc';
+    showAttackTypeFilter: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+
+    showAttackElementFilter: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+
+    showRidingActionFilter: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+
+    showHatchableFilter: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+
+    showDeviantsFilter: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+  },
+
+  data() {
+    return {
+      allElements,
+    };
+  },
+
+  computed: {
+    store() {
+      return this.useFilterStore();
+    },
+
+    sortConfig() {
+      let result = [
+        { value: 'no', caption: 'Number' },
+        { value: 'name', caption: 'Name' },
+        { value: 'rarity', caption: 'Rarity', default: 'desc', mode: 'rarity' },
+        { value: 'genus', caption: 'Genus', mode: 'location' },
+        { value: 'habitat', caption: 'Habitat', mode: 'location' },
+      ];
+
+      if (this.showSortByStats) {
+        result.push(
+          {
+            value: 'monstie.stats.base.maxHp',
+            caption: 'Max HP',
+            default: 'desc',
+            mode: 'stats',
+          },
+          {
+            value: 'monstie.stats.base.speed',
+            caption: 'Speed',
+            default: 'desc',
+            mode: 'stats',
+          },
+          {
+            value: 'monstie.stats.base.critRate',
+            caption: 'Crit Rate',
+            default: 'desc',
+            mode: 'stats',
+          },
+          {
+            value: 'monstie.stats.bestAttack.value',
+            caption: 'Best Attack',
+            default: 'desc',
+            mode: 'stats',
+          },
+          {
+            value: 'monstie.stats.bestDefense.value',
+            caption: 'Best Defense',
+            default: 'desc',
+            mode: 'stats',
+          },
+          {
+            value: 'monstie.stats.worstDefense.value',
+            caption: 'Worst Defense',
+            default: 'desc',
+            mode: 'stats',
           }
+        );
+      }
 
-          if (
-            config &&
-            config.mode &&
-            this.store.mode !== 'compact' &&
-            (this.store.autoSwitchModes == null ||
-              _.includes(this.store.autoSwitchModes, config.mode))
-          ) {
-            this.store.mode = config.mode;
-          }
-        }
-      },
-
-      toggleSortOrder() {
-        this.store.sortOrder = this.store.sortOrder === 'asc' ? 'desc' : 'asc';
-      },
-
-      clearNameFilter() {
-        this.store.nameFilter = null;
-
-        let input = this.$refs.inputName;
-        if (input) {
-          this.$nextTick(() => {
-            input.focus();
-          });
-        }
-      },
-
-      onFilterChanged(filterKey, e, mode = null) {
-        let oldValue = this.store[filterKey];
-        let newValue = e?.target?.value;
-
-        if (newValue === '') {
-          newValue = null;
-        }
-
-        if (newValue !== oldValue) {
-          this.store[filterKey] = newValue;
-
-          if (
-            newValue != null &&
-            mode != null &&
-            this.store.mode !== 'compact' &&
-            (this.store.autoSwitchModes == null ||
-              _.includes(this.store.autoSwitchModes, mode))
-          ) {
-            this.store.mode = mode;
-          }
-        }
-      },
-
-      onGenusFilterChanged(e) {
-        this.onFilterChanged('genusFilter', e, 'location');
-      },
-
-      onHabitatFilterChanged(e) {
-        this.onFilterChanged('habitatFilter', e, 'location');
-      },
-
-      onCoopQuestFilterChanged(e) {
-        this.onFilterChanged('coopQuestFilter', e, 'location-coop');
-      },
-
-      onCatavanFilterChanged(e) {
-        this.onFilterChanged('catavanFilter', e, 'location');
-      },
-
-      onEldersLairFilterChanged(e) {
-        this.onFilterChanged('eldersLairFilter', e, 'location-eldersLair');
-      },
-
-      onRidingActionFilterChanged(e) {
-        this.onFilterChanged('ridingActionFilter', e, 'ridingActions');
-      },
-
-      toggleFilterValue(key) {
-        let value = this.store[key];
-
-        switch (value) {
-          case null:
-            value = true;
-            break;
-
-          case true:
-            value = false;
-            break;
-
-          case false:
-            value = null;
-            break;
-        }
-
-        this.store[key] = value;
-      },
+      return result;
     },
-  };
+
+    eggColors() {
+      return [
+        { caption: 'Black', colors: ['black'] },
+        { caption: 'White / Gray', colors: ['white', 'gray'] },
+        { caption: 'Red', colors: ['red'] },
+        { caption: 'Orange / Brown', colors: ['orange', 'brown'] },
+        { caption: 'Yellow', colors: ['yellow'] },
+        { caption: 'Green', colors: ['green'] },
+        { caption: 'Blue', colors: ['blue'] },
+        { caption: 'Purple / Pink', colors: ['purple', 'pink'] },
+      ];
+    },
+  },
+
+  methods: {
+    formatAttackType,
+    formatElement,
+
+    getSortConfigItem(value) {
+      return _.find(this.sortConfig, { value });
+    },
+
+    onSortKeyChanged(e) {
+      let oldValue = this.store.sortKey;
+      let newValue = e?.target?.value;
+
+      if (newValue != null && newValue !== oldValue) {
+        this.store.sortKey = newValue;
+
+        let config = this.getSortConfigItem(newValue);
+
+        if (config && config.default) {
+          this.store.sortOrder = config.default;
+        } else {
+          this.store.sortOrder = 'asc';
+        }
+
+        if (
+          config &&
+          config.mode &&
+          this.store.mode !== 'compact' &&
+          (this.store.autoSwitchModes == null ||
+            _.includes(this.store.autoSwitchModes, config.mode))
+        ) {
+          this.store.mode = config.mode;
+        }
+      }
+    },
+
+    toggleSortOrder() {
+      this.store.sortOrder = this.store.sortOrder === 'asc' ? 'desc' : 'asc';
+    },
+
+    clearNameFilter() {
+      this.store.nameFilter = null;
+
+      let input = this.$refs.inputName;
+      if (input) {
+        this.$nextTick(() => {
+          input.focus();
+        });
+      }
+    },
+
+    onFilterChanged(filterKey, e, mode = null) {
+      let oldValue = this.store[filterKey];
+      let newValue = e?.target?.value;
+
+      if (newValue === '') {
+        newValue = null;
+      }
+
+      if (newValue !== oldValue) {
+        this.store[filterKey] = newValue;
+
+        if (
+          newValue != null &&
+          mode != null &&
+          this.store.mode !== 'compact' &&
+          (this.store.autoSwitchModes == null ||
+            _.includes(this.store.autoSwitchModes, mode))
+        ) {
+          this.store.mode = mode;
+        }
+      }
+    },
+
+    onGenusFilterChanged(e) {
+      this.onFilterChanged('genusFilter', e, 'location');
+    },
+
+    onHabitatFilterChanged(e) {
+      this.onFilterChanged('habitatFilter', e, 'location');
+    },
+
+    onCoopQuestFilterChanged(e) {
+      this.onFilterChanged('coopQuestFilter', e, 'location-coop');
+    },
+
+    onCatavanFilterChanged(e) {
+      this.onFilterChanged('catavanFilter', e, 'location');
+    },
+
+    onEldersLairFilterChanged(e) {
+      this.onFilterChanged('eldersLairFilter', e, 'location-eldersLair');
+    },
+
+    onRidingActionFilterChanged(e) {
+      this.onFilterChanged('ridingActionFilter', e, 'ridingActions');
+    },
+
+    toggleFilterValue(key) {
+      let value = this.store[key];
+
+      switch (value) {
+        case null:
+          value = true;
+          break;
+
+        case true:
+          value = false;
+          break;
+
+        case false:
+          value = null;
+          break;
+      }
+
+      this.store[key] = value;
+    },
+  },
+};
 </script>

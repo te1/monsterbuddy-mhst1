@@ -27,60 +27,60 @@
 </template>
 
 <script>
-  export default {
-    name: 'MonsterSmartListItem',
+export default {
+  name: 'MonsterSmartListItem',
 
-    props: {
-      monster: {
-        type: Object,
-        required: true,
-      },
-
-      display: {
-        type: String,
-        required: false,
-        default: null,
-      },
-
-      mode: {
-        type: String,
-        required: false,
-        default: undefined,
-      },
-
-      ticket: {
-        type: String,
-        required: false,
-        default: null,
-      },
+  props: {
+    monster: {
+      type: Object,
+      required: true,
     },
 
-    computed: {
-      history() {
-        return this.$useHistoryStore();
-      },
-
-      showMonstie() {
-        if (this.display) {
-          return this.display === 'monstie' && this.monster.hatchable;
-        }
-        return this.history.shouldShowMonstie(this.monster);
-      },
-
-      showEgg() {
-        if (this.display) {
-          return this.display === 'egg' && this.monster.hatchable;
-        }
-        return this.history.shouldShowEgg(this.monster);
-      },
-
-      smartMode() {
-        return this.history.listModeSmart(
-          this.showMonstie,
-          this.showEgg,
-          this.mode
-        );
-      },
+    display: {
+      type: String,
+      required: false,
+      default: null,
     },
-  };
+
+    mode: {
+      type: String,
+      required: false,
+      default: undefined,
+    },
+
+    ticket: {
+      type: String,
+      required: false,
+      default: null,
+    },
+  },
+
+  computed: {
+    history() {
+      return this.$useHistoryStore();
+    },
+
+    showMonstie() {
+      if (this.display) {
+        return this.display === 'monstie' && this.monster.hatchable;
+      }
+      return this.history.shouldShowMonstie(this.monster);
+    },
+
+    showEgg() {
+      if (this.display) {
+        return this.display === 'egg' && this.monster.hatchable;
+      }
+      return this.history.shouldShowEgg(this.monster);
+    },
+
+    smartMode() {
+      return this.history.listModeSmart(
+        this.showMonstie,
+        this.showEgg,
+        this.mode
+      );
+    },
+  },
+};
 </script>

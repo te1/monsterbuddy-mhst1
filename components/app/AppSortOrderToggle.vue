@@ -8,42 +8,42 @@
 </template>
 
 <script>
-  export default {
-    name: 'AppSortOrderToggle',
+export default {
+  name: 'AppSortOrderToggle',
 
-    props: {
-      value: {
-        type: String,
-        required: true,
-      },
+  props: {
+    value: {
+      type: String,
+      required: true,
+    },
+  },
+
+  computed: {
+    icon() {
+      switch (this.value) {
+        case 'asc':
+          return ['fas', 'sort-amount-up-alt'];
+
+        case 'desc':
+          return ['fas', 'sort-amount-down'];
+
+        default:
+          return null;
+      }
     },
 
-    computed: {
-      icon() {
-        switch (this.value) {
-          case 'asc':
-            return ['fas', 'sort-amount-up-alt'];
+    caption() {
+      switch (this.value) {
+        case 'asc':
+          return 'Ascending';
 
-          case 'desc':
-            return ['fas', 'sort-amount-down'];
+        case 'desc':
+          return 'Descending';
 
-          default:
-            return null;
-        }
-      },
-
-      caption() {
-        switch (this.value) {
-          case 'asc':
-            return 'Ascending';
-
-          case 'desc':
-            return 'Descending';
-
-          default:
-            return null;
-        }
-      },
+        default:
+          return null;
+      }
     },
-  };
+  },
+};
 </script>

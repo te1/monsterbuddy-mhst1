@@ -13,7 +13,7 @@
 
     <MonsterImage
       class="w-full h-full p-2 object-contain object-right overflow-hidden"
-      style="flex-basis: 250px;"
+      style="flex-basis: 250px"
       :monster="monster"
       right
     />
@@ -29,26 +29,26 @@
 </template>
 
 <script>
-  export default {
-    name: 'EggListItem',
+export default {
+  name: 'EggListItem',
 
-    props: {
-      monster: {
-        type: Object,
-        required: true,
-      },
-
-      mode: {
-        type: String,
-        required: false,
-        default: 'location',
-      },
-
-      ticket: {
-        type: String,
-        required: false,
-        default: null,
-      },
+  props: {
+    monster: {
+      type: Object,
+      required: true,
     },
-  };
+
+    mode: {
+      type: String,
+      required: false,
+      default: 'location',
+    },
+
+    ticket: {
+      type: String,
+      required: false,
+      default: null,
+    },
+  },
+};
 </script>

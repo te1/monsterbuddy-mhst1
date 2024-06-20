@@ -24,32 +24,32 @@
 </template>
 
 <script>
-  export default {
-    name: 'MonsterRelatedItem',
+export default {
+  name: 'MonsterRelatedItem',
 
-    props: {
-      monster: {
-        type: Object,
-        required: true,
-      },
+  props: {
+    monster: {
+      type: Object,
+      required: true,
+    },
+  },
+
+  computed: {
+    history() {
+      return this.$useHistoryStore();
     },
 
-    computed: {
-      history() {
-        return this.$useHistoryStore();
-      },
-
-      showMonstie() {
-        return this.history.shouldShowMonstie(this.monster);
-      },
-
-      showEgg() {
-        return this.history.shouldShowEgg(this.monster);
-      },
-
-      mode() {
-        return this.history.lastListModeSmart(this.monster);
-      },
+    showMonstie() {
+      return this.history.shouldShowMonstie(this.monster);
     },
-  };
+
+    showEgg() {
+      return this.history.shouldShowEgg(this.monster);
+    },
+
+    mode() {
+      return this.history.lastListModeSmart(this.monster);
+    },
+  },
+};
 </script>

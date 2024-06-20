@@ -1,9 +1,7 @@
 <template>
   <div class="box flex flex-col items-center py-4 space-y-4">
     <span class="text-2xl font-semibold text-gray-500 dark:text-cool-300">
-      <slot>
-        No results found
-      </slot>
+      <slot>No results found</slot>
     </span>
 
     <FaIcon
@@ -11,25 +9,22 @@
       :icon="['far', 'sad-cry']"
     />
 
-    <AppTextButton
-      class="w-[160px]"
-      @click="store.resetFilter"
-    >
+    <AppTextButton class="w-[160px]" @click="store.resetFilter">
       Reset filter
     </AppTextButton>
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'MonsterNoResults',
+export default {
+  name: 'MonsterNoResults',
 
-    inject: ['useFilterStore'],
+  inject: ['useFilterStore'],
 
-    computed: {
-      store() {
-        return this.useFilterStore();
-      },
+  computed: {
+    store() {
+      return this.useFilterStore();
     },
-  };
+  },
+};
 </script>

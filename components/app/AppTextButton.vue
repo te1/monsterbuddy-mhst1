@@ -8,18 +8,18 @@
 </template>
 
 <script>
-  export default {
-    name: 'AppTextButton',
+export default {
+  name: 'AppTextButton',
 
-    methods: {
-      onClick() {
-        this.$emit('click');
+  methods: {
+    onClick() {
+      this.$emit('click');
 
-        if (document.activeElement) {
-          // blur to disable active/focus styles
-          document.activeElement.blur();
-        }
-      },
+      if (document.activeElement) {
+        // blur to disable active/focus styles
+        document.activeElement.blur();
+      }
     },
-  };
+  },
+};
 </script>

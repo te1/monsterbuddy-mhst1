@@ -8,13 +8,18 @@
           :title="monster.name"
           width="60"
           height="60"
-        >
+        />
 
-        <div class="absolute bottom-0 flex items-center justify-between w-full pointer-events-none select-none">
+        <div
+          class="absolute bottom-0 flex items-center justify-between w-full pointer-events-none select-none"
+        >
           <div
             class="pl-1 text-lg text-white font-semibold tracking-wide"
             :class="{ 'opacity-0': !showNo }"
-            style="text-shadow: 0 0 6px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"
+            style="
+              text-shadow: 0 0 6px #000, -1px -1px 0 #000, 1px -1px 0 #000,
+                -1px 1px 0 #000, 1px 1px 0 #000;
+            "
           >
             {{ formattedNo }}
           </div>
@@ -26,7 +31,7 @@
             width="20"
             height="20"
             class="w-1/3 h-1/3"
-          >
+          />
 
           <AttackTypeIcon
             v-if="showAttackType"
@@ -42,48 +47,48 @@
 </template>
 
 <script>
-  import { formatMonsterNo } from '~/services/utils';
+import { formatMonsterNo } from '~/services/utils';
 
-  export default {
-    name: 'MonsterIcon',
+export default {
+  name: 'MonsterIcon',
 
-    props: {
-      monster: {
-        type: Object,
-        required: true,
-      },
-
-      showNo: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
-
-      showHatchable: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
-
-      showAttackType: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
+  props: {
+    monster: {
+      type: Object,
+      required: true,
     },
 
-    computed: {
-      imageUrl() {
-        try {
-          return require(`~/assets/monster-icons/${this.monster.name}.webp`);
-        } catch (e) {
-          return require('~/assets/monster-icons/_Unknown.webp');
-        }
-      },
-
-      formattedNo() {
-        return formatMonsterNo(this.monster.no, false);
-      },
+    showNo: {
+      type: Boolean,
+      required: false,
+      default: false,
     },
-  };
+
+    showHatchable: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+
+    showAttackType: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+  },
+
+  computed: {
+    imageUrl() {
+      try {
+        return require(`~/assets/monster-icons/${this.monster.name}.webp`);
+      } catch (e) {
+        return require('~/assets/monster-icons/_Unknown.webp');
+      }
+    },
+
+    formattedNo() {
+      return formatMonsterNo(this.monster.no, false);
+    },
+  },
+};
 </script>

@@ -21,30 +21,30 @@
 </template>
 
 <script>
-  import _ from 'lodash';
+import _ from 'lodash';
 
-  export default {
-    name: 'WeaponEffectiveness',
+export default {
+  name: 'WeaponEffectiveness',
 
-    props: {
-      types: {
-        type: Array,
-        required: true,
-      },
+  props: {
+    types: {
+      type: Array,
+      required: true,
+    },
+  },
+
+  computed: {
+    slashIneffective() {
+      return !_.includes(this.types, 'slash');
     },
 
-    computed: {
-      slashIneffective() {
-        return !_.includes(this.types, 'slash');
-      },
-
-      bluntIneffective() {
-        return !_.includes(this.types, 'blunt');
-      },
-
-      pierceIneffective() {
-        return !_.includes(this.types, 'pierce');
-      },
+    bluntIneffective() {
+      return !_.includes(this.types, 'blunt');
     },
-  };
+
+    pierceIneffective() {
+      return !_.includes(this.types, 'pierce');
+    },
+  },
+};
 </script>

@@ -12,24 +12,24 @@
 </template>
 
 <script>
-  export default {
-    name: 'PageMonstersFilter',
+export default {
+  name: 'PageMonstersFilter',
 
-    inject: ['useFilterStore'],
+  inject: ['useFilterStore'],
 
-    computed: {
-      store() {
-        return this.useFilterStore();
-      },
-
-      modes() {
-        return [
-          { value: 'location', caption: 'Location' },
-          { value: 'location-eldersLair', caption: "Elder's Lair" },
-          { value: 'combat', caption: 'Attack Pattern' },
-          { value: 'rarity', caption: 'Rarity' },
-        ];
-      },
+  computed: {
+    store() {
+      return this.useFilterStore();
     },
-  };
+
+    modes() {
+      return [
+        { value: 'location', caption: 'Location' },
+        { value: 'location-eldersLair', caption: "Elder's Lair" },
+        { value: 'combat', caption: 'Attack Pattern' },
+        { value: 'rarity', caption: 'Rarity' },
+      ];
+    },
+  },
+};
 </script>

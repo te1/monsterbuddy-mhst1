@@ -15,26 +15,26 @@
 </template>
 
 <script>
-  export default {
-    name: 'PageEggsFilter',
+export default {
+  name: 'PageEggsFilter',
 
-    inject: ['useFilterStore'],
+  inject: ['useFilterStore'],
 
-    computed: {
-      store() {
-        return this.useFilterStore();
-      },
-
-      modes() {
-        return [
-          { value: 'compact', caption: 'Compact' },
-          { value: 'location', caption: 'Location' },
-          { value: 'location-coop', caption: 'Co-Op Quest' },
-          { value: 'ridingActions', caption: 'Riding Actions' },
-          { value: 'retreat', caption: 'Retreat' },
-          { value: 'rarity', caption: 'Rarity' },
-        ];
-      },
+  computed: {
+    store() {
+      return this.useFilterStore();
     },
-  };
+
+    modes() {
+      return [
+        { value: 'compact', caption: 'Compact' },
+        { value: 'location', caption: 'Location' },
+        { value: 'location-coop', caption: 'Co-Op Quest' },
+        { value: 'ridingActions', caption: 'Riding Actions' },
+        { value: 'retreat', caption: 'Retreat' },
+        { value: 'rarity', caption: 'Rarity' },
+      ];
+    },
+  },
+};
 </script>

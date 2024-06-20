@@ -6,38 +6,35 @@
       :genus="genus"
     />
 
-    <div
-      class="mb-2 font-semibold whitespace-nowrap"
-      v-text="text"
-    />
+    <div class="mb-2 font-semibold whitespace-nowrap" v-text="text" />
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'EggGridItem',
+export default {
+  name: 'EggGridItem',
 
-    props: {
-      monster: {
-        type: Object,
-        required: false,
-        default: null,
-      },
-
-      genus: {
-        type: String,
-        required: false,
-        default: null,
-      },
+  props: {
+    monster: {
+      type: Object,
+      required: false,
+      default: null,
     },
 
-    computed: {
-      text() {
-        if (this.genus) {
-          return this.genus;
-        }
-        return this.monster.name;
-      },
+    genus: {
+      type: String,
+      required: false,
+      default: null,
     },
-  };
+  },
+
+  computed: {
+    text() {
+      if (this.genus) {
+        return this.genus;
+      }
+      return this.monster.name;
+    },
+  },
+};
 </script>

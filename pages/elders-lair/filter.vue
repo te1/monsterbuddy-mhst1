@@ -11,22 +11,22 @@
 </template>
 
 <script>
-  export default {
-    name: 'PageEldersLairFilter',
+export default {
+  name: 'PageEldersLairFilter',
 
-    inject: ['useFilterStore'],
+  inject: ['useFilterStore'],
 
-    computed: {
-      store() {
-        return this.useFilterStore();
-      },
-
-      modes() {
-        return [
-          { value: 'location', caption: 'Location' },
-          { value: 'combat', caption: 'Attack Pattern' },
-        ];
-      },
+  computed: {
+    store() {
+      return this.useFilterStore();
     },
-  };
+
+    modes() {
+      return [
+        { value: 'location', caption: 'Location' },
+        { value: 'combat', caption: 'Attack Pattern' },
+      ];
+    },
+  },
+};
 </script>

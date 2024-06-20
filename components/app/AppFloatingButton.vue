@@ -18,49 +18,49 @@
 </template>
 
 <script>
-  export default {
-    name: 'AppFloatingButton',
+export default {
+  name: 'AppFloatingButton',
 
-    props: {
-      title: {
-        type: String,
-        required: false,
-        default: null,
-      },
-
-      secondary: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
-
-      tertiary: {
-        type: Boolean,
-        required: false,
-        default: false,
-      },
+  props: {
+    title: {
+      type: String,
+      required: false,
+      default: null,
     },
 
-    computed: {
-      classes() {
-        if (this.secondary) {
-          return ['mb-16'];
-        } else if (this.tertiary) {
-          return ['mb-32'];
-        }
-        return null;
-      },
+    secondary: {
+      type: Boolean,
+      required: false,
+      default: false,
     },
 
-    methods: {
-      onClick() {
-        this.$emit('click');
-
-        if (document.activeElement) {
-          // blur to disable active/focus styles
-          document.activeElement.blur();
-        }
-      },
+    tertiary: {
+      type: Boolean,
+      required: false,
+      default: false,
     },
-  };
+  },
+
+  computed: {
+    classes() {
+      if (this.secondary) {
+        return ['mb-16'];
+      } else if (this.tertiary) {
+        return ['mb-32'];
+      }
+      return null;
+    },
+  },
+
+  methods: {
+    onClick() {
+      this.$emit('click');
+
+      if (document.activeElement) {
+        // blur to disable active/focus styles
+        document.activeElement.blur();
+      }
+    },
+  },
+};
 </script>
