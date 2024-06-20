@@ -10,7 +10,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Monster Buddy - Companion App For Monster Hunter Stories 2',
+    title: 'Monster Buddy - Companion App For Monster Hunter Stories 1',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -29,7 +29,7 @@ export default {
       {
         hid: 'twitter:description',
         name: 'twitter:description',
-        content: 'Companion App For Monster Hunter Stories 2: Wings Of Ruin',
+        content: 'Companion App For Monster Hunter Stories 1',
       },
       {
         hid: 'twitter:image',
@@ -39,7 +39,7 @@ export default {
       {
         hid: 'twitter:image:alt',
         name: 'twitter:image:alt',
-        content: 'Monster Buddy - Companion App For Monster Hunter Stories 2',
+        content: 'Monster Buddy - Companion App For Monster Hunter Stories 1',
       },
       {
         hid: 'og:title',
@@ -49,7 +49,7 @@ export default {
       {
         hid: 'og:description',
         property: 'og:description',
-        content: 'Companion App For Monster Hunter Stories 2: Wings Of Ruin',
+        content: 'Companion App For Monster Hunter Stories 1',
       },
       {
         hid: 'og:image:secure_url',
@@ -59,7 +59,7 @@ export default {
       {
         hid: 'og:image:alt',
         property: 'og:image:alt',
-        content: 'Monster Buddy - Companion App For Monster Hunter Stories 2',
+        content: 'Monster Buddy - Companion App For Monster Hunter Stories 1',
       },
       {
         name: 'theme-color',
@@ -145,7 +145,7 @@ export default {
       name: 'Monster Buddy',
       short_name: 'Monster Buddy',
       description:
-        'Companion App For Monster Hunter Stories 2: Wings Of Ruin. Includes monster attack types and weaknesses, egg patterns, monstie locations and retreat conditions.',
+        'Companion App For Monster Hunter Stories 1. Includes monster attack types and weaknesses, egg patterns, monstie locations and retreat conditions.',
       lang: 'en',
       background_color: '#cbd5e1',
       // theme_color: '#ffffff',

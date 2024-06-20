@@ -14,7 +14,7 @@
       >'s
       <a
         class="link"
-        href="https://www.monsterhunter.com/stories2"
+        href="https://www.monsterhunter.com/stories"
         target="_blank"
         rel="noopener"
         >Monster Hunter Stories 1</a
@@ -26,7 +26,7 @@
     <div class="mt-3 text-xl">
       <a
         class="text-gray-600 hover:text-gray-800 dark:text-cool-400 dark:hover:text-cool-200"
-        href="https://github.com/te1/monsterbuddy"
+        href="https://github.com/te1/monsterbuddy-mhst1"
         target="_blank"
         rel="noopener"
         title="Source code on GitHub"
