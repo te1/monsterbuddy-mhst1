@@ -2,10 +2,9 @@
 
 Companion app for Monster Hunter Stories 2: Wings of Ruin
 
-https://monsterbuddy.app
+https://mhst1.monsterbuddy.app
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/48aafaed-bd5a-4a84-850f-f7132164d207/deploy-status)](https://app.netlify.com/sites/monsterbuddy/deploys)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e1181391-5730-4a96-965f-fb43ca7eb17e/deploy-status)](https://app.netlify.com/sites/monsterbuddy-mhst1/deploys)
 
 ## Features
 
@@ -16,7 +15,6 @@ https://monsterbuddy.app
 - Elder's Lair with list of monsters by floor
 - Co-Op quests with list of eggs by den
 - Riding action list and related monsties
-
 
 ## Sources for data and images
 
@@ -36,7 +34,6 @@ https://monsterbuddy.app
 See [assets/data/monsters.json](https://github.com/te1/monsterbuddy/blob/main/assets/data/monsters.json) for the collected data.
 
 See [monsterbuddy-assets](https://github.com/te1/monsterbuddy-assets) for more details on images.
-
 
 ## Disclaimer
 
