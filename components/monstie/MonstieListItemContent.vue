@@ -44,18 +44,23 @@
         HP
         <span
           class="font-bold"
-          :class="getStatClass('base.maxHp')"
-          v-text="monster.monstie.stats.base.maxHp"
-        />, Speed
+          :class="getStatClass('base.hp')"
+          v-text="monster.monstie.stats.base.hp"
+        />, Atk
         <span
           class="font-bold"
-          :class="getStatClass('base.speed')"
-          v-text="monster.monstie.stats.base.speed"
-        />, Crit
+          :class="getStatClass('base.atk')"
+          v-text="monster.monstie.stats.base.atk"
+        />, Def
         <span
           class="font-bold"
-          :class="getStatClass('base.critRate')"
-          v-text="monster.monstie.stats.base.critRate"
+          :class="getStatClass('base.def')"
+          v-text="monster.monstie.stats.base.def"
+        />, Agi
+        <span
+          class="font-bold"
+          :class="getStatClass('base.agi')"
+          v-text="monster.monstie.stats.base.agi"
         />
       </div>
 
@@ -143,7 +148,7 @@ export default {
     },
 
     hasStats() {
-      return this.monster?.monstie?.stats?.base?.maxHp != null;
+      return this.monster?.monstie?.stats?.base?.hp != null;
     },
 
     defense() {

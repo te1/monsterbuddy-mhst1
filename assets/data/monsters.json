@@ -241,7 +241,29 @@
     "genus": "Fanged Beast",
     "habitat": "Darj Snowfields",
     "rarity": 2,
-    "hatchable": true
+    "hatchable": true,
+    "monstie": {
+      "tendency": "speed",
+      "growth": "regular",
+      "ridingActions": ["Rock Smash", "Mushroom Search"],
+      "stats": {
+        "base": { "hp": 2, "atk": 2, "def": 3, "agi": 3 },
+        "attack": {
+          "fire": 1,
+          "water": 4,
+          "thunder": 2,
+          "ice": 5,
+          "dragon": 3
+        },
+        "defense": {
+          "fire": 1,
+          "water": 5,
+          "thunder": 1,
+          "ice": 5,
+          "dragon": 3
+        }
+      }
+    }
   },
   {
     "no": 16,
@@ -1931,22 +1953,22 @@
     "monstie": {
       "tendency": "power",
       "growth": "slow",
-      "ridingActions": [""],
+      "ridingActions": [],
       "stats": {
-        "base": { "hp": "", "atk": "", "def": "", "agi": "" },
+        "base": { "hp": null, "atk": null, "def": null, "agi": null },
         "attack": {
-          "fire": "",
-          "water": "",
-          "thunder": "",
-          "ice": "",
-          "dragon": ""
+          "fire": null,
+          "water": null,
+          "thunder": null,
+          "ice": null,
+          "dragon": null
         },
         "defense": {
-          "fire": "",
-          "water": "",
-          "thunder": "",
-          "ice": "",
-          "dragon": ""
+          "fire": null,
+          "water": null,
+          "thunder": null,
+          "ice": null,
+          "dragon": null
         }
       }
     }

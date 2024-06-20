@@ -167,9 +167,10 @@ export function makeMonsterFilterStore(
           'genus',
           'habitat',
           'rarity',
-          'monstie.stats.base.maxHp',
-          'monstie.stats.base.speed',
-          'monstie.stats.base.critRate',
+          'monstie.stats.base.hp',
+          'monstie.stats.base.atk',
+          'monstie.stats.base.def',
+          'monstie.stats.base.agi',
           'monstie.stats.bestAttack.value',
           'monstie.stats.bestDefense.value',
           'monstie.stats.worstDefense.value',
@@ -266,25 +267,32 @@ export function makeMonsterFilterStore(
               caption: 'Rarity',
             };
 
-          case 'monstie.stats.base.maxHp':
+          case 'monstie.stats.base.hp':
             return {
               name: this.sortKey,
               order: this.sortOrder,
-              caption: 'Max HP',
+              caption: 'HP',
             };
 
-          case 'monstie.stats.base.speed':
+          case 'monstie.stats.base.atk':
             return {
               name: this.sortKey,
               order: this.sortOrder,
-              caption: 'Speed',
+              caption: 'Atk',
             };
 
-          case 'monstie.stats.base.critRate':
+          case 'monstie.stats.base.def':
             return {
               name: this.sortKey,
               order: this.sortOrder,
-              caption: 'Crit Rate',
+              caption: 'Def',
+            };
+
+          case 'monstie.stats.base.agi':
+            return {
+              name: this.sortKey,
+              order: this.sortOrder,
+              caption: 'Agi',
             };
 
           case 'monstie.stats.bestAttack.value':

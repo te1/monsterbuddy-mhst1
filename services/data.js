@@ -196,7 +196,7 @@ export function getMonstersByEldersLairFloor(
 export function getMonstiesByAttackType(attackType, monsterList = monsties) {
   return deepFreeze(
     _.filter(monsterList, (monster) => {
-      return monster?.monstie?.attackType === attackType;
+      return monster?.monstie?.tendency === attackType;
     })
   );
 }

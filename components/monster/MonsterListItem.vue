@@ -29,7 +29,7 @@
 
         <div v-if="showLocation && location" v-text="location" />
 
-        <div v-if="showRarity">
+        <div v-if="showRarity && monster.rarity">
           Rarity <span class="font-bold" v-text="monster.rarity" />
         </div>
       </template>

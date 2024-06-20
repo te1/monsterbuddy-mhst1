@@ -467,20 +467,26 @@ export default {
       if (this.showSortByStats) {
         result.push(
           {
-            value: 'monstie.stats.base.maxHp',
-            caption: 'Max HP',
+            value: 'monstie.stats.base.hp',
+            caption: 'HP',
             default: 'desc',
             mode: 'stats',
           },
           {
-            value: 'monstie.stats.base.speed',
-            caption: 'Speed',
+            value: 'monstie.stats.base.atk',
+            caption: 'Atk',
             default: 'desc',
             mode: 'stats',
           },
           {
-            value: 'monstie.stats.base.critRate',
-            caption: 'Crit Rate',
+            value: 'monstie.stats.base.def',
+            caption: 'Def',
+            default: 'desc',
+            mode: 'stats',
+          },
+          {
+            value: 'monstie.stats.base.agi',
+            caption: 'Agi',
             default: 'desc',
             mode: 'stats',
           },
