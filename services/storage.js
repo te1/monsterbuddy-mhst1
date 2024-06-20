@@ -47,4 +47,4 @@ export class Storage {
   }
 }
 
-export default new Storage('mb.');
+export default new Storage('mb1.');
