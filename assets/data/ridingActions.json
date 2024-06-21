@@ -20,6 +20,11 @@
     "type": "utility"
   },
   {
+    "name": "Monster Call",
+    "description": null,
+    "type": "utility"
+  },
+  {
     "name": "Jump",
     "description": "Press on a stone platform to jump across gaps you cannot cross normally. Press while moving to hop.",
     "type": "explore"
@@ -87,6 +92,11 @@
   {
     "name": "Honey Search",
     "description": "Press to detect honey and mark it on the map. Anything else your Monstie finds will also show up!",
+    "type": "search"
+  },
+  {
+    "name": "Fish Search",
+    "description": null,
     "type": "search"
   }
 ]

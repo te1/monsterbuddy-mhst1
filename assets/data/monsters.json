@@ -104,7 +104,7 @@
     "monstie": {
       "tendency": "power",
       "growth": "quick",
-      "ridingActions": ["Rock Smash", "Honey Search"],
+      "ridingActions": ["Rock Breaker", "Honey Search"],
       "stats": {
         "base": { "hp": 2, "atk": 1, "def": 4, "agi": 2 },
         "attack": {
@@ -134,7 +134,7 @@
     "monstie": {
       "tendency": "technical",
       "growth": "quick",
-      "ridingActions": ["Rock Smash", "Monster Search"],
+      "ridingActions": ["Rock Breaker", "Monster Search"],
       "stats": {
         "base": { "hp": 2, "atk": 1, "def": 3, "agi": 4 },
         "attack": {
@@ -164,7 +164,7 @@
     "monstie": {
       "tendency": "technical",
       "growth": "quick",
-      "ridingActions": ["Rock Smash", "Monster Search"],
+      "ridingActions": ["Rock Breaker", "Monster Search"],
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 3, "agi": 4 },
         "attack": {
@@ -245,7 +245,7 @@
     "monstie": {
       "tendency": "speed",
       "growth": "regular",
-      "ridingActions": ["Rock Smash", "Mushroom Search"],
+      "ridingActions": ["Rock Breaker", "Mushroom Search"],
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 3, "agi": 3 },
         "attack": {
@@ -275,7 +275,7 @@
     "monstie": {
       "tendency": "power",
       "growth": "quick",
-      "ridingActions": ["Rush"],
+      "ridingActions": ["Dash"],
       "stats": {
         "base": { "hp": 3, "atk": 5, "def": 1, "agi": 3 },
         "attack": {
@@ -541,7 +541,7 @@
     "monstie": {
       "tendency": "technical",
       "growth": "regular",
-      "ridingActions": ["Charge"],
+      "ridingActions": ["Dash"],
       "stats": {
         "base": { "hp": 2, "atk": 1, "def": 4, "agi": 3 },
         "attack": {
@@ -571,7 +571,7 @@
     "monstie": {
       "tendency": "technical",
       "growth": "regular",
-      "ridingActions": ["Climb", "Monster Search"],
+      "ridingActions": ["Ivy Climb", "Monster Search"],
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 4, "agi": 3 },
         "attack": {
@@ -601,7 +601,7 @@
     "monstie": {
       "tendency": "technical",
       "growth": "regular",
-      "ridingActions": ["Climb", "Monster Search"],
+      "ridingActions": ["Ivy Climb", "Monster Search"],
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 4, "agi": 3 },
         "attack": {
@@ -631,7 +631,7 @@
     "monstie": {
       "tendency": "technical",
       "growth": "quick",
-      "ridingActions": ["Summon"],
+      "ridingActions": ["Monster Call"],
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 3, "agi": 4 },
         "attack": {
@@ -661,7 +661,7 @@
     "monstie": {
       "tendency": "speed",
       "growth": "regular",
-      "ridingActions": ["Den Search"],
+      "ridingActions": ["Nest Search"],
       "stats": {
         "base": { "hp": 5, "atk": 2, "def": 4, "agi": 3 },
         "attack": {
@@ -691,7 +691,7 @@
     "monstie": {
       "tendency": "speed",
       "growth": "regular",
-      "ridingActions": ["Den Search"],
+      "ridingActions": ["Nest Search"],
       "stats": {
         "base": { "hp": 4, "atk": 4, "def": 3, "agi": 3 },
         "attack": {
@@ -735,7 +735,7 @@
     "monstie": {
       "tendency": "speed",
       "growth": "quick",
-      "ridingActions": ["Dig", "Insect Search"],
+      "ridingActions": ["Ground Dive", "Bug Search"],
       "stats": {
         "base": { "hp": 5, "atk": 1, "def": 5, "agi": 3 },
         "attack": {
@@ -765,7 +765,7 @@
     "monstie": {
       "tendency": "power",
       "growth": "quick",
-      "ridingActions": ["Dig", "Monster Search"],
+      "ridingActions": ["Ground Dive", "Monster Search"],
       "stats": {
         "base": { "hp": 2, "atk": 1, "def": 3, "agi": 3 },
         "attack": {
@@ -795,7 +795,7 @@
     "monstie": {
       "tendency": "power",
       "growth": "slow",
-      "ridingActions": ["Roar", "Dig"],
+      "ridingActions": ["Roar", "Ground Dive"],
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 5, "agi": 3 },
         "attack": {
@@ -825,7 +825,7 @@
     "monstie": {
       "tendency": "power",
       "growth": "slow",
-      "ridingActions": ["Roar", "Dig"],
+      "ridingActions": ["Roar", "Ground Dive"],
       "stats": {
         "base": { "hp": 4, "atk": 5, "def": 4, "agi": 3 },
         "attack": {
@@ -855,7 +855,7 @@
     "monstie": {
       "tendency": "power",
       "growth": "regular",
-      "ridingActions": ["Climb", "Charge"],
+      "ridingActions": ["Ivy Climb", "Dash"],
       "stats": {
         "base": { "hp": 2, "atk": 5, "def": 3, "agi": 3 },
         "attack": {
@@ -957,7 +957,7 @@
     "monstie": {
       "tendency": "technical",
       "growth": "regular",
-      "ridingActions": ["Dig", "Ore & Bone Search"],
+      "ridingActions": ["Ground Dive", "Ore & Bone Search"],
       "stats": {
         "base": { "hp": 3, "atk": 1, "def": 5, "agi": 1 },
         "attack": {
@@ -987,7 +987,7 @@
     "monstie": {
       "tendency": "power",
       "growth": "regular",
-      "ridingActions": ["Lava Walk", "Roar"],
+      "ridingActions": ["Lava Dive", "Roar"],
       "stats": {
         "base": { "hp": 5, "atk": 3, "def": 5, "agi": 2 },
         "attack": {
@@ -1017,7 +1017,7 @@
     "monstie": {
       "tendency": "power",
       "growth": "slow",
-      "ridingActions": ["Lava Walk", "Ore & Bone Search"],
+      "ridingActions": ["Lava Dive", "Ore & Bone Search"],
       "stats": {
         "base": { "hp": 5, "atk": 2, "def": 5, "agi": 1 },
         "attack": {
@@ -1047,7 +1047,7 @@
     "monstie": {
       "tendency": "power",
       "growth": "regular",
-      "ridingActions": ["Climb", "Charge"],
+      "ridingActions": ["Ivy Climb", "Dash"],
       "stats": {
         "base": { "hp": 2, "atk": 5, "def": 3, "agi": 3 },
         "attack": {
@@ -1168,7 +1168,7 @@
     "monstie": {
       "tendency": "speed",
       "growth": "quick",
-      "ridingActions": ["Den Search"],
+      "ridingActions": ["Nest Search"],
       "stats": {
         "base": { "hp": 1, "atk": 1, "def": 2, "agi": 4 },
         "attack": {
@@ -1198,7 +1198,7 @@
     "monstie": {
       "tendency": "technical",
       "growth": "quick",
-      "ridingActions": ["Climb", "Insect Search"],
+      "ridingActions": ["Ivy Climb", "Bug Search"],
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 2, "agi": 3 },
         "attack": {
@@ -1288,7 +1288,7 @@
     "monstie": {
       "tendency": "power",
       "growth": "quick",
-      "ridingActions": ["Climb", "Mushroom Search"],
+      "ridingActions": ["Ivy Climb", "Mushroom Search"],
       "stats": {
         "base": { "hp": 3, "atk": 2, "def": 4, "agi": 3 },
         "attack": {
@@ -1318,7 +1318,7 @@
     "monstie": {
       "tendency": "power",
       "growth": "regular",
-      "ridingActions": ["Climb", "Mushroom Search"],
+      "ridingActions": ["Ivy Climb", "Mushroom Search"],
       "stats": {
         "base": { "hp": 3, "atk": 3, "def": 3, "agi": 3 },
         "attack": {
@@ -1348,7 +1348,7 @@
     "monstie": {
       "tendency": "technical",
       "growth": "quick",
-      "ridingActions": ["Summon"],
+      "ridingActions": ["Monster Call"],
       "stats": {
         "base": { "hp": 2, "atk": 3, "def": 3, "agi": 4 },
         "attack": {
@@ -1378,7 +1378,7 @@
     "monstie": {
       "tendency": "power",
       "growth": "regular",
-      "ridingActions": ["Lava Walk", "Roar"],
+      "ridingActions": ["Lava Dive", "Roar"],
       "stats": {
         "base": { "hp": 4, "atk": 2, "def": 5, "agi": 2 },
         "attack": {
@@ -1438,7 +1438,7 @@
     "monstie": {
       "tendency": "technical",
       "growth": "regular",
-      "ridingActions": ["Dig", "Bone & Ore Search"],
+      "ridingActions": ["Ground Dive", "Ore & Bone Search"],
       "stats": {
         "base": { "hp": 3, "atk": 2, "def": 5, "agi": 1 },
         "attack": {
@@ -1468,7 +1468,7 @@
     "monstie": {
       "tendency": "speed",
       "growth": "regular",
-      "ridingActions": ["Invisibility"],
+      "ridingActions": ["Stealth"],
       "stats": {
         "base": { "hp": 2, "atk": 4, "def": 3, "agi": 5 },
         "attack": {
@@ -1498,7 +1498,7 @@
     "monstie": {
       "tendency": "speed",
       "growth": "regular",
-      "ridingActions": ["Invisibility"],
+      "ridingActions": ["Stealth"],
       "stats": {
         "base": { "hp": 2, "atk": 5, "def": 3, "agi": 5 },
         "attack": {
@@ -1595,7 +1595,7 @@
     "monstie": {
       "tendency": "technical",
       "growth": "regular",
-      "ridingActions": ["Charge"],
+      "ridingActions": ["Dash"],
       "stats": {
         "base": { "hp": 2, "atk": 3, "def": 4, "agi": 3 },
         "attack": {
@@ -1625,7 +1625,7 @@
     "monstie": {
       "tendency": "technical",
       "growth": "regular",
-      "ridingActions": ["Climb", "Insect Search"],
+      "ridingActions": ["Ivy Climb", "Bug Search"],
       "stats": {
         "base": { "hp": 2, "atk": 3, "def": 2, "agi": 3 },
         "attack": {
@@ -1715,7 +1715,7 @@
     "monstie": {
       "tendency": "power",
       "growth": "slow",
-      "ridingActions": ["Mega Rock Smash", "Monster Search"],
+      "ridingActions": ["Mega Breaker", "Monster Search"],
       "stats": {
         "base": { "hp": 5, "atk": 5, "def": 3, "agi": 2 },
         "attack": {
@@ -1766,7 +1766,7 @@
     "monstie": {
       "tendency": "speed",
       "growth": "quick",
-      "ridingActions": ["Den Search"],
+      "ridingActions": ["Nest Search"],
       "stats": {
         "base": { "hp": 1, "atk": 1, "def": 1, "agi": 4 },
         "attack": {
@@ -1796,7 +1796,7 @@
     "monstie": {
       "tendency": "speed",
       "growth": "quick",
-      "ridingActions": ["Dig", "Insect Search"],
+      "ridingActions": ["Ground Dive", "Bug Search"],
       "stats": {
         "base": { "hp": 5, "atk": 1, "def": 4, "agi": 3 },
         "attack": {
@@ -1826,7 +1826,7 @@
     "monstie": {
       "tendency": "speed",
       "growth": "regular",
-      "ridingActions": ["Fly", "Rock Smash"],
+      "ridingActions": ["Fly", "Rock Breaker"],
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 4, "agi": 3 },
         "attack": {
@@ -1856,7 +1856,7 @@
     "monstie": {
       "tendency": "speed",
       "growth": "regular",
-      "ridingActions": ["Fly", "Rock Smash"],
+      "ridingActions": ["Fly", "Rock Breaker"],
       "stats": {
         "base": { "hp": 5, "atk": 3, "def": 4, "agi": 3 },
         "attack": {
@@ -1923,7 +1923,7 @@
     "monstie": {
       "tendency": "power",
       "growth": "slow",
-      "ridingActions": ["Roar", "Mega Rock Smash"],
+      "ridingActions": ["Roar", "Mega Breaker"],
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 4, "agi": 3 },
         "attack": {
@@ -2027,7 +2027,7 @@
     "monstie": {
       "tendency": "power",
       "growth": "regular",
-      "ridingActions": ["Roar", "Dig"],
+      "ridingActions": ["Roar", "Ground Dive"],
       "stats": {
         "base": { "hp": 4, "atk": 4, "def": 5, "agi": 3 },
         "attack": {
@@ -2087,7 +2087,7 @@
     "monstie": {
       "tendency": "speed",
       "growth": "slow",
-      "ridingActions": ["Den Search"],
+      "ridingActions": ["Nest Search"],
       "stats": {
         "base": { "hp": 5, "atk": 5, "def": 4, "agi": 3 },
         "attack": {
@@ -2170,7 +2170,7 @@
     "monstie": {
       "tendency": "power",
       "growth": "quick",
-      "ridingActions": ["Charge", "Dig"],
+      "ridingActions": ["Dash", "Ground Dive"],
       "stats": {
         "base": { "hp": 3, "atk": 5, "def": 2, "agi": 2 },
         "attack": {
@@ -2200,7 +2200,7 @@
     "monstie": {
       "tendency": "power",
       "growth": "regular",
-      "ridingActions": ["Roar", "Dig"],
+      "ridingActions": ["Roar", "Ground Dive"],
       "stats": {
         "base": { "hp": 3, "atk": 5, "def": 4, "agi": 3 },
         "attack": {
@@ -2230,7 +2230,7 @@
     "monstie": {
       "tendency": "power",
       "growth": "slow",
-      "ridingActions": ["Climb", "Charge"],
+      "ridingActions": ["Ivy Climb", "Dash"],
       "stats": {
         "base": { "hp": 3, "atk": 5, "def": 4, "agi": 3 },
         "attack": {
@@ -2290,7 +2290,7 @@
     "monstie": {
       "tendency": "power",
       "growth": null,
-      "ridingActions": ["Mega Rock Smash", "Monster Search"],
+      "ridingActions": ["Mega Breaker", "Monster Search"],
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 4, "agi": 4 },
         "attack": {
