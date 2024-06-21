@@ -188,7 +188,7 @@ export function makeMonsterFilterStore(
             value = _.get(item, this.sortKey);
 
             if (value == null || value === '?') {
-              return -Infinity;
+              return Infinity;
             }
             return value;
           },
