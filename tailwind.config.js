@@ -21,7 +21,7 @@ module.exports = {
       white: colors.white,
       gray: colors.slate,
       cool: colors.gray,
-      brand: colors.rose,
+      brand: colors.cyan,
       power: '#b8342e',
       speed: '#1b61b9',
       technical: '#5b9326',
