@@ -130,7 +130,14 @@ export function getEldersLairFloors(monsterList = monsters) {
 
 export function getRidingActions(monsterList = monsties) {
   return deepFreeze(
-    _.sortBy(_.uniq(_.flatMap(_.map(monsterList, 'monstie.ridingActions'))))
+    _.sortBy(
+      _.reject(
+        _.uniq(_.flatMap(_.map(monsterList, 'monstie.ridingActions'))),
+        (ridingAction) => {
+          return !ridingAction;
+        }
+      )
+    )
   );
 }
 

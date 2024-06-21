@@ -24,7 +24,7 @@ export default {
       return [
         { value: 'location', caption: 'Location' },
         // { value: 'location-eldersLair', caption: "Elder's Lair" },
-        { value: 'combat', caption: 'Attack Pattern' },
+        // { value: 'combat', caption: 'Attack Pattern' },
         { value: 'rarity', caption: 'Rarity' },
       ];
     },

@@ -233,7 +233,7 @@
           class="flex-1 cursor-pointer"
           for="MonsterFilter_AttackTypeFilter"
         >
-          Attack Type
+          Tendency
         </label>
 
         <select
@@ -257,7 +257,7 @@
           class="flex-1 cursor-pointer"
           for="MonsterFilter_AttackElementFilter"
         >
-          Attack Element
+          Strongest Element
         </label>
 
         <select
@@ -492,19 +492,19 @@ export default {
           },
           {
             value: 'monstie.stats.bestAttack.value',
-            caption: 'Best Attack',
+            caption: 'Strongest Elemental Attack',
             default: 'desc',
             mode: 'stats',
           },
           {
             value: 'monstie.stats.bestDefense.value',
-            caption: 'Best Defense',
+            caption: 'Strongest Elemental Defense',
             default: 'desc',
             mode: 'stats',
           },
           {
             value: 'monstie.stats.worstDefense.value',
-            caption: 'Worst Defense',
+            caption: 'Weakest Elemental Defense',
             default: 'desc',
             mode: 'stats',
           }

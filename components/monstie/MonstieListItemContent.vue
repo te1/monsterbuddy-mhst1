@@ -34,8 +34,10 @@
         v-for="(action, index) in monster.monstie.ridingActions"
         :key="action"
       >
-        {{ action }}
-        <span v-if="index + 1 < monster.monstie.ridingActions.length">, </span>
+        <span v-text="action" /><span
+          v-if="index + 1 < monster.monstie.ridingActions.length"
+          >,
+        </span>
       </span>
     </div>
 
