@@ -10,7 +10,7 @@
         <AttackTypeLabel class="font-semibold" :monster="monster" />
       </div>
 
-      <div class="flex items-center">
+      <div v-if="monster.monstie" class="flex items-center">
         <span class="w-40">Attack Element</span>
 
         <ElementIcon
@@ -23,7 +23,10 @@
         />
       </div>
 
-      <div v-if="monster.monstie.kinshipSkill" class="flex items-center">
+      <div
+        v-if="monster.monstie && monster.monstie.kinshipSkill"
+        class="flex items-center"
+      >
         <span class="w-40 mr-1.5">Kinship Skill</span>
 
         <div
