@@ -3,10 +3,7 @@
     <MonsterFilter
       backTarget="/eggs/"
       :modes="modes"
-      showEggColorFilter
       showHabitatFilter
-      showCoopQuestFilter
-      showCatavanFilter
       showAttackTypeFilter
       showAttackElementFilter
       showRidingActionFilter
@@ -29,7 +26,7 @@ export default {
       return [
         { value: 'compact', caption: 'Compact' },
         { value: 'location', caption: 'Location' },
-        { value: 'location-coop', caption: 'Co-Op Quest' },
+        // { value: 'location-coop', caption: 'Co-Op Quest' },
         { value: 'ridingActions', caption: 'Riding Actions' },
         { value: 'retreat', caption: 'Retreat' },
         { value: 'rarity', caption: 'Rarity' },
