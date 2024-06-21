@@ -1,6 +1,9 @@
 <template>
   <section class="relative flex overflow-hidden">
     <EggImage class="-mx-3" :monster="monster" />
+    <EggImage class="-mx-3" :monster="monster" :variant="2" />
+    <EggImage class="-mx-3" :monster="monster" :variant="3" />
+    <EggImage class="-mx-3" :monster="monster" :variant="4" />
 
     <div v-if="hasRetreat" class="flex-1 mx-3">
       <h3 class="text-lg font-semibold">Retreat</h3>

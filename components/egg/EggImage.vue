@@ -19,6 +19,12 @@ export default {
       default: null,
     },
 
+    variant: {
+      type: Number,
+      required: false,
+      default: null,
+    },
+
     genus: {
       type: String,
       required: false,
@@ -31,6 +37,9 @@ export default {
       try {
         if (this.genus) {
           return require(`~/assets/eggs/_${this.genus}.svg`);
+        }
+        if (this.variant) {
+          return require(`~/assets/eggs/${this.monster.name}-${this.variant}.svg`);
         }
         return require(`~/assets/eggs/${this.monster.name}.svg`);
       } catch (e) {
