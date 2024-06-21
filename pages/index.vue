@@ -49,12 +49,13 @@
             <ul>
               <li>
                 <NuxtLink class="link" to="/monsters/">Monster list</NuxtLink>
-                with attack patterns, weapon and elemental weaknesses
+                with <s>attack patterns</s> and elemental weaknesses
               </li>
 
               <li>
                 <NuxtLink class="link" to="/monsties/">Monstie list</NuxtLink>
-                with attack types, retreat conditions, locations and stats
+                with attack tendencies, <s>retreat conditions</s>, locations and
+                stats
               </li>
 
               <li>
@@ -64,16 +65,12 @@
 
               <!--
               <li>
-                <NuxtLink class="link" to="/catavan-stands/"
-                  >Catavan stands</NuxtLink
-                >
+                <NuxtLink class="link" to="/catavan-stands/">Catavan stands</NuxtLink>
                 with list of monsters you will find nearby
               </li>
 
               <li>
-                <NuxtLink class="link" to="/elders-lair/"
-                  >Elder's Lair overview</NuxtLink
-                >
+                <NuxtLink class="link" to="/elders-lair/">Elder's Lair overview</NuxtLink>
                 to quickly find high rank monsters on each floor
               </li>
 
@@ -84,9 +81,9 @@
               -->
 
               <li>
-                <NuxtLink class="link" to="/riding-actions/"
-                  >Riding action list</NuxtLink
-                >
+                <NuxtLink class="link" to="/riding-actions/">
+                  Riding action list
+                </NuxtLink>
                 and which monsties will learn them
               </li>
 
@@ -95,7 +92,9 @@
                 for fast and easy navigation
               </li>
 
+              <!--
               <li>Bookmark monsters to quickly check their attack patterns</li>
+              -->
 
               <li>Bookmark your favorite monsties to find them quickly</li>
 
@@ -123,7 +122,7 @@
             <h3>Sources for data and images</h3>
 
             <ul>
-              <li>In-game field guide</li>
+              <li>In-game Monsterpedia</li>
 
               <li>
                 <a
@@ -131,171 +130,80 @@
                   href="https://monsterhunter.fandom.com/wiki/Monster_Hunter_Wiki"
                   target="_blank"
                   rel="noopener"
-                  >Monster Hunter Wiki</a
                 >
-                (shout-out to
-                <a
-                  class="link"
-                  href="https://monsterhunter.fandom.com/wiki/User:YukiHerz"
-                  target="_blank"
-                  rel="noopener"
-                  >YukiHerz</a
-                >)
+                  Monster Hunter Wiki
+                </a>
               </li>
 
               <li>
                 <a
                   class="link"
-                  href="https://mhst.kiranico.com/mhs2"
+                  href="https://mhst.kiranico.com"
                   target="_blank"
                   rel="noopener"
-                  >MHStories 2</a
                 >
+                  MHStories
+                </a>
                 by
                 <a
                   class="link"
                   href="https://twitter.com/kiranico_db"
                   target="_blank"
                   rel="noopener"
-                  >Kiranico</a
                 >
+                  Kiranico
+                </a>
               </li>
 
               <li>
                 <a
                   class="link"
-                  href="https://docs.google.com/spreadsheets/d/1QzM9X34IfACPtRa_yWq2BZUidWJqs0l2K_Gs2023bO0"
+                  href="https://www.gameskinny.com/tips/monster-hunter-stories-guide-all-egg-patterns-and-locations/"
                   target="_blank"
                   rel="noopener"
-                  >MHStories 2 data</a
                 >
-                by iSharingan
+                  Monster Hunter Stories Guide: All Egg Patterns and Locations
+                </a>
               </li>
 
               <li>
                 <a
                   class="link"
-                  href="https://docs.google.com/spreadsheets/d/1h4BMaeHa89KFgxHoCNxbhH2BLYj5kUjl88uwZ7BQr4o"
+                  href="https://www.reddit.com/r/MonsterHunterStories/comments/1dfkkc7/monster_hunter_stories_mega_spreadsheet/"
                   target="_blank"
                   rel="noopener"
-                  >Type Usage</a
                 >
+                  Monster Hunter Stories - Mega Spreadsheet
+                </a>
                 by
                 <a
                   class="link"
-                  href="https://www.reddit.com/user/The_Weasel_King"
+                  href="https://www.reddit.com/user/AleHitti/"
                   target="_blank"
                   rel="noopener"
-                  >The_Weasel_King</a
                 >
+                  AleHitti
+                </a>
               </li>
 
               <li>
                 <a
                   class="link"
-                  href="https://www.reddit.com/r/MonsterHunterStories/comments/oo8fpi/monster_attacktype_chart"
+                  href="https://www.reddit.com/r/MonsterHunterStories/comments/1disa4v/mhst_1_and_2_monstie_builder/"
                   target="_blank"
                   rel="noopener"
-                  >Monster Attack-Type Chart</a
                 >
+                  MHST 1 and 2 Monstie Builder
+                </a>
                 by
                 <a
                   class="link"
-                  href="https://www.reddit.com/user/RPGwannabe"
+                  href="https://www.reddit.com/user/AtapelierArt/"
                   target="_blank"
                   rel="noopener"
-                  >RPGwannabe</a
                 >
-              </li>
-
-              <li>
-                <a
-                  class="link"
-                  href="https://docs.google.com/spreadsheets/d/1h4BMaeHa89KFgxHoCNxbhH2BLYj5kUjl88uwZ7BQr4o"
-                  target="_blank"
-                  rel="noopener"
-                  >MH Stories 2 : Attack Types, Weakness &amp; Eggs</a
-                >
-                by
-                <a
-                  class="link"
-                  href="https://www.reddit.com/user/Criwok"
-                  target="_blank"
-                  rel="noopener"
-                  >Criwok</a
-                >
-              </li>
-
-              <li>
-                <a
-                  class="link"
-                  href="https://www.kurimucardgame.com/mhs2-monster-weakness-en"
-                  target="_blank"
-                  rel="noopener"
-                  >Monster Hunter Stories 2 Full Picture Monster’s weaknesses</a
-                >
-                by
-                <a
-                  class="link"
-                  href="https://www.kurimucardgame.com"
-                  target="_blank"
-                  rel="noopener"
-                  >Kurimu</a
-                >
-              </li>
-
-              <li>
-                <a
-                  class="link"
-                  href="https://www.kurimucardgame.com/mhs2-egg-pattern-en"
-                  target="_blank"
-                  rel="noopener"
-                  >Monster Hunter Stories 2 Best Egg Pattern Ever</a
-                >
-                by
-                <a
-                  class="link"
-                  href="https://www.kurimucardgame.com"
-                  target="_blank"
-                  rel="noopener"
-                  >Kurimu</a
-                >
-              </li>
-
-              <li>
-                <a
-                  class="link"
-                  href="https://www.reddit.com/r/MonsterHunterStories/comments/p8h25d/all_high_rank_monsters_in_each_zone_of_the_elder"
-                  target="_blank"
-                  rel="noopener"
-                  >All High Rank Monsters in each Zone of the Elder Lair</a
-                >
-                by
-                <a
-                  class="link"
-                  href="https://www.reddit.com/user/PetePeterson53"
-                  target="_blank"
-                  rel="noopener"
-                  >PetePeterson53</a
-                >
-              </li>
-
-              <li>
-                <a
-                  class="link"
-                  href="https://docs.google.com/spreadsheets/d/1ayBCZ7WrkXniGTjKlkf7JFTzJA_0ZcaLYf5A_MEhxN4"
-                  target="_blank"
-                  rel="noopener"
-                  >MHS2</a
-                >
-                by
-                <a
-                  class="link"
-                  href="https://www.reddit.com/user/dorgesilas"
-                  target="_blank"
-                  rel="noopener"
-                  >dorgesilas</a
-                >
+                  AtapelierArt
+                </a>
               </li>
             </ul>
           </div>
@@ -307,83 +215,12 @@
               <li>
                 <a
                   class="link"
-                  href="http://tactools.net/MHS2/Monstie/Builder"
+                  href="https://game.capcom.com/manual/MHST_Multi/en/switch/top"
                   target="_blank"
                   rel="noopener"
-                  >Monstie Gene Builder/Planning tool</a
                 >
-                by
-                <a
-                  class="link"
-                  href="https://www.reddit.com/user/booclarke"
-                  target="_blank"
-                  rel="noopener"
-                  >booclarke</a
-                >
-              </li>
-
-              <li>
-                <a
-                  class="link"
-                  href="https://docs.google.com/spreadsheets/d/1O1SZ_p9EFBmu7O9WbmvHISE82ZqVHWWV95vHRHZ3r1M"
-                  target="_blank"
-                  rel="noopener"
-                  >All-in-one spreadsheet</a
-                >
-                by
-                <a
-                  class="link"
-                  href="https://www.reddit.com/user/aericee"
-                  target="_blank"
-                  rel="noopener"
-                  >Riikapii</a
-                >
-              </li>
-
-              <li>
-                <b>YouTube</b>
-
-                <ul class="!mt-0">
-                  <li>
-                    <a
-                      class="link"
-                      href="https://www.youtube.com/channel/UCDjnmVdkM0tGprGlKo4LY3Q"
-                      target="_blank"
-                      rel="noopener"
-                      >Paradise Central</a
-                    >
-                  </li>
-
-                  <li>
-                    <a
-                      class="link"
-                      href="https://www.youtube.com/channel/UCmX7voYVvCB0flpoltNlnhg"
-                      target="_blank"
-                      rel="noopener"
-                      >TwoSixNine</a
-                    >
-                  </li>
-
-                  <li>
-                    <a
-                      class="link"
-                      href="https://www.youtube.com/c/RageGamingVideosReal"
-                      target="_blank"
-                      rel="noopener"
-                      >RageGamingVideos</a
-                    >
-                  </li>
-
-                  <li>
-                    <a
-                      class="link"
-                      href="https://www.youtube.com/channel/UCj5rxzvXpiPASGNw4-z_BbA"
-                      target="_blank"
-                      rel="noopener"
-                      >Tidus69</a
-                    >
-                  </li>
-                </ul>
+                  Official Web Manual
+                </a>
               </li>
             </ul>
           </div>

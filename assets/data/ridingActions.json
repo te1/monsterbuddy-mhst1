@@ -21,7 +21,7 @@
   },
   {
     "name": "Monster Call",
-    "description": null,
+    "description": "Press to attract another monster and start a battle by mimicking its call. You can interrupt it by pressing again while calling.",
     "type": "utility"
   },
   {
@@ -96,7 +96,7 @@
   },
   {
     "name": "Fish Search",
-    "description": null,
+    "description": "Press to detect fish and mark it on the map. Anything else your Monstie finds will also show up!",
     "type": "search"
   }
 ]
