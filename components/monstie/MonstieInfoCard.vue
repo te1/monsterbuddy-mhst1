@@ -11,7 +11,7 @@
       </div>
 
       <div v-if="monster.monstie" class="flex items-center">
-        <span class="w-40">Attack Element</span>
+        <span class="w-40">Strongest Element</span>
 
         <ElementIcon
           class="w-8 mr-1.5"

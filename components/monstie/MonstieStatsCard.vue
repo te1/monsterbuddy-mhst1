@@ -28,7 +28,7 @@
 
     <div class="flex gap-6">
       <div class="flex-1 space-y-1">
-        <h4 class="text-right pr-4 font-semibold">Attack</h4>
+        <h4 class="text-right pr-4 font-semibold">Elemental Atk</h4>
 
         <div class="space-y-1">
           <StatsBar
@@ -43,7 +43,7 @@
       </div>
 
       <div class="flex-1 space-y-1">
-        <h4 class="text-right pr-4 font-semibold">Defense</h4>
+        <h4 class="text-right pr-4 font-semibold">Elemental Def</h4>
 
         <div class="space-y-1">
           <StatsBar
@@ -68,7 +68,7 @@
             class="w-5"
             :element="monster.monstie.stats.bestAttack.element"
           />
-          <span class="flex-1">Best</span>
+          <span class="flex-1">Strongest</span>
           <span
             class="font-semibold"
             v-text="monster.monstie.stats.bestAttack.value"
@@ -85,7 +85,7 @@
             class="w-5"
             :element="monster.monstie.stats.bestDefense.element"
           />
-          <span class="flex-1">Best</span>
+          <span class="flex-1">Resistant</span>
           <span
             class="font-semibold"
             v-text="monster.monstie.stats.bestDefense.value"
@@ -100,7 +100,7 @@
             class="w-5"
             :element="monster.monstie.stats.worstDefense.element"
           />
-          <span class="flex-1">Worst</span>
+          <span class="flex-1">Weak</span>
           <span
             class="font-semibold"
             v-text="monster.monstie.stats.worstDefense.value"

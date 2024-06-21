@@ -1,6 +1,6 @@
 # monsterbuddy
 
-Companion app for Monster Hunter Stories 2: Wings of Ruin
+Companion app for Monster Hunter Stories 1
 
 https://mhst1.monsterbuddy.app
 
@@ -8,12 +8,12 @@ https://mhst1.monsterbuddy.app
 
 ## Features
 
-- Monster list with attack patterns, weapon and elemental weaknesses
-- Monstie list with attack types, retreat conditions, habitats and stats
+- Monster list with ~~attack patterns~~, ~~weapon~~ and elemental weaknesses
+- Monstie list with attack types, ~~retreat conditions~~, habitats and stats
 - Egg list with search, sorting and filtering
-- Catavan stands with list of nearby monsters
-- Elder's Lair with list of monsters by floor
-- Co-Op quests with list of eggs by den
+- ~~Catavan stands with list of nearby monsters~~
+- ~~Elder's Lair with list of monsters by floor~~
+- ~~Co-Op quests with list of eggs by den~~
 - Riding action list and related monsties
 
 ## Sources for data and images
