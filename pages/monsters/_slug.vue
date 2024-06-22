@@ -50,7 +50,11 @@ export default {
       return;
     }
 
-    let description = `${this.monster.name} is a ${this.monster.rarity} star rarity `;
+    let description = `${this.monster.name} is a `;
+
+    if (this.monster.rarity) {
+      description += `${this.monster.rarity} star rarity `;
+    }
 
     if (this.monster.hatchable) {
       description += 'hatchable ';
