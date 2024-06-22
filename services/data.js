@@ -13,7 +13,7 @@ _.forEach(monsters, (monster) => {
     monster.habitat = 'Unknown Habitat';
   }
 
-  if (monster.hatchable && monster.monstie) {
+  if (monster.hatchable && monster.monstie?.stats) {
     monster.monstie.attackElement = getMonstieAttackElement(monster);
     monster.monstie.stats.bestAttack = getMonstieBestAttack(monster);
     monster.monstie.stats.bestDefense = getMonstieBestDefense(monster);

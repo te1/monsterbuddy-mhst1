@@ -2088,6 +2088,7 @@
       "tendency": "speed",
       "growth": "slow",
       "ridingActions": ["Nest Search"],
+      "eggVariants": 1,
       "stats": {
         "base": { "hp": 5, "atk": 5, "def": 4, "agi": 3 },
         "attack": {
@@ -2118,6 +2119,7 @@
       "tendency": "power",
       "growth": "slow",
       "ridingActions": ["Fly"],
+      "eggVariants": 1,
       "stats": {
         "base": { "hp": 5, "atk": 5, "def": 4, "agi": 3 },
         "attack": {
@@ -2143,7 +2145,10 @@
     "genus": "Elder Dragon",
     "habitat": null,
     "rarity": null,
-    "hatchable": true
+    "hatchable": true,
+    "monstie": {
+      "eggVariants": 1
+    }
   },
   {
     "no": 107,
@@ -2151,7 +2156,10 @@
     "genus": "Elder Dragon",
     "habitat": null,
     "rarity": null,
-    "hatchable": true
+    "hatchable": true,
+    "monstie": {
+      "eggVariants": 1
+    }
   },
   {
     "no": 108,
@@ -2171,6 +2179,7 @@
       "tendency": "power",
       "growth": "quick",
       "ridingActions": ["Dash", "Ground Dive"],
+      "eggVariants": 1,
       "stats": {
         "base": { "hp": 3, "atk": 5, "def": 2, "agi": 2 },
         "attack": {
@@ -2201,6 +2210,7 @@
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Roar", "Ground Dive"],
+      "eggVariants": 1,
       "stats": {
         "base": { "hp": 3, "atk": 5, "def": 4, "agi": 3 },
         "attack": {
@@ -2231,6 +2241,7 @@
       "tendency": "power",
       "growth": "slow",
       "ridingActions": ["Ivy Climb", "Dash"],
+      "eggVariants": 1,
       "stats": {
         "base": { "hp": 3, "atk": 5, "def": 4, "agi": 3 },
         "attack": {
@@ -2261,6 +2272,7 @@
       "tendency": "speed",
       "growth": "regular",
       "ridingActions": ["Jump"],
+      "eggVariants": 1,
       "stats": {
         "base": { "hp": 1, "atk": 4, "def": 4, "agi": 5 },
         "attack": {
@@ -2291,6 +2303,7 @@
       "tendency": "power",
       "growth": null,
       "ridingActions": ["Mega Breaker", "Monster Search"],
+      "eggVariants": 1,
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 4, "agi": 4 },
         "attack": {
@@ -2316,7 +2329,10 @@
     "genus": "Fanged Beast",
     "habitat": null,
     "rarity": null,
-    "hatchable": true
+    "hatchable": true,
+    "monstie": {
+      "eggVariants": 1
+    }
   },
   {
     "no": null,
@@ -2329,6 +2345,7 @@
       "tendency": "power",
       "growth": null,
       "ridingActions": ["Jump"],
+      "eggVariants": 1,
       "stats": {
         "base": { "hp": 5, "atk": 3, "def": 3, "agi": 3 },
         "attack": {
