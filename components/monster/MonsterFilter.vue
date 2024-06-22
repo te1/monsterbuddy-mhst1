@@ -474,19 +474,19 @@ export default {
           },
           {
             value: 'monstie.stats.base.atk',
-            caption: 'Atk',
+            caption: 'ATK',
             default: 'desc',
             mode: 'stats',
           },
           {
             value: 'monstie.stats.base.def',
-            caption: 'Def',
+            caption: 'DEF',
             default: 'desc',
             mode: 'stats',
           },
           {
             value: 'monstie.stats.base.agi',
-            caption: 'Agi',
+            caption: 'SPD',
             default: 'desc',
             mode: 'stats',
           },

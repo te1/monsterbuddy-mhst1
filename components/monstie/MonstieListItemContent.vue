@@ -48,17 +48,17 @@
           class="font-bold"
           :class="getStatClass('base.hp')"
           v-text="monster.monstie.stats.base.hp"
-        />, Atk
+        />, ATK
         <span
           class="font-bold"
           :class="getStatClass('base.atk')"
           v-text="monster.monstie.stats.base.atk"
-        />, Def
+        />, DEF
         <span
           class="font-bold"
           :class="getStatClass('base.def')"
           v-text="monster.monstie.stats.base.def"
-        />, Agi
+        />, SPD
         <span
           class="font-bold"
           :class="getStatClass('base.agi')"

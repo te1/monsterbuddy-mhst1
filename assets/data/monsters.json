@@ -849,7 +849,7 @@
     "no": 43,
     "name": "Tigrex",
     "genus": "Flying Wyvern",
-    "habitat": null,
+    "habitat": "Darj Snowfields",
     "rarity": 4,
     "hatchable": true,
     "monstie": {
@@ -1282,7 +1282,7 @@
     "no": 72,
     "name": "Congalala",
     "genus": "Fanged Beast",
-    "habitat": null,
+    "habitat": "Babada Rainforest",
     "rarity": 3,
     "hatchable": true,
     "monstie": {
@@ -1312,7 +1312,7 @@
     "no": 73,
     "name": "Emerald Congalala",
     "genus": "Fanged Beast",
-    "habitat": null,
+    "habitat": "Babada Rainforest",
     "rarity": 4,
     "hatchable": true,
     "monstie": {
@@ -1342,7 +1342,7 @@
     "no": 74,
     "name": "Crimson Qurupeco",
     "genus": "Bird Wyvern",
-    "habitat": null,
+    "habitat": "Babada Rainforest",
     "rarity": 4,
     "hatchable": true,
     "monstie": {
@@ -1372,7 +1372,7 @@
     "no": 75,
     "name": "Black Gravios",
     "genus": "Flying Wyvern",
-    "habitat": null,
+    "habitat": "Babada Rainforest",
     "rarity": 6,
     "hatchable": true,
     "monstie": {
@@ -1402,7 +1402,7 @@
     "no": 76,
     "name": "Zinogre",
     "genus": "Fanged Wyvern",
-    "habitat": null,
+    "habitat": "Babada Rainforest",
     "rarity": 6,
     "hatchable": true,
     "monstie": {
@@ -1432,7 +1432,7 @@
     "no": 77,
     "name": "Ruby Basarios",
     "genus": "Flying Wyvern",
-    "habitat": null,
+    "habitat": "Pondry Hills",
     "rarity": 4,
     "hatchable": true,
     "monstie": {
@@ -1462,7 +1462,7 @@
     "no": 78,
     "name": "Nargacuga",
     "genus": "Flying Wyvern",
-    "habitat": null,
+    "habitat": "Pondry Hills",
     "rarity": 5,
     "hatchable": true,
     "monstie": {
@@ -1492,7 +1492,7 @@
     "no": 79,
     "name": "Green Nargacuga",
     "genus": "Flying Wyvern",
-    "habitat": null,
+    "habitat": "Babada Rainforest",
     "rarity": 6,
     "hatchable": true,
     "monstie": {
@@ -1522,7 +1522,7 @@
     "no": 80,
     "name": "Rathalos",
     "genus": "Flying Wyvern",
-    "habitat": null,
+    "habitat": "Pondry Hills",
     "rarity": 5,
     "hatchable": true,
     "monstie": {
@@ -1552,7 +1552,7 @@
     "no": 81,
     "name": "Azure Rathalos",
     "genus": "Flying Wyvern",
-    "habitat": null,
+    "habitat": "Pondry Hills",
     "rarity": 6,
     "hatchable": true,
     "monstie": {
@@ -1589,7 +1589,7 @@
     "no": 83,
     "name": "Purple Gypceros",
     "genus": "Bird Wyvern",
-    "habitat": null,
+    "habitat": "Babada Rainforest",
     "rarity": 4,
     "hatchable": true,
     "monstie": {
@@ -1619,7 +1619,7 @@
     "no": 84,
     "name": "Ash Kecha Wacha",
     "genus": "Fanged Beast",
-    "habitat": null,
+    "habitat": "Paupau Beach",
     "rarity": 4,
     "hatchable": true,
     "monstie": {
@@ -1649,7 +1649,7 @@
     "no": 85,
     "name": "Lagiacrus",
     "genus": "Leviathan",
-    "habitat": null,
+    "habitat": "Paupau Beach",
     "rarity": 5,
     "hatchable": true,
     "monstie": {
@@ -1679,7 +1679,7 @@
     "no": 86,
     "name": "Ivory Lagiacrus",
     "genus": "Leviathan",
-    "habitat": null,
+    "habitat": "Paupau Beach",
     "rarity": 7,
     "hatchable": true,
     "monstie": {
@@ -1709,7 +1709,7 @@
     "no": 87,
     "name": "Deviljho",
     "genus": "Brute Wyvern",
-    "habitat": null,
+    "habitat": "Mt. Celion",
     "rarity": 8,
     "hatchable": true,
     "monstie": {
@@ -1760,7 +1760,7 @@
     "no": 91,
     "name": "Great Baggi",
     "genus": "Bird Wyvern",
-    "habitat": null,
+    "habitat": "Mt. Celion",
     "rarity": 2,
     "hatchable": true,
     "monstie": {
@@ -1790,7 +1790,7 @@
     "no": 92,
     "name": "Jade Barroth",
     "genus": "Brute Wyvern",
-    "habitat": null,
+    "habitat": "Mt. Celion",
     "rarity": 4,
     "hatchable": true,
     "monstie": {
@@ -1820,7 +1820,7 @@
     "no": 93,
     "name": "Barioth",
     "genus": "Flying Wyvern",
-    "habitat": null,
+    "habitat": "Mt. Celion",
     "rarity": 5,
     "hatchable": true,
     "monstie": {
@@ -1850,7 +1850,7 @@
     "no": 94,
     "name": "Sand Barioth",
     "genus": "Flying Wyvern",
-    "habitat": null,
+    "habitat": "Trese Desert",
     "rarity": 6,
     "hatchable": true,
     "monstie": {
@@ -1887,7 +1887,7 @@
     "no": 96,
     "name": "Stygian Zinogre",
     "genus": "Fanged Wyvern",
-    "habitat": null,
+    "habitat": "Mt. Celion",
     "rarity": 7,
     "hatchable": true,
     "monstie": {
@@ -1917,7 +1917,7 @@
     "no": 97,
     "name": "Brachydios",
     "genus": "Brute Wyvern",
-    "habitat": null,
+    "habitat": "Mt. Celion",
     "rarity": 8,
     "hatchable": true,
     "monstie": {
@@ -1947,7 +1947,7 @@
     "no": 98,
     "name": "Rajang",
     "genus": "Fanged Beast",
-    "habitat": null,
+    "habitat": "Perennial Pass",
     "rarity": null,
     "hatchable": true,
     "monstie": {
@@ -1977,7 +1977,7 @@
     "no": 99,
     "name": "Kirin",
     "genus": "Elder Dragon",
-    "habitat": null,
+    "habitat": "Perennial Pass",
     "rarity": 7,
     "hatchable": true,
     "monstie": {
@@ -2021,7 +2021,7 @@
     "no": 102,
     "name": "Monoblos",
     "genus": "Flying Wyvern",
-    "habitat": null,
+    "habitat": "Trese Desert",
     "rarity": 6,
     "hatchable": true,
     "monstie": {
@@ -2051,7 +2051,7 @@
     "no": 103,
     "name": "Seregios",
     "genus": "Flying Wyvern",
-    "habitat": null,
+    "habitat": "Pondry Hills",
     "rarity": 7,
     "hatchable": true,
     "monstie": {
@@ -2081,7 +2081,7 @@
     "no": 104,
     "name": "Gold Rathian",
     "genus": "Flying Wyvern",
-    "habitat": null,
+    "habitat": "Tower of Illusions",
     "rarity": 9,
     "hatchable": true,
     "monstie": {
@@ -2112,7 +2112,7 @@
     "no": 105,
     "name": "Silver Rathalos",
     "genus": "Flying Wyvern",
-    "habitat": null,
+    "habitat": "Tower of Illusions",
     "rarity": 9,
     "hatchable": true,
     "monstie": {
@@ -2143,7 +2143,7 @@
     "no": 106,
     "name": "Kushala Daora",
     "genus": "Elder Dragon",
-    "habitat": null,
+    "habitat": "Mt. Celion",
     "rarity": null,
     "hatchable": true,
     "monstie": {
@@ -2154,7 +2154,7 @@
     "no": 107,
     "name": "Teostra",
     "genus": "Elder Dragon",
-    "habitat": null,
+    "habitat": "Dovan Volcano",
     "rarity": null,
     "hatchable": true,
     "monstie": {

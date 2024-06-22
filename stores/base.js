@@ -278,21 +278,21 @@ export function makeMonsterFilterStore(
             return {
               name: this.sortKey,
               order: this.sortOrder,
-              caption: 'Atk',
+              caption: 'ATK',
             };
 
           case 'monstie.stats.base.def':
             return {
               name: this.sortKey,
               order: this.sortOrder,
-              caption: 'Def',
+              caption: 'DEF',
             };
 
           case 'monstie.stats.base.agi':
             return {
               name: this.sortKey,
               order: this.sortOrder,
-              caption: 'Agi',
+              caption: 'SPD',
             };
 
           case 'monstie.stats.bestAttack.value':

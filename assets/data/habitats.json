@@ -1,26 +1,46 @@
 [
   {
-    "name": "Hakolo Island",
+    "name": "Pondry Hills",
     "sortOrder": 10
   },
   {
-    "name": "Alcala",
+    "name": "Darj Snowfields",
     "sortOrder": 20
   },
   {
-    "name": "Loloska",
+    "name": "Perennial Pass",
     "sortOrder": 30
   },
   {
-    "name": "Lamure",
+    "name": "Monsonne Plains",
     "sortOrder": 40
   },
   {
-    "name": "Terga",
+    "name": "Babada Rainforest",
     "sortOrder": 50
   },
   {
-    "name": "Unknown Habitat",
+    "name": "Trese Desert",
+    "sortOrder": 60
+  },
+  {
+    "name": "Dovan Volcano",
+    "sortOrder": 70
+  },
+  {
+    "name": "Paupau Beach",
+    "sortOrder": 80
+  },
+  {
+    "name": "Mt. Celion",
+    "sortOrder": 90
+  },
+  {
+    "name": "Tower of Illusions",
     "sortOrder": 100
+  },
+  {
+    "name": "Unknown Habitat",
+    "sortOrder": 1000
   }
 ]

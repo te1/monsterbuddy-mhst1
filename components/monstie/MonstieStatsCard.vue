@@ -8,9 +8,9 @@
 
         <div class="-mr-10 space-y-1 text-right">
           <div>HP</div>
-          <div>Atk</div>
-          <div>Def</div>
-          <div>Agi</div>
+          <div>ATK</div>
+          <div>DEF</div>
+          <div>SPD</div>
         </div>
       </div>
 
@@ -43,7 +43,7 @@
       </div>
 
       <div class="flex-1 space-y-1">
-        <h4 class="text-right pr-4 font-semibold">Elemental Def</h4>
+        <h4 class="text-right pr-4 font-semibold">Elemental Res</h4>
 
         <div class="space-y-1">
           <StatsBar
