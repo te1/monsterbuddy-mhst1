@@ -49,7 +49,8 @@ export function formatMonsterInfo(monster) {
   }
 
   if (isDeviant(monster)) {
-    result += ', Deviant';
+    // result += ', Deviant'; // "Deviant" is not used in MHST1
+    result += ', Subspecies';
   }
 
   if (isColorVariant(monster)) {

@@ -4,20 +4,16 @@
     "name": "Aptonoth",
     "genus": "Herbivore",
     "habitat": "Pondry Hills",
-    "locations": [
-      {
-        "type": "primary",
-        "main": "Pondry Hills",
-        "rank": "low"
-      }
-    ],
+    "locations": [{ "type": "primary", "main": "Pondry Hills", "rank": "low" }],
     "rarity": 1,
+    "description": "Placid, crested herbivorous monsters. They form herds and raise their young as a community.",
     "related": [{ "type": "ex", "monster": "Aptonoth EX" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "quick",
       "ridingActions": ["Plant Search"],
+      "kinshipSkill": "Slip 'n Slam",
       "retreat": {
         "paintball": "high",
         "condition": "Defeat with **Throwing Knife**",
@@ -87,19 +83,15 @@
     "name": "Velocidrome",
     "genus": "Bird Wyvern",
     "habitat": "Pondry Hills",
-    "locations": [
-      {
-        "type": "primary",
-        "main": "Pondry Hills",
-        "rank": "low"
-      }
-    ],
+    "locations": [{ "type": "primary", "main": "Pondry Hills", "rank": "low" }],
     "rarity": 1,
+    "description": "Alpha monsters that lead the smaller Velociprey. Note their larger size, impressive frill, and sharper claws.",
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
       "growth": "quick",
       "ridingActions": ["Jump"],
+      "kinshipSkill": "Velocirush",
       "retreat": {
         "paintball": "high",
         "condition": "Defeat while **blinded**",
@@ -129,19 +121,15 @@
     "name": "Arzuros",
     "genus": "Fanged Beast",
     "habitat": "Pondry Hills",
-    "locations": [
-      {
-        "type": "primary",
-        "main": "Pondry Hills",
-        "rank": "low"
-      }
-    ],
+    "locations": [{ "type": "primary", "main": "Pondry Hills", "rank": "low" }],
     "rarity": 2,
+    "description": "Bear-like monsters found in warm, damp environments. Can often be found catching fish from rivers.",
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "quick",
       "ridingActions": ["Rock Breaker", "Honey Search"],
+      "kinshipSkill": "Hunter's Claw",
       "retreat": {
         "paintball": "high",
         "condition": "Defeat while **paralyzed**",
@@ -171,20 +159,16 @@
     "name": "Yian Kut-Ku",
     "genus": "Bird Wyvern",
     "habitat": "Pondry Hills",
-    "locations": [
-      {
-        "type": "primary",
-        "main": "Pondry Hills",
-        "rank": "low"
-      }
-    ],
+    "locations": [{ "type": "primary", "main": "Pondry Hills", "rank": "low" }],
     "rarity": 2,
+    "description": "Monsters boasting ample beaks and fan-like ears that splay open when angered. Konchu are a staple food.",
     "related": [{ "type": "subspecies", "monster": "Blue Yian Kut-Ku" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
       "growth": "quick",
       "ridingActions": ["Rock Breaker", "Monster Search"],
+      "kinshipSkill": "Fireball Expulsion",
       "retreat": {
         "paintball": "high",
         "condition": "Defeat while **downed**",
@@ -214,20 +198,16 @@
     "name": "Blue Yian Kut-Ku",
     "genus": "Bird Wyvern",
     "habitat": "Pondry Hills",
-    "locations": [
-      {
-        "type": "primary",
-        "main": "Pondry Hills",
-        "rank": "low"
-      }
-    ],
+    "locations": [{ "type": "primary", "main": "Pondry Hills", "rank": "low" }],
     "rarity": 2,
+    "description": "A Yian Kut-Ku subspecies. Their blue coloration and physical prowess set them apart from their pink kin.",
     "related": [{ "type": "subspeciesOf", "monster": "Yian Kut-Ku" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
       "growth": "quick",
       "ridingActions": ["Rock Breaker", "Monster Search"],
+      "kinshipSkill": "Fireball Expulsion",
       "retreat": {
         "paintball": "medium",
         "condition": "Defeat while **downed**",
@@ -258,18 +238,16 @@
     "genus": "Herbivore",
     "habitat": "Darj Snowfields",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Darj Snowfields",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Darj Snowfields", "rank": "low" }
     ],
     "rarity": 1,
+    "description": "Herd-forming Herbivores covered in long, thick fur. Popo meat is nutritious and prized by gourmands.",
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "quick",
       "ridingActions": ["Plant Search"],
+      "kinshipSkill": "Popo Dive",
       "retreat": {
         "paintball": "high",
         "condition": "Defeat with **Throwing Knife**",
@@ -331,18 +309,16 @@
     "genus": "Fanged Beast",
     "habitat": "Darj Snowfields",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Darj Snowfields",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Darj Snowfields", "rank": "low" }
     ],
     "rarity": 2,
+    "description": "White Fanged Beasts with acute hearing. They slide on the ice at high speeds to chase down their prey.",
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
       "growth": "regular",
       "ridingActions": ["Rock Breaker", "Mushroom Search"],
+      "kinshipSkill": "Slide Spinner",
       "retreat": {
         "paintball": "high",
         "condition": "Defeat while **downed**",
@@ -373,18 +349,16 @@
     "genus": "Fanged Beast",
     "habitat": "Darj Snowfields",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Darj Snowfields",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Darj Snowfields", "rank": "low" }
     ],
     "rarity": 1,
+    "description": "Powerful alpha monsters that lead Bullfango herds. They mow down their prey with their sturdy tusks.",
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "quick",
       "ridingActions": ["Dash"],
+      "kinshipSkill": "Wild Ride",
       "retreat": {
         "paintball": "high",
         "condition": "Defeat while **blinded**",
@@ -415,18 +389,16 @@
     "genus": "Amphibian",
     "habitat": "Darj Snowfields",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Darj Snowfields",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Darj Snowfields", "rank": "low" }
     ],
     "rarity": 3,
+    "description": "Amphibian monsters known for the astonishing changes that occur when they coat their bodies in icy armor.",
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
       "growth": "slow",
       "ridingActions": ["Swim", "Monster Search"],
+      "kinshipSkill": "Freezing Spouts",
       "retreat": {
         "paintball": "medium",
         "condition": "Defeat while **poisoned**",
@@ -457,19 +429,17 @@
     "genus": "Flying Wyvern",
     "habitat": "Darj Snowfields",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Darj Snowfields",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Darj Snowfields", "rank": "low" }
     ],
     "rarity": 3,
+    "description": "Loathsome Flying Wyverns dwelling mainly in caves. They generate and release electricity to deadly effect.",
     "related": [{ "type": "subspecies", "monster": "Red Khezu" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
       "growth": "regular",
       "ridingActions": ["Roar"],
+      "kinshipSkill": "Spark Surprise",
       "retreat": {
         "paintball": "medium",
         "condition": "Defeat while **poisoned**",
@@ -500,19 +470,17 @@
     "genus": "Flying Wyvern",
     "habitat": "Darj Snowfields",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Darj Snowfields",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Darj Snowfields", "rank": "low" }
     ],
     "rarity": 3,
+    "description": "Khezu subspecies with red bodies. Its electrical power is far more advanced than that of its white cousin.",
     "related": [{ "type": "subspeciesOf", "monster": "Khezu" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
       "growth": "slow",
       "ridingActions": ["Roar"],
+      "kinshipSkill": "Spark Surprise",
       "retreat": {
         "paintball": "medium",
         "condition": "Defeat while **poisoned**",
@@ -550,23 +518,17 @@
     "genus": "Herbivore",
     "habitat": "Monsonne Plains",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Monsonne Plains",
-        "rank": "low"
-      },
-      {
-        "type": "primary",
-        "main": "Perennial Pass",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
+      { "type": "primary", "main": "Perennial Pass", "rank": "low" }
     ],
     "rarity": 2,
+    "description": "Herbivores clad in sturdy, armor-like plates. Approach with caution to avoid a fierce and persistent chase.",
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "quick",
       "ridingActions": ["Plant Search"],
+      "kinshipSkill": "Dynamic Spin",
       "retreat": {
         "paintball": "high",
         "condition": "Defeat with **Throwing Knife**",
@@ -652,23 +614,17 @@
     "genus": "Bird Wyvern",
     "habitat": "Monsonne Plains",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Monsonne Plains",
-        "rank": "low"
-      },
-      {
-        "type": "primary",
-        "main": "Perennial Pass",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
+      { "type": "primary", "main": "Perennial Pass", "rank": "low" }
     ],
     "rarity": 2,
+    "description": "Alpha monsters that lead Genprey. Paralyzing venom tips their highly-developed fangs and claws.",
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
       "growth": "quick",
       "ridingActions": ["Jump"],
+      "kinshipSkill": "Paralyslash",
       "retreat": {
         "paintball": "high",
         "condition": "Defeat while **blinded**",
@@ -699,24 +655,18 @@
     "genus": "Leviathan",
     "habitat": "Monsonne Plains",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Monsonne Plains",
-        "rank": "low"
-      },
-      {
-        "type": "primary",
-        "main": "Perennial Pass",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
+      { "type": "primary", "main": "Perennial Pass", "rank": "low" }
     ],
     "rarity": 3,
+    "description": "Royal Ludroth use their sponge-like neck scales to absorb water and prevent dehydration.",
     "related": [{ "type": "subspecies", "monster": "Purple Ludroth" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Swim", "Fish Search"],
+      "kinshipSkill": "Moonsault Splash",
       "retreat": {
         "paintball": "medium",
         "condition": "Defeat while **paralyzed**",
@@ -747,24 +697,18 @@
     "genus": "Bird Wyvern",
     "habitat": "Babada Rainforest",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Babada Rainforest",
-        "rank": "low"
-      },
-      {
-        "type": "primary",
-        "main": "Monsonne Plains",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Babada Rainforest", "rank": "low" },
+      { "type": "primary", "main": "Monsonne Plains", "rank": "low" }
     ],
     "rarity": 3,
+    "description": "Crested Bird Wyverns. They strike their crests to generate blinding flashes and dazzle their enemies.",
     "related": [{ "type": "subspecies", "monster": "Purple Gypceros" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
       "growth": "regular",
       "ridingActions": ["Dash"],
+      "kinshipSkill": "Venom Flash",
       "retreat": {
         "paintball": "medium",
         "condition": "Defeat with **fire attack**",
@@ -795,24 +739,18 @@
     "genus": "Temnoceran",
     "habitat": "Babada Rainforest",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Babada Rainforest",
-        "rank": "low"
-      },
-      {
-        "type": "primary",
-        "main": "Monsonne Plains",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Babada Rainforest", "rank": "low" },
+      { "type": "primary", "main": "Monsonne Plains", "rank": "low" }
     ],
     "rarity": 3,
+    "description": "Temnocerans that build nests of sticky webbing to ensnare prey, which they rend with their mandibles.",
     "related": [{ "type": "subspecies", "monster": "Shrouded Nerscylla" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
       "growth": "regular",
       "ridingActions": ["Ivy Climb", "Monster Search"],
+      "kinshipSkill": "Predator Needle",
       "retreat": {
         "paintball": "medium",
         "condition": "Defeat while **paralyzed**",
@@ -843,24 +781,18 @@
     "genus": "Temnoceran",
     "habitat": "Trese Desert",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Trese Desert",
-        "rank": "low"
-      },
-      {
-        "type": "primary",
-        "main": "Monsonne Plains",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Trese Desert", "rank": "low" },
+      { "type": "primary", "main": "Monsonne Plains", "rank": "low" }
     ],
     "rarity": 4,
+    "description": "Temnocerans that inhabit desert areas. They lurk beneath the sands in order ambush unwary prey.",
     "related": [{ "type": "subspeciesOf", "monster": "Nerscylla" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
       "growth": "regular",
       "ridingActions": ["Ivy Climb", "Monster Search"],
+      "kinshipSkill": "Predator Needle",
       "retreat": {
         "paintball": "medium",
         "condition": "Defeat while **paralyzed**",
@@ -891,24 +823,18 @@
     "genus": "Bird Wyvern",
     "habitat": "Monsonne Plains",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Monsonne Plains",
-        "rank": "low"
-      },
-      {
-        "type": "primary",
-        "main": "Perennial Pass",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
+      { "type": "primary", "main": "Perennial Pass", "rank": "low" }
     ],
     "rarity": 2,
+    "description": "Bird Wyverns with colorful plumage. Using thoracic vocal organs they imitate the calls of other monsters.",
     "related": [{ "type": "subspecies", "monster": "Crimson Qurupeco" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
       "growth": "quick",
       "ridingActions": ["Monster Call"],
+      "kinshipSkill": "Barrel Bomb Storm",
       "retreat": {
         "paintball": "medium",
         "condition": "Defeat while **downed**",
@@ -939,18 +865,11 @@
     "genus": "Flying Wyvern",
     "habitat": "Monsonne Plains",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Monsonne Plains",
-        "rank": "low"
-      },
-      {
-        "type": "primary",
-        "main": "Perennial Pass",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
+      { "type": "primary", "main": "Perennial Pass", "rank": "low" }
     ],
     "rarity": 3,
+    "description": "Female Flying Wyverns dubbed Queens of the Land. Possess powerful legs, and deadly, poisonous tails.",
     "related": [
       { "type": "subspecies", "monster": "Pink Rathian" },
       { "type": "deviant", "monster": "Gold Rathian" }
@@ -960,6 +879,7 @@
       "tendency": "speed",
       "growth": "regular",
       "ridingActions": ["Nest Search"],
+      "kinshipSkill": "Scorching Slice",
       "retreat": {
         "paintball": "medium",
         "condition": "Defeat while **trapped** or with any **Rathalos**",
@@ -990,18 +910,11 @@
     "genus": "Flying Wyvern",
     "habitat": "Perennial Pass",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Monsonne Plains",
-        "rank": "low"
-      },
-      {
-        "type": "primary",
-        "main": "Perennial Pass",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
+      { "type": "primary", "main": "Perennial Pass", "rank": "low" }
     ],
     "rarity": 4,
+    "description": "A vivid, pink-scaled Rathian subspecies. Its tail attacks are far more powerful than those of a regular Rathian.",
     "related": [
       { "type": "subspeciesOf", "monster": "Rathian" },
       { "type": "deviant", "monster": "Gold Rathian" }
@@ -1011,6 +924,7 @@
       "tendency": "speed",
       "growth": "regular",
       "ridingActions": ["Nest Search"],
+      "kinshipSkill": "Scorching Slice",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **trapped** or with any **Rathalos**",
@@ -1056,14 +970,9 @@
     "name": "Barroth",
     "genus": "Brute Wyvern",
     "habitat": "Trese Desert",
-    "locations": [
-      {
-        "type": "primary",
-        "main": "Trese Desert",
-        "rank": "low"
-      }
-    ],
+    "locations": [{ "type": "primary", "main": "Trese Desert", "rank": "low" }],
     "rarity": 3,
+    "description": "Barroth bury themselves in mud, but will not hesitate to attack those who disturb them in their bogs.",
     "related": [
       { "type": "subspecies", "monster": "Jade Barroth" },
       { "type": "ex", "monster": "Barroth EX" }
@@ -1073,6 +982,7 @@
       "tendency": "speed",
       "growth": "quick",
       "ridingActions": ["Ground Dive", "Bug Search"],
+      "kinshipSkill": "Rushing Charge",
       "retreat": {
         "paintball": "medium",
         "condition": "Defeat while **trapped**",
@@ -1103,23 +1013,17 @@
     "genus": "Piscine Wyvern",
     "habitat": "Trese Desert",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Trese Desert",
-        "rank": "low"
-      },
-      {
-        "type": "primary",
-        "main": "Monsonne Plains",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Trese Desert", "rank": "low" },
+      { "type": "primary", "main": "Monsonne Plains", "rank": "low" }
     ],
     "rarity": 2,
+    "description": "Alpha monsters that lead Cephalos. Hardened black scales set them apart from the smaller Cephalos.",
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "quick",
       "ridingActions": ["Ground Dive", "Monster Search"],
+      "kinshipSkill": "Sand Spray",
       "retreat": {
         "paintball": "medium",
         "condition": "Defeat while **downed**",
@@ -1150,24 +1054,18 @@
     "genus": "Flying Wyvern",
     "habitat": "Trese Desert",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Trese Desert",
-        "rank": "low"
-      },
-      {
-        "type": "primary",
-        "main": "Monsonne Plains",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Trese Desert", "rank": "low" },
+      { "type": "primary", "main": "Monsonne Plains", "rank": "low" }
     ],
     "rarity": 4,
+    "description": "Feared as tyrants of the desert, these Flying Wyverns attack any who stray into their territory.",
     "related": [{ "type": "subspecies", "monster": "Black Diablos" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "slow",
       "ridingActions": ["Roar", "Ground Dive"],
+      "kinshipSkill": "Fiendish Cyclone",
       "retreat": {
         "paintball": "medium",
         "condition": "Defeat while **downed** or **blinded**",
@@ -1198,24 +1096,18 @@
     "genus": "Flying Wyvern",
     "habitat": "Trese Desert",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Trese Desert",
-        "rank": "low"
-      },
-      {
-        "type": "primary",
-        "main": "Monsonne Plains",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Trese Desert", "rank": "low" },
+      { "type": "primary", "main": "Monsonne Plains", "rank": "low" }
     ],
     "rarity": 4,
+    "description": "A formidable subspecies of Diablos. Females darken in the mating season so as to warn off other creatures.",
     "related": [{ "type": "subspeciesOf", "monster": "Diablos" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "slow",
       "ridingActions": ["Roar", "Ground Dive"],
+      "kinshipSkill": "Fiendish Cyclone",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **downed** or **blinded**",
@@ -1254,6 +1146,7 @@
       }
     ],
     "rarity": 4,
+    "description": "Primeval in appearance, these Flying Wyverns are possessed of fearsome limbs, jaws and claws.",
     "related": [
       { "type": "subspecies", "monster": "Brute Tigrex" },
       { "type": "ex", "monster": "Tigrex EX" },
@@ -1264,6 +1157,7 @@
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Ivy Climb", "Dash"],
+      "kinshipSkill": "Rock Smash",
       "retreat": {
         "paintball": "medium",
         "condition": "Defeat while **enraged**",
@@ -1349,18 +1243,16 @@
     "genus": "Bird Wyvern",
     "habitat": "Dovan Volcano",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Dovan Volcano",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Dovan Volcano", "rank": "low" }
     ],
     "rarity": 2,
+    "description": "Alpha monsters that lead Ioprey. Their poison sacs allow them to attack by spitting an acrid venom.",
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
       "growth": "quick",
       "ridingActions": ["Jump"],
+      "kinshipSkill": "Poison Slash",
       "retreat": {
         "paintball": "high",
         "condition": "Defeat while **blinded**",
@@ -1391,19 +1283,17 @@
     "genus": "Flying Wyvern",
     "habitat": "Dovan Volcano",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Dovan Volcano",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Dovan Volcano", "rank": "low" }
     ],
     "rarity": 3,
+    "description": "Juvenile form of a Gravios. Its most distinctive feature is the rock-hard carapace on its back.",
     "related": [{ "type": "subspecies", "monster": "Ruby Basarios" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
       "growth": "regular",
       "ridingActions": ["Ground Dive", "Ore & Bone Search"],
+      "kinshipSkill": "Laser Ambush",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **enraged**",
@@ -1434,11 +1324,7 @@
     "genus": "Flying Wyvern",
     "habitat": "Dovan Volcano",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Dovan Volcano",
-        "rank": "low"
-      },
+      { "type": "primary", "main": "Dovan Volcano", "rank": "low" },
       {
         "type": "primary",
         "main": "Babada Rainforest",
@@ -1447,12 +1333,14 @@
       }
     ],
     "rarity": 4,
+    "description": "Flying Wyverns that inhabit volcanic regions. Capable of attacking with fiery breath and sleeping gas.",
     "related": [{ "type": "subspecies", "monster": "Black Gravios" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Lava Dive", "Roar"],
+      "kinshipSkill": "Magma Surge",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **poisoned**",
@@ -1483,19 +1371,17 @@
     "genus": "Brute Wyvern",
     "habitat": "Dovan Volcano",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Dovan Volcano",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Dovan Volcano", "rank": "low" }
     ],
     "rarity": 4,
+    "description": "Brute Wyverns with mighty jaws. They spray the stones and ore which stick to them in deadly, explosive attacks.",
     "related": [{ "type": "ex", "monster": "Uragaan EX" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "slow",
       "ridingActions": ["Lava Dive", "Ore & Bone Search"],
+      "kinshipSkill": "Rolling Shot",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat with **hammer attack**",
@@ -1526,13 +1412,10 @@
     "genus": "Flying Wyvern",
     "habitat": "Dovan Volcano",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Dovan Volcano",
-        "rank": "low"
-      }
+      { "type": "primary", "main": "Dovan Volcano", "rank": "low" }
     ],
     "rarity": 5,
+    "description": "A black Tigrex subspecies. The force and range of its howl is even more fearsome than that of its cousins.",
     "related": [
       { "type": "subspeciesOf", "monster": "Tigrex" },
       { "type": "ex", "monster": "Tigrex EX" },
@@ -1543,6 +1426,7 @@
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Ivy Climb", "Dash"],
+      "kinshipSkill": "Rock Smash",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **enraged**",
@@ -1684,19 +1568,15 @@
     "name": "Great Jaggi",
     "genus": "Bird Wyvern",
     "habitat": "Paupau Beach",
-    "locations": [
-      {
-        "type": "primary",
-        "main": "Paupau Beach",
-        "rank": "low"
-      }
-    ],
+    "locations": [{ "type": "primary", "main": "Paupau Beach", "rank": "low" }],
     "rarity": 2,
+    "description": "Alpha monsters that lead Jaggi. They issue complex commands to the pack via their howls.",
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
       "growth": "quick",
       "ridingActions": ["Nest Search"],
+      "kinshipSkill": "Jaggi Strike",
       "retreat": {
         "paintball": "high",
         "condition": "Defeat while **blinded**",
@@ -1726,20 +1606,16 @@
     "name": "Kecha Wacha",
     "genus": "Fanged Beast",
     "habitat": "Paupau Beach",
-    "locations": [
-      {
-        "type": "primary",
-        "main": "Paupau Beach",
-        "rank": "low"
-      }
-    ],
+    "locations": [{ "type": "primary", "main": "Paupau Beach", "rank": "low" }],
     "rarity": 3,
+    "description": "Fanged Beasts with limbs well adapted to swinging through the forest tree areas they inhabit.",
     "related": [{ "type": "subspecies", "monster": "Ash Kecha Wacha" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
       "growth": "quick",
       "ridingActions": ["Ivy Climb", "Bug Search"],
+      "kinshipSkill": "Torrent Glide",
       "retreat": {
         "paintball": "medium",
         "condition": "Defeat with **fire attack**",
@@ -1769,20 +1645,16 @@
     "name": "Purple Ludroth",
     "genus": "Leviathan",
     "habitat": "Paupau Beach",
-    "locations": [
-      {
-        "type": "primary",
-        "main": "Paupau Beach",
-        "rank": "low"
-      }
-    ],
+    "locations": [{ "type": "primary", "main": "Paupau Beach", "rank": "low" }],
     "rarity": 4,
+    "description": "A subspecies of Royal Ludroth. Poison is stored in their spongy purple manes.",
     "related": [{ "type": "subspeciesOf", "monster": "Royal Ludroth" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Swim", "Fish Search"],
+      "kinshipSkill": "Moonsault Splash",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **paralyzed**",
@@ -1821,11 +1693,13 @@
       }
     ],
     "rarity": 5,
+    "description": "Bird Wyverns known for their hard shells and long manes. Aggressive, prone to attack unprovoked.",
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
       "growth": "quick",
       "ridingActions": ["Fly"],
+      "kinshipSkill": "Barrel Charge",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **enraged**",
@@ -1864,12 +1738,14 @@
       }
     ],
     "rarity": 3,
+    "description": "Pink-furred Fanged Beasts. They let rip with almighty farts, the stench of which overwhelms opponents.",
     "related": [{ "type": "subspecies", "monster": "Emerald Congalala" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "quick",
       "ridingActions": ["Ivy Climb", "Mushroom Search"],
+      "kinshipSkill": "Foul Burst",
       "retreat": {
         "paintball": "medium",
         "condition": "Defeat while inflicted with **status effect**",
@@ -1908,12 +1784,14 @@
       }
     ],
     "rarity": 4,
+    "description": "A green-furred Congalala. Able to store even more prodigious quantities of gas than its pink brethren.",
     "related": [{ "type": "subspeciesOf", "monster": "Congalala" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Ivy Climb", "Mushroom Search"],
+      "kinshipSkill": "Foul Burst",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while inflicted with **status effect**",
@@ -1952,12 +1830,14 @@
       }
     ],
     "rarity": 4,
+    "description": "Subspecies with vibrant red plumage. Flints in its wings allow it to release fearsome electrical attacks.",
     "related": [{ "type": "subspeciesOf", "monster": "Qurupeco" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
       "growth": "quick",
       "ridingActions": ["Monster Call"],
+      "kinshipSkill": "Barrel Bomb Storm",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **downed**",
@@ -1996,12 +1876,14 @@
       }
     ],
     "rarity": 6,
+    "description": "This subspecies has a tough, black carapace. It is capable of discharging powerful blasts of heat.",
     "related": [{ "type": "subspeciesOf", "monster": "Gravios" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Lava Dive", "Roar"],
+      "kinshipSkill": "Magma Surge",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **poisoned**",
@@ -2040,12 +1922,14 @@
       }
     ],
     "rarity": 6,
+    "description": "Fanged Wyverns that store the electrical energy of the countless Thunderbugs that they gather.",
     "related": [{ "type": "subspecies", "monster": "Stygian Zinogre" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Jump"],
+      "kinshipSkill": "Voltage Crash",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **blinded**",
@@ -2084,12 +1968,14 @@
       }
     ],
     "rarity": 4,
+    "description": "Basarios subspecies that coats its carapace with rare ore. It scatters this with great force during battle.",
     "related": [{ "type": "subspeciesOf", "monster": "Basarios" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
       "growth": "regular",
       "ridingActions": ["Ground Dive", "Ore & Bone Search"],
+      "kinshipSkill": "Laser Ambush",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **enraged**",
@@ -2128,12 +2014,14 @@
       }
     ],
     "rarity": 5,
+    "description": "Flying Wyverns residing in wooded areas. Fearfully fast, persistent, and sly, they excel at hunting prey.",
     "related": [{ "type": "subspecies", "monster": "Green Nargacuga" }],
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
       "growth": "regular",
       "ridingActions": ["Stealth"],
+      "kinshipSkill": "Dark Thrash",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **trapped**",
@@ -2172,12 +2060,14 @@
       }
     ],
     "rarity": 6,
+    "description": "Dappled green fur serves as camouflage in the deep forests that this Nargacuga calls home.",
     "related": [{ "type": "subspeciesOf", "monster": "Nargacuga" }],
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
       "growth": "regular",
       "ridingActions": ["Stealth"],
+      "kinshipSkill": "Dark Thrash",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **trapped**",
@@ -2216,6 +2106,7 @@
       }
     ],
     "rarity": 5,
+    "description": "Dubbed the King of the Skies, it dominates battle with its powerful wings and poison-tipped claws.",
     "related": [
       { "type": "subspecies", "monster": "Azure Rathalos" },
       { "type": "deviant", "monster": "Silver Rathalos" }
@@ -2225,6 +2116,7 @@
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Fly"],
+      "kinshipSkill": "Sky-High Dive",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **blinded** or with any **Lagiacrus**",
@@ -2263,6 +2155,7 @@
       }
     ],
     "rarity": 6,
+    "description": "A Rathalos subspecies. More mobile than its cousin, it attacks with matchless speed and ferocity.",
     "related": [
       { "type": "subspeciesOf", "monster": "Rathalos" },
       { "type": "deviant", "monster": "Silver Rathalos" }
@@ -2272,6 +2165,7 @@
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Fly"],
+      "kinshipSkill": "Sky-High Dive",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **blinded** or with any **Lagiacrus**",
@@ -2322,12 +2216,14 @@
       }
     ],
     "rarity": 4,
+    "description": "A subspecies of Gypceros with a uniquely colored hide. It attacks by spitting highly venomous waste.",
     "related": [{ "type": "subspeciesOf", "monster": "Gypceros" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
       "growth": "regular",
       "ridingActions": ["Dash"],
+      "kinshipSkill": "Venom Flash",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat with **fire attack**",
@@ -2366,12 +2262,14 @@
       }
     ],
     "rarity": 4,
+    "description": "This subspecies has pale, multicolored fur. They make sport of their prey with the cunning of their attacks.",
     "related": [{ "type": "subspeciesOf", "monster": "Kecha Wacha" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
       "growth": "regular",
       "ridingActions": ["Ivy Climb", "Bug Search"],
+      "kinshipSkill": "Torrent Glide",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat with **water attack**",
@@ -2410,12 +2308,14 @@
       }
     ],
     "rarity": 5,
+    "description": "Leviathans atop the aquatic food chain, due in no small part to their ability to deliver electrical shocks.",
     "related": [{ "type": "subspecies", "monster": "Ivory Lagiacrus" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "slow",
       "ridingActions": ["Swim", "Roar"],
+      "kinshipSkill": "Thunderous Blast",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat with **Azure** or **Silver Rathalos**",
@@ -2454,12 +2354,14 @@
       }
     ],
     "rarity": 7,
+    "description": "A Lagiacrus subspecies adapted to life on land. Its beautiful white carapace belies its vicious nature.",
     "related": [{ "type": "subspeciesOf", "monster": "Lagiacrus" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "slow",
       "ridingActions": ["Swim", "Roar"],
+      "kinshipSkill": "Thunderous Blast",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat with **Azure** or **Silver Rathalos**",
@@ -2489,19 +2391,15 @@
     "name": "Deviljho",
     "genus": "Brute Wyvern",
     "habitat": "Mt. Celion",
-    "locations": [
-      {
-        "type": "primary",
-        "main": "Mt. Celion",
-        "rank": "low"
-      }
-    ],
+    "locations": [{ "type": "primary", "main": "Mt. Celion", "rank": "low" }],
     "rarity": 8,
+    "description": "Brute Wyverns that roam in search of food. Ferocious in the extreme, and relentless in pursuit of prey.",
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "slow",
       "ridingActions": ["Mega Breaker", "Monster Search"],
+      "kinshipSkill": "Hunger Rage",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat within **5 turns**",
@@ -2552,19 +2450,15 @@
     "name": "Great Baggi",
     "genus": "Bird Wyvern",
     "habitat": "Mt. Celion",
-    "locations": [
-      {
-        "type": "primary",
-        "main": "Mt. Celion",
-        "rank": "low"
-      }
-    ],
+    "locations": [{ "type": "primary", "main": "Mt. Celion", "rank": "low" }],
     "rarity": 2,
+    "description": "Bluish-white, crested Bird Wyverns. Their ruthless cunning makes them natural leaders of Baggi packs.",
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
       "growth": "quick",
       "ridingActions": ["Nest Search"],
+      "kinshipSkill": "Lullabite",
       "retreat": {
         "paintball": "high",
         "condition": "Defeat while **blinded**",
@@ -2594,20 +2488,16 @@
     "name": "Jade Barroth",
     "genus": "Brute Wyvern",
     "habitat": "Mt. Celion",
-    "locations": [
-      {
-        "type": "primary",
-        "main": "Mt. Celion",
-        "rank": "low"
-      }
-    ],
+    "locations": [{ "type": "primary", "main": "Mt. Celion", "rank": "low" }],
     "rarity": 4,
+    "description": "A subspecies of Barroth. Often seen in polar regions, bashing their crowns against the ice.",
     "related": [{ "type": "subspeciesOf", "monster": "Barroth" }],
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
       "growth": "quick",
       "ridingActions": ["Ground Dive", "Bug Search"],
+      "kinshipSkill": "Rushing Charge",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **trapped**",
@@ -2638,11 +2528,7 @@
     "genus": "Flying Wyvern",
     "habitat": "Mt. Celion",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Mt. Celion",
-        "rank": "low"
-      },
+      { "type": "primary", "main": "Mt. Celion", "rank": "low" },
       {
         "type": "primary",
         "main": "Darj Snowfields",
@@ -2651,12 +2537,14 @@
       }
     ],
     "rarity": 5,
+    "description": "Flying Wyverns that rule the frozen wastes. Spikily scaled wings and tail allow them to run effortlessly across ice.",
     "related": [{ "type": "subspecies", "monster": "Sand Barioth" }],
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
       "growth": "regular",
       "ridingActions": ["Fly", "Rock Breaker"],
+      "kinshipSkill": "Ground Cyclone",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat with **fire attack**",
@@ -2695,12 +2583,14 @@
       }
     ],
     "rarity": 6,
+    "description": "A subspecies of Barioth. Its breath is strong enough to generate tornados among the desert sands.",
     "related": [{ "type": "subspeciesOf", "monster": "Barioth" }],
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
       "growth": "regular",
       "ridingActions": ["Fly", "Rock Breaker"],
+      "kinshipSkill": "Ground Cyclone",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat with **ice attack**",
@@ -2741,20 +2631,16 @@
     "name": "Stygian Zinogre",
     "genus": "Fanged Wyvern",
     "habitat": "Mt. Celion",
-    "locations": [
-      {
-        "type": "primary",
-        "main": "Mt. Celion",
-        "rank": "low"
-      }
-    ],
+    "locations": [{ "type": "primary", "main": "Mt. Celion", "rank": "low" }],
     "rarity": 7,
+    "description": "Feeding on Dracophage Bugs has given this subspecies access to unheard of brute strength.",
     "related": [{ "type": "subspeciesOf", "monster": "Zinogre" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Jump"],
+      "kinshipSkill": "Voltage Crash",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **blinded**",
@@ -2784,19 +2670,15 @@
     "name": "Brachydios",
     "genus": "Brute Wyvern",
     "habitat": "Mt. Celion",
-    "locations": [
-      {
-        "type": "primary",
-        "main": "Mt. Celion",
-        "rank": "low"
-      }
-    ],
+    "locations": [{ "type": "primary", "main": "Mt. Celion", "rank": "low" }],
     "rarity": 8,
+    "description": "Brute Wyvern coated in a volatile substance. Its saliva can be used to ignite this coat, with explosive results.",
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "slow",
       "ridingActions": ["Roar", "Mega Breaker"],
+      "kinshipSkill": "Brachy Blow",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **trapped**",
@@ -2827,23 +2709,17 @@
     "genus": "Fanged Beast",
     "habitat": "Mt. Celion",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Mt. Celion",
-        "rank": "high"
-      },
-      {
-        "type": "primary",
-        "main": "Perennial Pass",
-        "rank": "high"
-      }
+      { "type": "primary", "main": "Mt. Celion", "rank": "high" },
+      { "type": "primary", "main": "Perennial Pass", "rank": "high" }
     ],
     "rarity": 8,
+    "description": null,
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "slow",
       "ridingActions": [],
+      "kinshipSkill": null,
       "eggVariants": 3,
       "stats": {
         "base": { "hp": null, "atk": null, "def": null, "agi": null },
@@ -2870,24 +2746,18 @@
     "genus": "Elder Dragon",
     "habitat": "Perennial Pass",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Perennial Pass",
-        "rank": "high"
-      },
-      {
-        "type": "primary",
-        "main": "Monsonne Plains",
-        "rank": "high"
-      }
+      { "type": "primary", "main": "Perennial Pass", "rank": "high" },
+      { "type": "primary", "main": "Monsonne Plains", "rank": "high" }
     ],
     "rarity": 7,
+    "description": "Lightning-wielding mystical creature. Classified as an Elder Dragon, but its true nature remains a mystery.",
     "related": [{ "type": "deviant", "monster": "Oroshi Kirin" }],
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
       "growth": "regular",
       "ridingActions": ["Jump"],
+      "kinshipSkill": "Phantasmal Horn",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **asleep**",
@@ -2932,19 +2802,17 @@
     "genus": "Flying Wyvern",
     "habitat": "Trese Desert",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Trese Desert",
-        "rank": "high"
-      }
+      { "type": "primary", "main": "Trese Desert", "rank": "high" }
     ],
     "rarity": 6,
+    "description": "Endowed with an impressive cranial horn. It uses its horn in brutal attacks, screeching ear-splitting war cries.",
     "related": [{ "type": "subspecies", "monster": "White Monoblos" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Roar", "Ground Dive"],
+      "kinshipSkill": "Demolition Dash",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **downed**",
@@ -2975,18 +2843,16 @@
     "genus": "Flying Wyvern",
     "habitat": "Pondry Hills",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Pondry Hills",
-        "rank": "high"
-      }
+      { "type": "primary", "main": "Pondry Hills", "rank": "high" }
     ],
     "rarity": 7,
+    "description": "Flying Wyvern known for its lustrous golden scales. Its scales can be launched at prey in high-speed attacks.",
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
       "growth": "regular",
       "ridingActions": ["Fly"],
+      "kinshipSkill": "Piercing Stars",
       "retreat": {
         "paintball": "low",
         "condition": "Defeat while **blinded** or **trapped**",
@@ -3023,13 +2889,10 @@
         "sub": "F19",
         "rank": "high"
       },
-      {
-        "type": "primary",
-        "main": "Trese Desert",
-        "rank": "high"
-      }
+      { "type": "primary", "main": "Trese Desert", "rank": "high" }
     ],
     "rarity": 9,
+    "description": "A rare Rathian subspecies. Its majestic golden sheen resembles the glow of the full moon.",
     "related": [
       { "type": "deviantOf", "monster": "Rathian" },
       { "type": "subspecies", "monster": "Pink Rathian" }
@@ -3039,6 +2902,7 @@
       "tendency": "speed",
       "growth": "slow",
       "ridingActions": ["Nest Search"],
+      "kinshipSkill": "Scorching Slice",
       "eggVariants": 1,
       "stats": {
         "base": { "hp": 5, "atk": 5, "def": 4, "agi": 3 },
@@ -3079,6 +2943,7 @@
       }
     ],
     "rarity": 9,
+    "description": "A rare Rathalos subspecies. Its piercing silver shimmer resembles the blazing sun.",
     "related": [
       { "type": "deviantOf", "monster": "Rathalos" },
       { "type": "subspecies", "monster": "Azure Rathalos" }
@@ -3088,6 +2953,7 @@
       "tendency": "power",
       "growth": "slow",
       "ridingActions": ["Fly"],
+      "kinshipSkill": "Sky-High Dive",
       "eggVariants": 1,
       "stats": {
         "base": { "hp": 5, "atk": 5, "def": 4, "agi": 3 },
@@ -3113,14 +2979,9 @@
     "name": "Kushala Daora",
     "genus": "Elder Dragon",
     "habitat": "Mt. Celion",
-    "locations": [
-      {
-        "type": "primary",
-        "main": "Mt. Celion",
-        "rank": "high"
-      }
-    ],
+    "locations": [{ "type": "primary", "main": "Mt. Celion", "rank": "high" }],
     "rarity": null,
+    "description": null,
     "hatchable": true,
     "monstie": {
       "eggVariants": 1
@@ -3132,13 +2993,10 @@
     "genus": "Elder Dragon",
     "habitat": "Dovan Volcano",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Dovan Volcano",
-        "rank": "high"
-      }
+      { "type": "primary", "main": "Dovan Volcano", "rank": "high" }
     ],
     "rarity": null,
+    "description": null,
     "hatchable": true,
     "monstie": {
       "eggVariants": 1
@@ -3157,11 +3015,13 @@
     "genus": "???",
     "habitat": null,
     "rarity": 9,
+    "description": "A variety of Poogie. Looks harmless, but rub it the wrong way, and there'll be hell to pay.",
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "quick",
       "ridingActions": ["Dash", "Ground Dive"],
+      "kinshipSkill": "Poogie March",
       "eggVariants": 1,
       "stats": {
         "base": { "hp": 3, "atk": 5, "def": 2, "agi": 2 },
@@ -3188,19 +3048,17 @@
     "genus": "Flying Wyvern",
     "habitat": "Trese Desert",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Trese Desert",
-        "rank": "high"
-      }
+      { "type": "primary", "main": "Trese Desert", "rank": "high" }
     ],
     "rarity": 7,
+    "description": "Fiercer than its cousins, this white subspecies should be approached with the utmost caution.",
     "related": [{ "type": "subspeciesOf", "monster": "Monoblos" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Roar", "Ground Dive"],
+      "kinshipSkill": "Demolition Dash",
       "eggVariants": 1,
       "stats": {
         "base": { "hp": 3, "atk": 5, "def": 4, "agi": 3 },
@@ -3227,23 +3085,21 @@
     "genus": "Flying Wyvern",
     "habitat": "Dovan Volcano",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Dovan Volcano",
-        "rank": "high"
-      }
+      { "type": "primary", "main": "Dovan Volcano", "rank": "high" }
     ],
+    "rarity": 9,
+    "description": "A rare Tigrex subspecies. Its existence is unconfirmed due to a lack of reliable, and living, eye-witness accounts.",
     "related": [
       { "type": "deviantOf", "monster": "Tigrex" },
       { "type": "ex", "monster": "Tigrex EX" },
       { "type": "subspecies", "monster": "Brute Tigrex" }
     ],
-    "rarity": 9,
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": "slow",
       "ridingActions": ["Ivy Climb", "Dash"],
+      "kinshipSkill": "Rock Smash",
       "eggVariants": 1,
       "stats": {
         "base": { "hp": 3, "atk": 5, "def": 4, "agi": 3 },
@@ -3278,12 +3134,14 @@
       }
     ],
     "rarity": 8,
+    "description": "Mythical beasts that few have encountered. It is said that temperatures around them plummet below zero.",
     "related": [{ "type": "deviantOf", "monster": "Kirin" }],
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
       "growth": "regular",
       "ridingActions": ["Jump"],
+      "kinshipSkill": "Phantasmal Horn",
       "eggVariants": 1,
       "stats": {
         "base": { "hp": 1, "atk": 4, "def": 4, "agi": 5 },
@@ -3318,11 +3176,13 @@
       }
     ],
     "rarity": 7,
+    "description": null,
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": null,
       "ridingActions": ["Mega Breaker", "Monster Search"],
+      "kinshipSkill": null,
       "eggVariants": 1,
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 4, "agi": 4 },
@@ -3349,6 +3209,7 @@
     "genus": "Fanged Beast",
     "habitat": null,
     "rarity": null,
+    "description": null,
     "hatchable": true,
     "monstie": {
       "eggVariants": 1
@@ -3360,11 +3221,13 @@
     "genus": "???",
     "habitat": null,
     "rarity": 5,
+    "description": null,
     "hatchable": true,
     "monstie": {
       "tendency": "power",
       "growth": null,
       "ridingActions": ["Jump"],
+      "kinshipSkill": null,
       "eggVariants": 1,
       "stats": {
         "base": { "hp": 5, "atk": 3, "def": 3, "agi": 3 },
