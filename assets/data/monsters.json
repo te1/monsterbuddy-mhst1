@@ -12,6 +12,7 @@
       }
     ],
     "rarity": 1,
+    "related": [{ "type": "ex", "monster": "Aptonoth EX" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -53,7 +54,12 @@
     "name": "Konchu (Yellow)",
     "genus": "Neopteron",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [
+      { "type": "color", "monster": "Konchu (Blue)" },
+      { "type": "color", "monster": "Konchu (Red)" },
+      { "type": "color", "monster": "Konchu (Green)" }
+    ]
   },
   {
     "no": 4,
@@ -173,6 +179,7 @@
       }
     ],
     "rarity": 2,
+    "related": [{ "type": "subspecies", "monster": "Blue Yian Kut-Ku" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -215,6 +222,7 @@
       }
     ],
     "rarity": 2,
+    "related": [{ "type": "subspeciesOf", "monster": "Yian Kut-Ku" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -298,14 +306,24 @@
     "name": "Bnahabra (Green)",
     "genus": "Neopteron",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [
+      { "type": "color", "monster": "Bnahabra (Brown)" },
+      { "type": "color", "monster": "Bnahabra (Red)" },
+      { "type": "color", "monster": "Bnahabra (Blue)" }
+    ]
   },
   {
     "no": 14,
     "name": "Konchu (Blue)",
     "genus": "Neopteron",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [
+      { "type": "color", "monster": "Konchu (Yellow)" },
+      { "type": "color", "monster": "Konchu (Red)" },
+      { "type": "color", "monster": "Konchu (Green)" }
+    ]
   },
   {
     "no": 15,
@@ -446,6 +464,7 @@
       }
     ],
     "rarity": 3,
+    "related": [{ "type": "subspecies", "monster": "Red Khezu" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -488,6 +507,7 @@
       }
     ],
     "rarity": 3,
+    "related": [{ "type": "subspeciesOf", "monster": "Khezu" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -597,7 +617,8 @@
     "name": "Slagtoth (Green)",
     "genus": "Herbivore",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [{ "type": "color", "monster": "Slagtoth (Brown)" }]
   },
   {
     "no": 26,
@@ -611,7 +632,12 @@
     "name": "Bnahabra (Brown)",
     "genus": "Neopteron",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [
+      { "type": "color", "monster": "Bnahabra (Green)" },
+      { "type": "color", "monster": "Bnahabra (Red)" },
+      { "type": "color", "monster": "Bnahabra (Blue)" }
+    ]
   },
   {
     "no": 28,
@@ -685,6 +711,7 @@
       }
     ],
     "rarity": 3,
+    "related": [{ "type": "subspecies", "monster": "Purple Ludroth" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -732,6 +759,7 @@
       }
     ],
     "rarity": 3,
+    "related": [{ "type": "subspecies", "monster": "Purple Gypceros" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -779,6 +807,7 @@
       }
     ],
     "rarity": 3,
+    "related": [{ "type": "subspecies", "monster": "Shrouded Nerscylla" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -826,6 +855,7 @@
       }
     ],
     "rarity": 4,
+    "related": [{ "type": "subspeciesOf", "monster": "Nerscylla" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -873,6 +903,7 @@
       }
     ],
     "rarity": 2,
+    "related": [{ "type": "subspecies", "monster": "Crimson Qurupeco" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -920,6 +951,10 @@
       }
     ],
     "rarity": 3,
+    "related": [
+      { "type": "subspecies", "monster": "Pink Rathian" },
+      { "type": "deviant", "monster": "Gold Rathian" }
+    ],
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -967,6 +1002,10 @@
       }
     ],
     "rarity": 4,
+    "related": [
+      { "type": "subspeciesOf", "monster": "Rathian" },
+      { "type": "deviant", "monster": "Gold Rathian" }
+    ],
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -1001,14 +1040,16 @@
     "name": "Daimyo Hermitaur",
     "genus": "Carapaceon",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [{ "type": "subspecies", "monster": "Plum Daimyo Hermitaur" }]
   },
   {
     "no": 38,
     "name": "Plum Daimyo Hermitaur",
     "genus": "Carapaceon",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [{ "type": "subspeciesOf", "monster": "Daimyo Hermitaur" }]
   },
   {
     "no": 39,
@@ -1023,6 +1064,10 @@
       }
     ],
     "rarity": 3,
+    "related": [
+      { "type": "subspecies", "monster": "Jade Barroth" },
+      { "type": "ex", "monster": "Barroth EX" }
+    ],
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -1117,6 +1162,7 @@
       }
     ],
     "rarity": 4,
+    "related": [{ "type": "subspecies", "monster": "Black Diablos" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -1164,6 +1210,7 @@
       }
     ],
     "rarity": 4,
+    "related": [{ "type": "subspeciesOf", "monster": "Diablos" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -1207,6 +1254,11 @@
       }
     ],
     "rarity": 4,
+    "related": [
+      { "type": "subspecies", "monster": "Brute Tigrex" },
+      { "type": "ex", "monster": "Tigrex EX" },
+      { "type": "deviant", "monster": "Molten Tigrex" }
+    ],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -1241,28 +1293,40 @@
     "name": "Barroth EX",
     "genus": "Brute Wyvern",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [{ "type": "exOf", "monster": "Barroth" }]
   },
   {
     "no": 45,
     "name": "Slagtoth (Brown)",
     "genus": "Herbivore",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [{ "type": "color", "monster": "Slagtoth (Green)" }]
   },
   {
     "no": 46,
     "name": "Bnahabra (Red)",
     "genus": "Neopteron",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [
+      { "type": "color", "monster": "Bnahabra (Green)" },
+      { "type": "color", "monster": "Bnahabra (Brown)" },
+      { "type": "color", "monster": "Bnahabra (Blue)" }
+    ]
   },
   {
     "no": 47,
     "name": "Konchu (Red)",
     "genus": "Neopteron",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [
+      { "type": "color", "monster": "Konchu (Yellow)" },
+      { "type": "color", "monster": "Konchu (Blue)" },
+      { "type": "color", "monster": "Konchu (Green)" }
+    ]
   },
   {
     "no": 48,
@@ -1276,7 +1340,8 @@
     "name": "Uroktor",
     "genus": "Leviathan",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [{ "type": "ex", "monster": "Uroktor EX" }]
   },
   {
     "no": 50,
@@ -1333,6 +1398,7 @@
       }
     ],
     "rarity": 3,
+    "related": [{ "type": "subspecies", "monster": "Ruby Basarios" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -1381,6 +1447,7 @@
       }
     ],
     "rarity": 4,
+    "related": [{ "type": "subspecies", "monster": "Black Gravios" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -1423,6 +1490,7 @@
       }
     ],
     "rarity": 4,
+    "related": [{ "type": "ex", "monster": "Uragaan EX" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -1465,6 +1533,11 @@
       }
     ],
     "rarity": 5,
+    "related": [
+      { "type": "subspeciesOf", "monster": "Tigrex" },
+      { "type": "ex", "monster": "Tigrex EX" },
+      { "type": "deviant", "monster": "Molten Tigrex" }
+    ],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -1499,35 +1572,46 @@
     "name": "Agnaktor",
     "genus": "Leviathan",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [
+      { "type": "subspecies", "monster": "Glacial Agnaktor" },
+      { "type": "ex", "monster": "Agnaktor EX" }
+    ]
   },
   {
     "no": 56,
     "name": "Aptonoth EX",
     "genus": "Herbivore",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [{ "type": "exOf", "monster": "Aptonoth" }]
   },
   {
     "no": 57,
     "name": "Uroktor EX",
     "genus": "Leviathan",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [{ "type": "exOf", "monster": "Uroktor" }]
   },
   {
     "no": 58,
     "name": "Uragaan EX",
     "genus": "Brute Wyvern",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [{ "type": "ex", "monster": "Uragaan" }]
   },
   {
     "no": 59,
     "name": "Agnaktor EX",
     "genus": "Leviathan",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [
+      { "type": "exOf", "monster": "Agnaktor" },
+      { "type": "subspecies", "monster": "Glacial Agnaktor" }
+    ]
   },
   {
     "no": 60,
@@ -1541,7 +1625,12 @@
     "name": "Bnahabra (Blue)",
     "genus": "Neopteron",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [
+      { "type": "color", "monster": "Bnahabra (Green)" },
+      { "type": "color", "monster": "Bnahabra (Brown)" },
+      { "type": "color", "monster": "Bnahabra (Red)" }
+    ]
   },
   {
     "no": 62,
@@ -1569,7 +1658,12 @@
     "name": "Konchu (Green)",
     "genus": "Neopteron",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [
+      { "type": "color", "monster": "Konchu (Yellow)" },
+      { "type": "color", "monster": "Konchu (Blue)" },
+      { "type": "color", "monster": "Konchu (Red)" }
+    ]
   },
   {
     "no": 66,
@@ -1640,6 +1734,7 @@
       }
     ],
     "rarity": 3,
+    "related": [{ "type": "subspecies", "monster": "Ash Kecha Wacha" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -1682,6 +1777,7 @@
       }
     ],
     "rarity": 4,
+    "related": [{ "type": "subspeciesOf", "monster": "Royal Ludroth" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -1768,6 +1864,7 @@
       }
     ],
     "rarity": 3,
+    "related": [{ "type": "subspecies", "monster": "Emerald Congalala" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -1811,6 +1908,7 @@
       }
     ],
     "rarity": 4,
+    "related": [{ "type": "subspeciesOf", "monster": "Congalala" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -1854,6 +1952,7 @@
       }
     ],
     "rarity": 4,
+    "related": [{ "type": "subspeciesOf", "monster": "Qurupeco" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -1897,6 +1996,7 @@
       }
     ],
     "rarity": 6,
+    "related": [{ "type": "subspeciesOf", "monster": "Gravios" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -1940,6 +2040,7 @@
       }
     ],
     "rarity": 6,
+    "related": [{ "type": "subspecies", "monster": "Stygian Zinogre" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -1983,6 +2084,7 @@
       }
     ],
     "rarity": 4,
+    "related": [{ "type": "subspeciesOf", "monster": "Basarios" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -2026,6 +2128,7 @@
       }
     ],
     "rarity": 5,
+    "related": [{ "type": "subspecies", "monster": "Green Nargacuga" }],
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -2069,6 +2172,7 @@
       }
     ],
     "rarity": 6,
+    "related": [{ "type": "subspeciesOf", "monster": "Nargacuga" }],
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -2112,6 +2216,10 @@
       }
     ],
     "rarity": 5,
+    "related": [
+      { "type": "subspecies", "monster": "Azure Rathalos" },
+      { "type": "deviant", "monster": "Silver Rathalos" }
+    ],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -2155,6 +2263,10 @@
       }
     ],
     "rarity": 6,
+    "related": [
+      { "type": "subspeciesOf", "monster": "Rathalos" },
+      { "type": "deviant", "monster": "Silver Rathalos" }
+    ],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -2189,7 +2301,12 @@
     "name": "Tigrex EX",
     "genus": "Flying Wyvern",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [
+      { "type": "exOf", "monster": "Tigrex" },
+      { "type": "subspecies", "monster": "Brute Tigrex" },
+      { "type": "deviant", "monster": "Molten Tigrex" }
+    ]
   },
   {
     "no": 83,
@@ -2205,6 +2322,7 @@
       }
     ],
     "rarity": 4,
+    "related": [{ "type": "subspeciesOf", "monster": "Gypceros" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -2248,6 +2366,7 @@
       }
     ],
     "rarity": 4,
+    "related": [{ "type": "subspeciesOf", "monster": "Kecha Wacha" }],
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -2291,6 +2410,7 @@
       }
     ],
     "rarity": 5,
+    "related": [{ "type": "subspecies", "monster": "Ivory Lagiacrus" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -2334,6 +2454,7 @@
       }
     ],
     "rarity": 7,
+    "related": [{ "type": "subspeciesOf", "monster": "Lagiacrus" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -2481,6 +2602,7 @@
       }
     ],
     "rarity": 4,
+    "related": [{ "type": "subspeciesOf", "monster": "Barroth" }],
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -2529,6 +2651,7 @@
       }
     ],
     "rarity": 5,
+    "related": [{ "type": "subspecies", "monster": "Sand Barioth" }],
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -2572,6 +2695,7 @@
       }
     ],
     "rarity": 6,
+    "related": [{ "type": "subspeciesOf", "monster": "Barioth" }],
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -2606,7 +2730,11 @@
     "name": "Glacial Agnaktor",
     "genus": "Leviathan",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "related": [
+      { "type": "subspeciesOf", "monster": "Agnaktor" },
+      { "type": "ex", "monster": "Agnaktor EX" }
+    ]
   },
   {
     "no": 96,
@@ -2621,6 +2749,7 @@
       }
     ],
     "rarity": 7,
+    "related": [{ "type": "subspeciesOf", "monster": "Zinogre" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -2753,6 +2882,7 @@
       }
     ],
     "rarity": 7,
+    "related": [{ "type": "deviant", "monster": "Oroshi Kirin" }],
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -2809,6 +2939,7 @@
       }
     ],
     "rarity": 6,
+    "related": [{ "type": "subspecies", "monster": "White Monoblos" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -2899,6 +3030,10 @@
       }
     ],
     "rarity": 9,
+    "related": [
+      { "type": "deviantOf", "monster": "Rathian" },
+      { "type": "subspecies", "monster": "Pink Rathian" }
+    ],
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -2944,6 +3079,10 @@
       }
     ],
     "rarity": 9,
+    "related": [
+      { "type": "deviantOf", "monster": "Rathalos" },
+      { "type": "subspecies", "monster": "Azure Rathalos" }
+    ],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -3056,6 +3195,7 @@
       }
     ],
     "rarity": 7,
+    "related": [{ "type": "subspeciesOf", "monster": "Monoblos" }],
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -3092,6 +3232,11 @@
         "main": "Dovan Volcano",
         "rank": "high"
       }
+    ],
+    "related": [
+      { "type": "deviantOf", "monster": "Tigrex" },
+      { "type": "ex", "monster": "Tigrex EX" },
+      { "type": "subspecies", "monster": "Brute Tigrex" }
     ],
     "rarity": 9,
     "hatchable": true,
@@ -3133,6 +3278,7 @@
       }
     ],
     "rarity": 8,
+    "related": [{ "type": "deviantOf", "monster": "Kirin" }],
     "hatchable": true,
     "monstie": {
       "tendency": "speed",

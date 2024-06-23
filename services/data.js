@@ -312,6 +312,10 @@ export function isElementalVariant(monster) {
   return isVariant(monster, 'element');
 }
 
+export function isEx(monster) {
+  return isVariant(monster, 'exOf');
+}
+
 export function getMonsterLocation(monster, locationType) {
   return _.find(monster.locations, { type: locationType });
 }

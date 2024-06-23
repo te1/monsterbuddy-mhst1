@@ -4,6 +4,7 @@ import {
   isDeviant,
   isColorVariant,
   isElementalVariant,
+  isEx,
   getMonsterLocation,
 } from '~/services/data';
 
@@ -57,6 +58,10 @@ export function formatMonsterInfo(monster) {
 
   if (isElementalVariant(monster)) {
     result += ', Elemental variant';
+  }
+
+  if (isEx(monster)) {
+    result += ', EX';
   }
 
   return result;
