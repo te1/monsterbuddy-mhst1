@@ -4,33 +4,62 @@
       <h3 class="text-lg font-semibold">Monstie Info</h3>
 
       <div class="flex items-center">
-        <span class="w-[175px]">Tendency</span>
-
         <AttackTypeIcon class="w-8 mr-1.5" :monster="monster" />
-        <AttackTypeLabel class="font-semibold" :monster="monster" />
+        <AttackTypeLabel class="w-24 font-semibold" :monster="monster" />
+
+        <span>Tendency</span>
       </div>
 
       <div v-if="monster.monstie?.attackElement" class="flex items-center">
-        <span class="w-[175px]">Strongest Elemental Atk</span>
-
         <ElementIcon
           class="w-8 mr-1.5"
           :element="monster.monstie.attackElement"
         />
         <ElementLabel
-          class="font-semibold"
+          class="w-24 font-semibold"
           :element="monster.monstie.attackElement"
         />
+
+        <span>Strongest Elemental Atk</span>
       </div>
 
-      <div v-if="monster.monstie?.kinshipSkill" class="flex items-center">
-        <span class="w-[175px] mr-1.5">Kinship Skill</span>
-
-        <div
-          class="pl-8 font-semibold dark:brightness-150"
-          v-text="monster.monstie.kinshipSkill"
+      <div
+        v-if="monster.monstie?.stats?.bestDefense?.element"
+        class="flex items-center"
+      >
+        <ElementIcon
+          class="w-8 mr-1.5"
+          :element="monster.monstie.stats.bestDefense.element"
         />
+        <ElementLabel
+          class="w-24 font-semibold"
+          :element="monster.monstie.stats.bestDefense.element"
+        />
+
+        <span>Strongest Elemental Res</span>
       </div>
+
+      <div
+        v-if="monster.monstie?.stats?.worstDefense?.element"
+        class="flex items-center"
+      >
+        <ElementIcon
+          class="w-8 mr-1.5"
+          :element="monster.monstie.stats.worstDefense.element"
+        />
+        <ElementLabel
+          class="w-24 font-semibold"
+          :element="monster.monstie.stats.worstDefense.element"
+        />
+
+        <span>Weakest Elemental Res</span>
+      </div>
+    </div>
+
+    <div v-if="monster.monstie?.kinshipSkill">
+      <h3 class="text-lg font-semibold">Kinship Skill</h3>
+
+      <div v-text="monster.monstie.kinshipSkill" />
     </div>
 
     <div v-if="hasRidingActions">
