@@ -4,55 +4,10 @@
       <h3 class="text-lg font-semibold">Monstie Info</h3>
 
       <div class="flex items-center">
+        <span class="w-40">Tendency</span>
+
         <AttackTypeIcon class="w-8 mr-1.5" :monster="monster" />
-        <AttackTypeLabel class="w-24 font-semibold" :monster="monster" />
-
-        <span>Tendency</span>
-      </div>
-
-      <div v-if="monster.monstie?.attackElement" class="flex items-center">
-        <ElementIcon
-          class="w-8 mr-1.5"
-          :element="monster.monstie.attackElement"
-        />
-        <ElementLabel
-          class="w-24 font-semibold"
-          :element="monster.monstie.attackElement"
-        />
-
-        <span>Strongest Elemental Atk</span>
-      </div>
-
-      <div
-        v-if="monster.monstie?.stats?.bestDefense?.element"
-        class="flex items-center"
-      >
-        <ElementIcon
-          class="w-8 mr-1.5"
-          :element="monster.monstie.stats.bestDefense.element"
-        />
-        <ElementLabel
-          class="w-24 font-semibold"
-          :element="monster.monstie.stats.bestDefense.element"
-        />
-
-        <span>Strongest Elemental Res</span>
-      </div>
-
-      <div
-        v-if="monster.monstie?.stats?.worstDefense?.element"
-        class="flex items-center"
-      >
-        <ElementIcon
-          class="w-8 mr-1.5"
-          :element="monster.monstie.stats.worstDefense.element"
-        />
-        <ElementLabel
-          class="w-24 font-semibold"
-          :element="monster.monstie.stats.worstDefense.element"
-        />
-
-        <span>Weakest Elemental Res</span>
+        <AttackTypeLabel class="font-semibold" :monster="monster" />
       </div>
     </div>
 
