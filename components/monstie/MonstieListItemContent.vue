@@ -66,8 +66,8 @@
         />
       </div>
 
-      <div v-if="monster.monstie && monster.monstie.stats.bestAttack">
-        Attack
+      <div v-if="monster.monstie?.stats?.bestAttack">
+        Elemental Atk
         <span
           class="font-bold"
           :class="getStatClass('bestAttack.value')"
@@ -76,7 +76,7 @@
       </div>
 
       <div v-if="defense">
-        Defense
+        Elemental Res
         <span
           class="font-bold"
           :class="getStatClass('bestDefense.value', 'worstDefense.value')"

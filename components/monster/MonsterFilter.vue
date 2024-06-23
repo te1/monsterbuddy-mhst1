@@ -257,7 +257,7 @@
           class="flex-1 cursor-pointer"
           for="MonsterFilter_AttackElementFilter"
         >
-          Strongest Elemental Atk
+          Strong Elemental Atk
         </label>
 
         <select
@@ -349,7 +349,8 @@
 
 <script>
 import _ from 'lodash';
-import { formatAttackType, formatElement, allElements } from '~/services/utils';
+import { formatAttackType, formatElement } from '~/services/utils';
+import { allElements } from '~/services/data';
 
 export default {
   name: 'MonsterFilter',
@@ -489,25 +490,25 @@ export default {
             caption: 'SPD',
             default: 'desc',
             mode: 'stats',
-          },
-          {
-            value: 'monstie.stats.bestAttack.value',
-            caption: 'Strongest Elemental Atk',
-            default: 'desc',
-            mode: 'stats',
-          },
-          {
-            value: 'monstie.stats.bestDefense.value',
-            caption: 'Strongest Elemental Res',
-            default: 'desc',
-            mode: 'stats',
-          },
-          {
-            value: 'monstie.stats.worstDefense.value',
-            caption: 'Weakest Elemental Res',
-            default: 'desc',
-            mode: 'stats',
           }
+          // {
+          //   value: 'monstie.stats.bestAttack.value',
+          //   caption: 'Strongest Elemental Atk',
+          //   default: 'desc',
+          //   mode: 'stats',
+          // },
+          // {
+          //   value: 'monstie.stats.bestDefense.value',
+          //   caption: 'Strongest Elemental Res',
+          //   default: 'desc',
+          //   mode: 'stats',
+          // },
+          // {
+          //   value: 'monstie.stats.worstDefense.value',
+          //   caption: 'Weakest Elemental Res',
+          //   default: 'desc',
+          //   mode: 'stats',
+          // }
         );
       }
 

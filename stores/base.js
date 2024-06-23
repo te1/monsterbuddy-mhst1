@@ -181,6 +181,8 @@ export function makeMonsterFilterStore(
           return result;
         }
 
+        const orderForNull = this.sortKey === 'no' ? Infinity : -Infinity;
+
         let getSortValue;
 
         switch (this.sortKey) {
@@ -205,8 +207,8 @@ export function makeMonsterFilterStore(
           (item) => {
             value = getSortValue(item);
 
-            if (value == null || value === '?') {
-              return Infinity;
+            if (value == null || value === '?' || value === '???') {
+              return orderForNull;
             }
             return value;
           },

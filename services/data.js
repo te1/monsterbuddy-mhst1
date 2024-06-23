@@ -6,6 +6,8 @@ import sortedHabitats from '~/assets/data/habitats';
 import sortedCatavanStands from '~/assets/data/catavanStands';
 import sortedRidingActions from '~/assets/data/ridingActions';
 
+export const allElements = ['fire', 'water', 'thunder', 'ice', 'dragon'];
+
 _.forEach(monsters, (monster) => {
   monster.slug = makeSlug(monster.name);
 
@@ -23,14 +25,6 @@ _.forEach(monsters, (monster) => {
       monster.monstie.stats.bestAttack = getMonstieBestAttack(monster);
       monster.monstie.stats.bestDefense = getMonstieBestDefense(monster);
       monster.monstie.stats.worstDefense = getMonstieWorstDefense(monster);
-
-      if (
-        monster.monstie.stats.bestDefense?.value ===
-        monster.monstie.stats.worstDefense?.value
-      ) {
-        monster.monstie.stats.bestDefense = undefined;
-        monster.monstie.stats.worstDefense = undefined;
-      }
     }
   }
 });
@@ -344,19 +338,22 @@ function getMonstieAttackStats(monster) {
   return attack;
 }
 
-function getMonstieWorstAttack(monster) {
-  return _.minBy(getMonstieAttackStats(monster), 'value');
-}
-
 function getMonstieBestAttack(monster) {
-  const worst = getMonstieWorstAttack(monster);
-  const best = _.maxBy(getMonstieAttackStats(monster), 'value');
+  const attack = getMonstieAttackStats(monster);
 
-  if (worst?.element === best?.element) {
-    return undefined;
+  const result = _.maxBy(attack, 'value');
+  if (result) {
+    result.elements = _.map(
+      _.filter(attack, { value: result.value }),
+      'element'
+    );
+
+    if (result.elements.length === allElements.length) {
+      return;
+    }
   }
 
-  return best;
+  return result;
 }
 
 function getMonstieDefenseStats(monster) {
@@ -374,9 +371,38 @@ function getMonstieDefenseStats(monster) {
 }
 
 function getMonstieWorstDefense(monster) {
-  return _.minBy(getMonstieDefenseStats(monster), 'value');
+  const defense = getMonstieDefenseStats(monster);
+
+  const result = _.minBy(defense, 'value');
+
+  if (result) {
+    result.elements = _.map(
+      _.filter(defense, { value: result.value }),
+      'element'
+    );
+
+    if (result.elements.length === allElements.length) {
+      return;
+    }
+  }
+
+  return result;
 }
 
 function getMonstieBestDefense(monster) {
-  return _.maxBy(getMonstieDefenseStats(monster), 'value');
+  const defense = getMonstieDefenseStats(monster);
+
+  const result = _.maxBy(defense, 'value');
+  if (result) {
+    result.elements = _.map(
+      _.filter(defense, { value: result.value }),
+      'element'
+    );
+
+    if (result.elements.length === allElements.length) {
+      return;
+    }
+  }
+
+  return result;
 }

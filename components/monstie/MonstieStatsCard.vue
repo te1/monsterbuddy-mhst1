@@ -65,10 +65,12 @@
           class="flex items-center gap-2"
         >
           <ElementIcon
+            v-for="element in monster.monstie.stats.bestAttack.elements"
+            :key="element"
+            :element="element"
             class="w-5"
-            :element="monster.monstie.stats.bestAttack.element"
           />
-          <span class="flex-1">Strongest</span>
+          <span class="flex-1 text-right">Strong</span>
           <span
             class="font-semibold"
             v-text="monster.monstie.stats.bestAttack.value"
@@ -82,10 +84,12 @@
           class="flex items-center gap-2"
         >
           <ElementIcon
+            v-for="element in monster.monstie.stats.bestDefense.elements"
+            :key="element"
+            :element="element"
             class="w-5"
-            :element="monster.monstie.stats.bestDefense.element"
           />
-          <span class="flex-1">Resistant</span>
+          <span class="flex-1 text-right">Resistant</span>
           <span
             class="font-semibold"
             v-text="monster.monstie.stats.bestDefense.value"
@@ -97,10 +101,12 @@
           class="flex items-center gap-2"
         >
           <ElementIcon
+            v-for="element in monster.monstie.stats.worstDefense.elements"
+            :key="element"
+            :element="element"
             class="w-5"
-            :element="monster.monstie.stats.worstDefense.element"
           />
-          <span class="flex-1">Weak</span>
+          <span class="flex-1 text-right">Weak</span>
           <span
             class="font-semibold"
             v-text="monster.monstie.stats.worstDefense.value"
@@ -112,7 +118,8 @@
 </template>
 
 <script>
-import { formatGrowth, formatElement, allElements } from '~/services/utils';
+import { formatGrowth, formatElement } from '~/services/utils';
+import { allElements } from '~/services/data';
 
 export default {
   name: 'MonstieStatsCard',
