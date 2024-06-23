@@ -1,5 +1,9 @@
 <template>
   <section class="relative flex flex-col overflow-hidden">
+    <h3 class="mx-3 text-lg font-semibold">
+      {{ monster?.monstie?.eggVariants > 1 ? 'Eggs' : 'Egg' }}
+    </h3>
+
     <div class="flex isolate">
       <EggImage class="-mx-3" :monster="monster" />
       <EggImage
