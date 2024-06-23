@@ -1,6 +1,13 @@
 <template>
-  <section class="flex justify-around">
-    <MonsterImage class="overflow-hidden" :monster="monster" />
+  <section class="flex flex-col">
+    <div class="flex justify-around">
+      <MonsterImage class="overflow-hidden" :monster="monster" />
+    </div>
+    <div
+      v-if="monster.description"
+      class="text-center"
+      v-text="monster.description"
+    />
   </section>
 </template>
 
