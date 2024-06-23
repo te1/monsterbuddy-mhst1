@@ -61,7 +61,10 @@
         </div>
       </div>
 
-      <ul v-if="showEggFinder" class="mt-1 grid gap-3 grid-cols-2">
+      <ul
+        v-if="showEggFinder"
+        class="mt-1 grid gap-3 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4"
+      >
         <li v-for="genus in genera" :key="genus">
           <EggGridItem
             :genus="genus"
