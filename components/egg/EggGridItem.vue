@@ -8,23 +8,24 @@
     />
     <div v-else class="h-[120px] flex flex-row isolate">
       <EggImage :monster="monster" />
-      <template v-if="monster?.monstie?.eggVariants !== 1">
-        <EggImage
-          class="-ml-16 lg:-ml-6 -z-10"
-          :monster="monster"
-          :variant="2"
-        />
-        <EggImage
-          class="-ml-16 lg:-ml-6 -z-20"
-          :monster="monster"
-          :variant="3"
-        />
-        <EggImage
-          class="-ml-16 lg:-ml-6 -z-30"
-          :monster="monster"
-          :variant="4"
-        />
-      </template>
+      <EggImage
+        v-if="monster?.monstie?.eggVariants >= 2"
+        class="-ml-16 lg:-ml-6 -z-10"
+        :monster="monster"
+        :variant="2"
+      />
+      <EggImage
+        v-if="monster?.monstie?.eggVariants >= 3"
+        class="-ml-16 lg:-ml-6 -z-20"
+        :monster="monster"
+        :variant="3"
+      />
+      <EggImage
+        v-if="monster?.monstie?.eggVariants >= 4"
+        class="-ml-16 lg:-ml-6 -z-30"
+        :monster="monster"
+        :variant="4"
+      />
     </div>
 
     <div class="mb-2 font-semibold whitespace-nowrap" v-text="text" />

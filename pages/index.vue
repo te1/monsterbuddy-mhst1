@@ -160,6 +160,17 @@
               <li>
                 <a
                   class="link"
+                  href="https://www.pondryhills.com/Eggs"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  pondryhills.com
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="link"
                   href="https://www.gameskinny.com/tips/monster-hunter-stories-guide-all-egg-patterns-and-locations/"
                   target="_blank"
                   rel="noopener"

@@ -2440,7 +2440,7 @@
       "tendency": "power",
       "growth": "slow",
       "ridingActions": [],
-      "eggVariants": 1,
+      "eggVariants": 3,
       "stats": {
         "base": { "hp": null, "atk": null, "def": null, "agi": null },
         "attack": {

@@ -13,18 +13,22 @@ _.forEach(monsters, (monster) => {
     monster.habitat = 'Unknown Habitat';
   }
 
-  if (monster.hatchable && monster.monstie?.stats) {
-    monster.monstie.attackElement = getMonstieAttackElement(monster);
-    monster.monstie.stats.bestAttack = getMonstieBestAttack(monster);
-    monster.monstie.stats.bestDefense = getMonstieBestDefense(monster);
-    monster.monstie.stats.worstDefense = getMonstieWorstDefense(monster);
+  if (monster.hatchable && monster.monstie) {
+    monster.monstie.eggVariants ??= 4;
 
-    if (
-      monster.monstie.stats.bestDefense?.value ===
-      monster.monstie.stats.worstDefense?.value
-    ) {
-      monster.monstie.stats.bestDefense = undefined;
-      monster.monstie.stats.worstDefense = undefined;
+    if (monster.monstie.stats) {
+      monster.monstie.attackElement = getMonstieAttackElement(monster);
+      monster.monstie.stats.bestAttack = getMonstieBestAttack(monster);
+      monster.monstie.stats.bestDefense = getMonstieBestDefense(monster);
+      monster.monstie.stats.worstDefense = getMonstieWorstDefense(monster);
+
+      if (
+        monster.monstie.stats.bestDefense?.value ===
+        monster.monstie.stats.worstDefense?.value
+      ) {
+        monster.monstie.stats.bestDefense = undefined;
+        monster.monstie.stats.worstDefense = undefined;
+      }
     }
   }
 });
