@@ -1,10 +1,10 @@
 <template>
-  <section class="relative flex overflow-hidden">
+  <section class="relative flex overflow-hidden isolate">
     <EggImage class="-mx-3" :monster="monster" />
     <template v-if="monster.monstie?.eggVariants !== 1">
-      <EggImage class="-mx-3" :monster="monster" :variant="2" />
-      <EggImage class="-mx-3" :monster="monster" :variant="3" />
-      <EggImage class="-mx-3" :monster="monster" :variant="4" />
+      <EggImage class="-ml-12 sm:-mx-3 -z-10" :monster="monster" :variant="2" />
+      <EggImage class="-ml-16 sm:-mx-3 -z-20" :monster="monster" :variant="3" />
+      <EggImage class="-ml-16 sm:-mx-3 -z-30" :monster="monster" :variant="4" />
     </template>
 
     <div v-if="hasRetreat" class="flex-1 mx-3">

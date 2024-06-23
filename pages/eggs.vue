@@ -96,7 +96,10 @@
             <div class="font-semibold mb-1" v-text="key" />
           </div>
 
-          <div v-if="mode === 'compact'" class="mt-1 grid gap-3 grid-cols-2">
+          <div
+            v-if="mode === 'compact'"
+            class="mt-1 grid gap-3 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3"
+          >
             <NuxtLink
               v-for="monster in group"
               :key="monster.no"
