@@ -229,7 +229,7 @@ export function formatRetreat(retreat) {
   let result = '';
 
   if (retreat.paintball) {
-    result += 'Defeat quickly after using a **Paintball**';
+    result += 'Defeat within 3 turns after using a **Paintball**';
 
     switch (retreat.paintball) {
       case 'low':

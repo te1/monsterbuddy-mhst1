@@ -17,6 +17,11 @@
       "tendency": "power",
       "growth": "quick",
       "ridingActions": ["Plant Search"],
+      "retreat": {
+        "paintball": "high",
+        "condition": "Defeat with **Throwing Knife**",
+        "chance": "high"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 1, "def": 2, "agi": 1 },
         "attack": {
@@ -89,6 +94,11 @@
       "tendency": "speed",
       "growth": "quick",
       "ridingActions": ["Jump"],
+      "retreat": {
+        "paintball": "high",
+        "condition": "Defeat while **blinded**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 1, "atk": 1, "def": 1, "agi": 4 },
         "attack": {
@@ -126,6 +136,11 @@
       "tendency": "power",
       "growth": "quick",
       "ridingActions": ["Rock Breaker", "Honey Search"],
+      "retreat": {
+        "paintball": "high",
+        "condition": "Defeat while **paralyzed**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 1, "def": 4, "agi": 2 },
         "attack": {
@@ -163,6 +178,11 @@
       "tendency": "technical",
       "growth": "quick",
       "ridingActions": ["Rock Breaker", "Monster Search"],
+      "retreat": {
+        "paintball": "high",
+        "condition": "Defeat while **downed**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 1, "def": 3, "agi": 4 },
         "attack": {
@@ -200,6 +220,11 @@
       "tendency": "technical",
       "growth": "quick",
       "ridingActions": ["Rock Breaker", "Monster Search"],
+      "retreat": {
+        "paintball": "medium",
+        "condition": "Defeat while **downed**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 3, "agi": 4 },
         "attack": {
@@ -237,6 +262,11 @@
       "tendency": "power",
       "growth": "quick",
       "ridingActions": ["Plant Search"],
+      "retreat": {
+        "paintball": "high",
+        "condition": "Defeat with **Throwing Knife**",
+        "chance": "high"
+      },
       "stats": {
         "base": { "hp": 4, "atk": 1, "def": 2, "agi": 1 },
         "attack": {
@@ -295,6 +325,11 @@
       "tendency": "speed",
       "growth": "regular",
       "ridingActions": ["Rock Breaker", "Mushroom Search"],
+      "retreat": {
+        "paintball": "high",
+        "condition": "Defeat while **downed**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 3, "agi": 3 },
         "attack": {
@@ -332,6 +367,11 @@
       "tendency": "power",
       "growth": "quick",
       "ridingActions": ["Dash"],
+      "retreat": {
+        "paintball": "high",
+        "condition": "Defeat while **blinded**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 3, "atk": 5, "def": 1, "agi": 3 },
         "attack": {
@@ -369,6 +409,11 @@
       "tendency": "technical",
       "growth": "slow",
       "ridingActions": ["Swim", "Monster Search"],
+      "retreat": {
+        "paintball": "medium",
+        "condition": "Defeat while **poisoned**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 4, "atk": 2, "def": 4, "agi": 3 },
         "attack": {
@@ -406,6 +451,11 @@
       "tendency": "technical",
       "growth": "regular",
       "ridingActions": ["Roar"],
+      "retreat": {
+        "paintball": "medium",
+        "condition": "Defeat while **poisoned**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 4, "atk": 2, "def": 4, "agi": 2 },
         "attack": {
@@ -443,6 +493,11 @@
       "tendency": "technical",
       "growth": "slow",
       "ridingActions": ["Roar"],
+      "retreat": {
+        "paintball": "medium",
+        "condition": "Defeat while **poisoned**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 3, "atk": 4, "def": 4, "agi": 2 },
         "attack": {
@@ -492,6 +547,11 @@
       "tendency": "power",
       "growth": "quick",
       "ridingActions": ["Plant Search"],
+      "retreat": {
+        "paintball": "high",
+        "condition": "Defeat with **Throwing Knife**",
+        "chance": "high"
+      },
       "stats": {
         "base": { "hp": 1, "atk": 1, "def": 4, "agi": 2 },
         "attack": {
@@ -583,6 +643,11 @@
       "tendency": "speed",
       "growth": "quick",
       "ridingActions": ["Jump"],
+      "retreat": {
+        "paintball": "high",
+        "condition": "Defeat while **blinded**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 1, "atk": 1, "def": 1, "agi": 4 },
         "attack": {
@@ -625,6 +690,11 @@
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Swim", "Fish Search"],
+      "retreat": {
+        "paintball": "medium",
+        "condition": "Defeat while **paralyzed**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 2, "agi": 3 },
         "attack": {
@@ -667,6 +737,11 @@
       "tendency": "technical",
       "growth": "regular",
       "ridingActions": ["Dash"],
+      "retreat": {
+        "paintball": "medium",
+        "condition": "Defeat with **fire attack**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 1, "def": 4, "agi": 3 },
         "attack": {
@@ -709,6 +784,11 @@
       "tendency": "technical",
       "growth": "regular",
       "ridingActions": ["Ivy Climb", "Monster Search"],
+      "retreat": {
+        "paintball": "medium",
+        "condition": "Defeat while **paralyzed**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 4, "agi": 3 },
         "attack": {
@@ -751,6 +831,11 @@
       "tendency": "technical",
       "growth": "regular",
       "ridingActions": ["Ivy Climb", "Monster Search"],
+      "retreat": {
+        "paintball": "medium",
+        "condition": "Defeat while **paralyzed**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 4, "agi": 3 },
         "attack": {
@@ -793,6 +878,11 @@
       "tendency": "technical",
       "growth": "quick",
       "ridingActions": ["Monster Call"],
+      "retreat": {
+        "paintball": "medium",
+        "condition": "Defeat while **downed**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 3, "agi": 4 },
         "attack": {
@@ -835,6 +925,11 @@
       "tendency": "speed",
       "growth": "regular",
       "ridingActions": ["Nest Search"],
+      "retreat": {
+        "paintball": "medium",
+        "condition": "Defeat while **trapped** or with any **Rathalos**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 5, "atk": 2, "def": 4, "agi": 3 },
         "attack": {
@@ -877,6 +972,11 @@
       "tendency": "speed",
       "growth": "regular",
       "ridingActions": ["Nest Search"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **trapped** or with any **Rathalos**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 4, "atk": 4, "def": 3, "agi": 3 },
         "attack": {
@@ -928,6 +1028,11 @@
       "tendency": "speed",
       "growth": "quick",
       "ridingActions": ["Ground Dive", "Bug Search"],
+      "retreat": {
+        "paintball": "medium",
+        "condition": "Defeat while **trapped**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 5, "atk": 1, "def": 5, "agi": 3 },
         "attack": {
@@ -970,6 +1075,11 @@
       "tendency": "power",
       "growth": "quick",
       "ridingActions": ["Ground Dive", "Monster Search"],
+      "retreat": {
+        "paintball": "medium",
+        "condition": "Defeat while **downed**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 1, "def": 3, "agi": 3 },
         "attack": {
@@ -1012,6 +1122,11 @@
       "tendency": "power",
       "growth": "slow",
       "ridingActions": ["Roar", "Ground Dive"],
+      "retreat": {
+        "paintball": "medium",
+        "condition": "Defeat while **downed** or **blinded**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 5, "agi": 3 },
         "attack": {
@@ -1054,6 +1169,11 @@
       "tendency": "power",
       "growth": "slow",
       "ridingActions": ["Roar", "Ground Dive"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **downed** or **blinded**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 4, "atk": 5, "def": 4, "agi": 3 },
         "attack": {
@@ -1092,6 +1212,11 @@
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Ivy Climb", "Dash"],
+      "retreat": {
+        "paintball": "medium",
+        "condition": "Defeat while **enraged**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 5, "def": 3, "agi": 3 },
         "attack": {
@@ -1171,6 +1296,11 @@
       "tendency": "speed",
       "growth": "quick",
       "ridingActions": ["Jump"],
+      "retreat": {
+        "paintball": "high",
+        "condition": "Defeat while **blinded**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 1, "atk": 1, "def": 2, "agi": 4 },
         "attack": {
@@ -1208,6 +1338,11 @@
       "tendency": "technical",
       "growth": "regular",
       "ridingActions": ["Ground Dive", "Ore & Bone Search"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **enraged**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 3, "atk": 1, "def": 5, "agi": 1 },
         "attack": {
@@ -1251,6 +1386,11 @@
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Lava Dive", "Roar"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **poisoned**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 5, "atk": 3, "def": 5, "agi": 2 },
         "attack": {
@@ -1288,6 +1428,11 @@
       "tendency": "power",
       "growth": "slow",
       "ridingActions": ["Lava Dive", "Ore & Bone Search"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat with **hammer attack**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 5, "atk": 2, "def": 5, "agi": 1 },
         "attack": {
@@ -1325,6 +1470,11 @@
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Ivy Climb", "Dash"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **enraged**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 5, "def": 3, "agi": 3 },
         "attack": {
@@ -1453,6 +1603,11 @@
       "tendency": "speed",
       "growth": "quick",
       "ridingActions": ["Nest Search"],
+      "retreat": {
+        "paintball": "high",
+        "condition": "Defeat while **blinded**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 1, "atk": 1, "def": 2, "agi": 4 },
         "attack": {
@@ -1490,6 +1645,11 @@
       "tendency": "technical",
       "growth": "quick",
       "ridingActions": ["Ivy Climb", "Bug Search"],
+      "retreat": {
+        "paintball": "medium",
+        "condition": "Defeat with **fire attack**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 2, "agi": 3 },
         "attack": {
@@ -1527,6 +1687,11 @@
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Swim", "Fish Search"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **paralyzed**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 2, "def": 3, "agi": 3 },
         "attack": {
@@ -1565,6 +1730,11 @@
       "tendency": "technical",
       "growth": "quick",
       "ridingActions": ["Fly"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **enraged**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 4, "def": 3, "agi": 4 },
         "attack": {
@@ -1603,6 +1773,11 @@
       "tendency": "power",
       "growth": "quick",
       "ridingActions": ["Ivy Climb", "Mushroom Search"],
+      "retreat": {
+        "paintball": "medium",
+        "condition": "Defeat while inflicted with **status effect**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 3, "atk": 2, "def": 4, "agi": 3 },
         "attack": {
@@ -1641,6 +1816,11 @@
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Ivy Climb", "Mushroom Search"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while inflicted with **status effect**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 3, "atk": 3, "def": 3, "agi": 3 },
         "attack": {
@@ -1679,6 +1859,11 @@
       "tendency": "technical",
       "growth": "quick",
       "ridingActions": ["Monster Call"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **downed**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 3, "def": 3, "agi": 4 },
         "attack": {
@@ -1717,6 +1902,11 @@
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Lava Dive", "Roar"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **poisoned**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 4, "atk": 2, "def": 5, "agi": 2 },
         "attack": {
@@ -1755,6 +1945,11 @@
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Jump"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **blinded**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 5, "agi": 3 },
         "attack": {
@@ -1793,6 +1988,11 @@
       "tendency": "technical",
       "growth": "regular",
       "ridingActions": ["Ground Dive", "Ore & Bone Search"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **enraged**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 3, "atk": 2, "def": 5, "agi": 1 },
         "attack": {
@@ -1831,6 +2031,11 @@
       "tendency": "speed",
       "growth": "regular",
       "ridingActions": ["Stealth"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **trapped**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 4, "def": 3, "agi": 5 },
         "attack": {
@@ -1869,6 +2074,11 @@
       "tendency": "speed",
       "growth": "regular",
       "ridingActions": ["Stealth"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **trapped**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 5, "def": 3, "agi": 5 },
         "attack": {
@@ -1907,6 +2117,11 @@
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Fly"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **blinded** or with any **Lagiacrus**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 3, "agi": 3 },
         "attack": {
@@ -1945,6 +2160,11 @@
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Fly"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **blinded** or with any **Lagiacrus**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 4, "atk": 5, "def": 3, "agi": 3 },
         "attack": {
@@ -1990,6 +2210,11 @@
       "tendency": "technical",
       "growth": "regular",
       "ridingActions": ["Dash"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat with **fire attack**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 3, "def": 4, "agi": 3 },
         "attack": {
@@ -2028,6 +2253,11 @@
       "tendency": "technical",
       "growth": "regular",
       "ridingActions": ["Ivy Climb", "Bug Search"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat with **water attack**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 2, "atk": 3, "def": 2, "agi": 3 },
         "attack": {
@@ -2066,6 +2296,11 @@
       "tendency": "power",
       "growth": "slow",
       "ridingActions": ["Swim", "Roar"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat with **Azure** or **Silver Rathalos**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 5, "agi": 3 },
         "attack": {
@@ -2104,6 +2339,11 @@
       "tendency": "power",
       "growth": "slow",
       "ridingActions": ["Swim", "Roar"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat with **Azure** or **Silver Rathalos**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 4, "atk": 5, "def": 4, "agi": 3 },
         "attack": {
@@ -2141,6 +2381,11 @@
       "tendency": "power",
       "growth": "slow",
       "ridingActions": ["Mega Breaker", "Monster Search"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat within **5 turns**",
+        "chance": "medium"
+      },
       "stats": {
         "base": { "hp": 5, "atk": 5, "def": 3, "agi": 2 },
         "attack": {
@@ -2199,6 +2444,11 @@
       "tendency": "speed",
       "growth": "quick",
       "ridingActions": ["Nest Search"],
+      "retreat": {
+        "paintball": "high",
+        "condition": "Defeat while **blinded**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 1, "atk": 1, "def": 1, "agi": 4 },
         "attack": {
@@ -2236,6 +2486,11 @@
       "tendency": "speed",
       "growth": "quick",
       "ridingActions": ["Ground Dive", "Bug Search"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **trapped**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 5, "atk": 1, "def": 4, "agi": 3 },
         "attack": {
@@ -2279,6 +2534,11 @@
       "tendency": "speed",
       "growth": "regular",
       "ridingActions": ["Fly", "Rock Breaker"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat with **fire attack**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 4, "agi": 3 },
         "attack": {
@@ -2317,6 +2577,11 @@
       "tendency": "speed",
       "growth": "regular",
       "ridingActions": ["Fly", "Rock Breaker"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat with **ice attack**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 5, "atk": 3, "def": 4, "agi": 3 },
         "attack": {
@@ -2361,6 +2626,11 @@
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Jump"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **blinded**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 5, "atk": 5, "def": 4, "agi": 3 },
         "attack": {
@@ -2398,6 +2668,11 @@
       "tendency": "power",
       "growth": "slow",
       "ridingActions": ["Roar", "Mega Breaker"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **trapped**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 4, "agi": 3 },
         "attack": {
@@ -2483,6 +2758,11 @@
       "tendency": "speed",
       "growth": "regular",
       "ridingActions": ["Jump"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **asleep**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 1, "atk": 4, "def": 4, "agi": 5 },
         "attack": {
@@ -2534,6 +2814,11 @@
       "tendency": "power",
       "growth": "regular",
       "ridingActions": ["Roar", "Ground Dive"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **downed**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 4, "atk": 4, "def": 5, "agi": 3 },
         "attack": {
@@ -2571,6 +2856,11 @@
       "tendency": "technical",
       "growth": "regular",
       "ridingActions": ["Fly"],
+      "retreat": {
+        "paintball": "low",
+        "condition": "Defeat while **blinded** or **trapped**",
+        "chance": "low"
+      },
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 4, "agi": 4 },
         "attack": {
