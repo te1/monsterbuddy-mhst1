@@ -14,7 +14,9 @@ _.forEach(monsters, (monster) => {
   }
 
   if (monster.hatchable && monster.monstie) {
-    monster.monstie.eggVariants ??= 4;
+    if (monster.monstie.eggVariants == null) {
+      monster.monstie.eggVariants = 4;
+    }
 
     if (monster.monstie.stats) {
       monster.monstie.attackElement = getMonstieAttackElement(monster);
