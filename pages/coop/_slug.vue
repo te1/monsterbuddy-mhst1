@@ -84,7 +84,7 @@ export default {
     }
 
     return makeHead({
-      title: `Monster Buddy - ${this.coopQuest.name} In Monster Hunter Stories 1`,
+      title: `Monster Buddy - ${this.coopQuest.name} In Monster Hunter Stories 1 / Remaster`,
       description,
       canonical: `https://mhst1.monsterbuddy.app/coop/${this.coopQuest.slug}/`,
     });

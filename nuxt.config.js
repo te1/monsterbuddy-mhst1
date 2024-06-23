@@ -29,7 +29,7 @@ export default {
       {
         hid: 'twitter:description',
         name: 'twitter:description',
-        content: 'Companion App For Monster Hunter Stories 1',
+        content: 'Companion App For Monster Hunter Stories 1 / Remaster',
       },
       {
         hid: 'twitter:image',
@@ -49,7 +49,7 @@ export default {
       {
         hid: 'og:description',
         property: 'og:description',
-        content: 'Companion App For Monster Hunter Stories 1',
+        content: 'Companion App For Monster Hunter Stories 1 / Remaster',
       },
       {
         hid: 'og:image:secure_url',
@@ -142,10 +142,10 @@ export default {
     },
 
     manifest: {
-      name: 'Monster Buddy',
-      short_name: 'Monster Buddy',
+      name: 'Monster Buddy 1',
+      short_name: 'Monster Buddy 1',
       description:
-        'Companion App For Monster Hunter Stories 1. Includes monster attack types and weaknesses, egg patterns, monstie locations and retreat conditions.',
+        'Companion App For Monster Hunter Stories 1 / Remaster. Includes monster attack types and weaknesses, egg patterns, monstie locations and retreat conditions.',
       lang: 'en',
       background_color: '#cbd5e1',
       // theme_color: '#ffffff',

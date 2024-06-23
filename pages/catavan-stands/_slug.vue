@@ -64,7 +64,7 @@ export default {
     }
 
     return makeHead({
-      title: `Monster Buddy - ${this.catavanStand.name} In Monster Hunter Stories 1`,
+      title: `Monster Buddy - ${this.catavanStand.name} In Monster Hunter Stories 1 / Remaster`,
       description,
       canonical: `https://mhst1.monsterbuddy.app/catavan-stands/${this.catavanStand.slug}/`,
     });

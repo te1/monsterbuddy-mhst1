@@ -136,7 +136,8 @@ export default {
 
   head() {
     return makeHead({
-      title: 'Monster Buddy - Monster List For Monster Hunter Stories 1',
+      title:
+        'Monster Buddy - Monster List For Monster Hunter Stories 1 / Remaster',
       description:
         'Quickly check for monster attack patterns, elemental weaknesses and weapon effectiveness on body parts',
       canonical: 'https://mhst1.monsterbuddy.app/monsters/',

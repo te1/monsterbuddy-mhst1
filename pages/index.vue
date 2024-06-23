@@ -8,7 +8,9 @@
           <b>Monster Buddy</b> is a companion app for Monster Hunter Stories 1
           that can help you learn or remember information useful during combat
           and general gameplay. It's not a complete guide, walkthrough or
-          advanced character / gene planner (yet).
+          advanced character / gene planner (yet). You can use it for all
+          versions including the Remaster, iOS, Android and original on the
+          Nintendo 3DS.
         </p>
 
         <div class="flex flex-col items-center">

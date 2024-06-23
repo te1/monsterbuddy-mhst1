@@ -178,7 +178,7 @@ export default {
 
   head() {
     return makeHead({
-      title: 'Monster Buddy - Egg List For Monster Hunter Stories 1',
+      title: 'Monster Buddy - Egg List For Monster Hunter Stories 1 / Remaster',
       description:
         'Visual guide with images for all egg patterns for every hatchable monstie with search, sorting and filtering',
       canonical: 'https://mhst1.monsterbuddy.app/eggs/',

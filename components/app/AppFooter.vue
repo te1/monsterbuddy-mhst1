@@ -17,10 +17,11 @@
         href="https://www.monsterhunter.com/stories"
         target="_blank"
         rel="noopener"
-        >Monster Hunter Stories 1</a
-      >. This project is not affiliated with or endorsed by Capcom or the
-      Monster Hunter brand. All trademarks referenced herein are the properties
-      of their respective owners.
+        >Monster Hunter Stories
+      </a>
+      1 / Remaster. This project is not affiliated with or endorsed by Capcom or
+      the Monster Hunter brand. All trademarks referenced herein are the
+      properties of their respective owners.
     </div>
 
     <div class="mt-3 text-xl">

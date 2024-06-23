@@ -67,7 +67,7 @@ export default {
     description += `${this.monster.genus} found in ${this.monster.habitat}.`;
 
     return makeHead({
-      title: `Monster Buddy - ${this.monster.name} In Monster Hunter Stories 1`,
+      title: `Monster Buddy - ${this.monster.name} In Monster Hunter Stories 1 / Remaster`,
       description,
       canonical: `https://mhst1.monsterbuddy.app/monsters/${this.monster.slug}/`,
       image: `https://mhst1.monsterbuddy.app/images/monsters-small/${this.monster.name}.webp`,

@@ -59,7 +59,7 @@ export default {
   head() {
     return makeHead({
       title:
-        'Monster Buddy - Catavan Stand Fast Travel List For Monster Hunter Stories 1',
+        'Monster Buddy - Catavan Stand Fast Travel List For Monster Hunter Stories 1 / Remaster',
       description:
         'Overview of catavan stand fast travel locations and list of monsters you will find there',
       canonical: 'https://mhst1.monsterbuddy.app/catavan-stands/',

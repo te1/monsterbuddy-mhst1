@@ -1,6 +1,6 @@
 # monsterbuddy
 
-Companion app for Monster Hunter Stories 1
+Companion app for Monster Hunter Stories 1 / Remaster
 
 https://mhst1.monsterbuddy.app
 

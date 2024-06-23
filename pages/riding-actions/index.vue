@@ -55,7 +55,8 @@ export default {
 
   head() {
     return makeHead({
-      title: 'Monster Buddy - Riding Actions In Monster Hunter Stories 1',
+      title:
+        'Monster Buddy - Riding Actions In Monster Hunter Stories 1 / Remaster',
       description:
         'Overview of all riding actions and list of monsties that can learn them',
       canonical: 'https://mhst1.monsterbuddy.app/riding-actions/',
