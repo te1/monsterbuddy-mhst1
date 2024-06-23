@@ -215,11 +215,31 @@
               <li>
                 <a
                   class="link"
-                  href="https://game.capcom.com/manual/MHST_Multi/en/switch/top"
+                  href="https://game.capcom.com/manual/MHST_Multi/"
                   target="_blank"
                   rel="noopener"
                 >
                   Official Web Manual
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="link"
+                  href="https://www.reddit.com/r/MonsterHunterStories/comments/m17vcj/every_monster_in_stories_1_and_how_well_they/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Every Monster in Stories 1, and how well they perform
+                </a>
+                by
+                <a
+                  class="link"
+                  href="https://www.reddit.com/user/DreadAndDonuts/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  DreadAndDonuts
                 </a>
               </li>
             </ul>

@@ -71,6 +71,34 @@ export default {
           break;
       }
 
+      const extras = [];
+
+      switch (this.location.rank) {
+        // case 'low':
+        //   extras.push('Low Rank');
+        //   break;
+
+        case 'high':
+          extras.push('High Rank');
+          break;
+      }
+
+      if (this.location.lateGame) {
+        extras.push('Late Game');
+      }
+
+      if (this.location.subQuest) {
+        extras.push('Subquest');
+      }
+
+      if (this.location.dlc) {
+        extras.push('DLC');
+      }
+
+      if (extras.length) {
+        result += ` (${extras.join(', ')})`;
+      }
+
       return result;
     },
 

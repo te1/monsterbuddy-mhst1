@@ -63,7 +63,7 @@ export function formatMonsterInfo(monster) {
 }
 
 export function formatMonsterPrimaryLocation(monster) {
-  let location = getMonsterLocation(monster, 'catavanStand');
+  let location = getMonsterLocation(monster, 'primary');
 
   if (location && location.sub) {
     return location.sub;
