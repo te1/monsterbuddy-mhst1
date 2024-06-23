@@ -56,8 +56,7 @@
 
               <li>
                 <NuxtLink class="link" to="/monsties/">Monstie list</NuxtLink>
-                with attack tendencies, <s>retreat conditions</s>, locations and
-                stats
+                with attack tendencies, retreat conditions, locations and stats
               </li>
 
               <li>

@@ -28,7 +28,7 @@ export default {
         { value: 'location', caption: 'Location' },
         // { value: 'location-coop', caption: 'Co-Op Quest' },
         { value: 'ridingActions', caption: 'Riding Actions' },
-        // { value: 'retreat', caption: 'Retreat' },
+        { value: 'retreat', caption: 'Retreat' },
         { value: 'rarity', caption: 'Rarity' },
       ];
     },

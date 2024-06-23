@@ -9,11 +9,10 @@ https://mhst1.monsterbuddy.app
 ## Features
 
 - Monster list with ~~attack patterns~~ and elemental weaknesses
-- Monstie list with attack tendencies, ~~retreat conditions~~, habitats and stats
+- Monstie list with attack tendencies, retreat conditions, habitats and stats
 - Egg list with search, sorting and filtering
 - ~~Catavan stands with list of nearby monsters~~
-- ~~Elder's Lair with list of monsters by floor~~
-- ~~Co-Op quests with list of eggs by den~~
+- ~~Tower of Illusions with list of monsters by floor~~
 - Riding action list and related monsties
 
 ## Sources for data and images

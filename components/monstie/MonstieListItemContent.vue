@@ -95,7 +95,7 @@ import {
   formatMonsterInfo,
   formatMonsterPrimaryLocation,
   formatCoopQuest,
-  parseSomeMarkdown,
+  formatRetreatShort,
 } from '~/services/utils';
 import { coopQuests, getMonsterLocations } from '~/services/data';
 
@@ -146,7 +146,7 @@ export default {
     },
 
     retreat() {
-      return parseSomeMarkdown(this.monster?.monstie?.retreat);
+      return formatRetreatShort(this.monster?.monstie?.retreat);
     },
 
     hasStats() {

@@ -1,24 +1,26 @@
 <template>
-  <section class="relative flex overflow-hidden isolate">
-    <EggImage class="-mx-3" :monster="monster" />
-    <EggImage
-      v-if="monster?.monstie?.eggVariants >= 2"
-      class="-ml-12 sm:-mx-3 -z-10"
-      :monster="monster"
-      :variant="2"
-    />
-    <EggImage
-      v-if="monster?.monstie?.eggVariants >= 3"
-      class="-ml-16 sm:-mx-3 -z-20"
-      :monster="monster"
-      :variant="3"
-    />
-    <EggImage
-      v-if="monster?.monstie?.eggVariants >= 4"
-      class="-ml-16 sm:-mx-3 -z-30"
-      :monster="monster"
-      :variant="4"
-    />
+  <section class="relative flex flex-col overflow-hidden">
+    <div class="flex isolate">
+      <EggImage class="-mx-3" :monster="monster" />
+      <EggImage
+        v-if="monster?.monstie?.eggVariants >= 2"
+        class="-ml-12 sm:-mx-3 -z-10"
+        :monster="monster"
+        :variant="2"
+      />
+      <EggImage
+        v-if="monster?.monstie?.eggVariants >= 3"
+        class="-ml-16 sm:-mx-3 -z-20"
+        :monster="monster"
+        :variant="3"
+      />
+      <EggImage
+        v-if="monster?.monstie?.eggVariants >= 4"
+        class="-ml-16 sm:-mx-3 -z-30"
+        :monster="monster"
+        :variant="4"
+      />
+    </div>
 
     <div v-if="hasRetreat" class="flex-1 mx-3">
       <h3 class="text-lg font-semibold">Retreat</h3>
@@ -34,7 +36,7 @@
 </template>
 
 <script>
-import { parseSomeMarkdown } from '~/services/utils';
+import { formatRetreat } from '~/services/utils';
 
 export default {
   name: 'MonstieEggCard',
@@ -56,7 +58,7 @@ export default {
     },
 
     retreat() {
-      return parseSomeMarkdown(this.monster?.monstie?.retreat);
+      return formatRetreat(this.monster?.monstie?.retreat);
     },
 
     isPinned() {

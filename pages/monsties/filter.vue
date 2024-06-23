@@ -29,7 +29,7 @@ export default {
         // { value: 'location-coop', caption: 'Co-Op Quest' },
         // { value: 'location-eldersLair', caption: "Elder's Lair" },
         { value: 'ridingActions', caption: 'Riding Actions' },
-        // { value: 'retreat', caption: 'Retreat' },
+        { value: 'retreat', caption: 'Retreat' },
         { value: 'rarity', caption: 'Rarity' },
         { value: 'stats', caption: 'Stats' },
       ];

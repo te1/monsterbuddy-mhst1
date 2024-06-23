@@ -221,6 +221,70 @@ export function getCounterAttackType(attackType) {
   }
 }
 
+export function formatRetreat(retreat) {
+  if (retreat == null) {
+    return;
+  }
+
+  let result = '';
+
+  if (retreat.paintball) {
+    result += 'Defeat quickly after using a **Paintball**';
+
+    switch (retreat.paintball) {
+      case 'low':
+        result += ' (low chance)';
+        break;
+
+      case 'high':
+        result += ' (high chance)';
+        break;
+    }
+  }
+
+  if (retreat.condition) {
+    if (retreat.paintball) {
+      result += '\n';
+    }
+
+    result += retreat.condition;
+
+    switch (retreat.chance) {
+      case 'low':
+        result += ' (low chance)';
+        break;
+
+      case 'high':
+        result += ' (high chance)';
+        break;
+    }
+  }
+
+  return parseSomeMarkdown(result);
+}
+
+export function formatRetreatShort(retreat) {
+  if (retreat == null) {
+    return;
+  }
+
+  let result = '';
+
+  if (retreat.paintball) {
+    result += '**Paintball**';
+  }
+
+  if (retreat.condition) {
+    if (retreat.paintball) {
+      result += ', ';
+    }
+
+    result += retreat.condition;
+  }
+
+  return parseSomeMarkdown(result);
+}
+
 export function stripTags(input) {
   if (typeof window !== 'undefined') {
     // https://stackoverflow.com/questions/822452/strip-html-from-text-javascript/47140708#47140708
@@ -239,6 +303,9 @@ export function parseSomeMarkdown(input) {
 
   // **some text** -> <b>some text</b>
   result = result.replace(/\*\*([^**]*)\*\*/g, '<b>$1</b>');
+
+  // \n -> <br>
+  result = result.replace(/\n/g, '<br>');
 
   return result;
 }
