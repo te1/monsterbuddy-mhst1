@@ -4,14 +4,14 @@
       <h3 class="text-lg font-semibold">Monstie Info</h3>
 
       <div class="flex items-center">
-        <span class="w-40">Tendency</span>
+        <span class="w-[175px]">Tendency</span>
 
         <AttackTypeIcon class="w-8 mr-1.5" :monster="monster" />
         <AttackTypeLabel class="font-semibold" :monster="monster" />
       </div>
 
-      <div v-if="monster.monstie" class="flex items-center">
-        <span class="w-40">Strongest Element</span>
+      <div v-if="monster.monstie?.attackElement" class="flex items-center">
+        <span class="w-[175px]">Strongest Elemental Atk</span>
 
         <ElementIcon
           class="w-8 mr-1.5"
@@ -23,11 +23,8 @@
         />
       </div>
 
-      <div
-        v-if="monster.monstie && monster.monstie.kinshipSkill"
-        class="flex items-center"
-      >
-        <span class="w-40 mr-1.5">Kinship Skill</span>
+      <div v-if="monster.monstie?.kinshipSkill" class="flex items-center">
+        <span class="w-[175px] mr-1.5">Kinship Skill</span>
 
         <div
           class="pl-8 font-semibold dark:brightness-150"

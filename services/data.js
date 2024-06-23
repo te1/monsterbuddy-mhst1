@@ -18,6 +18,14 @@ _.forEach(monsters, (monster) => {
     monster.monstie.stats.bestAttack = getMonstieBestAttack(monster);
     monster.monstie.stats.bestDefense = getMonstieBestDefense(monster);
     monster.monstie.stats.worstDefense = getMonstieWorstDefense(monster);
+
+    if (
+      monster.monstie.stats.bestDefense?.value ===
+      monster.monstie.stats.worstDefense?.value
+    ) {
+      monster.monstie.stats.bestDefense = undefined;
+      monster.monstie.stats.worstDefense = undefined;
+    }
   }
 });
 deepFreeze(monsters);
@@ -312,7 +320,7 @@ function getMonstieAttackElement(monster) {
   return getMonstieBestAttack(monster)?.element;
 }
 
-function getMonstieBestAttack(monster) {
+function getMonstieAttackStats(monster) {
   let attack = monster?.monstie?.stats?.attack;
 
   attack = _.transform(
@@ -323,7 +331,22 @@ function getMonstieBestAttack(monster) {
     []
   );
 
-  return _.maxBy(attack, 'value');
+  return attack;
+}
+
+function getMonstieWorstAttack(monster) {
+  return _.minBy(getMonstieAttackStats(monster), 'value');
+}
+
+function getMonstieBestAttack(monster) {
+  const worst = getMonstieWorstAttack(monster);
+  const best = _.maxBy(getMonstieAttackStats(monster), 'value');
+
+  if (worst?.element === best?.element) {
+    return undefined;
+  }
+
+  return best;
 }
 
 function getMonstieDefenseStats(monster) {

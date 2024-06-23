@@ -257,7 +257,7 @@
           class="flex-1 cursor-pointer"
           for="MonsterFilter_AttackElementFilter"
         >
-          Strongest Element
+          Strongest Elemental Atk
         </label>
 
         <select
@@ -492,19 +492,19 @@ export default {
           },
           {
             value: 'monstie.stats.bestAttack.value',
-            caption: 'Strongest Elemental Attack',
+            caption: 'Strongest Elemental Atk',
             default: 'desc',
             mode: 'stats',
           },
           {
             value: 'monstie.stats.bestDefense.value',
-            caption: 'Strongest Elemental Defense',
+            caption: 'Strongest Elemental Res',
             default: 'desc',
             mode: 'stats',
           },
           {
             value: 'monstie.stats.worstDefense.value',
-            caption: 'Weakest Elemental Defense',
+            caption: 'Weakest Elemental Res',
             default: 'desc',
             mode: 'stats',
           }

@@ -9,7 +9,7 @@
         <AttackTypeIcon class="w-8 h-8" :monster="monster" />
 
         <ElementIcon
-          v-if="monster.monstie"
+          v-if="monster.monstie?.attackElement"
           class="w-8 h-8"
           :element="monster.monstie.attackElement"
         />
