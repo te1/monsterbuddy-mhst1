@@ -4,10 +4,10 @@
 
 @layer components {
   a.link {
-    @apply no-underline font-normal transition-colors-slow-interactive text-brand-600 dark:text-brand-500;
+    @apply no-underline font-normal transition-colors-slow-interactive text-brand-500 dark:text-brand-500;
   }
   a.link:visited {
-    @apply text-brand-800 dark:text-brand-400;
+    @apply text-brand-600 dark:text-brand-400;
   }
   a.link:hover,
   a.link:visited:hover {
