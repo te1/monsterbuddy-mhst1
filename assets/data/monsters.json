@@ -8,6 +8,10 @@
     "rarity": 1,
     "description": "Placid, crested herbivorous monsters. They form herds and raise their young as a community.",
     "related": [{ "type": "ex", "monster": "Aptonoth EX" }],
+    "monster": {
+      "tendency": "power",
+      "elementalResistance": ["dragon"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -43,7 +47,13 @@
     "name": "Velociprey",
     "genus": "Bird Wyvern",
     "habitat": "Pondry Hills",
-    "rarity": null
+    "rarity": null,
+    "description": "Carnivorous monsters with vivid blue scales. They hunt in packs using a deadly mix of strength and cunning.",
+    "monster": {
+      "tendency": "speed",
+      "elementalResistance": ["dragon"],
+      "elementalWeakness": ["ice"]
+    }
   },
   {
     "no": 3,
@@ -51,32 +61,50 @@
     "genus": "Neopteron",
     "habitat": null,
     "rarity": null,
+    "description": "Neopterons that roam in search of food. Coloration varies based on habitat, this variety being sandy yellow.",
     "related": [
       { "type": "color", "monster": "Konchu (Blue)" },
       { "type": "color", "monster": "Konchu (Red)" },
       { "type": "color", "monster": "Konchu (Green)" }
-    ]
+    ],
+    "monster": {
+      "tendency": "technical"
+    }
   },
   {
     "no": 4,
     "name": "Kelbi",
     "genus": "Herbivore",
     "habitat": "Pondry Hills",
-    "rarity": null
+    "rarity": null,
+    "description": "Diminutive herbivorous monsters known for their kind nature. Their horns are said to be rich in nutrients."
   },
   {
     "no": 5,
     "name": "Hermitaur",
     "genus": "Carapaceon",
     "habitat": "Pondry Hills",
-    "rarity": null
+    "rarity": null,
+    "description": "Small hard-shelled Carapaceons. Their brains are regarded as a delicacy in some regions.",
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["water"],
+      "elementalResistance": ["water"],
+      "elementalWeakness": ["thunder"]
+    }
   },
   {
     "no": 6,
     "name": "Bullfango",
     "genus": "Fanged Beast",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "description": "Small, aggressive Fanged Beasts that attack humans on sight. An acquired taste, but the meat is in demand.",
+    "monster": {
+      "tendency": "power",
+      "elementalResistance": ["ice"],
+      "elementalWeakness": ["thunder"]
+    }
   },
   {
     "no": 7,
@@ -86,6 +114,11 @@
     "locations": [{ "type": "primary", "main": "Pondry Hills", "rank": "low" }],
     "rarity": 1,
     "description": "Alpha monsters that lead the smaller Velociprey. Note their larger size, impressive frill, and sharper claws.",
+    "monster": {
+      "tendency": "speed",
+      "elementalResistance": ["dragon"],
+      "elementalWeakness": ["ice"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -124,6 +157,12 @@
     "locations": [{ "type": "primary", "main": "Pondry Hills", "rank": "low" }],
     "rarity": 2,
     "description": "Bear-like monsters found in warm, damp environments. Can often be found catching fish from rivers.",
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["water"],
+      "elementalResistance": ["water"],
+      "elementalWeakness": ["fire"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -163,6 +202,12 @@
     "rarity": 2,
     "description": "Monsters boasting ample beaks and fan-like ears that splay open when angered. Konchu are a staple food.",
     "related": [{ "type": "subspecies", "monster": "Blue Yian Kut-Ku" }],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["ice"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -202,6 +247,12 @@
     "rarity": 2,
     "description": "A Yian Kut-Ku subspecies. Their blue coloration and physical prowess set them apart from their pink kin.",
     "related": [{ "type": "subspeciesOf", "monster": "Yian Kut-Ku" }],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["water"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -276,8 +327,15 @@
     "no": 12,
     "name": "Zamite",
     "genus": "Amphibian",
-    "habitat": null,
-    "rarity": null
+    "habitat": "Darj Snowfields",
+    "rarity": null,
+    "description": "A young Zamtrios. Uses its sharp teeth to bore into its prey before devouring it from the inside out.",
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["ice"],
+      "elementalResistance": ["ice"],
+      "elementalWeakness": ["thunder"]
+    }
   },
   {
     "no": 13,
@@ -285,11 +343,16 @@
     "genus": "Neopteron",
     "habitat": null,
     "rarity": null,
+    "description": "Versatile Neopterons whose coloration and abilities differ according to habitat. This one is a hardy green.",
     "related": [
       { "type": "color", "monster": "Bnahabra (Brown)" },
       { "type": "color", "monster": "Bnahabra (Red)" },
       { "type": "color", "monster": "Bnahabra (Blue)" }
-    ]
+    ],
+    "monster": {
+      "tendency": "technical",
+      "elementalWeakness": ["fire"]
+    }
   },
   {
     "no": 14,
@@ -297,11 +360,17 @@
     "genus": "Neopteron",
     "habitat": null,
     "rarity": null,
+    "description": "Neopterons that roam in search of food. Coloration varies based on habitat, this variety being an icy blue.",
     "related": [
       { "type": "color", "monster": "Konchu (Yellow)" },
       { "type": "color", "monster": "Konchu (Red)" },
       { "type": "color", "monster": "Konchu (Green)" }
-    ]
+    ],
+    "monster": {
+      "tendency": "technical",
+      "elementalResistance": ["ice"],
+      "elementalWeakness": ["fire"]
+    }
   },
   {
     "no": 15,
@@ -313,6 +382,12 @@
     ],
     "rarity": 2,
     "description": "White Fanged Beasts with acute hearing. They slide on the ice at high speeds to chase down their prey.",
+    "monster": {
+      "tendency": "speed",
+      "elementalAtk": ["ice"],
+      "elementalResistance": ["ice"],
+      "elementalWeakness": ["fire"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -353,6 +428,12 @@
     ],
     "rarity": 1,
     "description": "Powerful alpha monsters that lead Bullfango herds. They mow down their prey with their sturdy tusks.",
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["ice"],
+      "elementalResistance": ["ice"],
+      "elementalWeakness": ["thunder"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -393,6 +474,11 @@
     ],
     "rarity": 3,
     "description": "Amphibian monsters known for the astonishing changes that occur when they coat their bodies in icy armor.",
+    "monster": {
+      "tendency": "technical",
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["thunder"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -434,6 +520,12 @@
     "rarity": 3,
     "description": "Loathsome Flying Wyverns dwelling mainly in caves. They generate and release electricity to deadly effect.",
     "related": [{ "type": "subspecies", "monster": "Red Khezu" }],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["thunder"],
+      "elementalResistance": ["thunder"],
+      "elementalWeakness": ["fire"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -475,6 +567,12 @@
     "rarity": 3,
     "description": "Khezu subspecies with red bodies. Its electrical power is far more advanced than that of its white cousin.",
     "related": [{ "type": "subspeciesOf", "monster": "Khezu" }],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["thunder"],
+      "elementalResistance": ["thunder"],
+      "elementalWeakness": ["water"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -510,7 +608,14 @@
     "name": "Barrel Felyne",
     "genus": "Lynian",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "description": "Trapped in barrels and unable to free themselves, these Felynes await rescue.",
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["water"],
+      "elementalResistance": ["water"],
+      "elementalWeakness": ["fire"]
+    }
   },
   {
     "no": 21,
@@ -1208,7 +1313,11 @@
       { "type": "color", "monster": "Bnahabra (Green)" },
       { "type": "color", "monster": "Bnahabra (Brown)" },
       { "type": "color", "monster": "Bnahabra (Blue)" }
-    ]
+    ],
+    "monster": {
+      "tendency": "technical",
+      "elementalWeakness": ["fire"]
+    }
   },
   {
     "no": 47,
@@ -1220,7 +1329,12 @@
       { "type": "color", "monster": "Konchu (Yellow)" },
       { "type": "color", "monster": "Konchu (Blue)" },
       { "type": "color", "monster": "Konchu (Green)" }
-    ]
+    ],
+    "monster": {
+      "tendency": "technical",
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["water"]
+    }
   },
   {
     "no": 48,
@@ -1247,6 +1361,11 @@
     ],
     "rarity": 2,
     "description": "Alpha monsters that lead Ioprey. Their poison sacs allow them to attack by spitting an acrid venom.",
+    "monster": {
+      "tendency": "speed",
+      "elementalResistance": ["ice", "dragon"],
+      "elementalWeakness": ["water", "thunder"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -1514,7 +1633,11 @@
       { "type": "color", "monster": "Bnahabra (Green)" },
       { "type": "color", "monster": "Bnahabra (Brown)" },
       { "type": "color", "monster": "Bnahabra (Red)" }
-    ]
+    ],
+    "monster": {
+      "tendency": "technical",
+      "elementalWeakness": ["fire"]
+    }
   },
   {
     "no": 62,
@@ -1535,7 +1658,13 @@
     "name": "Conga",
     "genus": "Fanged Beast",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "description": "Pink furred Fanged Beasts. They prefer to live in small, close-knit groups than large troops.",
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["dragon"],
+      "elementalWeakness": ["fire"]
+    }
   },
   {
     "no": 65,
@@ -2016,6 +2145,11 @@
     "rarity": 5,
     "description": "Flying Wyverns residing in wooded areas. Fearfully fast, persistent, and sly, they excel at hunting prey.",
     "related": [{ "type": "subspecies", "monster": "Green Nargacuga" }],
+    "monster": {
+      "tendency": "spped",
+      "elementalResistance": ["water"],
+      "elementalWeakness": ["thunder"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
