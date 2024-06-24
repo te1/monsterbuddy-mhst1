@@ -22,7 +22,7 @@
           class="flex items-center"
         >
           <ElementIcon class="w-8 mr-1.5" :element="element" />
-          <ElementLabel class="font-semibold" :element="element" />
+          <ElementLabel class="w-12 font-semibold" :element="element" />
         </span>
       </div>
 
