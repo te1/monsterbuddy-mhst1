@@ -24,7 +24,7 @@ export default {
     modes() {
       return [
         { value: 'location', caption: 'Location' },
-        { value: 'combat', caption: 'Attack Pattern' },
+        { value: 'combat', caption: 'Combat Info' },
       ];
     },
   },

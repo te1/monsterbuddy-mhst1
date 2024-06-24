@@ -46,16 +46,13 @@
         </div>
       </template>
 
-      <template v-if="showCombat && monster.monster">
-        <div
-          v-for="(attackType, phase) in monster.monster.attackPatterns"
-          :key="phase"
-        >
-          {{ formatPhase(phase) }}:
-
-          <AttackTypeLabel class="font-semibold" :type="attackType" />
-        </div>
-      </template>
+      <div v-if="showCombat && monster.monster?.tendency">
+        Tendency
+        <AttackTypeLabel
+          class="font-semibold"
+          :type="monster.monster?.tendency"
+        />
+      </div>
     </div>
 
     <MonsterImage

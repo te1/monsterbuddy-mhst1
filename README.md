@@ -8,7 +8,7 @@ https://mhst1.monsterbuddy.app
 
 ## Features
 
-- Monster list with ~~attack patterns~~ and elemental weaknesses
+- Monster list with attack patterns and elemental weaknesses
 - Monstie list with attack tendencies, retreat conditions, habitats and stats
 - Egg list with search, sorting and filtering
 - ~~Catavan stands with list of nearby monsters~~

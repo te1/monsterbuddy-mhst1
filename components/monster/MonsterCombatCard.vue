@@ -56,7 +56,7 @@
     <div class="absolute top-0 right-0 pt-1 pr-3">
       <AppPinToggle
         :pinned="isPinned"
-        subject="monster attack pattern"
+        subject="monster combat info"
         @toggle="togglePin"
       />
     </div>

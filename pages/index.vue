@@ -51,7 +51,7 @@
             <ul>
               <li>
                 <NuxtLink class="link" to="/monsters/">Monster list</NuxtLink>
-                with <s>attack patterns</s> and elemental weaknesses
+                with attack patterns and elemental weaknesses
               </li>
 
               <li>
@@ -93,9 +93,7 @@
                 for fast and easy navigation
               </li>
 
-              <!--
-              <li>Bookmark monsters to quickly check their attack patterns</li>
-              -->
+              <li>Bookmark monsters to quickly check their combat info</li>
 
               <li>Bookmark your favorite monsties to find them quickly</li>
 
