@@ -36,7 +36,9 @@
     <NuxtChild v-show="!leaving && showFilter" />
 
     <main v-show="leaving || !showFilter">
-      <Mhst2Banner class="mb-3" />
+      <client-only>
+        <Mhst2Banner class="mb-3" />
+      </client-only>
 
       <div
         v-if="showActiveFilters"
