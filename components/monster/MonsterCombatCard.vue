@@ -1,57 +1,55 @@
 <template>
-  <section v-if="hasCombatInfo" class="relative space-y-2 overflow-hidden">
-    <div v-if="hasAttackPatterns">
-      <h3 class="text-lg font-semibold">Attack Patterns</h3>
+  <section v-if="hasCombatInfo" class="relative space-y-3 overflow-hidden">
+    <div class="space-y-1">
+      <h3 class="text-lg font-semibold">Monster Info</h3>
 
-      <div class="space-y-1">
-        <div
-          v-for="(attackType, phase) in monster.monster.attackPatterns"
-          :key="phase"
+      <div v-if="hasTendency" class="flex items-center">
+        <span class="w-20 sm:w-40">Tendency</span>
+
+        <AttackTypeIcon class="w-8 mr-1.5" :type="monster.monster.tendency" />
+        <AttackTypeLabel
+          class="font-semibold"
+          :type="monster.monster.tendency"
+        />
+      </div>
+
+      <div v-if="hasElementalAtk" class="flex items-center">
+        <span class="w-20 sm:w-40">Elemental Attack</span>
+
+        <span
+          v-for="element in monster.monster.elementalAtk"
+          :key="element"
           class="flex items-center"
         >
-          <span class="w-36" v-text="formatPhase(phase)" />
-
-          <AttackTypeIcon class="w-8 mr-1.5" :type="attackType" />
-          <AttackTypeLabel class="font-semibold" :type="attackType" />
-
-          <!--
-          <AttackTypeLabel
-            class="ml-1.5 font-semibold"
-            :type="getCounterAttackType(attackType)"
-          /> -->
-        </div>
+          <ElementIcon class="w-8 mr-1.5" :element="element" />
+          <ElementLabel class="font-semibold" :element="element" />
+        </span>
       </div>
-    </div>
 
-    <div v-if="hasParts">
-      <h3 class="text-lg font-semibold">Parts</h3>
+      <div v-if="hasElementalResistance" class="flex items-center">
+        <span class="w-20 sm:w-40">Resistance</span>
 
-      <div class="space-y-1">
-        <div
-          v-for="(weaponTypes, part) in monster.monster.parts"
-          :key="part"
+        <span
+          v-for="element in monster.monster.elementalResistance"
+          :key="element"
           class="flex items-center"
         >
-          <span class="w-36" v-text="formatPart(part)" />
-
-          <WeaponEffectiveness :types="weaponTypes" />
-        </div>
+          <ElementIcon class="w-8 mr-1.5" :element="element" />
+          <ElementLabel class="w-12 font-semibold" :element="element" />
+        </span>
       </div>
-    </div>
 
-    <div v-if="hasElementalWeakness" class="pt-2 flex">
-      <h3 class="w-36 pt-0.5 text-lg font-semibold">Weakness</h3>
+      <div v-if="hasElementalWeakness" class="flex items-center">
+        <span class="w-20 sm:w-40">Weakness</span>
 
-      <div class="space-y-2">
-        <div
-          v-for="(weakness, label) in elementalWeaknesses"
-          :key="weakness"
-          class="flex items-center mr-4"
+        <span
+          v-for="element in monster.monster.elementalWeakness"
+          :key="element"
+          class="flex items-center"
         >
-          <ElementIcon class="w-8 mr-1" :element="weakness" />
-          <ElementLabel class="font-semibold" :element="weakness" />
-          <span v-if="label !== 'DEFAULT'" class="ml-1">({{ label }})</span>
-        </div>
+          <ElementIcon class="w-8 mr-1.5" :element="element" />
+          <ElementLabel class="w-12 font-semibold" :element="element" />
+        </span>
       </div>
     </div>
 
@@ -66,9 +64,6 @@
 </template>
 
 <script>
-import _ from 'lodash';
-import { formatPhase, getCounterAttackType } from '~/services/utils';
-
 export default {
   name: 'MonsterCombatCard',
 
@@ -84,31 +79,28 @@ export default {
       return this.$useHistoryStore();
     },
 
-    hasAttackPatterns() {
-      return !!_.size(this.monster?.monster?.attackPatterns);
+    hasTendency() {
+      return !!this.monster?.monster?.tendency;
     },
 
-    hasParts() {
-      return !!_.size(this.monster?.monster?.parts);
+    hasElementalAtk() {
+      return !!this.monster?.monster?.elementalAtk?.length;
+    },
+
+    hasElementalResistance() {
+      return !!this.monster?.monster?.elementalResistance?.length;
     },
 
     hasElementalWeakness() {
-      return this.monster?.monster?.elementalWeakness != null;
-    },
-
-    elementalWeaknesses() {
-      let result = this.monster?.monster?.elementalWeakness;
-
-      if (!_.isObject(result)) {
-        result = { DEFAULT: result };
-      }
-
-      return result;
+      return !!this.monster?.monster?.elementalWeakness?.length;
     },
 
     hasCombatInfo() {
       return (
-        this.hasAttackPatterns || this.hasParts || this.hasElementalWeakness
+        this.hasTendency ||
+        this.hasElementalAtk ||
+        this.hasElementalResistance ||
+        this.hasElementalWeakness
       );
     },
 
@@ -118,16 +110,6 @@ export default {
   },
 
   methods: {
-    formatPhase,
-    getCounterAttackType,
-
-    formatPart(part) {
-      if (part === 'DEFAULT') {
-        return 'Default';
-      }
-      return part;
-    },
-
     togglePin() {
       this.history.togglePinnedMonster(this.monster?.slug);
     },
