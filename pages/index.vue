@@ -43,6 +43,15 @@
         </div>
       </div>
 
+      <div class="note mt-6 lg:mt-4 px-4 py-3">
+        Looking for info on
+        <strong>Monster Hunter Stories 2: Wings of Ruin</strong> instead? Check
+        out
+        <a class="link" href="https://monsterbuddy.app" target="_blank">
+          Monster Buddy for MHST2</a
+        >.
+      </div>
+
       <div class="prose prose-sm dark:prose-dark max-w-none">
         <div class="grid lg:grid-cols-2 lg:gap-8">
           <div>

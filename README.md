@@ -6,7 +6,7 @@ https://mhst1.monsterbuddy.app
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e1181391-5730-4a96-965f-fb43ca7eb17e/deploy-status)](https://app.netlify.com/sites/monsterbuddy-mhst1/deploys)
 
-Looking for info on Monster Hunter Stories 2: Wings of Ruin instead? Check https://monsterbuddy.app
+Looking for info on Monster Hunter Stories 2: Wings of Ruin instead? Check out https://monsterbuddy.app
 
 ## Features
 
