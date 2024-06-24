@@ -1391,6 +1391,12 @@
       { "type": "ex", "monster": "Tigrex EX" },
       { "type": "deviant", "monster": "Molten Tigrex" }
     ],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["ice"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["thunder"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -1427,22 +1433,36 @@
     "genus": "Brute Wyvern",
     "habitat": null,
     "rarity": null,
-    "related": [{ "type": "exOf", "monster": "Barroth" }]
+    "description": "Enhanced Barroth controlled by modified Kinship Stones. Implanted Flame Sacs allow them to breathe fire.",
+    "related": [{ "type": "exOf", "monster": "Barroth" }],
+    "monster": {
+      "tendency": "speed",
+      "elementalAtk": ["water"],
+      "elementalResistance": ["water", "thunder"],
+      "elementalWeakness": ["fire"]
+    }
   },
   {
     "no": 45,
     "name": "Slagtoth (Brown)",
     "genus": "Herbivore",
-    "habitat": null,
+    "habitat": "Dovan Volcano",
     "rarity": null,
-    "related": [{ "type": "color", "monster": "Slagtoth (Green)" }]
+    "description": "A brown variety of Slagtoth. They store nutrients in the thick layers of skin that hang from their bodies.",
+    "related": [{ "type": "color", "monster": "Slagtoth (Green)" }],
+    "monster": {
+      "tendency": "power",
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["ice"]
+    }
   },
   {
     "no": 46,
     "name": "Bnahabra (Red)",
     "genus": "Neopteron",
-    "habitat": null,
+    "habitat": "Dovan Volcano",
     "rarity": null,
+    "description": "Versatile Neopterons whose coloration and abilities differ according to habitat. This one is a lively red.",
     "related": [
       { "type": "color", "monster": "Bnahabra (Green)" },
       { "type": "color", "monster": "Bnahabra (Brown)" },
@@ -1457,8 +1477,9 @@
     "no": 47,
     "name": "Konchu (Red)",
     "genus": "Neopteron",
-    "habitat": null,
+    "habitat": "Dovan Volcano",
     "rarity": null,
+    "description": "Neopterons that roam in search of food. Coloration varies based on habitat, this variety being a rusty red.",
     "related": [
       { "type": "color", "monster": "Konchu (Yellow)" },
       { "type": "color", "monster": "Konchu (Blue)" },
@@ -1474,16 +1495,28 @@
     "no": 48,
     "name": "Ioprey",
     "genus": "Bird Wyvern",
-    "habitat": null,
-    "rarity": null
+    "habitat": "Dovan Volcano",
+    "rarity": null,
+    "description": "Red-scaled Bird Wyverns that attack by excreting venom from their throat sacs which they spit at foes.",
+    "monster": {
+      "tendency": "speed",
+      "elementalWeakness": ["water", "thunder"]
+    }
   },
   {
     "no": 49,
     "name": "Uroktor",
     "genus": "Leviathan",
-    "habitat": null,
+    "habitat": "Dovan Volcano",
     "rarity": null,
-    "related": [{ "type": "ex", "monster": "Uroktor EX" }]
+    "description": "Young Leviathans dwelling in volcanoes. Scavengers by nature, they feed off the scraps left behind by others.",
+    "related": [{ "type": "ex", "monster": "Uroktor EX" }],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["water"]
+    }
   },
   {
     "no": 50,
@@ -1541,6 +1574,12 @@
     "rarity": 3,
     "description": "Juvenile form of a Gravios. Its most distinctive feature is the rock-hard carapace on its back.",
     "related": [{ "type": "subspecies", "monster": "Ruby Basarios" }],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["thunder", "ice"],
+      "elementalWeakness": ["dragon"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -1588,6 +1627,12 @@
     "rarity": 4,
     "description": "Flying Wyverns that inhabit volcanic regions. Capable of attacking with fiery breath and sleeping gas.",
     "related": [{ "type": "subspecies", "monster": "Black Gravios" }],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["water", "dragon"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -1629,6 +1674,12 @@
     "rarity": 4,
     "description": "Brute Wyverns with mighty jaws. They spray the stones and ore which stick to them in deadly, explosive attacks.",
     "related": [{ "type": "ex", "monster": "Uragaan EX" }],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["water"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -1674,6 +1725,11 @@
       { "type": "ex", "monster": "Tigrex EX" },
       { "type": "deviant", "monster": "Molten Tigrex" }
     ],
+    "monster": {
+      "tendency": "power",
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["water"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -1708,12 +1764,19 @@
     "no": 55,
     "name": "Agnaktor",
     "genus": "Leviathan",
-    "habitat": null,
+    "habitat": "Dovan Volcano",
     "rarity": null,
+    "description": "Agnaktor use their tough beaks and powerful muscles to burrow into rock, moving freely through the earth.",
     "related": [
       { "type": "subspecies", "monster": "Glacial Agnaktor" },
       { "type": "ex", "monster": "Agnaktor EX" }
-    ]
+    ],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["dragon"]
+    }
   },
   {
     "no": 56,
@@ -1721,7 +1784,14 @@
     "genus": "Herbivore",
     "habitat": null,
     "rarity": null,
-    "related": [{ "type": "exOf", "monster": "Aptonoth" }]
+    "description": "An artificially enhanced Aptonoth controlled by modified Kinship Stones. Armor-clad, fire-breathing.",
+    "related": [{ "type": "exOf", "monster": "Aptonoth" }],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["water", "thunder", "ice"]
+    }
   },
   {
     "no": 57,
@@ -1729,7 +1799,14 @@
     "genus": "Leviathan",
     "habitat": null,
     "rarity": null,
-    "related": [{ "type": "exOf", "monster": "Uroktor" }]
+    "description": "An artificially enhanced Uroktor controlled by modified Kinship Stones. Paralyzingly venomous.",
+    "related": [{ "type": "exOf", "monster": "Uroktor" }],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["thunder"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["water"]
+    }
   },
   {
     "no": 58,
@@ -1737,7 +1814,14 @@
     "genus": "Brute Wyvern",
     "habitat": null,
     "rarity": null,
-    "related": [{ "type": "ex", "monster": "Uragaan" }]
+    "description": "An artificially enhanced Uragaan controlled by modified Kinship Stones. Aggressively electrifying.",
+    "related": [{ "type": "ex", "monster": "Uragaan" }],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["water"]
+    }
   },
   {
     "no": 59,
@@ -1745,17 +1829,25 @@
     "genus": "Leviathan",
     "habitat": null,
     "rarity": null,
+    "description": "An artificially enhanced Agnaktor controlled by modified Kinship Stones. Draconically destructive.",
     "related": [
       { "type": "exOf", "monster": "Agnaktor" },
       { "type": "subspecies", "monster": "Glacial Agnaktor" }
-    ]
+    ],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["dragon"]
+    }
   },
   {
     "no": 60,
     "name": "Gargwa",
     "genus": "Bird Wyvern",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "description": "Placid Bird Wyverns raised as livestock. Their vestigial wings make them flightless."
   },
   {
     "no": 61,
@@ -1763,6 +1855,7 @@
     "genus": "Neopteron",
     "habitat": null,
     "rarity": null,
+    "description": "Versatile Neopterons whose coloration and abilities differ according to habitat. This one is a deep blue.",
     "related": [
       { "type": "color", "monster": "Bnahabra (Green)" },
       { "type": "color", "monster": "Bnahabra (Brown)" },
@@ -1778,14 +1871,26 @@
     "name": "Jaggi",
     "genus": "Bird Wyvern",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "description": "Carnivorous Bird Wyverns. They hunt in packs, and the young males are typically smaller than the females.",
+    "monster": {
+      "tendency": "speed",
+      "elementalResistance": ["dragon"],
+      "elementalWeakness": ["fire"]
+    }
   },
   {
     "no": 63,
     "name": "Jaggia",
     "genus": "Bird Wyvern",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "description": "Female Jaggi that live in packs, generally responsible for protecting the nest and raising the young.",
+    "monster": {
+      "tendency": "power",
+      "elementalResistance": ["dragon"],
+      "elementalWeakness": ["fire"]
+    }
   },
   {
     "no": 64,
@@ -1817,14 +1922,26 @@
     "name": "Great Thunderbug",
     "genus": "Neopteron",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "description": "Gigantic Thunderbugs that are raised in the bellies of Elder Dragons. Electrifyingly lethal.",
+    "monster": {
+      "tendency": "speed",
+      "elementalAtk": ["thunder"],
+      "elementalResistance": ["thunder"]
+    }
   },
   {
     "no": 67,
     "name": "Shakalaka",
     "genus": "Lynian",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "description": "Lynians never seen without their masks. Specializing in camouflage, even spotting one is no easy task.",
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["dragon"],
+      "elementalWeakness": ["ice"]
+    }
   },
   {
     "no": 68,
