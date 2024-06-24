@@ -1951,6 +1951,11 @@
     "locations": [{ "type": "primary", "main": "Paupau Beach", "rank": "low" }],
     "rarity": 2,
     "description": "Alpha monsters that lead Jaggi. They issue complex commands to the pack via their howls.",
+    "monster": {
+      "tendency": "speed",
+      "elementalResistance": ["dragon"],
+      "elementalWeakness": ["fire"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -1990,6 +1995,12 @@
     "rarity": 3,
     "description": "Fanged Beasts with limbs well adapted to swinging through the forest tree areas they inhabit.",
     "related": [{ "type": "subspecies", "monster": "Ash Kecha Wacha" }],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["water"],
+      "elementalResistance": ["water"],
+      "elementalWeakness": ["fire"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -2029,6 +2040,12 @@
     "rarity": 4,
     "description": "A subspecies of Royal Ludroth. Poison is stored in their spongy purple manes.",
     "related": [{ "type": "subspeciesOf", "monster": "Royal Ludroth" }],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["water"],
+      "elementalResistance": ["water"],
+      "elementalWeakness": ["fire"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -2074,6 +2091,12 @@
     ],
     "rarity": 5,
     "description": "Bird Wyverns known for their hard shells and long manes. Aggressive, prone to attack unprovoked.",
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire", "thunder"],
+      "elementalWeakness": ["water"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -2120,6 +2143,11 @@
     "rarity": 3,
     "description": "Pink-furred Fanged Beasts. They let rip with almighty farts, the stench of which overwhelms opponents.",
     "related": [{ "type": "subspecies", "monster": "Emerald Congalala" }],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["dragon"],
+      "elementalWeakness": ["fire"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -2166,6 +2194,11 @@
     "rarity": 4,
     "description": "A green-furred Congalala. Able to store even more prodigious quantities of gas than its pink brethren.",
     "related": [{ "type": "subspeciesOf", "monster": "Congalala" }],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["dragon"],
+      "elementalWeakness": ["ice"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -2258,6 +2291,12 @@
     "rarity": 6,
     "description": "This subspecies has a tough, black carapace. It is capable of discharging powerful blasts of heat.",
     "related": [{ "type": "subspeciesOf", "monster": "Gravios" }],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire", "thunder", "ice", "dragon"],
+      "elementalWeakness": ["water"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -2304,6 +2343,12 @@
     "rarity": 6,
     "description": "Fanged Wyverns that store the electrical energy of the countless Thunderbugs that they gather.",
     "related": [{ "type": "subspecies", "monster": "Stygian Zinogre" }],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["thunder"],
+      "elementalResistance": ["thunder"],
+      "elementalWeakness": ["ice"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -2350,6 +2395,12 @@
     "rarity": 4,
     "description": "Basarios subspecies that coats its carapace with rare ore. It scatters this with great force during battle.",
     "related": [{ "type": "subspeciesOf", "monster": "Basarios" }],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["dragon"],
+      "elementalWeakness": ["ice"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -2447,6 +2498,11 @@
     "rarity": 6,
     "description": "Dappled green fur serves as camouflage in the deep forests that this Nargacuga calls home.",
     "related": [{ "type": "subspeciesOf", "monster": "Nargacuga" }],
+    "monster": {
+      "tendency": "speed",
+      "elementalResistance": ["water"],
+      "elementalWeakness": ["thunder"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -2496,6 +2552,12 @@
       { "type": "subspecies", "monster": "Azure Rathalos" },
       { "type": "deviant", "monster": "Silver Rathalos" }
     ],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["dragon"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -2545,6 +2607,12 @@
       { "type": "subspeciesOf", "monster": "Rathalos" },
       { "type": "deviant", "monster": "Silver Rathalos" }
     ],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["dragon"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -2603,6 +2671,12 @@
     "rarity": 4,
     "description": "A subspecies of Gypceros with a uniquely colored hide. It attacks by spitting highly venomous waste.",
     "related": [{ "type": "subspeciesOf", "monster": "Gypceros" }],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["thunder"],
+      "elementalResistance": ["thunder"],
+      "elementalWeakness": ["fire"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -2649,6 +2723,12 @@
     "rarity": 4,
     "description": "This subspecies has pale, multicolored fur. They make sport of their prey with the cunning of their attacks.",
     "related": [{ "type": "subspeciesOf", "monster": "Kecha Wacha" }],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["water"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -2695,6 +2775,12 @@
     "rarity": 5,
     "description": "Leviathans atop the aquatic food chain, due in no small part to their ability to deliver electrical shocks.",
     "related": [{ "type": "subspecies", "monster": "Ivory Lagiacrus" }],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["thunder"],
+      "elementalResistance": ["thunder"],
+      "elementalWeakness": ["fire"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -2741,6 +2827,12 @@
     "rarity": 7,
     "description": "A Lagiacrus subspecies adapted to life on land. Its beautiful white carapace belies its vicious nature.",
     "related": [{ "type": "subspeciesOf", "monster": "Lagiacrus" }],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["thunder"],
+      "elementalResistance": ["thunder"],
+      "elementalWeakness": ["fire"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -3137,6 +3229,12 @@
     "rarity": 7,
     "description": "Lightning-wielding mystical creature. Classified as an Elder Dragon, but its true nature remains a mystery.",
     "related": [{ "type": "deviant", "monster": "Oroshi Kirin" }],
+    "monster": {
+      "tendency": "speed",
+      "elementalAtk": ["thunder"],
+      "elementalResistance": ["thunder"],
+      "elementalWeakness": ["fire"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
