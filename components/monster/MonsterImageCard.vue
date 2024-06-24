@@ -5,7 +5,7 @@
     </div>
     <div
       v-if="monster.description"
-      class="text-center"
+      class="flex-1 content-center text-center"
       v-text="monster.description"
     />
   </section>
