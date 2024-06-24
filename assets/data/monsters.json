@@ -628,6 +628,11 @@
     ],
     "rarity": 2,
     "description": "Herbivores clad in sturdy, armor-like plates. Approach with caution to avoid a fierce and persistent chase.",
+    "monster": {
+      "tendency": "power",
+      "elementalResistance": ["water"],
+      "elementalWeakness": ["thunder"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -662,22 +667,40 @@
     "no": 22,
     "name": "Genprey",
     "genus": "Bird Wyvern",
-    "habitat": null,
-    "rarity": null
+    "habitat": "Monsonne Plains",
+    "rarity": null,
+    "description": "Green-and-orange Bird Wyverns that hunt in packs. They make good use of their paralyzing venom.",
+    "monster": {
+      "tendency": "speed",
+      "elementalAtk": ["thunder"],
+      "elementalResistance": ["dragon"],
+      "elementalWeakness": ["ice"]
+    }
   },
   {
     "no": 23,
     "name": "Ludroth",
     "genus": "Leviathan",
-    "habitat": null,
-    "rarity": null
+    "habitat": "Monsonne Plains",
+    "rarity": null,
+    "description": "Aquatic female monsters. They form harems around large males, aggressively attacking interlopers.",
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["water"],
+      "elementalResistance": ["water"],
+      "elementalWeakness": ["fire"]
+    }
   },
   {
     "no": 24,
     "name": "Altaroth",
     "genus": "Neopteron",
-    "habitat": null,
-    "rarity": null
+    "habitat": "Monsonne Plains",
+    "rarity": null,
+    "description": "Neopterons found in many habitats. They forage for fruit, mushrooms, and honey to take back to their nests.",
+    "monster": {
+      "tendency": "technical"
+    }
   },
   {
     "no": 25,
@@ -685,33 +708,58 @@
     "genus": "Herbivore",
     "habitat": null,
     "rarity": null,
-    "related": [{ "type": "color", "monster": "Slagtoth (Brown)" }]
+    "description": "A green variety of Slagtoth. They store nutrients in the thick layers of skin that hang from their bodies.",
+    "related": [{ "type": "color", "monster": "Slagtoth (Brown)" }],
+    "monster": {
+      "tendency": "power",
+      "elementalResistance": ["water"],
+      "elementalWeakness": ["thunder"]
+    }
   },
   {
     "no": 26,
     "name": "Vespoid",
     "genus": "Neopteron",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "description": "Giant Wasp-like Neopterons with paralyzing stingers, which they use on any who stray too close.",
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["ice"],
+      "elementalResistance": ["ice"],
+      "elementalWeakness": ["fire", "water", "dragon"]
+    }
   },
   {
     "no": 27,
     "name": "Bnahabra (Brown)",
     "genus": "Neopteron",
-    "habitat": null,
+    "habitat": "Trese Desert",
     "rarity": null,
+    "description": "Versatile Neopterons whose coloration and abilities differ according to habitat. This one is a sturdy brown.",
     "related": [
       { "type": "color", "monster": "Bnahabra (Green)" },
       { "type": "color", "monster": "Bnahabra (Red)" },
       { "type": "color", "monster": "Bnahabra (Blue)" }
-    ]
+    ],
+    "monster": {
+      "tendency": "technical",
+      "elementalWeakness": ["fire"]
+    }
   },
   {
     "no": 28,
     "name": "Cephalos",
     "genus": "Piscine Wyvern",
-    "habitat": null,
-    "rarity": null
+    "habitat": "Trese Desert",
+    "rarity": null,
+    "description": "Piscine Wyverns with acute hearing. They swim freely in the desert sands that their scales so resemble.",
+    "monster": {
+      "tendency": "speed",
+      "elementalAtk": ["dragon"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["ice"]
+    }
   },
   {
     "no": 29,
@@ -724,6 +772,12 @@
     ],
     "rarity": 2,
     "description": "Alpha monsters that lead Genprey. Paralyzing venom tips their highly-developed fangs and claws.",
+    "monster": {
+      "tendency": "speed",
+      "elementalAtk": ["thunder"],
+      "elementalResistance": ["dragon"],
+      "elementalWeakness": ["ice"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -766,6 +820,12 @@
     "rarity": 3,
     "description": "Royal Ludroth use their sponge-like neck scales to absorb water and prevent dehydration.",
     "related": [{ "type": "subspecies", "monster": "Purple Ludroth" }],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["water"],
+      "elementalResistance": ["water"],
+      "elementalWeakness": ["fire"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -808,6 +868,12 @@
     "rarity": 3,
     "description": "Crested Bird Wyverns. They strike their crests to generate blinding flashes and dazzle their enemies.",
     "related": [{ "type": "subspecies", "monster": "Purple Gypceros" }],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["thunder"],
+      "elementalResistance": ["thunder"],
+      "elementalWeakness": ["fire"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -850,6 +916,12 @@
     "rarity": 3,
     "description": "Temnocerans that build nests of sticky webbing to ensnare prey, which they rend with their mandibles.",
     "related": [{ "type": "subspecies", "monster": "Shrouded Nerscylla" }],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["water"],
+      "elementalResistance": ["water"],
+      "elementalWeakness": ["fire"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -892,6 +964,12 @@
     "rarity": 4,
     "description": "Temnocerans that inhabit desert areas. They lurk beneath the sands in order ambush unwary prey.",
     "related": [{ "type": "subspeciesOf", "monster": "Nerscylla" }],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["water"],
+      "elementalResistance": ["water"],
+      "elementalWeakness": ["ice"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -934,6 +1012,12 @@
     "rarity": 2,
     "description": "Bird Wyverns with colorful plumage. Using thoracic vocal organs they imitate the calls of other monsters.",
     "related": [{ "type": "subspecies", "monster": "Crimson Qurupeco" }],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["ice"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -979,6 +1063,12 @@
       { "type": "subspecies", "monster": "Pink Rathian" },
       { "type": "deviant", "monster": "Gold Rathian" }
     ],
+    "monster": {
+      "tendency": "speed",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["dragon"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -1024,6 +1114,12 @@
       { "type": "subspeciesOf", "monster": "Rathian" },
       { "type": "deviant", "monster": "Gold Rathian" }
     ],
+    "monster": {
+      "tendency": "speed",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["dragon"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -1058,17 +1154,31 @@
     "no": 37,
     "name": "Daimyo Hermitaur",
     "genus": "Carapaceon",
-    "habitat": null,
+    "habitat": "Trese Desert",
     "rarity": null,
-    "related": [{ "type": "subspecies", "monster": "Plum Daimyo Hermitaur" }]
+    "description": "These armored Carapaceons use their hardened pincers like shields to fend off the attacks of their enemies.",
+    "related": [{ "type": "subspecies", "monster": "Plum Daimyo Hermitaur" }],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["water"],
+      "elementalResistance": ["water"],
+      "elementalWeakness": ["fire", "thunder"]
+    }
   },
   {
     "no": 38,
     "name": "Plum Daimyo Hermitaur",
     "genus": "Carapaceon",
-    "habitat": null,
+    "habitat": "Monsonne Plains",
     "rarity": null,
-    "related": [{ "type": "subspeciesOf", "monster": "Daimyo Hermitaur" }]
+    "description": "Armored Carapaceons that approach their prey with blinding speed and strike using their powerful claws.",
+    "related": [{ "type": "subspeciesOf", "monster": "Daimyo Hermitaur" }],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["water"],
+      "elementalResistance": ["water", "dragon"],
+      "elementalWeakness": ["thunder", "ice"]
+    }
   },
   {
     "no": 39,
@@ -1082,6 +1192,12 @@
       { "type": "subspecies", "monster": "Jade Barroth" },
       { "type": "ex", "monster": "Barroth EX" }
     ],
+    "monster": {
+      "tendency": "speed",
+      "elementalAtk": ["water"],
+      "elementalResistance": ["water", "thunder"],
+      "elementalWeakness": ["fire"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -1123,6 +1239,12 @@
     ],
     "rarity": 2,
     "description": "Alpha monsters that lead Cephalos. Hardened black scales set them apart from the smaller Cephalos.",
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["water"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["ice"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -1165,6 +1287,12 @@
     "rarity": 4,
     "description": "Feared as tyrants of the desert, these Flying Wyverns attack any who stray into their territory.",
     "related": [{ "type": "subspecies", "monster": "Black Diablos" }],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["ice"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -1207,6 +1335,12 @@
     "rarity": 4,
     "description": "A formidable subspecies of Diablos. Females darken in the mating season so as to warn off other creatures.",
     "related": [{ "type": "subspeciesOf", "monster": "Diablos" }],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["ice"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -2146,7 +2280,7 @@
     "description": "Flying Wyverns residing in wooded areas. Fearfully fast, persistent, and sly, they excel at hunting prey.",
     "related": [{ "type": "subspecies", "monster": "Green Nargacuga" }],
     "monster": {
-      "tendency": "spped",
+      "tendency": "speed",
       "elementalResistance": ["water"],
       "elementalWeakness": ["thunder"]
     },
