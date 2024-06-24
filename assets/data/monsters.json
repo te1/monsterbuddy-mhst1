@@ -24,7 +24,7 @@
         "chance": "high"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 1, "def": 2, "agi": 1 },
+        "base": { "hp": 2, "atk": 1, "def": 2, "spd": 1 },
         "attack": {
           "fire": 3,
           "water": 3,
@@ -131,7 +131,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 1, "atk": 1, "def": 1, "agi": 4 },
+        "base": { "hp": 1, "atk": 1, "def": 1, "spd": 4 },
         "attack": {
           "fire": 3,
           "water": 3,
@@ -175,7 +175,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 1, "def": 4, "agi": 2 },
+        "base": { "hp": 2, "atk": 1, "def": 4, "spd": 2 },
         "attack": {
           "fire": 3,
           "water": 4,
@@ -220,7 +220,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 1, "def": 3, "agi": 4 },
+        "base": { "hp": 2, "atk": 1, "def": 3, "spd": 4 },
         "attack": {
           "fire": 4,
           "water": 3,
@@ -265,7 +265,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 2, "def": 3, "agi": 4 },
+        "base": { "hp": 2, "atk": 2, "def": 3, "spd": 4 },
         "attack": {
           "fire": 5,
           "water": 2,
@@ -305,7 +305,7 @@
         "chance": "high"
       },
       "stats": {
-        "base": { "hp": 4, "atk": 1, "def": 2, "agi": 1 },
+        "base": { "hp": 4, "atk": 1, "def": 2, "spd": 1 },
         "attack": {
           "fire": 2,
           "water": 3,
@@ -400,7 +400,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 2, "def": 3, "agi": 3 },
+        "base": { "hp": 2, "atk": 2, "def": 3, "spd": 3 },
         "attack": {
           "fire": 1,
           "water": 4,
@@ -446,7 +446,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 3, "atk": 5, "def": 1, "agi": 3 },
+        "base": { "hp": 3, "atk": 5, "def": 1, "spd": 3 },
         "attack": {
           "fire": 3,
           "water": 3,
@@ -491,7 +491,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 4, "atk": 2, "def": 4, "agi": 3 },
+        "base": { "hp": 4, "atk": 2, "def": 4, "spd": 3 },
         "attack": {
           "fire": 2,
           "water": 5,
@@ -538,7 +538,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 4, "atk": 2, "def": 4, "agi": 2 },
+        "base": { "hp": 4, "atk": 2, "def": 4, "spd": 2 },
         "attack": {
           "fire": 1,
           "water": 3,
@@ -585,7 +585,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 3, "atk": 4, "def": 4, "agi": 2 },
+        "base": { "hp": 3, "atk": 4, "def": 4, "spd": 2 },
         "attack": {
           "fire": 3,
           "water": 1,
@@ -645,7 +645,7 @@
         "chance": "high"
       },
       "stats": {
-        "base": { "hp": 1, "atk": 1, "def": 4, "agi": 2 },
+        "base": { "hp": 1, "atk": 1, "def": 4, "spd": 2 },
         "attack": {
           "fire": 3,
           "water": 4,
@@ -790,7 +790,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 1, "atk": 1, "def": 1, "agi": 4 },
+        "base": { "hp": 1, "atk": 1, "def": 1, "spd": 4 },
         "attack": {
           "fire": 3,
           "water": 3,
@@ -838,7 +838,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 2, "def": 2, "agi": 3 },
+        "base": { "hp": 2, "atk": 2, "def": 2, "spd": 3 },
         "attack": {
           "fire": 1,
           "water": 5,
@@ -886,7 +886,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 1, "def": 4, "agi": 3 },
+        "base": { "hp": 2, "atk": 1, "def": 4, "spd": 3 },
         "attack": {
           "fire": 2,
           "water": 3,
@@ -934,7 +934,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 2, "def": 4, "agi": 3 },
+        "base": { "hp": 2, "atk": 2, "def": 4, "spd": 3 },
         "attack": {
           "fire": 3,
           "water": 5,
@@ -982,7 +982,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 2, "def": 4, "agi": 3 },
+        "base": { "hp": 2, "atk": 2, "def": 4, "spd": 3 },
         "attack": {
           "fire": 3,
           "water": 5,
@@ -1030,7 +1030,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 2, "def": 3, "agi": 4 },
+        "base": { "hp": 2, "atk": 2, "def": 3, "spd": 4 },
         "attack": {
           "fire": 5,
           "water": 3,
@@ -1081,7 +1081,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 5, "atk": 2, "def": 4, "agi": 3 },
+        "base": { "hp": 5, "atk": 2, "def": 4, "spd": 3 },
         "attack": {
           "fire": 5,
           "water": 3,
@@ -1132,7 +1132,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 4, "atk": 4, "def": 3, "agi": 3 },
+        "base": { "hp": 4, "atk": 4, "def": 3, "spd": 3 },
         "attack": {
           "fire": 5,
           "water": 3,
@@ -1210,7 +1210,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 5, "atk": 1, "def": 5, "agi": 3 },
+        "base": { "hp": 5, "atk": 1, "def": 5, "spd": 3 },
         "attack": {
           "fire": 1,
           "water": 5,
@@ -1257,7 +1257,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 1, "def": 3, "agi": 3 },
+        "base": { "hp": 2, "atk": 1, "def": 3, "spd": 3 },
         "attack": {
           "fire": 4,
           "water": 4,
@@ -1305,7 +1305,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 5, "atk": 4, "def": 5, "agi": 3 },
+        "base": { "hp": 5, "atk": 4, "def": 5, "spd": 3 },
         "attack": {
           "fire": 5,
           "water": 3,
@@ -1353,7 +1353,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 4, "atk": 5, "def": 4, "agi": 3 },
+        "base": { "hp": 4, "atk": 5, "def": 4, "spd": 3 },
         "attack": {
           "fire": 4,
           "water": 3,
@@ -1409,7 +1409,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 5, "def": 3, "agi": 3 },
+        "base": { "hp": 2, "atk": 5, "def": 3, "spd": 3 },
         "attack": {
           "fire": 5,
           "water": 3,
@@ -1545,7 +1545,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 1, "atk": 1, "def": 2, "agi": 4 },
+        "base": { "hp": 1, "atk": 1, "def": 2, "spd": 4 },
         "attack": {
           "fire": 3,
           "water": 2,
@@ -1592,7 +1592,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 3, "atk": 1, "def": 5, "agi": 1 },
+        "base": { "hp": 3, "atk": 1, "def": 5, "spd": 1 },
         "attack": {
           "fire": 4,
           "water": 3,
@@ -1645,7 +1645,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 5, "atk": 3, "def": 5, "agi": 2 },
+        "base": { "hp": 5, "atk": 3, "def": 5, "spd": 2 },
         "attack": {
           "fire": 5,
           "water": 3,
@@ -1692,7 +1692,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 5, "atk": 2, "def": 5, "agi": 1 },
+        "base": { "hp": 5, "atk": 2, "def": 5, "spd": 1 },
         "attack": {
           "fire": 5,
           "water": 1,
@@ -1742,7 +1742,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 5, "def": 3, "agi": 3 },
+        "base": { "hp": 2, "atk": 5, "def": 3, "spd": 3 },
         "attack": {
           "fire": 5,
           "water": 2,
@@ -1972,7 +1972,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 1, "atk": 1, "def": 2, "agi": 4 },
+        "base": { "hp": 1, "atk": 1, "def": 2, "spd": 4 },
         "attack": {
           "fire": 2,
           "water": 3,
@@ -2017,7 +2017,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 2, "def": 2, "agi": 3 },
+        "base": { "hp": 2, "atk": 2, "def": 2, "spd": 3 },
         "attack": {
           "fire": 1,
           "water": 5,
@@ -2062,7 +2062,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 2, "def": 3, "agi": 3 },
+        "base": { "hp": 2, "atk": 2, "def": 3, "spd": 3 },
         "attack": {
           "fire": 2,
           "water": 5,
@@ -2113,7 +2113,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 4, "def": 3, "agi": 4 },
+        "base": { "hp": 2, "atk": 4, "def": 3, "spd": 4 },
         "attack": {
           "fire": 5,
           "water": 1,
@@ -2164,7 +2164,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 3, "atk": 2, "def": 4, "agi": 3 },
+        "base": { "hp": 3, "atk": 2, "def": 4, "spd": 3 },
         "attack": {
           "fire": 3,
           "water": 4,
@@ -2215,7 +2215,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 3, "atk": 3, "def": 3, "agi": 3 },
+        "base": { "hp": 3, "atk": 3, "def": 3, "spd": 3 },
         "attack": {
           "fire": 4,
           "water": 4,
@@ -2267,7 +2267,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 3, "def": 3, "agi": 4 },
+        "base": { "hp": 2, "atk": 3, "def": 3, "spd": 4 },
         "attack": {
           "fire": 3,
           "water": 3,
@@ -2319,7 +2319,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 4, "atk": 2, "def": 5, "agi": 2 },
+        "base": { "hp": 4, "atk": 2, "def": 5, "spd": 2 },
         "attack": {
           "fire": 5,
           "water": 1,
@@ -2371,7 +2371,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 5, "atk": 4, "def": 5, "agi": 3 },
+        "base": { "hp": 5, "atk": 4, "def": 5, "spd": 3 },
         "attack": {
           "fire": 3,
           "water": 3,
@@ -2423,7 +2423,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 3, "atk": 2, "def": 5, "agi": 1 },
+        "base": { "hp": 3, "atk": 2, "def": 5, "spd": 1 },
         "attack": {
           "fire": 5,
           "water": 3,
@@ -2474,7 +2474,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 4, "def": 3, "agi": 5 },
+        "base": { "hp": 2, "atk": 4, "def": 3, "spd": 5 },
         "attack": {
           "fire": 3,
           "water": 4,
@@ -2525,7 +2525,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 5, "def": 3, "agi": 5 },
+        "base": { "hp": 2, "atk": 5, "def": 3, "spd": 5 },
         "attack": {
           "fire": 3,
           "water": 4,
@@ -2580,7 +2580,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 5, "atk": 4, "def": 3, "agi": 3 },
+        "base": { "hp": 5, "atk": 4, "def": 3, "spd": 3 },
         "attack": {
           "fire": 5,
           "water": 3,
@@ -2635,7 +2635,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 4, "atk": 5, "def": 3, "agi": 3 },
+        "base": { "hp": 4, "atk": 5, "def": 3, "spd": 3 },
         "attack": {
           "fire": 5,
           "water": 3,
@@ -2706,7 +2706,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 3, "def": 4, "agi": 3 },
+        "base": { "hp": 2, "atk": 3, "def": 4, "spd": 3 },
         "attack": {
           "fire": 2,
           "water": 3,
@@ -2758,7 +2758,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 2, "atk": 3, "def": 2, "agi": 3 },
+        "base": { "hp": 2, "atk": 3, "def": 2, "spd": 3 },
         "attack": {
           "fire": 5,
           "water": 1,
@@ -2810,7 +2810,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 5, "atk": 4, "def": 5, "agi": 3 },
+        "base": { "hp": 5, "atk": 4, "def": 5, "spd": 3 },
         "attack": {
           "fire": 1,
           "water": 4,
@@ -2862,7 +2862,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 4, "atk": 5, "def": 4, "agi": 3 },
+        "base": { "hp": 4, "atk": 5, "def": 4, "spd": 3 },
         "attack": {
           "fire": 2,
           "water": 5,
@@ -2906,7 +2906,7 @@
         "chance": "medium"
       },
       "stats": {
-        "base": { "hp": 5, "atk": 5, "def": 3, "agi": 2 },
+        "base": { "hp": 5, "atk": 5, "def": 3, "spd": 2 },
         "attack": {
           "fire": 3,
           "water": 3,
@@ -2990,7 +2990,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 1, "atk": 1, "def": 1, "agi": 4 },
+        "base": { "hp": 1, "atk": 1, "def": 1, "spd": 4 },
         "attack": {
           "fire": 2,
           "water": 3,
@@ -3035,7 +3035,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 5, "atk": 1, "def": 4, "agi": 3 },
+        "base": { "hp": 5, "atk": 1, "def": 4, "spd": 3 },
         "attack": {
           "fire": 1,
           "water": 4,
@@ -3088,7 +3088,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 5, "atk": 4, "def": 4, "agi": 3 },
+        "base": { "hp": 5, "atk": 4, "def": 4, "spd": 3 },
         "attack": {
           "fire": 1,
           "water": 3,
@@ -3140,7 +3140,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 5, "atk": 3, "def": 4, "agi": 3 },
+        "base": { "hp": 5, "atk": 3, "def": 4, "spd": 3 },
         "attack": {
           "fire": 5,
           "water": 3,
@@ -3203,7 +3203,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 5, "atk": 5, "def": 4, "agi": 3 },
+        "base": { "hp": 5, "atk": 5, "def": 4, "spd": 3 },
         "attack": {
           "fire": 3,
           "water": 3,
@@ -3247,7 +3247,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 5, "atk": 4, "def": 4, "agi": 3 },
+        "base": { "hp": 5, "atk": 4, "def": 4, "spd": 3 },
         "attack": {
           "fire": 5,
           "water": 3,
@@ -3290,7 +3290,7 @@
       "kinshipSkill": null,
       "eggVariants": 3,
       "stats": {
-        "base": { "hp": null, "atk": null, "def": null, "agi": null },
+        "base": { "hp": null, "atk": null, "def": null, "spd": null },
         "attack": {
           "fire": null,
           "water": null,
@@ -3338,7 +3338,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 1, "atk": 4, "def": 4, "agi": 5 },
+        "base": { "hp": 1, "atk": 4, "def": 4, "spd": 5 },
         "attack": {
           "fire": 2,
           "water": 3,
@@ -3401,7 +3401,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 4, "atk": 4, "def": 5, "agi": 3 },
+        "base": { "hp": 4, "atk": 4, "def": 5, "spd": 3 },
         "attack": {
           "fire": 3,
           "water": 5,
@@ -3446,7 +3446,7 @@
         "chance": "low"
       },
       "stats": {
-        "base": { "hp": 5, "atk": 4, "def": 4, "agi": 4 },
+        "base": { "hp": 5, "atk": 4, "def": 4, "spd": 4 },
         "attack": {
           "fire": 5,
           "water": 3,
@@ -3498,7 +3498,7 @@
       "kinshipSkill": "Scorching Slice",
       "eggVariants": 1,
       "stats": {
-        "base": { "hp": 5, "atk": 5, "def": 4, "agi": 3 },
+        "base": { "hp": 5, "atk": 5, "def": 4, "spd": 3 },
         "attack": {
           "fire": 5,
           "water": 2,
@@ -3555,7 +3555,7 @@
       "kinshipSkill": "Sky-High Dive",
       "eggVariants": 1,
       "stats": {
-        "base": { "hp": 5, "atk": 5, "def": 4, "agi": 3 },
+        "base": { "hp": 5, "atk": 5, "def": 4, "spd": 3 },
         "attack": {
           "fire": 5,
           "water": 1,
@@ -3636,7 +3636,7 @@
       "kinshipSkill": "Poogie March",
       "eggVariants": 1,
       "stats": {
-        "base": { "hp": 3, "atk": 5, "def": 2, "agi": 2 },
+        "base": { "hp": 3, "atk": 5, "def": 2, "spd": 2 },
         "attack": {
           "fire": 3,
           "water": 3,
@@ -3679,7 +3679,7 @@
       "kinshipSkill": "Demolition Dash",
       "eggVariants": 1,
       "stats": {
-        "base": { "hp": 3, "atk": 5, "def": 4, "agi": 3 },
+        "base": { "hp": 3, "atk": 5, "def": 4, "spd": 3 },
         "attack": {
           "fire": 3,
           "water": 5,
@@ -3726,7 +3726,7 @@
       "kinshipSkill": "Rock Smash",
       "eggVariants": 1,
       "stats": {
-        "base": { "hp": 3, "atk": 5, "def": 4, "agi": 3 },
+        "base": { "hp": 3, "atk": 5, "def": 4, "spd": 3 },
         "attack": {
           "fire": 5,
           "water": 2,
@@ -3774,7 +3774,7 @@
       "kinshipSkill": "Phantasmal Horn",
       "eggVariants": 1,
       "stats": {
-        "base": { "hp": 1, "atk": 4, "def": 4, "agi": 5 },
+        "base": { "hp": 1, "atk": 4, "def": 4, "spd": 5 },
         "attack": {
           "fire": 2,
           "water": 3,
@@ -3815,7 +3815,7 @@
       "kinshipSkill": null,
       "eggVariants": 1,
       "stats": {
-        "base": { "hp": 5, "atk": 4, "def": 4, "agi": 4 },
+        "base": { "hp": 5, "atk": 4, "def": 4, "spd": 4 },
         "attack": {
           "fire": 5,
           "water": 1,
@@ -3860,7 +3860,7 @@
       "kinshipSkill": null,
       "eggVariants": 1,
       "stats": {
-        "base": { "hp": 5, "atk": 3, "def": 3, "agi": 3 },
+        "base": { "hp": 5, "atk": 3, "def": 3, "spd": 3 },
         "attack": {
           "fire": 5,
           "water": 2,

@@ -171,7 +171,7 @@ export function makeMonsterFilterStore(
           'monstie.stats.base.hp',
           'monstie.stats.base.atk',
           'monstie.stats.base.def',
-          'monstie.stats.base.agi',
+          'monstie.stats.base.spd',
           'monstie.stats.bestAttack.value',
           'monstie.stats.bestDefense.value',
           'monstie.stats.worstDefense.value',
@@ -308,7 +308,7 @@ export function makeMonsterFilterStore(
               caption: 'DEF',
             };
 
-          case 'monstie.stats.base.agi':
+          case 'monstie.stats.base.spd':
             return {
               name: this.sortKey,
               order: this.sortOrder,

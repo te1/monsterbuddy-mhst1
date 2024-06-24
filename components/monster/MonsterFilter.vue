@@ -486,7 +486,7 @@ export default {
             mode: 'stats',
           },
           {
-            value: 'monstie.stats.base.agi',
+            value: 'monstie.stats.base.spd',
             caption: 'SPD',
             default: 'desc',
             mode: 'stats',

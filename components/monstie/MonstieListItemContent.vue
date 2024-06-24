@@ -61,8 +61,8 @@
         />, SPD
         <span
           class="font-bold"
-          :class="getStatClass('base.agi')"
-          v-text="monster.monstie.stats.base.agi"
+          :class="getStatClass('base.spd')"
+          v-text="monster.monstie.stats.base.spd"
         />
       </div>
 

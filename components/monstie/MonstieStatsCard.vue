@@ -21,7 +21,7 @@
           <StatsBar :value="monster.monstie.stats.base.hp" />
           <StatsBar :value="monster.monstie.stats.base.atk" />
           <StatsBar :value="monster.monstie.stats.base.def" />
-          <StatsBar :value="monster.monstie.stats.base.agi" />
+          <StatsBar :value="monster.monstie.stats.base.spd" />
         </div>
       </div>
     </div>
