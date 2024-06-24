@@ -2,6 +2,8 @@
   <div v-if="monster">
     <AppTopBar :heading="monster.name" showBack backFallback="/monsters/" />
 
+    <Mhst2Banner class="mb-3" />
+
     <main class="grid gap-3 grid-cols-1 lg:grid-cols-2">
       <MonsterInfoCard class="box px-4 py-2 order-1" :monster="monster" />
 
