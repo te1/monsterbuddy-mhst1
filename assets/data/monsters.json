@@ -1911,11 +1911,15 @@
     "genus": "Neopteron",
     "habitat": null,
     "rarity": null,
+    "description": "Neopterons that roam in search of food. Coloration varies based on habitat, this variety being verdant green.",
     "related": [
       { "type": "color", "monster": "Konchu (Yellow)" },
       { "type": "color", "monster": "Konchu (Blue)" },
       { "type": "color", "monster": "Konchu (Red)" }
-    ]
+    ],
+    "monster": {
+      "tendency": "technical"
+    }
   },
   {
     "no": 66,
@@ -2245,6 +2249,12 @@
     "rarity": 4,
     "description": "Subspecies with vibrant red plumage. Flints in its wings allow it to release fearsome electrical attacks.",
     "related": [{ "type": "subspeciesOf", "monster": "Qurupeco" }],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["thunder"],
+      "elementalResistance": ["thunder"],
+      "elementalWeakness": ["ice"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -2649,11 +2659,18 @@
     "genus": "Flying Wyvern",
     "habitat": null,
     "rarity": null,
+    "description": "Enhanced Tigrex controlled by modified Kinship Stones. Granted untold power by the Black Blight.",
     "related": [
       { "type": "exOf", "monster": "Tigrex" },
       { "type": "subspecies", "monster": "Brute Tigrex" },
       { "type": "deviant", "monster": "Molten Tigrex" }
-    ]
+    ],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["dragon"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["thunder"]
+    }
   },
   {
     "no": 83,
@@ -2871,6 +2888,12 @@
     "locations": [{ "type": "primary", "main": "Mt. Celion", "rank": "low" }],
     "rarity": 8,
     "description": "Brute Wyverns that roam in search of food. Ferocious in the extreme, and relentless in pursuit of prey.",
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["dragon"],
+      "elementalResistance": ["ice"],
+      "elementalWeakness": ["thunder", "dragon"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -2905,22 +2928,41 @@
     "no": 88,
     "name": "Baggi",
     "genus": "Bird Wyvern",
-    "habitat": null,
-    "rarity": null
+    "habitat": "Mt. Celion",
+    "rarity": null,
+    "description": "Intelligent Bird Wyverns that hunt in packs, and use special bodily fluids to tranquilize their prey.",
+    "monster": {
+      "tendency": "speed",
+      "elementalResistance": ["ice", "dragon"],
+      "elementalWeakness": ["fire"]
+    }
   },
   {
     "no": 89,
     "name": "Great Dracophage Bug",
     "genus": "Neopteron",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "description": "Large Dracophage Bugs. Dragon Element energy is said to lie dormant within their bodies.",
+    "monster": {
+      "tendency": "speed",
+      "elementalAtk": ["dragon"],
+      "elementalResistance": ["dragon"]
+    }
   },
   {
     "no": 90,
     "name": "Remobra",
     "genus": "Snake Wyvern",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "description": "Snake Wyverns that have mastered flight, and which soar in search of weakened prey to swoop upon.",
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["ice"]
+    }
   },
   {
     "no": 91,
@@ -2930,6 +2972,12 @@
     "locations": [{ "type": "primary", "main": "Mt. Celion", "rank": "low" }],
     "rarity": 2,
     "description": "Bluish-white, crested Bird Wyverns. Their ruthless cunning makes them natural leaders of Baggi packs.",
+    "monster": {
+      "tendency": "speed",
+      "elementalAtk": ["ice", "dragon"],
+      "elementalResistance": ["ice", "dragon"],
+      "elementalWeakness": ["fire"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -2969,6 +3017,12 @@
     "rarity": 4,
     "description": "A subspecies of Barroth. Often seen in polar regions, bashing their crowns against the ice.",
     "related": [{ "type": "subspeciesOf", "monster": "Barroth" }],
+    "monster": {
+      "tendency": "speed",
+      "elementalAtk": ["ice"],
+      "elementalResistance": ["ice"],
+      "elementalWeakness": ["fire"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -3016,6 +3070,12 @@
     "rarity": 5,
     "description": "Flying Wyverns that rule the frozen wastes. Spikily scaled wings and tail allow them to run effortlessly across ice.",
     "related": [{ "type": "subspecies", "monster": "Sand Barioth" }],
+    "monster": {
+      "tendency": "speed",
+      "elementalAtk": ["ice"],
+      "elementalResistance": ["ice"],
+      "elementalWeakness": ["fire"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -3062,6 +3122,12 @@
     "rarity": 6,
     "description": "A subspecies of Barioth. Its breath is strong enough to generate tornados among the desert sands.",
     "related": [{ "type": "subspeciesOf", "monster": "Barioth" }],
+    "monster": {
+      "tendency": "speed",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["ice"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -3096,12 +3162,19 @@
     "no": 95,
     "name": "Glacial Agnaktor",
     "genus": "Leviathan",
-    "habitat": null,
+    "habitat": "Mt. Celion",
     "rarity": null,
+    "description": "A subspecies of Agnaktor. With its tough scales, even the tundra presents no obstacle to their movement.",
     "related": [
       { "type": "subspeciesOf", "monster": "Agnaktor" },
       { "type": "ex", "monster": "Agnaktor EX" }
-    ]
+    ],
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["ice"],
+      "elementalResistance": ["water", "ice"],
+      "elementalWeakness": ["fire"]
+    }
   },
   {
     "no": 96,
@@ -3112,6 +3185,12 @@
     "rarity": 7,
     "description": "Feeding on Dracophage Bugs has given this subspecies access to unheard of brute strength.",
     "related": [{ "type": "subspeciesOf", "monster": "Zinogre" }],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["dragon"],
+      "elementalResistance": ["dragon"],
+      "elementalWeakness": ["thunder"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -3150,6 +3229,12 @@
     "locations": [{ "type": "primary", "main": "Mt. Celion", "rank": "low" }],
     "rarity": 8,
     "description": "Brute Wyvern coated in a volatile substance. Its saliva can be used to ignite this coat, with explosive results.",
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["water"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -3190,7 +3275,13 @@
       { "type": "primary", "main": "Perennial Pass", "rank": "high" }
     ],
     "rarity": 8,
-    "description": null,
+    "description": "Ultra-aggressive Fanged Beasts. Widely regarded as the pinnacle of unparalleled physical prowess.",
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["thunder", "dragon"],
+      "elementalResistance": ["thunder"],
+      "elementalWeakness": ["ice"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -3270,14 +3361,16 @@
     "name": "Versa Pietru",
     "genus": "Elder Dragon",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "description": "Legendary White Dragon. Lights up the skies, pierces through darkness; the very embodiment of hope."
   },
   {
     "no": 101,
     "name": "Makili Pietru",
     "genus": "Elder Dragon",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "description": "Legendary black dragon. Darkens the skies, swallows up light; the very embodiment of despair."
   },
   {
     "no": 102,
@@ -3290,6 +3383,12 @@
     "rarity": 6,
     "description": "Endowed with an impressive cranial horn. It uses its horn in brutal attacks, screeching ear-splitting war cries.",
     "related": [{ "type": "subspecies", "monster": "White Monoblos" }],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["water", "dragon"],
+      "elementalResistance": ["water"],
+      "elementalWeakness": ["thunder"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -3330,6 +3429,11 @@
     ],
     "rarity": 7,
     "description": "Flying Wyvern known for its lustrous golden scales. Its scales can be launched at prey in high-speed attacks.",
+    "monster": {
+      "tendency": "technical",
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["thunder"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "technical",
@@ -3380,6 +3484,12 @@
       { "type": "deviantOf", "monster": "Rathian" },
       { "type": "subspecies", "monster": "Pink Rathian" }
     ],
+    "monster": {
+      "tendency": "speed",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["thunder"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
@@ -3431,6 +3541,12 @@
       { "type": "deviantOf", "monster": "Rathalos" },
       { "type": "subspecies", "monster": "Azure Rathalos" }
     ],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["water"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -3464,7 +3580,13 @@
     "habitat": "Mt. Celion",
     "locations": [{ "type": "primary", "main": "Mt. Celion", "rank": "high" }],
     "rarity": null,
-    "description": null,
+    "description": "Elder Dragon clad in metal plating. Generates storms wherever it goes. Getting close to it is no mean feat.",
+    "monster": {
+      "tendency": "technical",
+      "elementalAtk": ["ice"],
+      "elementalResistance": ["ice"],
+      "elementalWeakness": ["dragon"]
+    },
     "hatchable": true,
     "monstie": {
       "eggVariants": 1
@@ -3479,7 +3601,13 @@
       { "type": "primary", "main": "Dovan Volcano", "rank": "high" }
     ],
     "rarity": null,
-    "description": null,
+    "description": "Wreathed in flame and wielding blistering breath attacks, the Guild monitors its movements and moods.",
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["water"]
+    },
     "hatchable": true,
     "monstie": {
       "eggVariants": 1
@@ -3490,7 +3618,8 @@
     "name": "Fatalis",
     "genus": "Elder Dragon",
     "habitat": null,
-    "rarity": null
+    "rarity": null,
+    "description": "Legendary black dragon shrouded in mystery. Many sought to challenge it, few lived to tell the tale..."
   },
   {
     "no": 109,
@@ -3536,6 +3665,12 @@
     "rarity": 7,
     "description": "Fiercer than its cousins, this white subspecies should be approached with the utmost caution.",
     "related": [{ "type": "subspeciesOf", "monster": "Monoblos" }],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["water", "dragon"],
+      "elementalResistance": ["water"],
+      "elementalWeakness": ["ice"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -3577,6 +3712,12 @@
       { "type": "ex", "monster": "Tigrex EX" },
       { "type": "subspecies", "monster": "Brute Tigrex" }
     ],
+    "monster": {
+      "tendency": "power",
+      "elementalAtk": ["fire"],
+      "elementalResistance": ["fire"],
+      "elementalWeakness": ["water"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
@@ -3619,6 +3760,12 @@
     "rarity": 8,
     "description": "Mythical beasts that few have encountered. It is said that temperatures around them plummet below zero.",
     "related": [{ "type": "deviantOf", "monster": "Kirin" }],
+    "monster": {
+      "tendency": "speed",
+      "elementalAtk": ["ice"],
+      "elementalResistance": ["ice"],
+      "elementalWeakness": ["fire", "water"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "speed",
