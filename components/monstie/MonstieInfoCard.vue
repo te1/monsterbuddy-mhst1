@@ -4,7 +4,7 @@
       <h3 class="text-lg font-semibold">Monstie Info</h3>
 
       <div class="flex items-center">
-        <span class="w-20 sm:w-40">Tendency</span>
+        <span class="w-[85px] sm:w-40">Tendency</span>
 
         <AttackTypeIcon class="w-8 mr-1.5" :monster="monster" />
         <AttackTypeLabel class="font-semibold" :monster="monster" />

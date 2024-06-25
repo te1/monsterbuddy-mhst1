@@ -4,7 +4,7 @@
       <h3 class="text-lg font-semibold">Monster Info</h3>
 
       <div v-if="hasTendency" class="flex items-center">
-        <span class="w-20 sm:w-40">Tendency</span>
+        <span class="w-[85px] sm:w-40">Tendency</span>
 
         <AttackTypeIcon class="w-8 mr-1.5" :type="monster.monster.tendency" />
         <AttackTypeLabel
@@ -14,42 +14,48 @@
       </div>
 
       <div v-if="hasElementalAtk" class="flex items-center">
-        <span class="w-20 sm:w-40">Elemental Attack</span>
+        <span class="w-[85px] sm:w-40">Elemental Attack</span>
 
-        <span
-          v-for="element in monster.monster.elementalAtk"
-          :key="element"
-          class="flex items-center"
-        >
-          <ElementIcon class="w-8 mr-1.5" :element="element" />
-          <ElementLabel class="mr-4 font-semibold" :element="element" />
-        </span>
+        <div class="flex flex-wrap flex-1">
+          <span
+            v-for="element in monster.monster.elementalAtk"
+            :key="element"
+            class="flex items-center"
+          >
+            <ElementIcon class="w-8 mr-1.5" :element="element" />
+            <ElementLabel class="mr-4 font-semibold" :element="element" />
+          </span>
+        </div>
       </div>
 
       <div v-if="hasElementalResistance" class="flex items-center">
-        <span class="w-20 sm:w-40">Resistance</span>
+        <span class="w-[85px] sm:w-40">Resistance</span>
 
-        <span
-          v-for="element in monster.monster.elementalResistance"
-          :key="element"
-          class="flex items-center"
-        >
-          <ElementIcon class="w-8 mr-1.5" :element="element" />
-          <ElementLabel class="mr-4 font-semibold" :element="element" />
-        </span>
+        <div class="flex flex-wrap flex-1">
+          <span
+            v-for="element in monster.monster.elementalResistance"
+            :key="element"
+            class="flex items-center"
+          >
+            <ElementIcon class="w-8 mr-1.5" :element="element" />
+            <ElementLabel class="mr-4 font-semibold" :element="element" />
+          </span>
+        </div>
       </div>
 
       <div v-if="hasElementalWeakness" class="flex items-center">
-        <span class="w-20 sm:w-40">Weakness</span>
+        <span class="w-[85px] sm:w-40">Weakness</span>
 
-        <span
-          v-for="element in monster.monster.elementalWeakness"
-          :key="element"
-          class="flex items-center"
-        >
-          <ElementIcon class="w-8 mr-1.5" :element="element" />
-          <ElementLabel class="mr-4 font-semibold" :element="element" />
-        </span>
+        <div class="flex flex-wrap flex-1">
+          <span
+            v-for="element in monster.monster.elementalWeakness"
+            :key="element"
+            class="flex items-center"
+          >
+            <ElementIcon class="w-8 mr-1.5" :element="element" />
+            <ElementLabel class="mr-4 font-semibold" :element="element" />
+          </span>
+        </div>
       </div>
     </div>
 
