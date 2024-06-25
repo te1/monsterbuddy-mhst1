@@ -293,6 +293,11 @@
     ],
     "rarity": 1,
     "description": "Herd-forming Herbivores covered in long, thick fur. Popo meat is nutritious and prized by gourmands.",
+    "monster": {
+      "tendency": "power",
+      "elementalResistance": ["ice"],
+      "elementalWeakness": ["fire"]
+    },
     "hatchable": true,
     "monstie": {
       "tendency": "power",
