@@ -3818,7 +3818,7 @@
       "growth": null,
       "ridingActions": ["Mega Breaker", "Monster Search"],
       "kinshipSkill": null,
-      "eggVariants": 1,
+      "eggVariants": 2,
       "stats": {
         "base": { "hp": 5, "atk": 4, "def": 4, "spd": 4 },
         "attack": {
