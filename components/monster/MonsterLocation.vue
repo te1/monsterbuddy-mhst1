@@ -91,10 +91,6 @@ export default {
         extras.push('Subquest');
       }
 
-      if (this.location.dlc) {
-        extras.push('DLC');
-      }
-
       if (extras.length) {
         result += ` (${extras.join(', ')})`;
       }

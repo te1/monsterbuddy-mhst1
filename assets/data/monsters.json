@@ -4,7 +4,10 @@
     "name": "Aptonoth",
     "genus": "Herbivore",
     "habitat": "Pondry Hills",
-    "locations": [{ "type": "primary", "main": "Pondry Hills", "rank": "low" }],
+    "locations": [
+      { "type": "primary", "main": "Pondry Hills", "rank": "low" },
+      { "type": "den", "main": "Perennial Pass", "rank": "low" }
+    ],
     "rarity": 1,
     "description": "Placid, crested herbivorous monsters. They form herds and raise their young as a community.",
     "related": [{ "type": "ex", "monster": "Aptonoth EX" }],
@@ -243,7 +246,10 @@
     "name": "Blue Yian Kut-Ku",
     "genus": "Bird Wyvern",
     "habitat": "Pondry Hills",
-    "locations": [{ "type": "primary", "main": "Pondry Hills", "rank": "low" }],
+    "locations": [
+      { "type": "primary", "main": "Pondry Hills", "rank": "low" },
+      { "type": "den", "main": "Perennial Pass", "rank": "low" }
+    ],
     "rarity": 2,
     "description": "A Yian Kut-Ku subspecies. Their blue coloration and physical prowess set them apart from their pink kin.",
     "related": [{ "type": "subspeciesOf", "monster": "Yian Kut-Ku" }],
@@ -629,7 +635,7 @@
     "habitat": "Monsonne Plains",
     "locations": [
       { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
-      { "type": "primary", "main": "Perennial Pass", "rank": "low" }
+      { "type": "den", "main": "Perennial Pass", "rank": "low" }
     ],
     "rarity": 2,
     "description": "Herbivores clad in sturdy, armor-like plates. Approach with caution to avoid a fierce and persistent chase.",
@@ -773,7 +779,8 @@
     "habitat": "Monsonne Plains",
     "locations": [
       { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
-      { "type": "primary", "main": "Perennial Pass", "rank": "low" }
+      { "type": "den", "main": "Perennial Pass", "rank": "low" },
+      { "type": "den", "main": "Trese Desert", "rank": "low" }
     ],
     "rarity": 2,
     "description": "Alpha monsters that lead Genprey. Paralyzing venom tips their highly-developed fangs and claws.",
@@ -820,7 +827,7 @@
     "habitat": "Monsonne Plains",
     "locations": [
       { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
-      { "type": "primary", "main": "Perennial Pass", "rank": "low" }
+      { "type": "den", "main": "Perennial Pass", "rank": "low" }
     ],
     "rarity": 3,
     "description": "Royal Ludroth use their sponge-like neck scales to absorb water and prevent dehydration.",
@@ -865,10 +872,11 @@
     "no": 31,
     "name": "Gypceros",
     "genus": "Bird Wyvern",
-    "habitat": "Babada Rainforest",
+    "habitat": "Babda Rainforest",
     "locations": [
-      { "type": "primary", "main": "Babada Rainforest", "rank": "low" },
-      { "type": "primary", "main": "Monsonne Plains", "rank": "low" }
+      { "type": "primary", "main": "Babda Rainforest", "rank": "low" },
+      { "type": "den", "main": "Monsonne Plains", "rank": "low" },
+      { "type": "den", "main": "Perennial Pass", "rank": "low" }
     ],
     "rarity": 3,
     "description": "Crested Bird Wyverns. They strike their crests to generate blinding flashes and dazzle their enemies.",
@@ -913,10 +921,11 @@
     "no": 32,
     "name": "Nerscylla",
     "genus": "Temnoceran",
-    "habitat": "Babada Rainforest",
+    "habitat": "Babda Rainforest",
     "locations": [
-      { "type": "primary", "main": "Babada Rainforest", "rank": "low" },
-      { "type": "primary", "main": "Monsonne Plains", "rank": "low" }
+      { "type": "primary", "main": "Babda Rainforest", "rank": "low" },
+      { "type": "den", "main": "Monsonne Plains", "rank": "low" },
+      { "type": "den", "main": "Perennial Pass", "rank": "low" }
     ],
     "rarity": 3,
     "description": "Temnocerans that build nests of sticky webbing to ensnare prey, which they rend with their mandibles.",
@@ -964,7 +973,7 @@
     "habitat": "Trese Desert",
     "locations": [
       { "type": "primary", "main": "Trese Desert", "rank": "low" },
-      { "type": "primary", "main": "Monsonne Plains", "rank": "low" }
+      { "type": "den", "main": "Monsonne Plains", "rank": "low" }
     ],
     "rarity": 4,
     "description": "Temnocerans that inhabit desert areas. They lurk beneath the sands in order ambush unwary prey.",
@@ -1012,7 +1021,7 @@
     "habitat": "Monsonne Plains",
     "locations": [
       { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
-      { "type": "primary", "main": "Perennial Pass", "rank": "low" }
+      { "type": "den", "main": "Perennial Pass", "rank": "low" }
     ],
     "rarity": 2,
     "description": "Bird Wyverns with colorful plumage. Using thoracic vocal organs they imitate the calls of other monsters.",
@@ -1060,7 +1069,8 @@
     "habitat": "Monsonne Plains",
     "locations": [
       { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
-      { "type": "primary", "main": "Perennial Pass", "rank": "low" }
+      { "type": "primary", "main": "Perennial Pass", "rank": "low" },
+      { "type": "den", "main": "Trese Desert", "rank": "low" }
     ],
     "rarity": 3,
     "description": "Female Flying Wyverns dubbed Queens of the Land. Possess powerful legs, and deadly, poisonous tails.",
@@ -1111,7 +1121,7 @@
     "habitat": "Perennial Pass",
     "locations": [
       { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
-      { "type": "primary", "main": "Perennial Pass", "rank": "low" }
+      { "type": "den", "main": "Perennial Pass", "rank": "low" }
     ],
     "rarity": 4,
     "description": "A vivid, pink-scaled Rathian subspecies. Its tail attacks are far more powerful than those of a regular Rathian.",
@@ -1190,7 +1200,10 @@
     "name": "Barroth",
     "genus": "Brute Wyvern",
     "habitat": "Trese Desert",
-    "locations": [{ "type": "primary", "main": "Trese Desert", "rank": "low" }],
+    "locations": [
+      { "type": "primary", "main": "Trese Desert", "rank": "low" },
+      { "type": "den", "main": "Monsonne Plains", "rank": "low" }
+    ],
     "rarity": 3,
     "description": "Barroth bury themselves in mud, but will not hesitate to attack those who disturb them in their bogs.",
     "related": [
@@ -1240,7 +1253,7 @@
     "habitat": "Trese Desert",
     "locations": [
       { "type": "primary", "main": "Trese Desert", "rank": "low" },
-      { "type": "primary", "main": "Monsonne Plains", "rank": "low" }
+      { "type": "den", "main": "Monsonne Plains", "rank": "low" }
     ],
     "rarity": 2,
     "description": "Alpha monsters that lead Cephalos. Hardened black scales set them apart from the smaller Cephalos.",
@@ -1287,7 +1300,7 @@
     "habitat": "Trese Desert",
     "locations": [
       { "type": "primary", "main": "Trese Desert", "rank": "low" },
-      { "type": "primary", "main": "Monsonne Plains", "rank": "low" }
+      { "type": "den", "main": "Monsonne Plains", "rank": "low" }
     ],
     "rarity": 4,
     "description": "Feared as tyrants of the desert, these Flying Wyverns attack any who stray into their territory.",
@@ -1335,7 +1348,7 @@
     "habitat": "Trese Desert",
     "locations": [
       { "type": "primary", "main": "Trese Desert", "rank": "low" },
-      { "type": "primary", "main": "Monsonne Plains", "rank": "low" }
+      { "type": "den", "main": "Monsonne Plains", "rank": "low" }
     ],
     "rarity": 4,
     "description": "A formidable subspecies of Diablos. Females darken in the mating season so as to warn off other creatures.",
@@ -1386,7 +1399,8 @@
         "type": "primary",
         "main": "Darj Snowfields",
         "rank": "low",
-        "dlc": true
+        "lateGame": true,
+        "lateGameHint": "After defeating the Blighted Diablos"
       }
     ],
     "rarity": 4,
@@ -1624,9 +1638,23 @@
       { "type": "primary", "main": "Dovan Volcano", "rank": "low" },
       {
         "type": "primary",
-        "main": "Babada Rainforest",
+        "main": "Babda Rainforest",
         "sub": "Peculiar Den",
         "rank": "low"
+      },
+      {
+        "type": "den",
+        "main": "Perennial Pass",
+        "rank": "low",
+        "lateGame": true,
+        "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
+      },
+      {
+        "type": "den",
+        "main": "Monsonne Plains",
+        "rank": "low",
+        "lateGame": true,
+        "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
       }
     ],
     "rarity": 4,
@@ -2090,14 +2118,7 @@
     "name": "Yian Garuga",
     "genus": "Bird Wyvern",
     "habitat": "Paupau Beach",
-    "locations": [
-      {
-        "type": "primary",
-        "main": "Paupau Beach",
-        "rank": "low",
-        "lateGame": true
-      }
-    ],
+    "locations": [{ "type": "primary", "main": "Paupau Beach", "rank": "low" }],
     "rarity": 5,
     "description": "Bird Wyverns known for their hard shells and long manes. Aggressive, prone to attack unprovoked.",
     "monster": {
@@ -2140,13 +2161,27 @@
     "no": 72,
     "name": "Congalala",
     "genus": "Fanged Beast",
-    "habitat": "Babada Rainforest",
+    "habitat": "Babda Rainforest",
     "locations": [
       {
         "type": "primary",
-        "main": "Babada Rainforest",
+        "main": "Babda Rainforest",
         "sub": "Peculiar Den",
         "rank": "low"
+      },
+      {
+        "type": "den",
+        "main": "Perennial Pass",
+        "rank": "low",
+        "lateGame": true,
+        "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
+      },
+      {
+        "type": "den",
+        "main": "Monsonne Plains",
+        "rank": "low",
+        "lateGame": true,
+        "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
       }
     ],
     "rarity": 3,
@@ -2191,13 +2226,27 @@
     "no": 73,
     "name": "Emerald Congalala",
     "genus": "Fanged Beast",
-    "habitat": "Babada Rainforest",
+    "habitat": "Babda Rainforest",
     "locations": [
       {
         "type": "primary",
-        "main": "Babada Rainforest",
+        "main": "Babda Rainforest",
         "sub": "Peculiar Den",
         "rank": "low"
+      },
+      {
+        "type": "den",
+        "main": "Perennial Pass",
+        "rank": "low",
+        "lateGame": true,
+        "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
+      },
+      {
+        "type": "den",
+        "main": "Monsonne Plains",
+        "rank": "low",
+        "lateGame": true,
+        "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
       }
     ],
     "rarity": 4,
@@ -2242,13 +2291,27 @@
     "no": 74,
     "name": "Crimson Qurupeco",
     "genus": "Bird Wyvern",
-    "habitat": "Babada Rainforest",
+    "habitat": "Babda Rainforest",
     "locations": [
       {
         "type": "primary",
-        "main": "Babada Rainforest",
+        "main": "Babda Rainforest",
         "sub": "Peculiar Den",
         "rank": "low"
+      },
+      {
+        "type": "den",
+        "main": "Perennial Pass",
+        "rank": "low",
+        "lateGame": true,
+        "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
+      },
+      {
+        "type": "den",
+        "main": "Monsonne Plains",
+        "rank": "low",
+        "lateGame": true,
+        "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
       }
     ],
     "rarity": 4,
@@ -2294,13 +2357,32 @@
     "no": 75,
     "name": "Black Gravios",
     "genus": "Flying Wyvern",
-    "habitat": "Babada Rainforest",
+    "habitat": "Babda Rainforest",
     "locations": [
       {
         "type": "primary",
-        "main": "Babada Rainforest",
+        "main": "Babda Rainforest",
         "sub": "Peculiar Den",
         "rank": "low"
+      },
+      {
+        "type": "den",
+        "main": "Dovan Volcano",
+        "rank": "low"
+      },
+      {
+        "type": "den",
+        "main": "Perennial Pass",
+        "rank": "low",
+        "lateGame": true,
+        "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
+      },
+      {
+        "type": "den",
+        "main": "Monsonne Plains",
+        "rank": "low",
+        "lateGame": true,
+        "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
       }
     ],
     "rarity": 6,
@@ -2346,13 +2428,27 @@
     "no": 76,
     "name": "Zinogre",
     "genus": "Fanged Wyvern",
-    "habitat": "Babada Rainforest",
+    "habitat": "Babda Rainforest",
     "locations": [
       {
         "type": "primary",
-        "main": "Babada Rainforest",
+        "main": "Babda Rainforest",
         "sub": "Peculiar Den",
         "rank": "low"
+      },
+      {
+        "type": "den",
+        "main": "Perennial Pass",
+        "rank": "low",
+        "lateGame": true,
+        "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
+      },
+      {
+        "type": "den",
+        "main": "Monsonne Plains",
+        "rank": "low",
+        "lateGame": true,
+        "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
       }
     ],
     "rarity": 6,
@@ -2404,7 +2500,8 @@
         "type": "primary",
         "main": "Pondry Hills",
         "rank": "low",
-        "lateGame": true
+        "lateGame": true,
+        "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
       }
     ],
     "rarity": 4,
@@ -2456,7 +2553,8 @@
         "type": "primary",
         "main": "Pondry Hills",
         "rank": "low",
-        "lateGame": true
+        "lateGame": true,
+        "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
       }
     ],
     "rarity": 5,
@@ -2501,13 +2599,27 @@
     "no": 79,
     "name": "Green Nargacuga",
     "genus": "Flying Wyvern",
-    "habitat": "Babada Rainforest",
+    "habitat": "Babda Rainforest",
     "locations": [
       {
         "type": "primary",
-        "main": "Babada Rainforest",
+        "main": "Babda Rainforest",
         "sub": "Peculiar Den",
         "rank": "low"
+      },
+      {
+        "type": "den",
+        "main": "Perennial Pass",
+        "rank": "low",
+        "lateGame": true,
+        "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
+      },
+      {
+        "type": "den",
+        "main": "Monsonne Plains",
+        "rank": "low",
+        "lateGame": true,
+        "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
       }
     ],
     "rarity": 6,
@@ -2558,7 +2670,8 @@
         "type": "primary",
         "main": "Pondry Hills",
         "rank": "low",
-        "lateGame": true
+        "lateGame": true,
+        "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
       }
     ],
     "rarity": 5,
@@ -2613,7 +2726,8 @@
         "type": "primary",
         "main": "Pondry Hills",
         "rank": "low",
-        "lateGame": true
+        "lateGame": true,
+        "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
       }
     ],
     "rarity": 6,
@@ -2681,13 +2795,27 @@
     "no": 83,
     "name": "Purple Gypceros",
     "genus": "Bird Wyvern",
-    "habitat": "Babada Rainforest",
+    "habitat": "Babda Rainforest",
     "locations": [
       {
         "type": "primary",
-        "main": "Babada Rainforest",
+        "main": "Babda Rainforest",
         "sub": "Peculiar Den",
         "rank": "low"
+      },
+      {
+        "type": "den",
+        "main": "Perennial Pass",
+        "rank": "low",
+        "lateGame": true,
+        "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
+      },
+      {
+        "type": "den",
+        "main": "Monsonne Plains",
+        "rank": "low",
+        "lateGame": true,
+        "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
       }
     ],
     "rarity": 4,
@@ -2739,7 +2867,8 @@
         "type": "primary",
         "main": "Paupau Beach",
         "rank": "low",
-        "lateGame": true
+        "lateGame": true,
+        "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
       }
     ],
     "rarity": 4,
@@ -2791,7 +2920,8 @@
         "type": "primary",
         "main": "Paupau Beach",
         "rank": "low",
-        "lateGame": true
+        "lateGame": true,
+        "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
       }
     ],
     "rarity": 5,
@@ -2843,7 +2973,8 @@
         "type": "primary",
         "main": "Paupau Beach",
         "rank": "low",
-        "lateGame": true
+        "lateGame": true,
+        "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
       }
     ],
     "rarity": 7,
@@ -3121,7 +3252,8 @@
         "type": "primary",
         "main": "Trese Desert",
         "rank": "low",
-        "lateGame": true
+        "lateGame": true,
+        "lateGameHint": "After opening the way to Mt. Celion"
       }
     ],
     "rarity": 6,
@@ -3277,7 +3409,7 @@
     "habitat": "Mt. Celion",
     "locations": [
       { "type": "primary", "main": "Mt. Celion", "rank": "high" },
-      { "type": "primary", "main": "Perennial Pass", "rank": "high" }
+      { "type": "den", "main": "Perennial Pass", "rank": "high" }
     ],
     "rarity": 8,
     "description": "Ultra-aggressive Fanged Beasts. Widely regarded as the pinnacle of unparalleled physical prowess.",
@@ -3319,7 +3451,7 @@
     "habitat": "Perennial Pass",
     "locations": [
       { "type": "primary", "main": "Perennial Pass", "rank": "high" },
-      { "type": "primary", "main": "Monsonne Plains", "rank": "high" }
+      { "type": "den", "main": "Monsonne Plains", "rank": "high" }
     ],
     "rarity": 7,
     "description": "Lightning-wielding mystical creature. Classified as an Elder Dragon, but its true nature remains a mystery.",
@@ -3582,7 +3714,10 @@
     "name": "Kushala Daora",
     "genus": "Elder Dragon",
     "habitat": "Mt. Celion",
-    "locations": [{ "type": "primary", "main": "Mt. Celion", "rank": "high" }],
+    "locations": [
+      { "type": "primary", "main": "Mt. Celion", "rank": "high" },
+      { "type": "den", "main": "Darj Snowfields", "rank": "high" }
+    ],
     "rarity": null,
     "description": "Elder Dragon clad in metal plating. Generates storms wherever it goes. Getting close to it is no mean feat.",
     "monster": {
@@ -3759,6 +3894,11 @@
         "main": "Darj Snowfields",
         "rank": "high",
         "subQuest": true
+      },
+      {
+        "type": "den",
+        "main": "Mt. Celion",
+        "rank": "high"
       }
     ],
     "rarity": 8,
