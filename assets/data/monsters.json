@@ -114,7 +114,10 @@
     "name": "Velocidrome",
     "genus": "Bird Wyvern",
     "habitat": "Pondry Hills",
-    "locations": [{ "type": "primary", "main": "Pondry Hills", "rank": "low" }],
+    "locations": [
+      { "type": "primary", "main": "Pondry Hills", "rank": "low" },
+      { "type": "subQuest", "main": "★1 Blue Enemy of Love!" }
+    ],
     "rarity": 1,
     "description": "Alpha monsters that lead the smaller Velociprey. Note their larger size, impressive frill, and sharper claws.",
     "monster": {
@@ -157,7 +160,10 @@
     "name": "Arzuros",
     "genus": "Fanged Beast",
     "habitat": "Pondry Hills",
-    "locations": [{ "type": "primary", "main": "Pondry Hills", "rank": "low" }],
+    "locations": [
+      { "type": "primary", "main": "Pondry Hills", "rank": "low" },
+      { "type": "subQuest", "main": "★1 The Honey Guard" }
+    ],
     "rarity": 2,
     "description": "Bear-like monsters found in warm, damp environments. Can often be found catching fish from rivers.",
     "monster": {
@@ -201,7 +207,10 @@
     "name": "Yian Kut-Ku",
     "genus": "Bird Wyvern",
     "habitat": "Pondry Hills",
-    "locations": [{ "type": "primary", "main": "Pondry Hills", "rank": "low" }],
+    "locations": [
+      { "type": "primary", "main": "Pondry Hills", "rank": "low" },
+      { "type": "subQuest", "main": "★1 Call of the Kut-Ku" }
+    ],
     "rarity": 2,
     "description": "Monsters boasting ample beaks and fan-like ears that splay open when angered. Konchu are a staple food.",
     "related": [{ "type": "subspecies", "monster": "Blue Yian Kut-Ku" }],
@@ -389,7 +398,8 @@
     "genus": "Fanged Beast",
     "habitat": "Darj Snowfields",
     "locations": [
-      { "type": "primary", "main": "Darj Snowfields", "rank": "low" }
+      { "type": "primary", "main": "Darj Snowfields", "rank": "low" },
+      { "type": "subQuest", "main": "★2 Enchanting Ice Show" }
     ],
     "rarity": 2,
     "description": "White Fanged Beasts with acute hearing. They slide on the ice at high speeds to chase down their prey.",
@@ -435,7 +445,8 @@
     "genus": "Fanged Beast",
     "habitat": "Darj Snowfields",
     "locations": [
-      { "type": "primary", "main": "Darj Snowfields", "rank": "low" }
+      { "type": "primary", "main": "Darj Snowfields", "rank": "low" },
+      { "type": "subQuest", "main": "★2 Bulldrome? RUN!" }
     ],
     "rarity": 1,
     "description": "Powerful alpha monsters that lead Bullfango herds. They mow down their prey with their sturdy tusks.",
@@ -481,7 +492,8 @@
     "genus": "Amphibian",
     "habitat": "Darj Snowfields",
     "locations": [
-      { "type": "primary", "main": "Darj Snowfields", "rank": "low" }
+      { "type": "primary", "main": "Darj Snowfields", "rank": "low" },
+      { "type": "subQuest", "main": "★2 Shape-Shifter Shark?" }
     ],
     "rarity": 3,
     "description": "Amphibian monsters known for the astonishing changes that occur when they coat their bodies in icy armor.",
@@ -526,7 +538,8 @@
     "genus": "Flying Wyvern",
     "habitat": "Darj Snowfields",
     "locations": [
-      { "type": "primary", "main": "Darj Snowfields", "rank": "low" }
+      { "type": "primary", "main": "Darj Snowfields", "rank": "low" },
+      { "type": "subQuest", "main": "★2 A Fascinating Khezu" }
     ],
     "rarity": 3,
     "description": "Loathsome Flying Wyverns dwelling mainly in caves. They generate and release electricity to deadly effect.",
@@ -780,7 +793,8 @@
     "locations": [
       { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
       { "type": "den", "main": "Perennial Pass", "rank": "low" },
-      { "type": "den", "main": "Trese Desert", "rank": "low" }
+      { "type": "den", "main": "Trese Desert", "rank": "low" },
+      { "type": "subQuest", "main": "★3 The Paralyzer" }
     ],
     "rarity": 2,
     "description": "Alpha monsters that lead Genprey. Paralyzing venom tips their highly-developed fangs and claws.",
@@ -827,7 +841,8 @@
     "habitat": "Monsonne Plains",
     "locations": [
       { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
-      { "type": "den", "main": "Perennial Pass", "rank": "low" }
+      { "type": "den", "main": "Perennial Pass", "rank": "low" },
+      { "type": "subQuest", "main": "★3 A Superior Sponge" }
     ],
     "rarity": 3,
     "description": "Royal Ludroth use their sponge-like neck scales to absorb water and prevent dehydration.",
@@ -876,7 +891,8 @@
     "locations": [
       { "type": "primary", "main": "Babda Rainforest", "rank": "low" },
       { "type": "den", "main": "Monsonne Plains", "rank": "low" },
-      { "type": "den", "main": "Perennial Pass", "rank": "low" }
+      { "type": "den", "main": "Perennial Pass", "rank": "low" },
+      { "type": "subQuest", "main": "★3 Handy Hides" }
     ],
     "rarity": 3,
     "description": "Crested Bird Wyverns. They strike their crests to generate blinding flashes and dazzle their enemies.",
@@ -925,7 +941,8 @@
     "locations": [
       { "type": "primary", "main": "Babda Rainforest", "rank": "low" },
       { "type": "den", "main": "Monsonne Plains", "rank": "low" },
-      { "type": "den", "main": "Perennial Pass", "rank": "low" }
+      { "type": "den", "main": "Perennial Pass", "rank": "low" },
+      { "type": "subQuest", "main": "★3 Trapped in the Web" }
     ],
     "rarity": 3,
     "description": "Temnocerans that build nests of sticky webbing to ensnare prey, which they rend with their mandibles.",
@@ -1021,7 +1038,8 @@
     "habitat": "Monsonne Plains",
     "locations": [
       { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
-      { "type": "den", "main": "Perennial Pass", "rank": "low" }
+      { "type": "den", "main": "Perennial Pass", "rank": "low" },
+      { "type": "subQuest", "main": "★3 Clamorous Qurupeco" }
     ],
     "rarity": 2,
     "description": "Bird Wyverns with colorful plumage. Using thoracic vocal organs they imitate the calls of other monsters.",
@@ -1070,7 +1088,8 @@
     "locations": [
       { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
       { "type": "primary", "main": "Perennial Pass", "rank": "low" },
-      { "type": "den", "main": "Trese Desert", "rank": "low" }
+      { "type": "den", "main": "Trese Desert", "rank": "low" },
+      { "type": "subQuest", "main": "★3 The Queen's Day Out" }
     ],
     "rarity": 3,
     "description": "Female Flying Wyverns dubbed Queens of the Land. Possess powerful legs, and deadly, poisonous tails.",
@@ -1170,6 +1189,7 @@
     "name": "Daimyo Hermitaur",
     "genus": "Carapaceon",
     "habitat": "Trese Desert",
+    "locations": [{ "type": "subQuest", "main": "★3 The Sturdy Shield" }],
     "rarity": null,
     "description": "These armored Carapaceons use their hardened pincers like shields to fend off the attacks of their enemies.",
     "related": [{ "type": "subspecies", "monster": "Plum Daimyo Hermitaur" }],
@@ -1202,7 +1222,8 @@
     "habitat": "Trese Desert",
     "locations": [
       { "type": "primary", "main": "Trese Desert", "rank": "low" },
-      { "type": "den", "main": "Monsonne Plains", "rank": "low" }
+      { "type": "den", "main": "Monsonne Plains", "rank": "low" },
+      { "type": "subQuest", "main": "★3 Bog Diving" }
     ],
     "rarity": 3,
     "description": "Barroth bury themselves in mud, but will not hesitate to attack those who disturb them in their bogs.",
@@ -1253,7 +1274,8 @@
     "habitat": "Trese Desert",
     "locations": [
       { "type": "primary", "main": "Trese Desert", "rank": "low" },
-      { "type": "den", "main": "Monsonne Plains", "rank": "low" }
+      { "type": "den", "main": "Monsonne Plains", "rank": "low" },
+      { "type": "subQuest", "main": "★3 Boss of the Cephalos" }
     ],
     "rarity": 2,
     "description": "Alpha monsters that lead Cephalos. Hardened black scales set them apart from the smaller Cephalos.",
@@ -1300,7 +1322,8 @@
     "habitat": "Trese Desert",
     "locations": [
       { "type": "primary", "main": "Trese Desert", "rank": "low" },
-      { "type": "den", "main": "Monsonne Plains", "rank": "low" }
+      { "type": "den", "main": "Monsonne Plains", "rank": "low" },
+      { "type": "subQuest", "main": "★3 Despot of the Desert" }
     ],
     "rarity": 4,
     "description": "Feared as tyrants of the desert, these Flying Wyverns attack any who stray into their territory.",
@@ -1401,7 +1424,8 @@
         "rank": "low",
         "lateGame": true,
         "lateGameHint": "After defeating the Blighted Diablos"
-      }
+      },
+      { "type": "subQuest", "main": "★3 Reverberating Roar" }
     ],
     "rarity": 4,
     "description": "Primeval in appearance, these Flying Wyverns are possessed of fearsome limbs, jaws and claws.",
@@ -1543,7 +1567,8 @@
     "genus": "Bird Wyvern",
     "habitat": "Dovan Volcano",
     "locations": [
-      { "type": "primary", "main": "Dovan Volcano", "rank": "low" }
+      { "type": "primary", "main": "Dovan Volcano", "rank": "low" },
+      { "type": "subQuest", "main": "★4 Poisonous Probing" }
     ],
     "rarity": 2,
     "description": "Alpha monsters that lead Ioprey. Their poison sacs allow them to attack by spitting an acrid venom.",
@@ -1588,7 +1613,8 @@
     "genus": "Flying Wyvern",
     "habitat": "Dovan Volcano",
     "locations": [
-      { "type": "primary", "main": "Dovan Volcano", "rank": "low" }
+      { "type": "primary", "main": "Dovan Volcano", "rank": "low" },
+      { "type": "subQuest", "main": "★4 Watch Out for Rocks!" }
     ],
     "rarity": 3,
     "description": "Juvenile form of a Gravios. Its most distinctive feature is the rock-hard carapace on its back.",
@@ -1655,7 +1681,8 @@
         "rank": "low",
         "lateGame": true,
         "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
-      }
+      },
+      { "type": "subQuest", "main": "★4 Forged by Volcano" }
     ],
     "rarity": 4,
     "description": "Flying Wyverns that inhabit volcanic regions. Capable of attacking with fiery breath and sleeping gas.",
@@ -1702,7 +1729,8 @@
     "genus": "Brute Wyvern",
     "habitat": "Dovan Volcano",
     "locations": [
-      { "type": "primary", "main": "Dovan Volcano", "rank": "low" }
+      { "type": "primary", "main": "Dovan Volcano", "rank": "low" },
+      { "type": "subQuest", "main": "★4 Mining Menace" }
     ],
     "rarity": 4,
     "description": "Brute Wyverns with mighty jaws. They spray the stones and ore which stick to them in deadly, explosive attacks.",
@@ -1798,6 +1826,7 @@
     "name": "Agnaktor",
     "genus": "Leviathan",
     "habitat": "Dovan Volcano",
+    "locations": [{ "type": "subQuest", "main": "★4 Lava Dragon?!?!?!" }],
     "rarity": null,
     "description": "Agnaktor use their tough beaks and powerful muscles to burrow into rock, moving freely through the earth.",
     "related": [
@@ -1985,7 +2014,10 @@
     "name": "Great Jaggi",
     "genus": "Bird Wyvern",
     "habitat": "Paupau Beach",
-    "locations": [{ "type": "primary", "main": "Paupau Beach", "rank": "low" }],
+    "locations": [
+      { "type": "primary", "main": "Paupau Beach", "rank": "low" },
+      { "type": "subQuest", "main": "★5 Flotsam Great Jaggi" }
+    ],
     "rarity": 2,
     "description": "Alpha monsters that lead Jaggi. They issue complex commands to the pack via their howls.",
     "monster": {
@@ -2028,7 +2060,10 @@
     "name": "Kecha Wacha",
     "genus": "Fanged Beast",
     "habitat": "Paupau Beach",
-    "locations": [{ "type": "primary", "main": "Paupau Beach", "rank": "low" }],
+    "locations": [
+      { "type": "primary", "main": "Paupau Beach", "rank": "low" },
+      { "type": "subQuest", "main": "★5 Beware, Prankster!" }
+    ],
     "rarity": 3,
     "description": "Fanged Beasts with limbs well adapted to swinging through the forest tree areas they inhabit.",
     "related": [{ "type": "subspecies", "monster": "Ash Kecha Wacha" }],
@@ -2118,7 +2153,10 @@
     "name": "Yian Garuga",
     "genus": "Bird Wyvern",
     "habitat": "Paupau Beach",
-    "locations": [{ "type": "primary", "main": "Paupau Beach", "rank": "low" }],
+    "locations": [
+      { "type": "primary", "main": "Paupau Beach", "rank": "low" },
+      { "type": "subQuest", "main": "★5 Sandy Yian Garuga!" }
+    ],
     "rarity": 5,
     "description": "Bird Wyverns known for their hard shells and long manes. Aggressive, prone to attack unprovoked.",
     "monster": {
@@ -2182,7 +2220,8 @@
         "rank": "low",
         "lateGame": true,
         "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
-      }
+      },
+      { "type": "subQuest", "main": "★5 Farting Panic!" }
     ],
     "rarity": 3,
     "description": "Pink-furred Fanged Beasts. They let rip with almighty farts, the stench of which overwhelms opponents.",
@@ -2449,7 +2488,8 @@
         "rank": "low",
         "lateGame": true,
         "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
-      }
+      },
+      { "type": "subQuest", "main": "★5 Rumbling Recital" }
     ],
     "rarity": 6,
     "description": "Fanged Wyverns that store the electrical energy of the countless Thunderbugs that they gather.",
@@ -2555,7 +2595,8 @@
         "rank": "low",
         "lateGame": true,
         "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
-      }
+      },
+      { "type": "subQuest", "main": "★5 Ninja Nargacuga" }
     ],
     "rarity": 5,
     "description": "Flying Wyverns residing in wooded areas. Fearfully fast, persistent, and sly, they excel at hunting prey.",
@@ -2672,7 +2713,8 @@
         "rank": "low",
         "lateGame": true,
         "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
-      }
+      },
+      { "type": "subQuest", "main": "★5 The King's Descent" }
     ],
     "rarity": 5,
     "description": "Dubbed the King of the Skies, it dominates battle with its powerful wings and poison-tipped claws.",
@@ -2922,7 +2964,8 @@
         "rank": "low",
         "lateGame": true,
         "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
-      }
+      },
+      { "type": "subQuest", "main": "★6 King of the Ocean!" }
     ],
     "rarity": 5,
     "description": "Leviathans atop the aquatic food chain, due in no small part to their ability to deliver electrical shocks.",
@@ -3105,7 +3148,10 @@
     "name": "Great Baggi",
     "genus": "Bird Wyvern",
     "habitat": "Mt. Celion",
-    "locations": [{ "type": "primary", "main": "Mt. Celion", "rank": "low" }],
+    "locations": [
+      { "type": "primary", "main": "Mt. Celion", "rank": "low" },
+      { "type": "subQuest", "main": "★6 Tranquilizing Terror" }
+    ],
     "rarity": 2,
     "description": "Bluish-white, crested Bird Wyverns. Their ruthless cunning makes them natural leaders of Baggi packs.",
     "monster": {
@@ -3201,7 +3247,8 @@
         "main": "Darj Snowfields",
         "rank": "low",
         "lateGame": true
-      }
+      },
+      { "type": "subQuest", "main": "★6 Freezing Fangs" }
     ],
     "rarity": 5,
     "description": "Flying Wyverns that rule the frozen wastes. Spikily scaled wings and tail allow them to run effortlessly across ice.",
@@ -3363,7 +3410,10 @@
     "name": "Brachydios",
     "genus": "Brute Wyvern",
     "habitat": "Mt. Celion",
-    "locations": [{ "type": "primary", "main": "Mt. Celion", "rank": "low" }],
+    "locations": [
+      { "type": "primary", "main": "Mt. Celion", "rank": "low" },
+      { "type": "subQuest", "main": "★6 Test of Strength!" }
+    ],
     "rarity": 8,
     "description": "Brute Wyvern coated in a volatile substance. Its saliva can be used to ignite this coat, with explosive results.",
     "monster": {
@@ -3409,7 +3459,8 @@
     "habitat": "Mt. Celion",
     "locations": [
       { "type": "primary", "main": "Mt. Celion", "rank": "high" },
-      { "type": "den", "main": "Perennial Pass", "rank": "high" }
+      { "type": "den", "main": "Perennial Pass", "rank": "high" },
+      { "type": "subQuest", "main": "★6 Destruction Daemon" }
     ],
     "rarity": 8,
     "description": "Ultra-aggressive Fanged Beasts. Widely regarded as the pinnacle of unparalleled physical prowess.",
@@ -3451,7 +3502,8 @@
     "habitat": "Perennial Pass",
     "locations": [
       { "type": "primary", "main": "Perennial Pass", "rank": "high" },
-      { "type": "den", "main": "Monsonne Plains", "rank": "high" }
+      { "type": "den", "main": "Monsonne Plains", "rank": "high" },
+      { "type": "subQuest", "main": "★7 Thunder Visions" }
     ],
     "rarity": 7,
     "description": "Lightning-wielding mystical creature. Classified as an Elder Dragon, but its true nature remains a mystery.",
@@ -3514,7 +3566,8 @@
     "genus": "Flying Wyvern",
     "habitat": "Trese Desert",
     "locations": [
-      { "type": "primary", "main": "Trese Desert", "rank": "high" }
+      { "type": "primary", "main": "Trese Desert", "rank": "high" },
+      { "type": "subQuest", "main": "★7 One Tall Horn" }
     ],
     "rarity": 6,
     "description": "Endowed with an impressive cranial horn. It uses its horn in brutal attacks, screeching ear-splitting war cries.",
@@ -3561,7 +3614,8 @@
     "genus": "Flying Wyvern",
     "habitat": "Pondry Hills",
     "locations": [
-      { "type": "primary", "main": "Pondry Hills", "rank": "high" }
+      { "type": "primary", "main": "Pondry Hills", "rank": "high" },
+      { "type": "subQuest", "main": "★7 Seregios's Secret" }
     ],
     "rarity": 7,
     "description": "Flying Wyvern known for its lustrous golden scales. Its scales can be launched at prey in high-speed attacks.",
@@ -3716,7 +3770,8 @@
     "habitat": "Mt. Celion",
     "locations": [
       { "type": "primary", "main": "Mt. Celion", "rank": "high" },
-      { "type": "den", "main": "Darj Snowfields", "rank": "high" }
+      { "type": "den", "main": "Darj Snowfields", "rank": "high" },
+      { "type": "subQuest", "main": "★7 Annihilating Wind" }
     ],
     "rarity": null,
     "description": "Elder Dragon clad in metal plating. Generates storms wherever it goes. Getting close to it is no mean feat.",
@@ -3737,7 +3792,8 @@
     "genus": "Elder Dragon",
     "habitat": "Dovan Volcano",
     "locations": [
-      { "type": "primary", "main": "Dovan Volcano", "rank": "high" }
+      { "type": "primary", "main": "Dovan Volcano", "rank": "high" },
+      { "type": "subQuest", "main": "★7 Destructive Flame" }
     ],
     "rarity": null,
     "description": "Wreathed in flame and wielding blistering breath attacks, the Guild monitors its movements and moods.",
@@ -3798,9 +3854,7 @@
     "name": "White Monoblos",
     "genus": "Flying Wyvern",
     "habitat": "Trese Desert",
-    "locations": [
-      { "type": "primary", "main": "Trese Desert", "rank": "high" }
-    ],
+    "locations": [{ "type": "subQuest", "main": "★7 One-horned Menace" }],
     "rarity": 7,
     "description": "Fiercer than its cousins, this white subspecies should be approached with the utmost caution.",
     "related": [{ "type": "subspeciesOf", "monster": "Monoblos" }],
@@ -3841,9 +3895,7 @@
     "name": "Molten Tigrex",
     "genus": "Flying Wyvern",
     "habitat": "Dovan Volcano",
-    "locations": [
-      { "type": "primary", "main": "Dovan Volcano", "rank": "high" }
-    ],
+    "locations": [{ "type": "subQuest", "main": "★7 Earth-Rending Roar" }],
     "rarity": 9,
     "description": "A rare Tigrex subspecies. Its existence is unconfirmed due to a lack of reliable, and living, eye-witness accounts.",
     "related": [
@@ -3889,17 +3941,8 @@
     "genus": "Elder Dragon",
     "habitat": "Darj Snowfields",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Darj Snowfields",
-        "rank": "high",
-        "subQuest": true
-      },
-      {
-        "type": "den",
-        "main": "Mt. Celion",
-        "rank": "high"
-      }
+      { "type": "subQuest", "main": "★7 Snowfield Phantom" },
+      { "type": "den", "main": "Mt. Celion", "rank": "high" }
     ],
     "rarity": 8,
     "description": "Mythical beasts that few have encountered. It is said that temperatures around them plummet below zero.",
@@ -3942,12 +3985,7 @@
     "genus": "Brute Wyvern",
     "habitat": "Trese Desert",
     "locations": [
-      {
-        "type": "primary",
-        "main": "Trese Desert",
-        "rank": "low",
-        "lateGame": true
-      }
+      { "type": "primary", "main": "Trese Desert", "rank": "high" }
     ],
     "rarity": 7,
     "description": null,
