@@ -7,7 +7,6 @@ import {
   getCatavanStands,
   getEldersLairFloors,
   getRidingActions,
-  getEggColors,
   getMonstersByName,
   getMonstersByGenus,
   getMonstersByHabitat,
@@ -16,7 +15,6 @@ import {
   getMonstiesByAttackType,
   getMonstiesByAttackElement,
   getMonstiesByRidingAction,
-  getMonstiesByEggColors,
   getMonstersByHatchable,
   getMonstersByIsDeviant,
   sortedHabitats,
@@ -42,7 +40,6 @@ export function makeMonsterFilterStore(
     attackTypeFilter: null,
     attackElementFilter: null,
     ridingActionFilter: null,
-    eggColorsFilter: null,
     hatchableFilter: null,
     deviantsFilter: null,
   });
@@ -64,7 +61,6 @@ export function makeMonsterFilterStore(
         attackTypeFilter: initial.attackTypeFilter,
         attackElementFilter: initial.attackElementFilter,
         ridingActionFilter: initial.ridingActionFilter,
-        eggColorsFilter: initial.eggColorsFilter,
         hatchableFilter: initial.hatchableFilter,
         deviantsFilter: initial.deviantsFilter,
 
@@ -91,10 +87,6 @@ export function makeMonsterFilterStore(
 
       allRidingActions() {
         return getRidingActions(this.monsters);
-      },
-
-      allEggColors() {
-        return getEggColors(this.monsters);
       },
 
       filteredMonsters() {
@@ -130,10 +122,6 @@ export function makeMonsterFilterStore(
 
         if (this.ridingActionFilter != null) {
           result = getMonstiesByRidingAction(this.ridingActionFilter, result);
-        }
-
-        if (this.eggColorsFilter != null) {
-          result = getMonstiesByEggColors(this.eggColorsFilter, result);
         }
 
         if (this.hatchableFilter != null) {
@@ -376,13 +364,6 @@ export function makeMonsterFilterStore(
           });
         }
 
-        if (this.eggColorsFilter != null) {
-          result.push({
-            name: 'eggColorsFilter',
-            value: _.map(this.eggColorsFilter, _.upperFirst).join(' / '),
-          });
-        }
-
         if (this.hatchableFilter != null) {
           result.push({
             name: 'hatchableFilter',
@@ -417,7 +398,6 @@ export function makeMonsterFilterStore(
         this.attackTypeFilter = initial.attackTypeFilter;
         this.attackElementFilter = initial.attackElementFilter;
         this.ridingActionFilter = initial.ridingActionFilter;
-        this.eggColorsFilter = initial.eggColorsFilter;
         this.hatchableFilter = initial.hatchableFilter;
         this.deviantsFilter = initial.deviantsFilter;
       },
