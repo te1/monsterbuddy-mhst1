@@ -76,11 +76,6 @@
                 <NuxtLink class="link" to="/elders-lair/">Elder's Lair overview</NuxtLink>
                 to quickly find high rank monsters on each floor
               </li>
-
-              <li>
-                <NuxtLink class="link" to="/coop/">Co-Op quest list</NuxtLink>
-                to see which eggs will be available in the different dens
-              </li>
               -->
 
               <li>

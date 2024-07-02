@@ -34,12 +34,6 @@
         </div>
       </template>
 
-      <template v-if="showCoopQuests">
-        <div v-for="coopQuest in coopQuests" :key="coopQuest">
-          {{ coopQuest }}
-        </div>
-      </template>
-
       <template v-if="showEldersLairFloors">
         <div v-for="floor in eldersLairFloors" :key="floor">
           Elder's Lair - {{ floor }}
@@ -77,10 +71,9 @@ import _ from 'lodash';
 import {
   formatMonsterInfo,
   formatMonsterPrimaryLocation,
-  formatCoopQuest,
   formatPhase,
 } from '~/services/utils';
-import { coopQuests, getMonsterLocations } from '~/services/data';
+import { getMonsterLocations } from '~/services/data';
 
 export default {
   name: 'MonsterListItem',
@@ -113,16 +106,6 @@ export default {
       return formatMonsterPrimaryLocation(this.monster);
     },
 
-    coopQuests() {
-      let locations = _.take(getMonsterLocations(this.monster, 'coopQuest'), 3);
-
-      let quests = _.map(locations, (location) => {
-        return _.find(coopQuests, { name: location.main });
-      });
-
-      return _.map(quests, formatCoopQuest);
-    },
-
     eldersLairFloors() {
       let locations = _.take(
         getMonsterLocations(this.monster, 'eldersLair'),
@@ -134,10 +117,6 @@ export default {
 
     showLocation() {
       return _.includes(['location'], this.mode);
-    },
-
-    showCoopQuests() {
-      return _.includes(['location-coop'], this.mode);
     },
 
     showEldersLairFloors() {

@@ -54,8 +54,6 @@
             <AppNavLink to="/catavan-stands/" text="Catavan Stands" more />
 
             <AppNavLink to="/elders-lair/" text="Elder's Lair" more />
-
-            <AppNavLink to="/coop/" text="Co-Op Quests" more />
             -->
 
             <AppNavLink to="/riding-actions/" text="Riding Actions" more />

@@ -153,32 +153,6 @@
         </select>
       </div>
 
-      <div v-if="showCoopQuestFilter" class="flex items-center">
-        <label
-          class="flex-1 cursor-pointer"
-          for="MonsterFilter_CoopQuestFilter"
-        >
-          Co-Op Quest
-        </label>
-
-        <select
-          id="MonsterFilter_CoopQuestFilter"
-          :value="store.coopQuestFilter"
-          class="input w-[180px] px-2 py-1"
-          @input="onCoopQuestFilterChanged"
-        >
-          <option :value="null">All</option>
-
-          <option
-            v-for="coopQuest in store.allCoopQuests"
-            :key="coopQuest.name"
-            :value="coopQuest.name"
-          >
-            ★{{ coopQuest.rarity }} {{ coopQuest.name }}
-          </option>
-        </select>
-      </div>
-
       <div v-if="showCatavanFilter" class="flex items-center">
         <label class="flex-1 cursor-pointer" for="MonsterFilter_CatavanFilter">
           Catavan Stand
@@ -396,12 +370,6 @@ export default {
       default: false,
     },
 
-    showCoopQuestFilter: {
-      type: Boolean,
-      required: false,
-      default: false,
-    },
-
     showCatavanFilter: {
       type: Boolean,
       required: false,
@@ -608,10 +576,6 @@ export default {
 
     onHabitatFilterChanged(e) {
       this.onFilterChanged('habitatFilter', e, 'location');
-    },
-
-    onCoopQuestFilterChanged(e) {
-      this.onFilterChanged('coopQuestFilter', e, 'location-coop');
     },
 
     onCatavanFilterChanged(e) {

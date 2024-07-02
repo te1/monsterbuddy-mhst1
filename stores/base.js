@@ -4,7 +4,6 @@ import { defineStore, setMapStoreSuffix } from 'pinia';
 import {
   getGenera,
   getHabitats,
-  getCoopQuests,
   getCatavanStands,
   getEldersLairFloors,
   getRidingActions,
@@ -12,7 +11,6 @@ import {
   getMonstersByName,
   getMonstersByGenus,
   getMonstersByHabitat,
-  getMonstersByCoopQuest,
   getMonstersByCatavanStand,
   getMonstersByEldersLairFloor,
   getMonstiesByAttackType,
@@ -39,7 +37,6 @@ export function makeMonsterFilterStore(
     nameFilter: null,
     genusFilter: null,
     habitatFilter: null,
-    coopQuestFilter: null,
     catavanFilter: null,
     eldersLairFilter: null,
     attackTypeFilter: null,
@@ -62,7 +59,6 @@ export function makeMonsterFilterStore(
         nameFilter: initial.nameFilter,
         genusFilter: initial.genusFilter,
         habitatFilter: initial.habitatFilter,
-        coopQuestFilter: initial.coopQuestFilter,
         catavanFilter: initial.catavanFilter,
         eldersLairFilter: initial.eldersLairFilter,
         attackTypeFilter: initial.attackTypeFilter,
@@ -83,10 +79,6 @@ export function makeMonsterFilterStore(
 
       allHabitats() {
         return getHabitats(this.monsters);
-      },
-
-      allCoopQuests() {
-        return getCoopQuests(this.monsters);
       },
 
       allCatavanStands() {
@@ -118,10 +110,6 @@ export function makeMonsterFilterStore(
 
         if (this.habitatFilter != null) {
           result = getMonstersByHabitat(this.habitatFilter, result);
-        }
-
-        if (this.coopQuestFilter != null) {
-          result = getMonstersByCoopQuest(this.coopQuestFilter, result);
         }
 
         if (this.catavanFilter != null) {
@@ -356,10 +344,6 @@ export function makeMonsterFilterStore(
           result.push({ name: 'habitatFilter', value: this.habitatFilter });
         }
 
-        if (this.coopQuestFilter != null) {
-          result.push({ name: 'coopQuestFilter', value: this.coopQuestFilter });
-        }
-
         if (this.catavanFilter != null) {
           result.push({ name: 'catavanFilter', value: this.catavanFilter });
         }
@@ -428,7 +412,6 @@ export function makeMonsterFilterStore(
         this.nameFilter = initial.nameFilter;
         this.genusFilter = initial.genusFilter;
         this.habitatFilter = initial.habitatFilter;
-        this.coopQuestFilter = initial.coopQuestFilter;
         this.catavanFilter = initial.catavanFilter;
         this.eldersLairFilter = initial.eldersLairFilter;
         this.attackTypeFilter = initial.attackTypeFilter;

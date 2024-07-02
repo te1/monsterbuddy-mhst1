@@ -14,8 +14,6 @@
 
 <script>
 import _ from 'lodash';
-import { coopQuests } from '~/services/data';
-import { formatCoopQuest } from '~/services/utils';
 
 export default {
   name: 'MonsterLocation',
@@ -28,18 +26,8 @@ export default {
   },
 
   computed: {
-    coopQuest() {
-      if (this.location.type === 'coopQuest') {
-        return _.find(coopQuests, { name: this.location.main });
-      }
-      return null;
-    },
-
     typeCaption() {
       switch (this.location.type) {
-        case 'coopQuest':
-          return 'Co-Op Quest:';
-
         case 'subQuest':
           return 'Subquest: ';
 
@@ -58,12 +46,6 @@ export default {
       switch (this.location.type) {
         case 'superRareDen':
           result = 'Super Rare Dens in ' + result;
-          break;
-
-        case 'coopQuest':
-          if (this.coopQuest) {
-            result = formatCoopQuest(this.coopQuest);
-          }
           break;
 
         case 'eldersLair':
@@ -99,17 +81,11 @@ export default {
     },
 
     hasLink() {
-      return _.includes(['coopQuest', 'eldersLair'], this.location.type);
+      return _.includes(['eldersLair'], this.location.type);
     },
 
     target() {
       switch (this.location.type) {
-        case 'coopQuest':
-          if (this.coopQuest) {
-            return `/coop/${this.coopQuest.slug}`;
-          }
-          return '';
-
         case 'eldersLair':
           return `/elders-lair/?floor=${this.location.main}`;
 

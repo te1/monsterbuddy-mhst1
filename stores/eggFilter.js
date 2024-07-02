@@ -9,13 +9,7 @@ const initial = {
 const extend = {
   state: {
     mode: 'compact',
-    autoSwitchModes: [
-      'location',
-      'location-coop',
-      'ridingActions',
-      'retreat',
-      'rarity',
-    ],
+    autoSwitchModes: ['location', 'ridingActions', 'retreat', 'rarity'],
   },
 };
 

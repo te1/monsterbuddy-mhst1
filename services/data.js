@@ -1,7 +1,6 @@
 import _ from 'lodash';
 import { deepFreeze, makeSlug } from './utils';
 import monsters from '~/assets/data/monsters';
-import coopQuests from '~/assets/data/coopQuests';
 import sortedHabitats from '~/assets/data/habitats';
 import sortedCatavanStands from '~/assets/data/catavanStands';
 import sortedRidingActions from '~/assets/data/ridingActions';
@@ -30,17 +29,12 @@ _.forEach(monsters, (monster) => {
 });
 deepFreeze(monsters);
 
-_.forEach(coopQuests, (coopQuest) => {
-  coopQuest.slug = makeSlug(coopQuest.name);
-});
-deepFreeze(coopQuests);
-
 _.forEach(sortedRidingActions, (ridingAction) => {
   ridingAction.slug = makeSlug(ridingAction.name);
 });
 deepFreeze(sortedRidingActions);
 
-export { monsters, coopQuests, sortedHabitats, sortedRidingActions };
+export { monsters, sortedHabitats, sortedRidingActions };
 export const monstersByNo = Object.freeze(_.keyBy(monsters, 'no'));
 export const monstersByName = Object.freeze(_.keyBy(monsters, 'name'));
 export const monstersBySlug = Object.freeze(_.keyBy(monsters, 'slug'));
@@ -54,7 +48,6 @@ export const catavanStands = getCatavanStandsWithDetails();
 export const catavanStandsBySlug = Object.freeze(
   _.keyBy(catavanStands, 'slug')
 );
-export const coopQuestsBySlug = Object.freeze(_.keyBy(coopQuests, 'slug'));
 export const ridingActions = getRidingActions();
 export const ridingActionsBySlug = Object.freeze(
   _.keyBy(sortedRidingActions, 'slug')
@@ -71,19 +64,6 @@ export function getHabitats(monsterList = monsters) {
   return deepFreeze(
     _.sortBy(habitats, (habitat) => {
       return _.find(sortedHabitats, { name: habitat })?.sortOrder ?? habitat;
-    })
-  );
-}
-
-export function getCoopQuests(monsterList = monsters) {
-  return deepFreeze(
-    _.filter(coopQuests, (coopQuest) => {
-      return _.some(monsterList, (monster) => {
-        return _.some(monster.locations, {
-          type: 'coopQuest',
-          main: coopQuest.name,
-        });
-      });
     })
   );
 }
@@ -170,14 +150,6 @@ export function getMonstersByGenus(genus, monsterList = monsters) {
 
 export function getMonstersByHabitat(habitat, monsterList = monsters) {
   return deepFreeze(_.filter(monsterList, { habitat }));
-}
-
-export function getMonstersByCoopQuest(coopQuest, monsterList = monsters) {
-  return deepFreeze(
-    _.filter(monsterList, (monster) => {
-      return _.some(monster.locations, { type: 'coopQuest', main: coopQuest });
-    })
-  );
 }
 
 export function getMonstersByCatavanStand(

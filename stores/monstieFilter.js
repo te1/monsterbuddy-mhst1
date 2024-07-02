@@ -11,7 +11,6 @@ const extend = {
     mode: 'location',
     autoSwitchModes: [
       'location',
-      'location-coop',
       'location-eldersLair',
       'ridingActions',
       'retreat',
