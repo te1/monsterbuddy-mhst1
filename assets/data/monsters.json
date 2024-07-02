@@ -6,7 +6,8 @@
     "habitat": "Pondry Hills",
     "locations": [
       { "type": "primary", "main": "Pondry Hills", "rank": "low" },
-      { "type": "den", "main": "Perennial Pass", "rank": "low" }
+      { "type": "den", "main": "Perennial Pass", "rank": "low" },
+      { "type": "towerOfIllusion ", "main": "2F" }
     ],
     "rarity": 1,
     "description": "Placid, crested herbivorous monsters. They form herds and raise their young as a community.",
@@ -88,6 +89,7 @@
     "genus": "Carapaceon",
     "habitat": "Pondry Hills",
     "rarity": null,
+    "locations": [{ "type": "towerOfIllusion ", "main": "13F" }],
     "description": "Small hard-shelled Carapaceons. Their brains are regarded as a delicacy in some regions.",
     "monster": {
       "tendency": "technical",
@@ -101,6 +103,7 @@
     "name": "Bullfango",
     "genus": "Fanged Beast",
     "habitat": null,
+    "locations": [{ "type": "towerOfIllusion ", "main": "7F" }],
     "rarity": null,
     "description": "Small, aggressive Fanged Beasts that attack humans on sight. An acquired taste, but the meat is in demand.",
     "monster": {
@@ -116,7 +119,8 @@
     "habitat": "Pondry Hills",
     "locations": [
       { "type": "primary", "main": "Pondry Hills", "rank": "low" },
-      { "type": "subQuest", "main": "★1 Blue Enemy of Love!" }
+      { "type": "subQuest", "main": "★1 Blue Enemy of Love!" },
+      { "type": "towerOfIllusion ", "main": "4F" }
     ],
     "rarity": 1,
     "description": "Alpha monsters that lead the smaller Velociprey. Note their larger size, impressive frill, and sharper claws.",
@@ -162,7 +166,8 @@
     "habitat": "Pondry Hills",
     "locations": [
       { "type": "primary", "main": "Pondry Hills", "rank": "low" },
-      { "type": "subQuest", "main": "★1 The Honey Guard" }
+      { "type": "subQuest", "main": "★1 The Honey Guard" },
+      { "type": "towerOfIllusion ", "main": "6F" }
     ],
     "rarity": 2,
     "description": "Bear-like monsters found in warm, damp environments. Can often be found catching fish from rivers.",
@@ -209,7 +214,8 @@
     "habitat": "Pondry Hills",
     "locations": [
       { "type": "primary", "main": "Pondry Hills", "rank": "low" },
-      { "type": "subQuest", "main": "★1 Call of the Kut-Ku" }
+      { "type": "subQuest", "main": "★1 Call of the Kut-Ku" },
+      { "type": "towerOfIllusion ", "main": "17F" }
     ],
     "rarity": 2,
     "description": "Monsters boasting ample beaks and fan-like ears that splay open when angered. Konchu are a staple food.",
@@ -257,7 +263,8 @@
     "habitat": "Pondry Hills",
     "locations": [
       { "type": "primary", "main": "Pondry Hills", "rank": "low" },
-      { "type": "den", "main": "Perennial Pass", "rank": "low" }
+      { "type": "den", "main": "Perennial Pass", "rank": "low" },
+      { "type": "towerOfIllusion ", "main": "37F" }
     ],
     "rarity": 2,
     "description": "A Yian Kut-Ku subspecies. Their blue coloration and physical prowess set them apart from their pink kin.",
@@ -304,7 +311,8 @@
     "genus": "Herbivore",
     "habitat": "Darj Snowfields",
     "locations": [
-      { "type": "primary", "main": "Darj Snowfields", "rank": "low" }
+      { "type": "primary", "main": "Darj Snowfields", "rank": "low" },
+      { "type": "towerOfIllusion ", "main": "2F" }
     ],
     "rarity": 1,
     "description": "Herd-forming Herbivores covered in long, thick fur. Popo meat is nutritious and prized by gourmands.",
@@ -362,6 +370,7 @@
     "name": "Bnahabra (Green)",
     "genus": "Neopteron",
     "habitat": null,
+    "locations": [{ "type": "towerOfIllusion ", "main": "11F" }],
     "rarity": null,
     "description": "Versatile Neopterons whose coloration and abilities differ according to habitat. This one is a hardy green.",
     "related": [
@@ -379,6 +388,7 @@
     "name": "Konchu (Blue)",
     "genus": "Neopteron",
     "habitat": null,
+    "locations": [{ "type": "towerOfIllusion ", "main": "14F" }],
     "rarity": null,
     "description": "Neopterons that roam in search of food. Coloration varies based on habitat, this variety being an icy blue.",
     "related": [
@@ -446,7 +456,8 @@
     "habitat": "Darj Snowfields",
     "locations": [
       { "type": "primary", "main": "Darj Snowfields", "rank": "low" },
-      { "type": "subQuest", "main": "★2 Bulldrome? RUN!" }
+      { "type": "subQuest", "main": "★2 Bulldrome? RUN!" },
+      { "type": "towerOfIllusion ", "main": "7F" }
     ],
     "rarity": 1,
     "description": "Powerful alpha monsters that lead Bullfango herds. They mow down their prey with their sturdy tusks.",
@@ -493,7 +504,8 @@
     "habitat": "Darj Snowfields",
     "locations": [
       { "type": "primary", "main": "Darj Snowfields", "rank": "low" },
-      { "type": "subQuest", "main": "★2 Shape-Shifter Shark?" }
+      { "type": "subQuest", "main": "★2 Shape-Shifter Shark?" },
+      { "type": "towerOfIllusion ", "main": "24F" }
     ],
     "rarity": 3,
     "description": "Amphibian monsters known for the astonishing changes that occur when they coat their bodies in icy armor.",
@@ -539,7 +551,8 @@
     "habitat": "Darj Snowfields",
     "locations": [
       { "type": "primary", "main": "Darj Snowfields", "rank": "low" },
-      { "type": "subQuest", "main": "★2 A Fascinating Khezu" }
+      { "type": "subQuest", "main": "★2 A Fascinating Khezu" },
+      { "type": "towerOfIllusion ", "main": "32F" }
     ],
     "rarity": 3,
     "description": "Loathsome Flying Wyverns dwelling mainly in caves. They generate and release electricity to deadly effect.",
@@ -586,7 +599,8 @@
     "genus": "Flying Wyvern",
     "habitat": "Darj Snowfields",
     "locations": [
-      { "type": "primary", "main": "Darj Snowfields", "rank": "low" }
+      { "type": "primary", "main": "Darj Snowfields", "rank": "low" },
+      { "type": "towerOfIllusion ", "main": "37F" }
     ],
     "rarity": 3,
     "description": "Khezu subspecies with red bodies. Its electrical power is far more advanced than that of its white cousin.",
@@ -632,6 +646,13 @@
     "name": "Barrel Felyne",
     "genus": "Lynian",
     "habitat": null,
+    "locations": [
+      { "type": "towerOfIllusion ", "main": "5F" },
+      { "type": "towerOfIllusion ", "main": "15F" },
+      { "type": "towerOfIllusion ", "main": "25F" },
+      { "type": "towerOfIllusion ", "main": "35F" },
+      { "type": "towerOfIllusion ", "main": "45F" }
+    ],
     "rarity": null,
     "description": "Trapped in barrels and unable to free themselves, these Felynes await rescue.",
     "monster": {
@@ -648,7 +669,8 @@
     "habitat": "Monsonne Plains",
     "locations": [
       { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
-      { "type": "den", "main": "Perennial Pass", "rank": "low" }
+      { "type": "den", "main": "Perennial Pass", "rank": "low" },
+      { "type": "towerOfIllusion ", "main": "2F" }
     ],
     "rarity": 2,
     "description": "Herbivores clad in sturdy, armor-like plates. Approach with caution to avoid a fierce and persistent chase.",
@@ -692,6 +714,7 @@
     "name": "Genprey",
     "genus": "Bird Wyvern",
     "habitat": "Monsonne Plains",
+    "locations": [{ "type": "towerOfIllusion ", "main": "3F" }],
     "rarity": null,
     "description": "Green-and-orange Bird Wyverns that hunt in packs. They make good use of their paralyzing venom.",
     "monster": {
@@ -706,6 +729,7 @@
     "name": "Ludroth",
     "genus": "Leviathan",
     "habitat": "Monsonne Plains",
+    "locations": [{ "type": "towerOfIllusion ", "main": "13F" }],
     "rarity": null,
     "description": "Aquatic female monsters. They form harems around large males, aggressively attacking interlopers.",
     "monster": {
@@ -745,6 +769,7 @@
     "name": "Vespoid",
     "genus": "Neopteron",
     "habitat": null,
+    "locations": [{ "type": "towerOfIllusion ", "main": "12F" }],
     "rarity": null,
     "description": "Giant Wasp-like Neopterons with paralyzing stingers, which they use on any who stray too close.",
     "monster": {
@@ -776,6 +801,7 @@
     "name": "Cephalos",
     "genus": "Piscine Wyvern",
     "habitat": "Trese Desert",
+    "locations": [{ "type": "towerOfIllusion ", "main": "12F" }],
     "rarity": null,
     "description": "Piscine Wyverns with acute hearing. They swim freely in the desert sands that their scales so resemble.",
     "monster": {
@@ -794,7 +820,8 @@
       { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
       { "type": "den", "main": "Perennial Pass", "rank": "low" },
       { "type": "den", "main": "Trese Desert", "rank": "low" },
-      { "type": "subQuest", "main": "★3 The Paralyzer" }
+      { "type": "subQuest", "main": "★3 The Paralyzer" },
+      { "type": "towerOfIllusion ", "main": "12F" }
     ],
     "rarity": 2,
     "description": "Alpha monsters that lead Genprey. Paralyzing venom tips their highly-developed fangs and claws.",
@@ -892,7 +919,8 @@
       { "type": "primary", "main": "Babda Rainforest", "rank": "low" },
       { "type": "den", "main": "Monsonne Plains", "rank": "low" },
       { "type": "den", "main": "Perennial Pass", "rank": "low" },
-      { "type": "subQuest", "main": "★3 Handy Hides" }
+      { "type": "subQuest", "main": "★3 Handy Hides" },
+      { "type": "towerOfIllusion ", "main": "16F" }
     ],
     "rarity": 3,
     "description": "Crested Bird Wyverns. They strike their crests to generate blinding flashes and dazzle their enemies.",
@@ -942,7 +970,8 @@
       { "type": "primary", "main": "Babda Rainforest", "rank": "low" },
       { "type": "den", "main": "Monsonne Plains", "rank": "low" },
       { "type": "den", "main": "Perennial Pass", "rank": "low" },
-      { "type": "subQuest", "main": "★3 Trapped in the Web" }
+      { "type": "subQuest", "main": "★3 Trapped in the Web" },
+      { "type": "towerOfIllusion ", "main": "26F" }
     ],
     "rarity": 3,
     "description": "Temnocerans that build nests of sticky webbing to ensnare prey, which they rend with their mandibles.",
@@ -990,7 +1019,8 @@
     "habitat": "Trese Desert",
     "locations": [
       { "type": "primary", "main": "Trese Desert", "rank": "low" },
-      { "type": "den", "main": "Monsonne Plains", "rank": "low" }
+      { "type": "den", "main": "Monsonne Plains", "rank": "low" },
+      { "type": "towerOfIllusion ", "main": "32F" }
     ],
     "rarity": 4,
     "description": "Temnocerans that inhabit desert areas. They lurk beneath the sands in order ambush unwary prey.",
@@ -1039,7 +1069,8 @@
     "locations": [
       { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
       { "type": "den", "main": "Perennial Pass", "rank": "low" },
-      { "type": "subQuest", "main": "★3 Clamorous Qurupeco" }
+      { "type": "subQuest", "main": "★3 Clamorous Qurupeco" },
+      { "type": "towerOfIllusion ", "main": "28F" }
     ],
     "rarity": 2,
     "description": "Bird Wyverns with colorful plumage. Using thoracic vocal organs they imitate the calls of other monsters.",
@@ -1140,7 +1171,8 @@
     "habitat": "Perennial Pass",
     "locations": [
       { "type": "primary", "main": "Monsonne Plains", "rank": "low" },
-      { "type": "den", "main": "Perennial Pass", "rank": "low" }
+      { "type": "den", "main": "Perennial Pass", "rank": "low" },
+      { "type": "towerOfIllusion ", "main": "34F" }
     ],
     "rarity": 4,
     "description": "A vivid, pink-scaled Rathian subspecies. Its tail attacks are far more powerful than those of a regular Rathian.",
@@ -1189,7 +1221,10 @@
     "name": "Daimyo Hermitaur",
     "genus": "Carapaceon",
     "habitat": "Trese Desert",
-    "locations": [{ "type": "subQuest", "main": "★3 The Sturdy Shield" }],
+    "locations": [
+      { "type": "subQuest", "main": "★3 The Sturdy Shield" },
+      { "type": "towerOfIllusion ", "main": "13F" }
+    ],
     "rarity": null,
     "description": "These armored Carapaceons use their hardened pincers like shields to fend off the attacks of their enemies.",
     "related": [{ "type": "subspecies", "monster": "Plum Daimyo Hermitaur" }],
@@ -1205,6 +1240,7 @@
     "name": "Plum Daimyo Hermitaur",
     "genus": "Carapaceon",
     "habitat": "Monsonne Plains",
+    "locations": [{ "type": "towerOfIllusion ", "main": "43F" }],
     "rarity": null,
     "description": "Armored Carapaceons that approach their prey with blinding speed and strike using their powerful claws.",
     "related": [{ "type": "subspeciesOf", "monster": "Daimyo Hermitaur" }],
@@ -1223,7 +1259,8 @@
     "locations": [
       { "type": "primary", "main": "Trese Desert", "rank": "low" },
       { "type": "den", "main": "Monsonne Plains", "rank": "low" },
-      { "type": "subQuest", "main": "★3 Bog Diving" }
+      { "type": "subQuest", "main": "★3 Bog Diving" },
+      { "type": "towerOfIllusion ", "main": "33F" }
     ],
     "rarity": 3,
     "description": "Barroth bury themselves in mud, but will not hesitate to attack those who disturb them in their bogs.",
@@ -1275,7 +1312,8 @@
     "locations": [
       { "type": "primary", "main": "Trese Desert", "rank": "low" },
       { "type": "den", "main": "Monsonne Plains", "rank": "low" },
-      { "type": "subQuest", "main": "★3 Boss of the Cephalos" }
+      { "type": "subQuest", "main": "★3 Boss of the Cephalos" },
+      { "type": "towerOfIllusion ", "main": "16F" }
     ],
     "rarity": 2,
     "description": "Alpha monsters that lead Cephalos. Hardened black scales set them apart from the smaller Cephalos.",
@@ -1323,7 +1361,8 @@
     "locations": [
       { "type": "primary", "main": "Trese Desert", "rank": "low" },
       { "type": "den", "main": "Monsonne Plains", "rank": "low" },
-      { "type": "subQuest", "main": "★3 Despot of the Desert" }
+      { "type": "subQuest", "main": "★3 Despot of the Desert" },
+      { "type": "towerOfIllusion ", "main": "38F" }
     ],
     "rarity": 4,
     "description": "Feared as tyrants of the desert, these Flying Wyverns attack any who stray into their territory.",
@@ -1371,7 +1410,8 @@
     "habitat": "Trese Desert",
     "locations": [
       { "type": "primary", "main": "Trese Desert", "rank": "low" },
-      { "type": "den", "main": "Monsonne Plains", "rank": "low" }
+      { "type": "den", "main": "Monsonne Plains", "rank": "low" },
+      { "type": "towerOfIllusion ", "main": "38F" }
     ],
     "rarity": 4,
     "description": "A formidable subspecies of Diablos. Females darken in the mating season so as to warn off other creatures.",
@@ -1425,7 +1465,9 @@
         "lateGame": true,
         "lateGameHint": "After defeating the Blighted Diablos"
       },
-      { "type": "subQuest", "main": "★3 Reverberating Roar" }
+      { "type": "subQuest", "main": "★3 Reverberating Roar" },
+      { "type": "towerOfIllusion ", "main": "28F" },
+      { "type": "towerOfIllusion ", "main": "44F" }
     ],
     "rarity": 4,
     "description": "Primeval in appearance, these Flying Wyverns are possessed of fearsome limbs, jaws and claws.",
@@ -1504,6 +1546,7 @@
     "name": "Bnahabra (Red)",
     "genus": "Neopteron",
     "habitat": "Dovan Volcano",
+    "locations": [{ "type": "towerOfIllusion ", "main": "11F" }],
     "rarity": null,
     "description": "Versatile Neopterons whose coloration and abilities differ according to habitat. This one is a lively red.",
     "related": [
@@ -1521,6 +1564,7 @@
     "name": "Konchu (Red)",
     "genus": "Neopteron",
     "habitat": "Dovan Volcano",
+    "locations": [{ "type": "towerOfIllusion ", "main": "14F" }],
     "rarity": null,
     "description": "Neopterons that roam in search of food. Coloration varies based on habitat, this variety being a rusty red.",
     "related": [
@@ -1539,6 +1583,7 @@
     "name": "Ioprey",
     "genus": "Bird Wyvern",
     "habitat": "Dovan Volcano",
+    "locations": [{ "type": "towerOfIllusion ", "main": "3F" }],
     "rarity": null,
     "description": "Red-scaled Bird Wyverns that attack by excreting venom from their throat sacs which they spit at foes.",
     "monster": {
@@ -1551,6 +1596,7 @@
     "name": "Uroktor",
     "genus": "Leviathan",
     "habitat": "Dovan Volcano",
+    "locations": [{ "type": "towerOfIllusion ", "main": "17F" }],
     "rarity": null,
     "description": "Young Leviathans dwelling in volcanoes. Scavengers by nature, they feed off the scraps left behind by others.",
     "related": [{ "type": "ex", "monster": "Uroktor EX" }],
@@ -1568,7 +1614,8 @@
     "habitat": "Dovan Volcano",
     "locations": [
       { "type": "primary", "main": "Dovan Volcano", "rank": "low" },
-      { "type": "subQuest", "main": "★4 Poisonous Probing" }
+      { "type": "subQuest", "main": "★4 Poisonous Probing" },
+      { "type": "towerOfIllusion ", "main": "18F" }
     ],
     "rarity": 2,
     "description": "Alpha monsters that lead Ioprey. Their poison sacs allow them to attack by spitting an acrid venom.",
@@ -1614,7 +1661,8 @@
     "habitat": "Dovan Volcano",
     "locations": [
       { "type": "primary", "main": "Dovan Volcano", "rank": "low" },
-      { "type": "subQuest", "main": "★4 Watch Out for Rocks!" }
+      { "type": "subQuest", "main": "★4 Watch Out for Rocks!" },
+      { "type": "towerOfIllusion ", "main": "14F" }
     ],
     "rarity": 3,
     "description": "Juvenile form of a Gravios. Its most distinctive feature is the rock-hard carapace on its back.",
@@ -1682,7 +1730,8 @@
         "lateGame": true,
         "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
       },
-      { "type": "subQuest", "main": "★4 Forged by Volcano" }
+      { "type": "subQuest", "main": "★4 Forged by Volcano" },
+      { "type": "towerOfIllusion ", "main": "42F" }
     ],
     "rarity": 4,
     "description": "Flying Wyverns that inhabit volcanic regions. Capable of attacking with fiery breath and sleeping gas.",
@@ -1730,7 +1779,8 @@
     "habitat": "Dovan Volcano",
     "locations": [
       { "type": "primary", "main": "Dovan Volcano", "rank": "low" },
-      { "type": "subQuest", "main": "★4 Mining Menace" }
+      { "type": "subQuest", "main": "★4 Mining Menace" },
+      { "type": "towerOfIllusion ", "main": "31F" }
     ],
     "rarity": 4,
     "description": "Brute Wyverns with mighty jaws. They spray the stones and ore which stick to them in deadly, explosive attacks.",
@@ -1777,7 +1827,8 @@
     "genus": "Flying Wyvern",
     "habitat": "Dovan Volcano",
     "locations": [
-      { "type": "primary", "main": "Dovan Volcano", "rank": "low" }
+      { "type": "primary", "main": "Dovan Volcano", "rank": "low" },
+      { "type": "towerOfIllusion ", "main": "36F" }
     ],
     "rarity": 5,
     "description": "A black Tigrex subspecies. The force and range of its howl is even more fearsome than that of its cousins.",
@@ -1826,7 +1877,10 @@
     "name": "Agnaktor",
     "genus": "Leviathan",
     "habitat": "Dovan Volcano",
-    "locations": [{ "type": "subQuest", "main": "★4 Lava Dragon?!?!?!" }],
+    "locations": [
+      { "type": "subQuest", "main": "★4 Lava Dragon?!?!?!" },
+      { "type": "towerOfIllusion ", "main": "24F" }
+    ],
     "rarity": null,
     "description": "Agnaktor use their tough beaks and powerful muscles to burrow into rock, moving freely through the earth.",
     "related": [
@@ -1916,6 +1970,7 @@
     "name": "Bnahabra (Blue)",
     "genus": "Neopteron",
     "habitat": null,
+    "locations": [{ "type": "towerOfIllusion ", "main": "11F" }],
     "rarity": null,
     "description": "Versatile Neopterons whose coloration and abilities differ according to habitat. This one is a deep blue.",
     "related": [
@@ -1933,6 +1988,7 @@
     "name": "Jaggi",
     "genus": "Bird Wyvern",
     "habitat": null,
+    "locations": [{ "type": "towerOfIllusion ", "main": "8F" }],
     "rarity": null,
     "description": "Carnivorous Bird Wyverns. They hunt in packs, and the young males are typically smaller than the females.",
     "monster": {
@@ -1946,6 +2002,7 @@
     "name": "Jaggia",
     "genus": "Bird Wyvern",
     "habitat": null,
+    "locations": [{ "type": "towerOfIllusion ", "main": "8F" }],
     "rarity": null,
     "description": "Female Jaggi that live in packs, generally responsible for protecting the nest and raising the young.",
     "monster": {
@@ -2001,6 +2058,7 @@
     "name": "Shakalaka",
     "genus": "Lynian",
     "habitat": null,
+    "locations": [{ "type": "towerOfIllusion ", "main": "21F" }],
     "rarity": null,
     "description": "Lynians never seen without their masks. Specializing in camouflage, even spotting one is no easy task.",
     "monster": {
@@ -2016,7 +2074,8 @@
     "habitat": "Paupau Beach",
     "locations": [
       { "type": "primary", "main": "Paupau Beach", "rank": "low" },
-      { "type": "subQuest", "main": "★5 Flotsam Great Jaggi" }
+      { "type": "subQuest", "main": "★5 Flotsam Great Jaggi" },
+      { "type": "towerOfIllusion ", "main": "8F" }
     ],
     "rarity": 2,
     "description": "Alpha monsters that lead Jaggi. They issue complex commands to the pack via their howls.",
@@ -2062,7 +2121,8 @@
     "habitat": "Paupau Beach",
     "locations": [
       { "type": "primary", "main": "Paupau Beach", "rank": "low" },
-      { "type": "subQuest", "main": "★5 Beware, Prankster!" }
+      { "type": "subQuest", "main": "★5 Beware, Prankster!" },
+      { "type": "towerOfIllusion ", "main": "43F" }
     ],
     "rarity": 3,
     "description": "Fanged Beasts with limbs well adapted to swinging through the forest tree areas they inhabit.",
@@ -2108,7 +2168,10 @@
     "name": "Purple Ludroth",
     "genus": "Leviathan",
     "habitat": "Paupau Beach",
-    "locations": [{ "type": "primary", "main": "Paupau Beach", "rank": "low" }],
+    "locations": [
+      { "type": "primary", "main": "Paupau Beach", "rank": "low" },
+      { "type": "towerOfIllusion ", "main": "18F" }
+    ],
     "rarity": 4,
     "description": "A subspecies of Royal Ludroth. Poison is stored in their spongy purple manes.",
     "related": [{ "type": "subspeciesOf", "monster": "Royal Ludroth" }],
@@ -2155,7 +2218,8 @@
     "habitat": "Paupau Beach",
     "locations": [
       { "type": "primary", "main": "Paupau Beach", "rank": "low" },
-      { "type": "subQuest", "main": "★5 Sandy Yian Garuga!" }
+      { "type": "subQuest", "main": "★5 Sandy Yian Garuga!" },
+      { "type": "towerOfIllusion ", "main": "23F" }
     ],
     "rarity": 5,
     "description": "Bird Wyverns known for their hard shells and long manes. Aggressive, prone to attack unprovoked.",
@@ -2221,7 +2285,8 @@
         "lateGame": true,
         "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
       },
-      { "type": "subQuest", "main": "★5 Farting Panic!" }
+      { "type": "subQuest", "main": "★5 Farting Panic!" },
+      { "type": "towerOfIllusion ", "main": "22F" }
     ],
     "rarity": 3,
     "description": "Pink-furred Fanged Beasts. They let rip with almighty farts, the stench of which overwhelms opponents.",
@@ -2286,7 +2351,8 @@
         "rank": "low",
         "lateGame": true,
         "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
-      }
+      },
+      { "type": "towerOfIllusion ", "main": "22F" }
     ],
     "rarity": 4,
     "description": "A green-furred Congalala. Able to store even more prodigious quantities of gas than its pink brethren.",
@@ -2422,7 +2488,8 @@
         "rank": "low",
         "lateGame": true,
         "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
-      }
+      },
+      { "type": "towerOfIllusion ", "main": "42F" }
     ],
     "rarity": 6,
     "description": "This subspecies has a tough, black carapace. It is capable of discharging powerful blasts of heat.",
@@ -2489,7 +2556,8 @@
         "lateGame": true,
         "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
       },
-      { "type": "subQuest", "main": "★5 Rumbling Recital" }
+      { "type": "subQuest", "main": "★5 Rumbling Recital" },
+      { "type": "towerOfIllusion ", "main": "27F" }
     ],
     "rarity": 6,
     "description": "Fanged Wyverns that store the electrical energy of the countless Thunderbugs that they gather.",
@@ -2542,7 +2610,8 @@
         "rank": "low",
         "lateGame": true,
         "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
-      }
+      },
+      { "type": "towerOfIllusion ", "main": "26F" }
     ],
     "rarity": 4,
     "description": "Basarios subspecies that coats its carapace with rare ore. It scatters this with great force during battle.",
@@ -2596,7 +2665,8 @@
         "lateGame": true,
         "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
       },
-      { "type": "subQuest", "main": "★5 Ninja Nargacuga" }
+      { "type": "subQuest", "main": "★5 Ninja Nargacuga" },
+      { "type": "towerOfIllusion ", "main": "44F" }
     ],
     "rarity": 5,
     "description": "Flying Wyverns residing in wooded areas. Fearfully fast, persistent, and sly, they excel at hunting prey.",
@@ -2661,7 +2731,8 @@
         "rank": "low",
         "lateGame": true,
         "lateGameHint": "After going to the Peculiar Den in Babda Rainforest"
-      }
+      },
+      { "type": "towerOfIllusion ", "main": "33F" }
     ],
     "rarity": 6,
     "description": "Dappled green fur serves as camouflage in the deep forests that this Nargacuga calls home.",
@@ -2714,7 +2785,8 @@
         "lateGame": true,
         "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
       },
-      { "type": "subQuest", "main": "★5 The King's Descent" }
+      { "type": "subQuest", "main": "★5 The King's Descent" },
+      { "type": "towerOfIllusion ", "main": "9F" }
     ],
     "rarity": 5,
     "description": "Dubbed the King of the Skies, it dominates battle with its powerful wings and poison-tipped claws.",
@@ -2770,7 +2842,8 @@
         "rank": "low",
         "lateGame": true,
         "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
-      }
+      },
+      { "type": "towerOfIllusion ", "main": "34F" }
     ],
     "rarity": 6,
     "description": "A Rathalos subspecies. More mobile than its cousin, it attacks with matchless speed and ferocity.",
@@ -2858,7 +2931,8 @@
         "rank": "low",
         "lateGame": true,
         "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
-      }
+      },
+      { "type": "towerOfIllusion ", "main": "23F" }
     ],
     "rarity": 4,
     "description": "A subspecies of Gypceros with a uniquely colored hide. It attacks by spitting highly venomous waste.",
@@ -2911,7 +2985,8 @@
         "rank": "low",
         "lateGame": true,
         "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
-      }
+      },
+      { "type": "towerOfIllusion ", "main": "17F" }
     ],
     "rarity": 4,
     "description": "This subspecies has pale, multicolored fur. They make sport of their prey with the cunning of their attacks.",
@@ -2965,7 +3040,8 @@
         "lateGame": true,
         "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
       },
-      { "type": "subQuest", "main": "★6 King of the Ocean!" }
+      { "type": "subQuest", "main": "★6 King of the Ocean!" },
+      { "type": "towerOfIllusion ", "main": "27F" }
     ],
     "rarity": 5,
     "description": "Leviathans atop the aquatic food chain, due in no small part to their ability to deliver electrical shocks.",
@@ -3018,7 +3094,8 @@
         "rank": "low",
         "lateGame": true,
         "lateGameHint": "After cleansing the Kinship Ore in Mt. Pondry Cave Depths"
-      }
+      },
+      { "type": "towerOfIllusion ", "main": "49F" }
     ],
     "rarity": 7,
     "description": "A Lagiacrus subspecies adapted to life on land. Its beautiful white carapace belies its vicious nature.",
@@ -3064,7 +3141,10 @@
     "name": "Deviljho",
     "genus": "Brute Wyvern",
     "habitat": "Mt. Celion",
-    "locations": [{ "type": "primary", "main": "Mt. Celion", "rank": "low" }],
+    "locations": [
+      { "type": "primary", "main": "Mt. Celion", "rank": "low" },
+      { "type": "towerOfIllusion ", "main": "48F" }
+    ],
     "rarity": 8,
     "description": "Brute Wyverns that roam in search of food. Ferocious in the extreme, and relentless in pursuit of prey.",
     "monster": {
@@ -3108,6 +3188,7 @@
     "name": "Baggi",
     "genus": "Bird Wyvern",
     "habitat": "Mt. Celion",
+    "locations": [{ "type": "towerOfIllusion ", "main": "3F" }],
     "rarity": null,
     "description": "Intelligent Bird Wyverns that hunt in packs, and use special bodily fluids to tranquilize their prey.",
     "monster": {
@@ -3134,6 +3215,7 @@
     "name": "Remobra",
     "genus": "Snake Wyvern",
     "habitat": null,
+    "locations": [{ "type": "towerOfIllusion ", "main": "18F" }],
     "rarity": null,
     "description": "Snake Wyverns that have mastered flight, and which soar in search of weakened prey to swoop upon.",
     "monster": {
@@ -3248,7 +3330,8 @@
         "rank": "low",
         "lateGame": true
       },
-      { "type": "subQuest", "main": "★6 Freezing Fangs" }
+      { "type": "subQuest", "main": "★6 Freezing Fangs" },
+      { "type": "towerOfIllusion ", "main": "46F" }
     ],
     "rarity": 5,
     "description": "Flying Wyverns that rule the frozen wastes. Spikily scaled wings and tail allow them to run effortlessly across ice.",
@@ -3301,7 +3384,8 @@
         "rank": "low",
         "lateGame": true,
         "lateGameHint": "After opening the way to Mt. Celion"
-      }
+      },
+      { "type": "towerOfIllusion ", "main": "36F" }
     ],
     "rarity": 6,
     "description": "A subspecies of Barioth. Its breath is strong enough to generate tornados among the desert sands.",
@@ -3347,6 +3431,7 @@
     "name": "Glacial Agnaktor",
     "genus": "Leviathan",
     "habitat": "Mt. Celion",
+    "locations": [{ "type": "towerOfIllusion ", "main": "46F" }],
     "rarity": null,
     "description": "A subspecies of Agnaktor. With its tough scales, even the tundra presents no obstacle to their movement.",
     "related": [
@@ -3365,7 +3450,10 @@
     "name": "Stygian Zinogre",
     "genus": "Fanged Wyvern",
     "habitat": "Mt. Celion",
-    "locations": [{ "type": "primary", "main": "Mt. Celion", "rank": "low" }],
+    "locations": [
+      { "type": "primary", "main": "Mt. Celion", "rank": "low" },
+      { "type": "towerOfIllusion ", "main": "48F" }
+    ],
     "rarity": 7,
     "description": "Feeding on Dracophage Bugs has given this subspecies access to unheard of brute strength.",
     "related": [{ "type": "subspeciesOf", "monster": "Zinogre" }],
@@ -3412,7 +3500,8 @@
     "habitat": "Mt. Celion",
     "locations": [
       { "type": "primary", "main": "Mt. Celion", "rank": "low" },
-      { "type": "subQuest", "main": "★6 Test of Strength!" }
+      { "type": "subQuest", "main": "★6 Test of Strength!" },
+      { "type": "towerOfIllusion ", "main": "47F" }
     ],
     "rarity": 8,
     "description": "Brute Wyvern coated in a volatile substance. Its saliva can be used to ignite this coat, with explosive results.",
@@ -3460,7 +3549,8 @@
     "locations": [
       { "type": "primary", "main": "Mt. Celion", "rank": "high" },
       { "type": "den", "main": "Perennial Pass", "rank": "high" },
-      { "type": "subQuest", "main": "★6 Destruction Daemon" }
+      { "type": "subQuest", "main": "★6 Destruction Daemon" },
+      { "type": "towerOfIllusion ", "main": "49F" }
     ],
     "rarity": 8,
     "description": "Ultra-aggressive Fanged Beasts. Widely regarded as the pinnacle of unparalleled physical prowess.",
@@ -3503,7 +3593,8 @@
     "locations": [
       { "type": "primary", "main": "Perennial Pass", "rank": "high" },
       { "type": "den", "main": "Monsonne Plains", "rank": "high" },
-      { "type": "subQuest", "main": "★7 Thunder Visions" }
+      { "type": "subQuest", "main": "★7 Thunder Visions" },
+      { "type": "towerOfIllusion ", "main": "39F" }
     ],
     "rarity": 7,
     "description": "Lightning-wielding mystical creature. Classified as an Elder Dragon, but its true nature remains a mystery.",
@@ -3567,7 +3658,8 @@
     "habitat": "Trese Desert",
     "locations": [
       { "type": "primary", "main": "Trese Desert", "rank": "high" },
-      { "type": "subQuest", "main": "★7 One Tall Horn" }
+      { "type": "subQuest", "main": "★7 One Tall Horn" },
+      { "type": "towerOfIllusion ", "main": "41F" }
     ],
     "rarity": 6,
     "description": "Endowed with an impressive cranial horn. It uses its horn in brutal attacks, screeching ear-splitting war cries.",
@@ -3615,7 +3707,8 @@
     "habitat": "Pondry Hills",
     "locations": [
       { "type": "primary", "main": "Pondry Hills", "rank": "high" },
-      { "type": "subQuest", "main": "★7 Seregios's Secret" }
+      { "type": "subQuest", "main": "★7 Seregios's Secret" },
+      { "type": "towerOfIllusion ", "main": "47F" }
     ],
     "rarity": 7,
     "description": "Flying Wyvern known for its lustrous golden scales. Its scales can be launched at prey in high-speed attacks.",
@@ -3666,7 +3759,8 @@
         "sub": "F19",
         "rank": "high"
       },
-      { "type": "primary", "main": "Trese Desert", "rank": "high" }
+      { "type": "primary", "main": "Trese Desert", "rank": "high" },
+      { "type": "towerOfIllusion ", "main": "50F" }
     ],
     "rarity": 9,
     "description": "A rare Rathian subspecies. Its majestic golden sheen resembles the glow of the full moon.",
@@ -3723,7 +3817,8 @@
         "main": "Pondry Hills",
         "rank": "high",
         "subQuest": true
-      }
+      },
+      { "type": "towerOfIllusion ", "main": "50F" }
     ],
     "rarity": 9,
     "description": "A rare Rathalos subspecies. Its piercing silver shimmer resembles the blazing sun.",
