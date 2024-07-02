@@ -3293,7 +3293,6 @@
       "growth": "slow",
       "ridingActions": [],
       "kinshipSkill": null,
-      "eggVariants": 3,
       "stats": {
         "base": { "hp": null, "atk": null, "def": null, "spd": null },
         "attack": {
@@ -3594,7 +3593,7 @@
     },
     "hatchable": true,
     "monstie": {
-      "eggVariants": 1
+      "eggVariants": 2
     }
   },
   {
@@ -3615,7 +3614,7 @@
     },
     "hatchable": true,
     "monstie": {
-      "eggVariants": 1
+      "eggVariants": 2
     }
   },
   {
@@ -3682,7 +3681,7 @@
       "growth": "regular",
       "ridingActions": ["Roar", "Ground Dive"],
       "kinshipSkill": "Demolition Dash",
-      "eggVariants": 1,
+      "eggVariants": 2,
       "stats": {
         "base": { "hp": 3, "atk": 5, "def": 4, "spd": 3 },
         "attack": {
@@ -3729,7 +3728,7 @@
       "growth": "slow",
       "ridingActions": ["Ivy Climb", "Dash"],
       "kinshipSkill": "Rock Smash",
-      "eggVariants": 1,
+      "eggVariants": 2,
       "stats": {
         "base": { "hp": 3, "atk": 5, "def": 4, "spd": 3 },
         "attack": {
@@ -3777,7 +3776,7 @@
       "growth": "regular",
       "ridingActions": ["Jump"],
       "kinshipSkill": "Phantasmal Horn",
-      "eggVariants": 1,
+      "eggVariants": 2,
       "stats": {
         "base": { "hp": 1, "atk": 4, "def": 4, "spd": 5 },
         "attack": {
