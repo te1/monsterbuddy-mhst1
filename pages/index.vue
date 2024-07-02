@@ -170,6 +170,17 @@
               <li>
                 <a
                   class="link"
+                  href="https://gamefaqs.gamespot.com/3ds/146555-monster-hunter-stories/faqs/74891"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Egg List (3DS) by Jadebell
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="link"
                   href="https://www.gameskinny.com/tips/monster-hunter-stories-guide-all-egg-patterns-and-locations/"
                   target="_blank"
                   rel="noopener"
