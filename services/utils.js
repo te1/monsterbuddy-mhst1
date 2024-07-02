@@ -77,38 +77,6 @@ export function formatMonsterPrimaryLocation(monster) {
   return null;
 }
 
-export function formatCoopQuestType(type) {
-  switch (type) {
-    case 'explore':
-      return 'Explore';
-
-    case 'slay':
-      return 'Slay';
-
-    case 'time':
-      return 'Time';
-
-    default:
-      return '';
-  }
-}
-
-export function formatCoopQuest(coopQuest) {
-  let result = formatCoopQuestType(coopQuest?.type);
-
-  if (result) {
-    result = `(${result}) `;
-  }
-
-  if (coopQuest?.rarity != null) {
-    result = '★' + coopQuest.rarity + ' ' + result;
-  }
-
-  result += coopQuest?.name;
-
-  return result;
-}
-
 export function formatRidingActionType(type) {
   switch (type) {
     case 'utility':
