@@ -14,7 +14,7 @@ Looking for info on Monster Hunter Stories 2: Wings of Ruin instead? Check out h
 - Monstie list with attack tendencies, retreat conditions, habitats and stats
 - Egg list with search, sorting and filtering
 - ~~Catavan stands with list of nearby monsters~~
-- ~~Tower of Illusions with list of monsters by floor~~
+- Tower of Illusions with list of monsters by floor
 - Riding action list and related monsties
 
 ## Sources for data and images
