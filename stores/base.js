@@ -5,13 +5,13 @@ import {
   getGenera,
   getHabitats,
   getCatavanStands,
-  getEldersLairFloors,
+  getTowerOfIllusionFloors,
   getRidingActions,
   getMonstersByName,
   getMonstersByGenus,
   getMonstersByHabitat,
   getMonstersByCatavanStand,
-  getMonstersByEldersLairFloor,
+  getMonstersByTowerOfIllusionFloor,
   getMonstiesByAttackType,
   getMonstiesByAttackElement,
   getMonstiesByRidingAction,
@@ -36,7 +36,7 @@ export function makeMonsterFilterStore(
     genusFilter: null,
     habitatFilter: null,
     catavanFilter: null,
-    eldersLairFilter: null,
+    towerOfIllusionFilter: null,
     attackTypeFilter: null,
     attackElementFilter: null,
     ridingActionFilter: null,
@@ -57,7 +57,7 @@ export function makeMonsterFilterStore(
         genusFilter: initial.genusFilter,
         habitatFilter: initial.habitatFilter,
         catavanFilter: initial.catavanFilter,
-        eldersLairFilter: initial.eldersLairFilter,
+        towerOfIllusionFilter: initial.towerOfIllusionFilter,
         attackTypeFilter: initial.attackTypeFilter,
         attackElementFilter: initial.attackElementFilter,
         ridingActionFilter: initial.ridingActionFilter,
@@ -81,8 +81,8 @@ export function makeMonsterFilterStore(
         return getCatavanStands(this.monsters);
       },
 
-      allEldersLairFloors() {
-        return getEldersLairFloors(this.monsters);
+      allTowerOfIllusionFloors() {
+        return getTowerOfIllusionFloors(this.monsters);
       },
 
       allRidingActions() {
@@ -108,8 +108,11 @@ export function makeMonsterFilterStore(
           result = getMonstersByCatavanStand(this.catavanFilter, result);
         }
 
-        if (this.eldersLairFilter != null) {
-          result = getMonstersByEldersLairFloor(this.eldersLairFilter, result);
+        if (this.towerOfIllusionFilter != null) {
+          result = getMonstersByTowerOfIllusionFloor(
+            this.towerOfIllusionFilter,
+            result
+          );
         }
 
         if (this.attackTypeFilter != null) {
@@ -204,8 +207,8 @@ export function makeMonsterFilterStore(
             result = _.groupBy(result, 'habitat');
             break;
 
-          case 'eldersLair':
-            result = this.groupedMonstersByEldersLairFloors(result);
+          case 'towerOfIllusion':
+            result = this.groupedMonstersByTowerOfIllusionFloors(result);
             break;
 
           default:
@@ -216,18 +219,18 @@ export function makeMonsterFilterStore(
         return result;
       },
 
-      groupedMonstersByEldersLairFloors: (state) => (monsters) => {
+      groupedMonstersByTowerOfIllusionFloors: (state) => (monsters) => {
         let floors;
-        if (state.eldersLairFilter) {
-          floors = [state.eldersLairFilter];
+        if (state.towerOfIllusionFilter) {
+          floors = [state.towerOfIllusionFilter];
         } else {
-          floors = getEldersLairFloors(monsters);
+          floors = getTowerOfIllusionFloors(monsters);
         }
 
         return _.reduce(
           floors,
           (result, floor) => {
-            result[floor] = getMonstersByEldersLairFloor(floor, monsters);
+            result[floor] = getMonstersByTowerOfIllusionFloor(floor, monsters);
 
             return result;
           },
@@ -244,7 +247,10 @@ export function makeMonsterFilterStore(
       },
 
       isGrouped() {
-        return _.includes(['genus', 'habitat', 'eldersLair'], this.sortKey);
+        return _.includes(
+          ['genus', 'habitat', 'towerOfIllusion'],
+          this.sortKey
+        );
       },
 
       activeSort() {
@@ -336,10 +342,13 @@ export function makeMonsterFilterStore(
           result.push({ name: 'catavanFilter', value: this.catavanFilter });
         }
 
-        if (this.eldersLairFilter != null && this.sortKey !== 'eldersLair') {
+        if (
+          this.towerOfIllusionFilter != null &&
+          this.sortKey !== 'towerOfIllusion'
+        ) {
           result.push({
-            name: 'eldersLairFilter',
-            value: "Elder's Lair - " + this.eldersLairFilter,
+            name: 'towerOfIllusionFilter',
+            value: 'Tower of Illusion - ' + this.towerOfIllusionFilter,
           });
         }
 
@@ -394,7 +403,7 @@ export function makeMonsterFilterStore(
         this.genusFilter = initial.genusFilter;
         this.habitatFilter = initial.habitatFilter;
         this.catavanFilter = initial.catavanFilter;
-        this.eldersLairFilter = initial.eldersLairFilter;
+        this.towerOfIllusionFilter = initial.towerOfIllusionFilter;
         this.attackTypeFilter = initial.attackTypeFilter;
         this.attackElementFilter = initial.attackElementFilter;
         this.ridingActionFilter = initial.ridingActionFilter;

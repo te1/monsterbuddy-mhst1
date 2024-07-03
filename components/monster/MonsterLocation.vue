@@ -48,8 +48,8 @@ export default {
           result = 'Super Rare Dens in ' + result;
           break;
 
-        case 'eldersLair':
-          result = "Elder's Lair - " + result;
+        case 'towerOfIllusion':
+          result = 'Tower of Illusion - ' + result;
           break;
       }
 
@@ -81,13 +81,13 @@ export default {
     },
 
     hasLink() {
-      return _.includes(['eldersLair'], this.location.type);
+      return _.includes(['towerOfIllusion'], this.location.type);
     },
 
     target() {
       switch (this.location.type) {
-        case 'eldersLair':
-          return `/elders-lair/?floor=${this.location.main}`;
+        case 'towerOfIllusion':
+          return `/tower-of-illusion/?floor=${this.location.main}`;
 
         default:
           return '';

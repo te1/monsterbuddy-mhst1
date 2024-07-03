@@ -9,7 +9,12 @@ const initial = {
 const extend = {
   state: {
     mode: 'location',
-    autoSwitchModes: ['location', 'location-eldersLair', 'combat', 'rarity'],
+    autoSwitchModes: [
+      'location',
+      'location-towerOfIllusion',
+      'combat',
+      'rarity',
+    ],
   },
 };
 

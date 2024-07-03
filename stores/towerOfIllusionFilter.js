@@ -3,7 +3,7 @@ import { makeMonsterFilterStore } from './base';
 import { monsters } from '~/services/data';
 
 const initial = {
-  sortKey: 'eldersLair',
+  sortKey: 'towerOfIllusion',
   sortOrder: 'asc',
 };
 
@@ -15,14 +15,14 @@ const extend = {
 };
 
 let filteredMonsters = _.filter(monsters, (monster) => {
-  return _.some(monster.locations, { type: 'eldersLair' });
+  return _.some(monster.locations, { type: 'towerOfIllusion' });
 });
 
-const useEldersLairFilter = makeMonsterFilterStore(
-  'eldersLairFilter',
+const useTowerOfIllusionFilter = makeMonsterFilterStore(
+  'towerOfIllusionFilter',
   filteredMonsters,
   initial,
   extend
 );
 
-export default useEldersLairFilter;
+export default useTowerOfIllusionFilter;

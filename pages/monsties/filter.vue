@@ -26,7 +26,7 @@ export default {
     modes() {
       return [
         { value: 'location', caption: 'Location' },
-        // { value: 'location-eldersLair', caption: "Elder's Lair" },
+        { value: 'location-towerOfIllusion', caption: 'Tower of Illusion' },
         { value: 'ridingActions', caption: 'Riding Actions' },
         { value: 'retreat', caption: 'Retreat' },
         { value: 'rarity', caption: 'Rarity' },

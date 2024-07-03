@@ -34,9 +34,9 @@
         </div>
       </template>
 
-      <template v-if="showEldersLairFloors">
-        <div v-for="floor in eldersLairFloors" :key="floor">
-          Elder's Lair - {{ floor }}
+      <template v-if="showTowerOfIllusionFloors">
+        <div v-for="floor in towerOfIllusionFloors" :key="floor">
+          Tower of Illusion - {{ floor }}
         </div>
       </template>
 
@@ -106,9 +106,9 @@ export default {
       return formatMonsterPrimaryLocation(this.monster);
     },
 
-    eldersLairFloors() {
+    towerOfIllusionFloors() {
       let locations = _.take(
-        getMonsterLocations(this.monster, 'eldersLair'),
+        getMonsterLocations(this.monster, 'towerOfIllusion'),
         3
       );
 
@@ -119,8 +119,8 @@ export default {
       return _.includes(['location'], this.mode);
     },
 
-    showEldersLairFloors() {
-      return _.includes(['location-eldersLair'], this.mode);
+    showTowerOfIllusionFloors() {
+      return _.includes(['location-towerOfIllusion'], this.mode);
     },
 
     showCombat() {

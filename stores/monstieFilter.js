@@ -11,7 +11,7 @@ const extend = {
     mode: 'location',
     autoSwitchModes: [
       'location',
-      'location-eldersLair',
+      'location-towerOfIllusion',
       'ridingActions',
       'retreat',
       'rarity',

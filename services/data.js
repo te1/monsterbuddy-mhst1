@@ -93,17 +93,18 @@ export function getCatavanStandsWithDetails(monsterList = monsters) {
   );
 }
 
-export function getEldersLairFloors(monsterList = monsters) {
+export function getTowerOfIllusionFloors(monsterList = monsters) {
   return deepFreeze(
     _.sortBy(
       _.uniq(
         _.flatMap(monsterList, (monster) => {
           return _.map(
-            _.filter(monster.locations, { type: 'eldersLair' }),
+            _.filter(monster.locations, { type: 'towerOfIllusion' }),
             'main'
           );
         })
-      )
+      ),
+      (floor) => parseInt(floor, 10)
     )
   );
 }
@@ -153,15 +154,15 @@ export function getMonstersByCatavanStand(
   );
 }
 
-export function getMonstersByEldersLairFloor(
-  eldersLairFloor,
+export function getMonstersByTowerOfIllusionFloor(
+  towerOfIllusionFloor,
   monsterList = monsters
 ) {
   return deepFreeze(
     _.filter(monsterList, (monster) => {
       return _.some(monster.locations, {
-        type: 'eldersLair',
-        main: eldersLairFloor,
+        type: 'towerOfIllusion',
+        main: towerOfIllusionFloor,
       });
     })
   );

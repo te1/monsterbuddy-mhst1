@@ -1,10 +1,10 @@
 <template>
   <div class="space-y-3">
     <MonsterFilter
-      backTarget="/elders-lair/"
+      backTarget="/tower-of-illusion/"
       :modes="modes"
       hideSort
-      showEldersLairFilter
+      showTowerOfIllusionFilter
       showHatchableFilter
     />
   </div>
@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'PageEldersLairFilter',
+  name: 'PageTowerOfIllusionFilter',
 
   inject: ['useFilterStore'],
 

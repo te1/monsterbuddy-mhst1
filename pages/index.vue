@@ -71,12 +71,14 @@
                 <NuxtLink class="link" to="/catavan-stands/">Catavan stands</NuxtLink>
                 with list of monsters you will find nearby
               </li>
+              -->
 
               <li>
-                <NuxtLink class="link" to="/elders-lair/">Elder's Lair overview</NuxtLink>
+                <NuxtLink class="link" to="/tower-of-illusion/">
+                  Tower of Illusion overview
+                </NuxtLink>
                 to quickly find high rank monsters on each floor
               </li>
-              -->
 
               <li>
                 <NuxtLink class="link" to="/riding-actions/">

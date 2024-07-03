@@ -154,24 +154,24 @@
         </select>
       </div>
 
-      <div v-if="showEldersLairFilter" class="flex items-center">
+      <div v-if="showTowerOfIllusionFilter" class="flex items-center">
         <label
           class="flex-1 cursor-pointer"
-          for="MonsterFilter_EldersLairFilter"
+          for="MonsterFilter_TowerOfIllusionFilter"
         >
-          Elder's Lair
+          Tower of Illusion
         </label>
 
         <select
-          id="MonsterFilter_EldersLairFilter"
-          :value="store.eldersLairFilter"
+          id="MonsterFilter_TowerOfIllusionFilter"
+          :value="store.towerOfIllusionFilter"
           class="input w-[180px] px-2 py-1"
-          @input="onEldersLairFilterChanged"
+          @input="onTowerOfIllusionFilterChanged"
         >
           <option :value="null">All</option>
 
           <option
-            v-for="floor in store.allEldersLairFloors"
+            v-for="floor in store.allTowerOfIllusionFloors"
             :key="floor"
             :value="floor"
           >
@@ -348,7 +348,7 @@ export default {
       default: false,
     },
 
-    showEldersLairFilter: {
+    showTowerOfIllusionFilter: {
       type: Boolean,
       required: false,
       default: false,
@@ -541,8 +541,12 @@ export default {
       this.onFilterChanged('catavanFilter', e, 'location');
     },
 
-    onEldersLairFilterChanged(e) {
-      this.onFilterChanged('eldersLairFilter', e, 'location-eldersLair');
+    onTowerOfIllusionFilterChanged(e) {
+      this.onFilterChanged(
+        'towerOfIllusionFilter',
+        e,
+        'location-towerOfIllusion'
+      );
     },
 
     onRidingActionFilterChanged(e) {

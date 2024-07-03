@@ -1,13 +1,16 @@
 <template>
   <div>
-    <h1 class="sr-only">Elder's Lair</h1>
+    <h1 class="sr-only">Tower of Illusion</h1>
 
     <AppTopBar
       :showBack="showFilter"
-      backFallback="/elders-lair/"
+      backFallback="/tower-of-illusion/"
       :heading="heading"
     >
-      <AppSearchBox v-if="!showFilter" v-model="eldersLairFilter.nameFilter" />
+      <AppSearchBox
+        v-if="!showFilter"
+        v-model="towerOfIllusionFilter.nameFilter"
+      />
     </AppTopBar>
 
     <NuxtLink :to="fabTarget">
@@ -21,7 +24,8 @@
     <main v-show="leaving || !showFilter">
       <div
         v-if="
-          eldersLairFilter.hasActiveSort || eldersLairFilter.hasActiveFilters
+          towerOfIllusionFilter.hasActiveSort ||
+          towerOfIllusionFilter.hasActiveFilters
         "
         class="fixed z-20 w-full inset-x-0 top-12 mt-1"
       >
@@ -29,19 +33,19 @@
           class="container px-4 flex flex-wrap gap-2 items-center justify-center"
         >
           <AppFilterPill
-            v-if="eldersLairFilter.hasActiveSort"
-            :caption="eldersLairFilter.activeSort.caption"
+            v-if="towerOfIllusionFilter.hasActiveSort"
+            :caption="towerOfIllusionFilter.activeSort.caption"
             filterTarget="/monsties/filter/"
-            :sortOrder="eldersLairFilter.activeSort.order"
+            :sortOrder="towerOfIllusionFilter.activeSort.order"
           />
 
           <AppFilterPill
-            v-for="filter in eldersLairFilter.activeFilters"
+            v-for="filter in towerOfIllusionFilter.activeFilters"
             :key="filter.name"
             :caption="filter.value"
             filterTarget="/monsters/filter/"
             showRemove
-            @remove="eldersLairFilter[filter.name] = null"
+            @remove="towerOfIllusionFilter[filter.name] = null"
           />
         </div>
       </div>
@@ -50,12 +54,16 @@
         class="space-y-5"
         :class="{
           'mt-8':
-            eldersLairFilter.hasActiveSort || eldersLairFilter.hasActiveFilters,
+            towerOfIllusionFilter.hasActiveSort ||
+            towerOfIllusionFilter.hasActiveFilters,
         }"
       >
-        <li v-for="(group, key) in eldersLairFilter.groupedMonsters" :key="key">
+        <li
+          v-for="(group, key) in towerOfIllusionFilter.groupedMonsters"
+          :key="key"
+        >
           <div
-            v-if="eldersLairFilter.isGrouped"
+            v-if="towerOfIllusionFilter.isGrouped"
             class="sticky top-12 z-10 flex items-center -mx-1 px-1 -mt-3 -mb-1 py-1 border-t bg-gray-300 border-gray-300 dark:bg-cool-700 dark:border-cool-700"
           >
             <FaIcon
@@ -63,7 +71,7 @@
               :icon="['fas', 'map-marker-alt']"
             />
 
-            <div class="font-semibold mb-1">Elder's Lair - {{ key }}</div>
+            <div class="font-semibold mb-1">Tower of Illusion - {{ key }}</div>
           </div>
 
           <div class="grid gap-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -74,7 +82,7 @@
             >
               <MonsterListItem
                 :monster="monster"
-                :mode="eldersLairFilter.mode"
+                :mode="towerOfIllusionFilter.mode"
                 class="box box-link px-1 overflow-hidden"
               />
             </NuxtLink>
@@ -82,7 +90,7 @@
         </li>
       </ul>
 
-      <MonsterNoResults v-if="eldersLairFilter.isEmpty">
+      <MonsterNoResults v-if="towerOfIllusionFilter.isEmpty">
         No monsters found
       </MonsterNoResults>
     </main>
@@ -91,14 +99,14 @@
 
 <script>
 import { mapStores } from 'pinia';
-import useEldersLairFilter from '~/stores/eldersLairFilter';
+import useTowerOfIllusionFilter from '~/stores/towerOfIllusionFilter';
 import { makeHead } from '~/services/utils';
 
 export default {
-  name: 'PageEldersLair',
+  name: 'PageTowerOfIllusion',
 
   provide: {
-    useFilterStore: useEldersLairFilter,
+    useFilterStore: useTowerOfIllusionFilter,
   },
 
   beforeRouteEnter(to, from, next) {
@@ -106,7 +114,7 @@ export default {
       vm.leaving = false;
 
       if (to?.query?.floor) {
-        vm.eldersLairFilter.eldersLairFilter = to.query.floor;
+        vm.towerOfIllusionFilter.towerOfIllusionFilter = to.query.floor;
 
         // remove query parametrs from URL
         vm.$router.replace(to.path);
@@ -128,19 +136,19 @@ export default {
   head() {
     return makeHead({
       title:
-        "Monster Buddy - Elder's Lair Monster List For Monster Hunter Stories 1 / Remaster",
+        'Monster Buddy - Tower of Illusion Monster List For Monster Hunter Stories 1 / Remaster',
       description:
-        "Overview of all the high rank monsters and on which floor to find them in the Elder's Lair and S. Elder's Lair end game zones",
-      canonical: 'https://mhst1.monsterbuddy.app/elders-lair/',
+        'Overview of all the high rank monsters and on which floor to find them in the Tower of Illusion end game zone',
+      canonical: 'https://mhst1.monsterbuddy.app/tower-of-illusion/',
     });
   },
 
   computed: {
-    ...mapStores(useEldersLairFilter),
+    ...mapStores(useTowerOfIllusionFilter),
 
     showFilter() {
       // workaround for <NuxtChild> not playing nice with <Nuxt keep-alive>
-      return this.$route?.path === '/elders-lair/filter/';
+      return this.$route?.path === '/tower-of-illusion/filter/';
     },
 
     heading() {
@@ -152,9 +160,9 @@ export default {
 
     fabTarget() {
       if (this.showFilter) {
-        return '/elders-lair/';
+        return '/tower-of-illusion/';
       }
-      return '/elders-lair/filter/';
+      return '/tower-of-illusion/filter/';
     },
 
     fabTitle() {
