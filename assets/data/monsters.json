@@ -3756,10 +3756,11 @@
       {
         "type": "primary",
         "main": "Tower of Illusions",
-        "sub": "F19",
+        "sub": "19F",
         "rank": "high"
       },
       { "type": "primary", "main": "Trese Desert", "rank": "high" },
+      { "type": "towerOfIllusion", "main": "19F" },
       { "type": "towerOfIllusion", "main": "50F" }
     ],
     "rarity": 9,
@@ -3809,7 +3810,7 @@
       {
         "type": "primary",
         "main": "Tower of Illusions",
-        "sub": "F29",
+        "sub": "29F",
         "rank": "high"
       },
       {
@@ -3818,6 +3819,7 @@
         "rank": "high",
         "subQuest": true
       },
+      { "type": "towerOfIllusion", "main": "29F" },
       { "type": "towerOfIllusion", "main": "50F" }
     ],
     "rarity": 9,
