@@ -50,10 +50,6 @@
           >
             <AppNavLink to="/" text="Monster Buddy" exact more />
 
-            <!--
-            <AppNavLink to="/catavan-stands/" text="Catavan Stands" more />
-            -->
-
             <AppNavLink
               to="/tower-of-illusion/"
               text="Tower of Illusion"

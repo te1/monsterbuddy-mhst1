@@ -2,7 +2,6 @@ import _ from 'lodash';
 import { deepFreeze, makeSlug } from './utils';
 import monsters from '~/assets/data/monsters';
 import sortedHabitats from '~/assets/data/habitats';
-import sortedCatavanStands from '~/assets/data/catavanStands';
 import sortedRidingActions from '~/assets/data/ridingActions';
 
 export const allElements = ['fire', 'water', 'thunder', 'ice', 'dragon'];
@@ -38,10 +37,6 @@ export { monsters, sortedHabitats, sortedRidingActions };
 export const monstersByName = Object.freeze(_.keyBy(monsters, 'name'));
 export const monstersBySlug = Object.freeze(_.keyBy(monsters, 'slug'));
 export const monsties = getMonstersByHatchable(true);
-export const catavanStands = getCatavanStandsWithDetails();
-export const catavanStandsBySlug = Object.freeze(
-  _.keyBy(catavanStands, 'slug')
-);
 export const ridingActionsBySlug = Object.freeze(
   _.keyBy(sortedRidingActions, 'slug')
 );
@@ -57,39 +52,6 @@ export function getHabitats(monsterList = monsters) {
     _.sortBy(habitats, (habitat) => {
       return _.find(sortedHabitats, { name: habitat })?.sortOrder ?? habitat;
     })
-  );
-}
-
-export function getCatavanStands(monsterList = monsters) {
-  return deepFreeze(_.map(getCatavanStandsWithDetails(monsterList), 'name'));
-}
-
-export function getCatavanStandsWithDetails(monsterList = monsters) {
-  let locations = _.uniq(
-    _.map(
-      _.flatMap(monsterList, (monster) => {
-        return _.filter(monster.locations, { type: 'catavanStand' });
-      }),
-      'sub'
-    )
-  );
-
-  let details;
-
-  return deepFreeze(
-    _.sortBy(
-      _.map(locations, (location) => {
-        details = _.find(sortedCatavanStands, { name: location });
-
-        return {
-          name: location,
-          slug: makeSlug(location),
-          zone: details?.zone,
-          sortOrder: details?.sortOrder ?? Infinity,
-        };
-      }),
-      'sortOrder'
-    )
   );
 }
 
@@ -138,20 +100,6 @@ export function getMonstersByGenus(genus, monsterList = monsters) {
 
 export function getMonstersByHabitat(habitat, monsterList = monsters) {
   return deepFreeze(_.filter(monsterList, { habitat }));
-}
-
-export function getMonstersByCatavanStand(
-  catavanStand,
-  monsterList = monsters
-) {
-  return deepFreeze(
-    _.filter(monsterList, (monster) => {
-      return _.some(monster.locations, {
-        type: 'catavanStand',
-        sub: catavanStand,
-      });
-    })
-  );
 }
 
 export function getMonstersByTowerOfIllusionFloor(

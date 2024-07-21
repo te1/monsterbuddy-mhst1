@@ -131,29 +131,6 @@
         </select>
       </div>
 
-      <div v-if="showCatavanFilter" class="flex items-center">
-        <label class="flex-1 cursor-pointer" for="MonsterFilter_CatavanFilter">
-          Catavan Stand
-        </label>
-
-        <select
-          id="MonsterFilter_CatavanFilter"
-          :value="store.catavanFilter"
-          class="input w-[180px] px-2 py-1"
-          @input="onCatavanFilterChanged"
-        >
-          <option :value="null">All</option>
-
-          <option
-            v-for="catavanStand in store.allCatavanStands"
-            :key="catavanStand"
-            :value="catavanStand"
-          >
-            {{ catavanStand }}
-          </option>
-        </select>
-      </div>
-
       <div v-if="showTowerOfIllusionFilter" class="flex items-center">
         <label
           class="flex-1 cursor-pointer"
@@ -337,12 +314,6 @@ export default {
     },
 
     showHabitatFilter: {
-      type: Boolean,
-      required: false,
-      default: false,
-    },
-
-    showCatavanFilter: {
       type: Boolean,
       required: false,
       default: false,
@@ -535,10 +506,6 @@ export default {
 
     onHabitatFilterChanged(e) {
       this.onFilterChanged('habitatFilter', e, 'location');
-    },
-
-    onCatavanFilterChanged(e) {
-      this.onFilterChanged('catavanFilter', e, 'location');
     },
 
     onTowerOfIllusionFilterChanged(e) {

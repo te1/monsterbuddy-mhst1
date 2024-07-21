@@ -4,13 +4,11 @@ import { defineStore, setMapStoreSuffix } from 'pinia';
 import {
   getGenera,
   getHabitats,
-  getCatavanStands,
   getTowerOfIllusionFloors,
   getRidingActions,
   getMonstersByName,
   getMonstersByGenus,
   getMonstersByHabitat,
-  getMonstersByCatavanStand,
   getMonstersByTowerOfIllusionFloor,
   getMonstiesByAttackType,
   getMonstiesByAttackElement,
@@ -35,7 +33,6 @@ export function makeMonsterFilterStore(
     nameFilter: null,
     genusFilter: null,
     habitatFilter: null,
-    catavanFilter: null,
     towerOfIllusionFilter: null,
     attackTypeFilter: null,
     attackElementFilter: null,
@@ -56,7 +53,6 @@ export function makeMonsterFilterStore(
         nameFilter: initial.nameFilter,
         genusFilter: initial.genusFilter,
         habitatFilter: initial.habitatFilter,
-        catavanFilter: initial.catavanFilter,
         towerOfIllusionFilter: initial.towerOfIllusionFilter,
         attackTypeFilter: initial.attackTypeFilter,
         attackElementFilter: initial.attackElementFilter,
@@ -75,10 +71,6 @@ export function makeMonsterFilterStore(
 
       allHabitats() {
         return getHabitats(this.monsters);
-      },
-
-      allCatavanStands() {
-        return getCatavanStands(this.monsters);
       },
 
       allTowerOfIllusionFloors() {
@@ -102,10 +94,6 @@ export function makeMonsterFilterStore(
 
         if (this.habitatFilter != null) {
           result = getMonstersByHabitat(this.habitatFilter, result);
-        }
-
-        if (this.catavanFilter != null) {
-          result = getMonstersByCatavanStand(this.catavanFilter, result);
         }
 
         if (this.towerOfIllusionFilter != null) {
@@ -338,10 +326,6 @@ export function makeMonsterFilterStore(
           result.push({ name: 'habitatFilter', value: this.habitatFilter });
         }
 
-        if (this.catavanFilter != null) {
-          result.push({ name: 'catavanFilter', value: this.catavanFilter });
-        }
-
         if (
           this.towerOfIllusionFilter != null &&
           this.sortKey !== 'towerOfIllusion'
@@ -402,7 +386,6 @@ export function makeMonsterFilterStore(
         this.nameFilter = initial.nameFilter;
         this.genusFilter = initial.genusFilter;
         this.habitatFilter = initial.habitatFilter;
-        this.catavanFilter = initial.catavanFilter;
         this.towerOfIllusionFilter = initial.towerOfIllusionFilter;
         this.attackTypeFilter = initial.attackTypeFilter;
         this.attackElementFilter = initial.attackElementFilter;

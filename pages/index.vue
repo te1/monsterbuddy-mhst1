@@ -66,13 +66,6 @@
                 with search, sorting and filtering
               </li>
 
-              <!--
-              <li>
-                <NuxtLink class="link" to="/catavan-stands/">Catavan stands</NuxtLink>
-                with list of monsters you will find nearby
-              </li>
-              -->
-
               <li>
                 <NuxtLink class="link" to="/tower-of-illusion/">
                   Tower of Illusion overview
