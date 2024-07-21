@@ -3751,11 +3751,11 @@
     "no": 104,
     "name": "Gold Rathian",
     "genus": "Flying Wyvern",
-    "habitat": "Tower of Illusions",
+    "habitat": "Tower of Illusion",
     "locations": [
       {
         "type": "primary",
-        "main": "Tower of Illusions",
+        "main": "Tower of Illusion",
         "sub": "19F",
         "rank": "high"
       },
@@ -3805,11 +3805,11 @@
     "no": 105,
     "name": "Silver Rathalos",
     "genus": "Flying Wyvern",
-    "habitat": "Tower of Illusions",
+    "habitat": "Tower of Illusion",
     "locations": [
       {
         "type": "primary",
-        "main": "Tower of Illusions",
+        "main": "Tower of Illusion",
         "sub": "29F",
         "rank": "high"
       },
