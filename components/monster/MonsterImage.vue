@@ -4,8 +4,7 @@
     :src="imageUrl"
     :alt="monster.name"
     :title="monster.name"
-    class="max-w-[282px] max-h-[250px]"
-    width="282"
+    class="max-h-[250px]"
     height="250"
   />
 

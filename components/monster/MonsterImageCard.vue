@@ -1,7 +1,7 @@
 <template>
   <section class="flex flex-col">
     <div class="flex justify-around">
-      <MonsterImage class="overflow-hidden" :monster="monster" />
+      <MonsterImage class="p-4 overflow-hidden" :monster="monster" />
     </div>
     <div
       v-if="monster.description"

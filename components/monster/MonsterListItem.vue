@@ -50,7 +50,7 @@
     </div>
 
     <MonsterImage
-      class="w-full h-full p-2 object-contain object-right overflow-hidden"
+      class="w-full h-full p-5 object-contain object-right overflow-hidden"
       style="flex-basis: 250px"
       :monster="monster"
       hideFallback
