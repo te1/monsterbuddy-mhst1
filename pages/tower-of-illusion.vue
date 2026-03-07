@@ -35,7 +35,7 @@
           <AppFilterPill
             v-if="towerOfIllusionFilter.hasActiveSort"
             :caption="towerOfIllusionFilter.activeSort.caption"
-            filterTarget="/monsties/filter/"
+            filterTarget="/tower-of-illusion/filter/"
             :sortOrder="towerOfIllusionFilter.activeSort.order"
           />
 
@@ -43,7 +43,7 @@
             v-for="filter in towerOfIllusionFilter.activeFilters"
             :key="filter.name"
             :caption="filter.value"
-            filterTarget="/monsters/filter/"
+            filterTarget="/tower-of-illusion/filter/"
             showRemove
             @remove="towerOfIllusionFilter[filter.name] = null"
           />
