@@ -63,7 +63,7 @@
     "no": 3,
     "name": "Konchu (Yellow)",
     "genus": "Neopteron",
-    "habitat": null,
+    "habitat": "Mt. Pondry Caves",
     "rarity": null,
     "description": "Neopterons that roam in search of food. Coloration varies based on habitat, this variety being sandy yellow.",
     "related": [
@@ -102,7 +102,7 @@
     "no": 6,
     "name": "Bullfango",
     "genus": "Fanged Beast",
-    "habitat": null,
+    "habitat": "Whistill Forest",
     "locations": [{ "type": "towerOfIllusion", "main": "7F" }],
     "rarity": null,
     "description": "Small, aggressive Fanged Beasts that attack humans on sight. An acquired taste, but the meat is in demand.",
@@ -369,7 +369,7 @@
     "no": 13,
     "name": "Bnahabra (Green)",
     "genus": "Neopteron",
-    "habitat": null,
+    "habitat": "Wintertide Tunnel",
     "locations": [{ "type": "towerOfIllusion", "main": "11F" }],
     "rarity": null,
     "description": "Versatile Neopterons whose coloration and abilities differ according to habitat. This one is a hardy green.",
@@ -387,7 +387,7 @@
     "no": 14,
     "name": "Konchu (Blue)",
     "genus": "Neopteron",
-    "habitat": null,
+    "habitat": "Wintertide Tunnel",
     "locations": [{ "type": "towerOfIllusion", "main": "14F" }],
     "rarity": null,
     "description": "Neopterons that roam in search of food. Coloration varies based on habitat, this variety being an icy blue.",
@@ -548,7 +548,7 @@
     "no": 18,
     "name": "Khezu",
     "genus": "Flying Wyvern",
-    "habitat": "Darj Snowfields",
+    "habitat": "Wintertide Tunnel",
     "locations": [
       { "type": "primary", "main": "Darj Snowfields", "rank": "low" },
       { "type": "subQuest", "main": "★2 A Fascinating Khezu" },
@@ -597,7 +597,7 @@
     "no": 19,
     "name": "Red Khezu",
     "genus": "Flying Wyvern",
-    "habitat": "Darj Snowfields",
+    "habitat": "Wintertide Tunnel",
     "locations": [
       { "type": "primary", "main": "Darj Snowfields", "rank": "low" },
       { "type": "towerOfIllusion", "main": "37F" }
@@ -754,7 +754,7 @@
     "no": 25,
     "name": "Slagtoth (Green)",
     "genus": "Herbivore",
-    "habitat": null,
+    "habitat": "Babda Rainforest",
     "rarity": null,
     "description": "A green variety of Slagtoth. They store nutrients in the thick layers of skin that hang from their bodies.",
     "related": [{ "type": "color", "monster": "Slagtoth (Brown)" }],
@@ -768,7 +768,7 @@
     "no": 26,
     "name": "Vespoid",
     "genus": "Neopteron",
-    "habitat": null,
+    "habitat": "Babda Rainforest",
     "locations": [{ "type": "towerOfIllusion", "main": "12F" }],
     "rarity": null,
     "description": "Giant Wasp-like Neopterons with paralyzing stingers, which they use on any who stray too close.",
@@ -1611,7 +1611,7 @@
     "no": 50,
     "name": "Iodrome",
     "genus": "Bird Wyvern",
-    "habitat": "Dovan Volcano",
+    "habitat": "Dovan Mines",
     "locations": [
       { "type": "primary", "main": "Dovan Volcano", "rank": "low" },
       { "type": "subQuest", "main": "★4 Poisonous Probing" },
@@ -1658,7 +1658,7 @@
     "no": 51,
     "name": "Basarios",
     "genus": "Flying Wyvern",
-    "habitat": "Dovan Volcano",
+    "habitat": "Dovan Mines",
     "locations": [
       { "type": "primary", "main": "Dovan Volcano", "rank": "low" },
       { "type": "subQuest", "main": "★4 Watch Out for Rocks!" },
@@ -1961,7 +1961,7 @@
     "no": 60,
     "name": "Gargwa",
     "genus": "Bird Wyvern",
-    "habitat": null,
+    "habitat": "Aowa Valley",
     "rarity": null,
     "description": "Placid Bird Wyverns raised as livestock. Their vestigial wings make them flightless."
   },
@@ -1969,7 +1969,7 @@
     "no": 61,
     "name": "Bnahabra (Blue)",
     "genus": "Neopteron",
-    "habitat": null,
+    "habitat": "Aowa Valley",
     "locations": [{ "type": "towerOfIllusion", "main": "11F" }],
     "rarity": null,
     "description": "Versatile Neopterons whose coloration and abilities differ according to habitat. This one is a deep blue.",
@@ -1987,7 +1987,7 @@
     "no": 62,
     "name": "Jaggi",
     "genus": "Bird Wyvern",
-    "habitat": null,
+    "habitat": "Aowa Valley",
     "locations": [{ "type": "towerOfIllusion", "main": "8F" }],
     "rarity": null,
     "description": "Carnivorous Bird Wyverns. They hunt in packs, and the young males are typically smaller than the females.",
@@ -2001,7 +2001,7 @@
     "no": 63,
     "name": "Jaggia",
     "genus": "Bird Wyvern",
-    "habitat": null,
+    "habitat": "Aowa Valley",
     "locations": [{ "type": "towerOfIllusion", "main": "8F" }],
     "rarity": null,
     "description": "Female Jaggi that live in packs, generally responsible for protecting the nest and raising the young.",
@@ -2015,7 +2015,7 @@
     "no": 64,
     "name": "Conga",
     "genus": "Fanged Beast",
-    "habitat": null,
+    "habitat": "Babda Rainforest",
     "rarity": null,
     "description": "Pink furred Fanged Beasts. They prefer to live in small, close-knit groups than large troops.",
     "monster": {
@@ -2028,7 +2028,7 @@
     "no": 65,
     "name": "Konchu (Green)",
     "genus": "Neopteron",
-    "habitat": null,
+    "habitat": "Babda Rainforest",
     "rarity": null,
     "description": "Neopterons that roam in search of food. Coloration varies based on habitat, this variety being verdant green.",
     "related": [
@@ -2044,7 +2044,7 @@
     "no": 66,
     "name": "Great Thunderbug",
     "genus": "Neopteron",
-    "habitat": null,
+    "habitat": "Babda Rainforest",
     "rarity": null,
     "description": "Gigantic Thunderbugs that are raised in the bellies of Elder Dragons. Electrifyingly lethal.",
     "monster": {
@@ -2057,7 +2057,7 @@
     "no": 67,
     "name": "Shakalaka",
     "genus": "Lynian",
-    "habitat": null,
+    "habitat": "Mt. Pondry Caves",
     "locations": [{ "type": "towerOfIllusion", "main": "21F" }],
     "rarity": null,
     "description": "Lynians never seen without their masks. Specializing in camouflage, even spotting one is no easy task.",
@@ -2602,7 +2602,7 @@
     "no": 77,
     "name": "Ruby Basarios",
     "genus": "Flying Wyvern",
-    "habitat": "Pondry Hills",
+    "habitat": "Mt. Pondry Caves",
     "locations": [
       {
         "type": "primary",
@@ -2656,7 +2656,7 @@
     "no": 78,
     "name": "Nargacuga",
     "genus": "Flying Wyvern",
-    "habitat": "Pondry Hills",
+    "habitat": "Mt. Pondry Caves",
     "locations": [
       {
         "type": "primary",
@@ -2977,7 +2977,7 @@
     "no": 84,
     "name": "Ash Kecha Wacha",
     "genus": "Fanged Beast",
-    "habitat": "Paupau Beach",
+    "habitat": "Aowa Valley",
     "locations": [
       {
         "type": "primary",
@@ -3201,7 +3201,7 @@
     "no": 89,
     "name": "Great Dracophage Bug",
     "genus": "Neopteron",
-    "habitat": null,
+    "habitat": "Ruins of Zalam",
     "rarity": null,
     "description": "Large Dracophage Bugs. Dragon Element energy is said to lie dormant within their bodies.",
     "monster": {
@@ -3214,7 +3214,7 @@
     "no": 90,
     "name": "Remobra",
     "genus": "Snake Wyvern",
-    "habitat": null,
+    "habitat": "Ruins of Zalam",
     "locations": [{ "type": "towerOfIllusion", "main": "18F" }],
     "rarity": null,
     "description": "Snake Wyverns that have mastered flight, and which soar in search of weakened prey to swoop upon.",
@@ -3276,7 +3276,7 @@
     "no": 92,
     "name": "Jade Barroth",
     "genus": "Brute Wyvern",
-    "habitat": "Mt. Celion",
+    "habitat": "Ruins of Zalam",
     "locations": [{ "type": "primary", "main": "Mt. Celion", "rank": "low" }],
     "rarity": 4,
     "description": "A subspecies of Barroth. Often seen in polar regions, bashing their crowns against the ice.",
@@ -3449,7 +3449,7 @@
     "no": 96,
     "name": "Stygian Zinogre",
     "genus": "Fanged Wyvern",
-    "habitat": "Mt. Celion",
+    "habitat": "Ruins of Zalam",
     "locations": [
       { "type": "primary", "main": "Mt. Celion", "rank": "low" },
       { "type": "towerOfIllusion", "main": "48F" }
@@ -3497,7 +3497,7 @@
     "no": 97,
     "name": "Brachydios",
     "genus": "Brute Wyvern",
-    "habitat": "Mt. Celion",
+    "habitat": "Ruins of Zalam",
     "locations": [
       { "type": "primary", "main": "Mt. Celion", "rank": "low" },
       { "type": "subQuest", "main": "★6 Test of Strength!" },
@@ -3545,7 +3545,7 @@
     "no": 98,
     "name": "Rajang",
     "genus": "Fanged Beast",
-    "habitat": "Mt. Celion",
+    "habitat": "Ruins of Zalam",
     "locations": [
       { "type": "primary", "main": "Mt. Celion", "rank": "high" },
       { "type": "den", "main": "Perennial Pass", "rank": "high" },
