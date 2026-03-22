@@ -32,7 +32,7 @@
 
     <main v-show="leaving || !showFilter">
       <client-only>
-        <Mhst2Banner class="mb-3" />
+        <Mhst3Banner class="mb-3" />
       </client-only>
 
       <div

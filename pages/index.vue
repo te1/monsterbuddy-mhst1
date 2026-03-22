@@ -45,8 +45,6 @@
 
       <Mhst3Banner class="mt-6 lg:mt-4" force />
 
-      <Mhst2Banner class="mt-6 lg:mt-4" force />
-
       <div class="prose prose-sm dark:prose-dark max-w-none">
         <div class="grid lg:grid-cols-2 lg:gap-8">
           <div>
