@@ -50,7 +50,10 @@ export function getHabitats(monsterList = monsters) {
 
   return deepFreeze(
     _.sortBy(habitats, (habitat) => {
-      return _.find(sortedHabitats, { name: habitat })?.sortOrder ?? habitat;
+      return (
+        _.find(sortedHabitats, { name: habitat ?? 'Unknown Habitat' })
+          ?.sortOrder ?? habitat
+      );
     })
   );
 }
