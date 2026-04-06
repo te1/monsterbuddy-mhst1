@@ -1,5 +1,11 @@
 <template>
-  <div>
+  <div
+    :title="hint"
+    :class="{
+      '[@media(hover:hover)_and_(pointer:fine)]:underline decoration-dotted underline-offset-4 decoration-gray-500 dark:decoration-cool-400':
+        hint,
+    }"
+  >
     {{ typeCaption }}
 
     <NuxtLink v-if="hasLink" :to="target" class="link">
@@ -13,86 +19,94 @@
 </template>
 
 <script>
-import _ from 'lodash';
+  import _ from 'lodash';
 
-export default {
-  name: 'MonsterLocation',
+  export default {
+    name: 'MonsterLocation',
 
-  props: {
-    location: {
-      type: Object,
-      required: true,
-    },
-  },
-
-  computed: {
-    typeCaption() {
-      switch (this.location.type) {
-        case 'subQuest':
-          return 'Subquest: ';
-
-        default:
-          return null;
-      }
+    props: {
+      location: {
+        type: Object,
+        required: true,
+      },
     },
 
-    caption() {
-      let result = this.location.main;
+    computed: {
+      typeCaption() {
+        switch (this.location.type) {
+          case 'subQuest':
+            return 'Subquest: ';
 
-      if (this.location.sub) {
-        result += ` - ${this.location.sub}`;
-      }
+          default:
+            return null;
+        }
+      },
 
-      switch (this.location.type) {
-        case 'superRareDen':
-          result = 'Super Rare Dens in ' + result;
-          break;
+      caption() {
+        let result = this.location.main;
 
-        case 'towerOfIllusion':
-          result = 'Tower of Illusion - ' + result;
-          break;
-      }
+        if (this.location.sub) {
+          result += ` - ${this.location.sub}`;
+        }
 
-      const extras = [];
+        switch (this.location.type) {
+          case 'superRareDen':
+            result = 'Super Rare Dens in ' + result;
+            break;
 
-      switch (this.location.rank) {
-        // case 'low':
-        //   extras.push('Low Rank');
-        //   break;
+          case 'towerOfIllusion':
+            result = 'Tower of Illusion - ' + result;
+            break;
+        }
 
-        case 'high':
-          extras.push('High Rank');
-          break;
-      }
+        const extras = [];
 
-      if (this.location.lateGame) {
-        extras.push('Late Game');
-      }
+        switch (this.location.rank) {
+          // case 'low':
+          //   extras.push('Low Rank');
+          //   break;
 
-      if (this.location.subQuest) {
-        extras.push('Subquest');
-      }
+          case 'high':
+            extras.push('High Rank');
+            break;
+        }
 
-      if (extras.length) {
-        result += ` (${extras.join(', ')})`;
-      }
+        if (this.location.lateGame) {
+          extras.push('Late Game');
+        }
 
-      return result;
+        if (this.location.subQuest) {
+          extras.push('Subquest');
+        }
+
+        if (extras.length) {
+          result += ` (${extras.join(', ')})`;
+        }
+
+        return result;
+      },
+
+      hint() {
+        if (this.location.lateGame && this.location.lateGameHint) {
+          return this.location.lateGameHint;
+        }
+
+        return '';
+      },
+
+      hasLink() {
+        return _.includes(['towerOfIllusion'], this.location.type);
+      },
+
+      target() {
+        switch (this.location.type) {
+          case 'towerOfIllusion':
+            return `/tower-of-illusion/?floor=${this.location.main}`;
+
+          default:
+            return '';
+        }
+      },
     },
-
-    hasLink() {
-      return _.includes(['towerOfIllusion'], this.location.type);
-    },
-
-    target() {
-      switch (this.location.type) {
-        case 'towerOfIllusion':
-          return `/tower-of-illusion/?floor=${this.location.main}`;
-
-        default:
-          return '';
-      }
-    },
-  },
-};
+  };
 </script>
