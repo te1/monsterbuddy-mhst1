@@ -4,8 +4,6 @@ Companion app for Monster Hunter Stories 1 / Remaster
 
 https://mhst1.monsterbuddy.app
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e1181391-5730-4a96-965f-fb43ca7eb17e/deploy-status)](https://app.netlify.com/sites/monsterbuddy-mhst1/deploys)
-
 Check out the all new and improved https://monsterbuddy.app with data for Monster Hunter Stories 3: Twisted Reflection!
 
 ## Features
